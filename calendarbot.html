@@ -1,0 +1,190 @@
+---
+layout: default
+title: HAW Hamburg Kalendar Bot
+permalink: /calendarbot/
+description: Ein Telegram Bot, der persönliche Veranstaltungskalender für die HAW Hamburg erzeugt.
+header: large
+background-is-dark: true
+background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),url(/assets/backgrounds/haw-raindrops1.jpg)
+---
+<style>
+.tg-background {
+  background-color: #dfe4e8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("/assets/backgrounds/telegram.jpg");
+}
+</style>
+
+<div class="section tg-background">
+  <div class="container">
+    <div class="content">
+      <div class="tile is-ancestor">
+        <div class="tile is-3 is-parent">
+          <div class="tile is-child box has-text-centered">
+            <img src="/assets/calendarbot/veranstaltungsplan.png" alt="Veranstaltungsplan" style="max-height: 400px" />
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <div class="tile is-child box">
+            Du kommst von der HAW Hamburg und studierst im Department Informatik oder Elektrotechnik? Dieser Veranstaltungsplan kommt dir bekannt vor und er ist dir zu unübersichtlich? Zu viele Veranstaltungen die du nicht belegst? Du bist in mehreren Semestern und
+            musst mehrere Pläne angucken?
+            <br /> Vielleicht hilft dir ja mein Kalender Bot.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="hero is-dark background-fixed" style="background-image: {{ page.background }}">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">Der Telegram Bot</h1>
+    </div>
+  </div>
+</section>
+<div class="section tg-background">
+  <div class="container">
+    <div class="content">
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-parent">
+          <div class="tile is-child box">
+            <p>
+              Wenn du <a href="//telegram.org" target="_blank">Telegram</a> benutzt, dann sind dir sicher schon einmal die Bots aufgefallen. Mit Hilfe so eines Telegram Bots kannst du dir deine Veranstaltungen zusammenstellen. Damit wird dann automatisch
+              ein abonnierbarer Kalender für dich erstellt. Diesen kannst du dann in jedem guten Kalenderprogramm hinzufügen.
+            </p>
+            <p>
+              Hier gehts zum <a href="//telegram.me/HAWHHCalendarBot" target="_blank">Telegram Bot @HAWHHCalendarBot</a>.
+            </p>
+          </div>
+          <div class="tile is-child box">
+            <img src="/assets/calendarbot/tdesktop.png" alt="Calendar Bot am Desktop" />
+          </div>
+        </div>
+        <div class="tile is-vertical is-parent">
+          <div class="tile is-child box">
+            <p class="title">
+              iOS/ macOS/ Desktop Browser
+            </p>
+            <p>
+              Geh im Bot auf <code>Kalender URL anfordern</code> und öffne den iOS Link. Klicke/ tippe in der sich öffnenden Website auf <code>Subscribe Calendar</code>.
+            </p>
+          </div>
+          <div class="tile is-child box">
+            <p class="title">
+              Android/ Google Kalender
+            </p>
+            <p>
+              Android bezieht seine Informationen aus dem Google Kalender. Um den Kalender hinzufügen gehst du auf <a href="https://calendar.google.com" target="_blank">calendar.google.com</a> (meldest dich an) und fügst dann auf der linken Seite unter
+              <code>Other calendars</code> -> <code>Add by URL</code> den Kalender Link hinzu, den du im Bot unter <code>Kalender URL anfordern</code> erhälst.
+            </p>
+          </div>
+          <div class="tile is-child box">
+            <img src="/assets/calendarbot/ios.png" alt="Calendar Bot auf iOS" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="hero is-dark background-fixed" style="background-image: {{ page.background }}">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">Behind the Scenes</h1>
+    </div>
+  </div>
+</section>
+<div class="section tg-background">
+  <div class="container">
+    <div class="content">
+      <div class="tile is-ancestor is-vertical">
+        <div class="tile">
+          <div class="tile is-vertical is-parent">
+            <div class="tile is-child box">
+              <p class="title">
+                Der Telegram Bot
+              </p>
+              <p>
+                Wenn du den Telegram Bot benutzt, legt dieser eine Config Datei an. In dieser stehen Informationen wie deine öffentlichen Telegram Informationen, die der Bot aber erst erhält, sobald du ihn das erste mal anschreibst. Fügst du Events hinzu oder entfernst
+                diese, werden sie in die Config Datei übertragen. Außerdem speichert der Bot deine Einstellungen, wie das StISys Update Feature.
+              </p>
+            </div>
+            <div class="tile is-child box">{% highlight json %}
+{
+  "chat": {
+    "id": 2956631,
+    "first_name": "Edgar",
+    "username": "EdJoPaTo"
+  },
+  "config": {
+    "events": [
+      "MINF-SS-MD  [MT]",
+      "MINF-SS-MDP/03  [MTP]",
+      "MINF-SS-TTI  [TT2]",
+      "MINF-SS-TTIP/03  (TTP2)",
+      "MINF1-GSM [AW1 AW2]"
+    ],
+    "settings": {
+      "stisysUpdate": true
+    }
+  }
+}{% endhighlight %}
+              <div class="has-text-centered">
+                Der Inhalt einer Config Datei
+              </div>
+            </div>
+          </div>
+          <div class="tile is-vertical is-parent">
+            <div class="tile is-child box">
+              <p class="title">
+                Das Backend
+              </p>
+              <p>
+                Einmal die Stunde läuft ein kleines Programm auf meinem NAS zu Hause und läd alle Config Dateien herunter. Außerdem werden alle ICS Dateien vom HAW-Server geladen. Daraus erstellt das Programm dann für jeden Nutzer einen eigenen ICS Kalender und läd diesen
+                dann auf meine Webspace hoch.
+              </p>
+            </div>
+            <div class="tile is-child box">
+              <p class="title">
+                Dein Endgerät
+              </p>
+              <p>
+                Je nach dem wie dein Endgerät eingestellt ist, wird es die ICS Datei von meinem Server alle paar Stunden laden. Apple Geräte wie iOS oder macOS laden als häufigste Einstellmöglichkeit alle 15 Minuten eine neue Version. Google macht das etwas anders: Ein
+                Google Server läd alle paar Stunden (teilweise auch >24h) alle bei Google eingetragenen Kalender von meinem Server. Die Android Geräte bekommen dann, wenn sich etwas geändert hat, diese Änderung sofort auf das Gerät gepusht.
+              </p>
+            </div>
+            <div class="tile is-child box">
+              <p class="title">
+                Das StISys Update
+              </p>
+              Alle 15 Minuten läd der Bot die Einstiegsseite vom <a href="https://stisys.haw-hamburg.de" target="_blank">StISys</a> herunter und vergleicht die Dateigröße mit der von vor 15 Minuten. Unterscheidet sich diese, weil zum Beispiel eine neue
+              Mitteilung hinzu gekommen ist, werden alle Nutzer, die dies aktiviert haben, benachrichtigt.
+            </div>
+          </div>
+        </div>
+        <div class="tile">
+          <div class="tile is-parent">
+            <div class="tile is-child box">
+              <p class="title">GitHub</p>
+              <p>
+                Neugierig auf den Quellcode des Telegram Bots? Du willst Helfen oder etwas Ähnliches entwickeln? Dann schau dir gern mal meinen Quellcode auf <a href="//github.com/EdJoPaTo/telegramHAWHHCalendarBot" target="_blank">GitHub</a> an.
+                <br />Der Quellcode des Backends wird nicht auf GitHub bereitgestellt. Das… will keiner sehen.
+              </p>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <div class="tile is-child box">
+              <p class="title">Fehler oder Verbesserungsvorschlag?</p>
+              <p>
+                Schreib mich einfach bei Telegram an: <a href="//telegram.me/EdJoPaTo" target="_blank">@EdJoPaTo</a> oder erstelle ein <a href="//github.com/EdJoPaTo/telegramHAWHHCalendarBot/issues" target="_blank">GitHub Issue</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

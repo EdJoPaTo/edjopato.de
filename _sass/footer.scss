@@ -1,0 +1,19 @@
+.footer {
+  background-color: #222;
+
+  .content {
+    color: hsl(0, 0%, 71%);
+  }
+
+  a:hover {
+    color: hsl(0, 0%, 86%);
+  }
+
+  svg {
+    margin: 3px;
+
+    path {
+      fill: hsl(0, 0%, 71%);
+    }
+  }
+}

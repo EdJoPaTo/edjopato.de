@@ -1,0 +1,23 @@
+.avatar {
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  margin: 20px;
+  border-radius: 50%;
+  transition: transform 0.5s, border-radius 0.5s;
+}
+
+.avatar:hover {
+  transform: rotate(360deg);
+  border-radius: 25%;
+}
+
+.alternated-dark:nth-child(2n+1) {
+  &,
+  a:hover,
+  h1,
+  h2 {
+    background-color: #363636;
+    color: whitesmoke;
+  }
+}

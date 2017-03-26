@@ -1,0 +1,18 @@
+@import "bulma";
+@import "header";
+@import "footer";
+@import "index";
+
+table thead th.has-text-right {
+  // workaround while the bulma bug is there: https://github.com/jgthms/bulma/issues/293
+  text-align: right;
+}
+
+.background-fixed {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  @media screen and (min-width: 769px) {
+    background-attachment: fixed;
+  }
+}

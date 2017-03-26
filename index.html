@@ -1,0 +1,50 @@
+---
+layout: default
+noquicklink: true
+title: EdJoPaTo
+---
+<section class="hero is-bold is-dark is-medium has-text-centered">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title" style="font-size: 3rem">Hi!</h1>
+      <h2 class="subtitle" style="font-size: 2rem">Ich bin Edgar!</h2>
+      <img class="avatar" src="/assets/cheese.svg" alt="Avatar" />
+    </div>
+  </div>
+</section>
+
+{% for my_page in site.pages %}{% if my_page.title %}{% unless my_page.noquicklink %}{% if my_page.background %}
+<section class="hero has-text-centered background-fixed is-large{% if my_page.background-is-dark %} is-dark{% endif %}" style="background-image: {{ my_page.background}}">
+  <div class="hero-body">
+    <div class="container">
+      <a href="{{ my_page.url | relative_url }}">
+        <h1 class="title">{{ my_page.title | escape }}</h1>
+      </a>
+      <h2 class="subtitle">{{ my_page.description }}</h2>
+    </div>
+  </div>
+</section>{% endif %}{% endunless %}{% endif %}{% endfor %}
+
+{% for project in site.data.other-projects %}{% if project.background %}
+<section class="hero has-text-centered background-fixed is-large is-dark" style="background-image: {{ project.background }}">
+  <div class="hero-body">
+    <div class="container">
+      <a href="{{ project.url }}" target="_blank">
+        <h1 class="title">{{ project.title | escape }}</h1>
+      </a>
+      <h2 class="subtitle">{{ project.description }}</h2>
+    </div>
+  </div>
+</section>{% endif %}{% endfor %}
+
+{% for project in site.data.other-projects %}{% unless project.background %}
+<section class="hero has-text-centered is-medium alternated-dark">
+  <div class="hero-body">
+    <div class="container">
+      <a href="{{ project.url }}" target="_blank">
+        <h1 class="title">{{ project.title | escape }}</h1>
+      </a>
+      <h2 class="subtitle">{{ project.description }}</h2>
+    </div>
+  </div>
+</section>{% endunless %}{% endfor %}

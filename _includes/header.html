@@ -13,8 +13,8 @@
         <span class="nav-toggle">
         <span></span> <span></span> <span></span>
         </span>
-        <div class="nav-right nav-menu">{% for my_page in site.pages | where: "title" %}{% if my_page.title %}{% unless my_page.noquicklink %}
-          <a class="nav-item" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>{% endunless %}{% endif %}{% endfor %}
+        <div class="nav-right nav-menu">{% for my_page in site.pages | where: "title" %}{% if my_page.title %}{% unless my_page.noquicklink %}{% unless my_page.url contains '/blog/page/' %}
+          <a class="nav-item" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>{% endunless %}{% endunless %}{% endif %}{% endfor %}
         </div>
       </div>
     </header>{% if page.header %}

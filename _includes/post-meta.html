@@ -1,0 +1,3 @@
+<span class="date">{{ post.date | date: '%-d.%m.%Y' }}</span>{% for cat in post.categories %}
+<span class="tag is-primary">{{ cat }}</span>{% endfor %}{% for tag in post.tags %}
+<span class="tag">{{ tag }}</span>{% endfor %}

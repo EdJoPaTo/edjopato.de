@@ -1,7 +1,10 @@
 @import "bulma";
+
 @import "header";
 @import "footer";
+
 @import "index";
+@import "post";
 
 table thead th.has-text-right {
   // workaround while the bulma bug is there: https://github.com/jgthms/bulma/issues/293

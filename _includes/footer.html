@@ -1,6 +1,14 @@
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
+      {% if page.background.source || page.background.name %}<p>
+        Hintergrundbild{% if page.background.name %}
+          "{{ page.background.name }}"{% endif %}{% if page.background.source %}
+        von {% if page.background.source.url %}
+        <a href="{{ page.background.source.url }}" target="_blank">{% endif %}
+          {{ page.background.source.name }}{% if page.background.source.url %}
+        </a>{% endif %}{% endif %}
+      </p>{% endif %}
       <p>
         <a href="/impressum/">Impressum</a>
       </p>

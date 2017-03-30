@@ -3,7 +3,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{page.title}}</title>
-  <meta name="description" content="{{page.description}}">
+  {% if page.description %}
+  {% assign desc = page.description %}
+  {% elsif page.excerpt %}
+  {% assign desc = page.excerpt | strip_html | replace: '\n', ' ' | truncatewords: 20 %}
+  {% endif %}{% if desc %}
+  <meta name="description" content="{{ desc }}">{% endif %}
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="{{site.title}}">
@@ -11,8 +16,8 @@
   <meta name="format-detection" content="telephone=no">
   <meta property="og:url" content="https://edjopato.de">
   <meta property="og:site_name" content="{{site.title}}">
-  <meta property="og:title" content="{{page.title}}">
-  <meta property="og:description" content="{{page.description}}">
+  <meta property="og:title" content="{{page.title}}">{% if desc %}
+  <meta property="og:description" content="{{ desc }}">{% endif %}
   <meta property="og:image" content="/assets/appicon/512.png">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="512">

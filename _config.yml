@@ -27,8 +27,4 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  -
-    scope:
-      path: ""
-    values:
-      bgcolor: "#222"
+      header: "medium"

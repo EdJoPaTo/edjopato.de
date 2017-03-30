@@ -1,7 +1,11 @@
 {% if page.header %}
-<section class="hero {% if page.background-is-dark %}is-dark {% endif %}is-{{ page.header }} background-fixed" style="background-color: {{ page.bgcolor }}; background-image: {{ page.background }};">
+{% if page.background %}
+<section class="hero {% if page.background.is-dark %}is-dark {% endif %}is-{{ page.header }} background-fixed" style="background-color: {{ page.background.color }}; background-image: {{ page.background.style }};">
+{% else %}
+<section class="hero is-dark is-{{ page.header }}">
+{% endif %}
   <div class="hero-head">{% endif %}
-    <header class="nav is-dark has-shadow{% unless page.header %} nav-without-bg{% endunless %}">
+    <header class="nav is-dark has-shadow{% unless page.background %} nav-without-bg{% endunless %}">
       <div class="container">
         <div class="nav-left">
           <a href="/" class="nav-item">{{ site.title }}</a>

@@ -4,8 +4,9 @@ title: HAW Hamburg Kalender Bot
 permalink: /calendarbot/
 description: Ein Telegram Bot, der persönliche Veranstaltungskalender für die HAW Hamburg erzeugt.
 header: large
-background-is-dark: true
-background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),url(/assets/backgrounds/haw-raindrops1.jpg)
+background:
+  is-dark: true
+  style: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),url(/assets/backgrounds/haw-raindrops1.jpg)
 ---
 <style>
 .tg-background {
@@ -38,7 +39,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),url(/assets/ba
   </div>
 </div>
 
-<section class="hero is-dark background-fixed" style="background-image: {{ page.background }}">
+<section class="hero is-dark background-fixed" style="background-image: {{ page.background.style }}">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">Der Telegram Bot</h1>
@@ -90,7 +91,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),url(/assets/ba
   </div>
 </div>
 
-<section class="hero is-dark background-fixed" style="background-image: {{ page.background }}">
+<section class="hero is-dark background-fixed" style="background-image: {{ page.background.style }}">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">Behind the Scenes</h1>

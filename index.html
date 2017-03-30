@@ -15,7 +15,7 @@ description: Eine Übersicht über meine öffentlichen Projekte und mein Blog
 </section>
 
 {% for my_page in site.pages %}{% if my_page.title %}{% unless my_page.noquicklink %}{% if my_page.background %}
-<section class="hero has-text-centered background-fixed is-large{% if my_page.background-is-dark %} is-dark{% endif %}" style="background-image: {{ my_page.background}}">
+<section class="hero has-text-centered background-fixed is-large{% if my_page.background.is-dark %} is-dark{% endif %}" style="background-image: {{ my_page.background.style }}">
   <div class="hero-body">
     <div class="container">
       <a href="{{ my_page.url | relative_url }}">
@@ -27,7 +27,7 @@ description: Eine Übersicht über meine öffentlichen Projekte und mein Blog
 </section>{% endif %}{% endunless %}{% endif %}{% endfor %}
 
 {% for project in site.data.other-projects %}{% if project.background %}
-<section class="hero has-text-centered background-fixed is-large is-dark" style="background-image: {{ project.background }}">
+<section class="hero has-text-centered background-fixed is-large{% if project.background.is-dark %} is-dark{% endif %}" style="background-image: {{ project.background.style }}">
   <div class="hero-body">
     <div class="container">
       <a href="{{ project.url }}" target="_blank">

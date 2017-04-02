@@ -35,22 +35,22 @@ background:
       <span class="pagination-next is-disabled">Next</span> {% endif %}
       <ul class="pagination-list">
         {% if paginator.page > 2 %}
-        <li><a class="pagination-link" href="/blog/">1</a></li>
+        <li><a class="pagination-link" href="/blog/" aria-label="Erste Seite">1</a></li>
         {% endif %} {% if paginator.page > 3 %}
         <li><span class="pagination-ellipsis">&hellip;</span></li>
         {% endif %} {% if paginator.previous_page %}
-        <li><a class="pagination-link" href="{{ paginator.previous_page_path }}">{{ paginator.previous_page }}</a></li>
+        <li><a class="pagination-link" href="{{ paginator.previous_page_path }}" aria-label="Vorherige Seite {{ paginator.previous_page }}">{{ paginator.previous_page }}</a></li>
         {% endif %}
 
-        <li><a class="pagination-link is-current">{{ paginator.page }}</a></li>
+        <li><span class="pagination-link is-current" aria-label="Aktuelle Seite {{ paginator.page }}">{{ paginator.page }}</span></li>
 
 
         {% assign tmp = paginator.page | plus:0 %} {% if paginator.next_page %}
-        <li><a class="pagination-link" href="{{ paginator.next_page_path }}">{{ paginator.next_page }}</a></li>
+        <li><a class="pagination-link" href="{{ paginator.next_page_path }}" aria-label="Nächste Seite {{ paginator.next_page }}">{{ paginator.next_page }}</a></li>
         {% endif %} {% assign tmp = paginator.page | plus:2 %} {% if tmp
         < paginator.total_pages %} <li><span class="pagination-ellipsis">&hellip;</span></li>
           {% endif %} {% assign tmp = paginator.page | plus: 1 %} {% if tmp
-          < paginator.total_pages %} <li><a class="pagination-link" href="/blog/page/{{ paginator.total_pages }}">{{ paginator.total_pages }}</a></li>
+          < paginator.total_pages %} <li><a class="pagination-link" href="/blog/page/{{ paginator.total_pages }}" aria-label="Letzte Seite {{ paginator.total_pages }}">{{ paginator.total_pages }}</a></li>
             {% endif %}
       </ul>
     </nav>

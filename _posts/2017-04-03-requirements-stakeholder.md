@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Requirements der Stakeholder
-date: '2017-04-03 15:00:00 +0200'
+title: Requirements der Stakeholder - Analyse des Vorschlags
+date: '2017-04-03 16:08:00 +0200'
+sitemap:
+  lastmod: 2017-04-03 22:31:00 +0200
 categories: tti
 ---
 
@@ -9,13 +11,15 @@ Zur Entwicklung des BPaaS Angebots müssen die Requirements der Stakeholder gena
 
 # Was wollen die Stakeholder im System machen?
 
+Dazu hat unsere Professorin uns einen Vorschlag über die Requirements gemacht.
+
 ![Stakeholder](/assets/2017/03/stakeholder.svg)
 
 Bild Quelle: Ulrike Steffens
 
-In diesem Vorschlag unserer Professorin sind mir einige Dinge aufgefallen, die sich überschneiden:
+In diesem Vorschlag sind mir einige Dinge aufgefallen, die sich überschneiden:
 
-- Alle 3 Stakeholder Services anbieten/ einbinden.
+- Alle 3 Stakeholder wollen Services anbieten/ einbinden.
 
   Wollen sie das wirklich? Was müssen wir da wirklich bauen um das zu bewerkstelligen? Was wollen sie unterschiedliches?
 
@@ -33,7 +37,7 @@ Außerdem sind einige Punkte meiner Meinung nach nicht sehr klar formuliert:
 
 # Grobe Idee
 
-Wir haben uns dann in einer kleinen Gruppe zusammen gesetzt um einmal eine grobe Struktur eines möglichen BPaaS Angebots auszuarbeiten.
+Wir haben uns dann in einer kleinen Gruppe zusammen gesetzt, um einmal eine grobe Struktur eines möglichen BPaaS Angebots auszuarbeiten.
 
 ![Idee für BPaaS](/assets/2017/04/tti_arch.svg)
 
@@ -51,8 +55,8 @@ Der Prozess Nutzer ruft die Liste der vorhandenen Prozesse ab. Aus diesen kann e
 # Offene Punkte
 
 - Wie beschreibt ein Serviceanbieter einen Service? Was muss beschrieben werden? Was wären Inputs? Outputs? Wie stellt man sicher, das ein Service, der JSON zu CSV konvertiert auch nur hinter Services geschaltet werden kann, der JSON ausgibt?
-- Ein Business Process kann, so wie es Bild aussieht, das unsere Professorin uns als Vorschlag gegeben hat, Kontrollblöcke wie möglicherweise if/else-Blöcke enthalten. Wie werden diese spezifiziert?
-- Wie weit kann ein Prozessnutzer Prozesse anpassen? Nur einen eigenen Prozess darum herum bauen? (Beispiel: Cloud Storage als Input, Format Konvertieren und Export gedruckt und verschickt?)
+- Ein Business Process kann, so wie es im Bild aussieht, das unsere Professorin uns als Vorschlag gegeben hat, Kontrollblöcke wie möglicherweise if/else-Blöcke enthalten. Wie werden diese spezifiziert?
+- Wie weit kann ein Prozessnutzer Prozesse anpassen? Nur bestehende Prozesse um In- und Outputs erweitern? (Beispiel: Cloud Storage als Input, Ausgabe Format konvertieren, drucken und verschicken)
 - Was beinhaltet das Monitoring
 
   - Was will der Nutzer sehen?
@@ -71,3 +75,5 @@ Der Prozess Nutzer ruft die Liste der vorhandenen Prozesse ab. Aus diesen kann e
 
     - Anzahl der Nutzungen seiner Services (+ daraus entstehende Einnahmen für ihn)
     - ...?
+
+Die offenen Punkte müssen nun wieder in der großen Gruppe diskutiert und genauer spezifiziert werden.

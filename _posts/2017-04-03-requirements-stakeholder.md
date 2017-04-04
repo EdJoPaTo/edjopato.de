@@ -3,7 +3,7 @@ layout: post
 title: Requirements der Stakeholder - Analyse des Vorschlags
 date: '2017-04-03 16:08:00 +0200'
 sitemap:
-  lastmod: 2017-04-03 22:31:00 +0200
+  lastmod: 2017-04-04 20:38:00 +0200
 categories: tti
 ---
 
@@ -27,13 +27,18 @@ In diesem Vorschlag sind mir einige Dinge aufgefallen, die sich überschneiden:
 
 Außerdem sind einige Punkte meiner Meinung nach nicht sehr klar formuliert:
 
-- Prozessnutzer Prozesse customizen:
+- Prozessnutzer
+  - "Prozesse customizen":
 
-  Vermutlich will er nur Eingabewerte setzen? Den eigentlichen Prozess anpassen machen ja die Prozessanbieter. Mögliche Eingabewerte könnten auch aus extra Services kommen (Cloud Storage Import).
+    Vermutlich will er nur Eingabewerte setzen? Den eigentlichen Prozess anpassen machen ja die Prozessanbieter. Mögliche Eingabewerte könnten auch aus extra Services kommen (Cloud Storage Import).
 
-- Prozessnutzer Prozesse skalieren:
+  - "Prozesse skalieren":
 
-  Das BPaaS Angebot sollte selbstständig laufende Prozesse skalieren. Das sollte kein Requirement einer Aktion sein, die der Stakeholder tätigen will? Nur Eingangsdaten usw. bestimmen?
+    Das BPaaS Angebot sollte selbstständig laufende Prozesse skalieren. Das sollte kein Requirement einer Aktion sein, die der Stakeholder tätigen will? Nur Eingangsdaten usw. bestimmen?
+
+- monitoren:
+
+  Was wollen die einzelnen Stakeholder wirklich wissen? Ihre Kosten/ Einnahmen. Und sonst?
 
 # Grobe Idee
 

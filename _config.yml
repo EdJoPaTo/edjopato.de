@@ -28,6 +28,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - CNAME
 
 defaults:
   -

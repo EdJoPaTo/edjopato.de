@@ -4,9 +4,7 @@ layout: default
 <div class="section post">
   <div class="container">
     <div class="meta">
-      <span class="date">{{ page.date | date: '%-d.%m.%Y' }}</span>{% for cat in page.categories %}
-      <span class="tag is-primary">{{ cat }}</span>{% endfor %}{% for tag in page.tags %}
-      <span class="tag">{{ tag }}</span>{% endfor %}
+      {% include post-meta.html post=page %}
     </div>
     <div class="content">
 {{ content }}
@@ -20,7 +18,7 @@ layout: default
       <h1>Ähnliche Posts</h1>{% for post in site.related_posts %}
       <p>
         <h2><a href="{{ post.url | relative_url }}">{{ post.title}}</a></h2>
-        {% include post-meta.html %}
+        {% include post-meta.html post=post %}
       </p>{% endfor %}
     </div>
   </div>

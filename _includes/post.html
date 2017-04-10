@@ -3,6 +3,8 @@
   {% include post-meta.html post=post %}
 </div>
 <div class="content">
-  {{ post.excerpt }}
+  <p>
+    {{ post.excerpt | strip_html | replace: '\n', ' ' }}
+    <a href="{{ post.url }}">weiterlesen…</a>
+  </p>
 </div>
-<a href="{{ post.url }}">weiterlesen…</a>

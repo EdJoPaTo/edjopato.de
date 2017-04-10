@@ -1,10 +1,16 @@
 ---
-layout: page
+layout: default
 title: TTI Veranstaltung
 noquicklink: true
 permalink: /blog/tti/
 description: Alle Posts zum Thema TTI in chronologischer Reihenfolge
 header: medium
 ---
+<div class="section blog">
+<div class="container">
+<div class="content">
 {% assign posts = site.categories.tti | reverse %}
 {% for post in posts %}{% include post.html %}{% endfor %}
+</div>
+</div>
+</div>

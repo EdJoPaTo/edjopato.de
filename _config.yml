@@ -15,7 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: EdJoPaTo
 lang: de
-email: edgar@3t0.de
+email: info@3t0.de
+author:
+  name: Edgar
+  email: edgar@3t0.de
 github_username: EdJoPaTo
 
 # Build settings

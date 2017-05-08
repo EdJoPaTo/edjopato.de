@@ -2,11 +2,13 @@
 layout: post
 title: "Die ersten Vorlesungen"
 date: 2017-04-17 07:07:00 +0200
+sitemap:
+  lastmod: 2017-05-08 11:00:00 +0200
 categories: tti
 tags: vorlesung
 ---
 Neben der Praktikumsaufgabe zur Erstellung eines BPaaS Angebots findet auch eine Vorlesung im generelleren Bereich der "Technik und Technologie verteilter Informationssysteme" (TTI) statt.
-In dieser werden Grundlagen aus den unterschiedlichen Bereichen vermittelt und in Gruppenarbeiten Themen selbst angeeignet oder ausarbeitet. Dazu gibt es im folgenden Post, sowie späteren Posts Zusammenfassungen zu den einzelnen Vorlesungsterminen. Insgesammt sind 12 Vorlesungen angesetzt.
+In dieser werden Grundlagen aus den unterschiedlichen Bereichen vermittelt und in Gruppenarbeiten Themen selbst angeeignet oder ausarbeitet. Dazu gibt es im folgenden Post, sowie späteren Posts Zusammenfassungen zu den einzelnen Vorlesungsterminen. Insgesamt sind 12 Vorlesungen angesetzt.
 
 # Die erste Vorlesung am 21. März
 

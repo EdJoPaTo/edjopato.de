@@ -1,4 +1,12 @@
 [ {
+    "title": "HAW Hamburg Kalender Bot",
+    "description": "Ein Telegram Bot, der persönliche Veranstaltungskalender für die HAW Hamburg erzeugt.",
+    "url": "//calendarbot.hawhh.de",
+    "background": {
+      "style": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(/assets/backgrounds/haw-raindrops1.jpg)",
+      "is-dark": true
+    }
+  }, {
     "title": "Silfani EVE Tools",
     "description": "Eine Sammlung von Tools für <a href=\"//eveonline.com\" target=\"_blank\">EVE Online</a>, einem MMO Spiel.<br>Hier gibt es hauptsächlich kleine Tools die zumindest mir den EVE Alltag erleichtern.",
     "url": "//silfani.3t0.de",

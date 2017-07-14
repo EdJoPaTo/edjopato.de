@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="252.8" width="391">
+  <g class="node" transform="translate(.32 252.4)">
+    <ellipse cx="332.8" cy="-90" fill="#fff" fill-opacity=".8" stroke="#000" rx="57.3" ry="18"/>
+    <text x="332.8" y="-85.8" font-size="14" font-family="Times, serif" text-anchor="middle">
+      Data Center
+    </text>
+  </g>
+  <g class="node" transform="translate(.32 252.4)">
+    <ellipse cx="111.8" cy="-162" fill="#fff" fill-opacity=".8" stroke="#000" rx="57.9" ry="18"/>
+    <text x="111.8" y="-157.8" font-size="14" font-family="Times, serif" text-anchor="middle">
+      BPExecutor
+    </text>
+  </g>
+  <g class="node" transform="translate(.32 252.4)">
+    <ellipse cx="98.8" cy="-90" fill="#fff" fill-opacity=".8" stroke="#000" rx="55" ry="18"/>
+    <text x="98.8" y="-85.8" font-size="14" font-family="Times, serif" text-anchor="middle">
+      BPInstance
+    </text>
+  </g>
+  <g class="edge" transform="translate(.32 252.4)">
+    <path fill="none" stroke="#000" d="M108.5-143.8l-4.6 25.4"/>
+    <path stroke="#000" d="M107.4-117.6l-5.3 9.2-1.5-10.5z"/>
+  </g>
+  <g class="node" transform="translate(.32 252.4)">
+    <ellipse cx="214.8" cy="-162" fill="#fff" fill-opacity=".8" stroke="#000" rx="27" ry="18"/>
+    <text x="214.8" y="-157.8" font-size="14" font-family="Times, serif" text-anchor="middle">
+      API
+    </text>
+  </g>
+  <g class="edge" transform="translate(.32 252.4)">
+    <path fill="none" stroke="#000" d="M152.5-175c9.7-1 19.5-.6 29.2 1.2"/>
+    <path stroke="#000" d="M182.5-177.2l9 5.7-10.6 1z"/>
+  </g>
+  <g class="node" transform="translate(.32 252.4)">
+    <ellipse cx="214.8" cy="-90" fill="#fff" fill-opacity=".8" stroke="#000" rx="42.9" ry="18"/>
+    <text x="214.8" y="-85.8" font-size="14" font-family="Times, serif" text-anchor="middle">
+      Monitor
+    </text>
+  </g>
+  <g class="edge" transform="translate(.32 252.4)">
+    <path fill="none" stroke="#000" d="M135.5-145.5l49 34.2" stroke-dasharray="5 2"/>
+    <path stroke="#000" d="M186.5-114l6.2 8.5-10.2-2.8z"/>
+  </g>
+  <g class="node" transform="translate(.32 252.4)">
+    <ellipse cx="44.8" cy="-18" fill="#fff" fill-opacity=".8" stroke="#000" rx="44.6" ry="18"/>
+    <text x="44.8" y="-13.8" font-size="14" font-family="Times, serif" text-anchor="middle">
+      Service1
+    </text>
+  </g>
+  <g class="edge" transform="translate(.32 252.4)">
+    <path fill="none" stroke="#000" d="M85.5-72.2L63.8-43.4"/>
+    <path stroke="#000" d="M66.6-41.2l-8.8 6L61-45.5z"/>
+  </g>
+  <g class="node" transform="translate(.32 252.4)">
+    <ellipse cx="152.8" cy="-18" fill="#fff" fill-opacity=".8" stroke="#000" rx="44.6" ry="18"/>
+    <text x="152.8" y="-13.8" font-size="14" font-family="Times, serif" text-anchor="middle">
+      Service2
+    </text>
+  </g>
+  <g class="edge" transform="translate(.32 252.4)">
+    <path fill="none" stroke="#000" d="M112.2-72.2l21.6 28.8"/>
+    <path stroke="#000" d="M136.6-45.4l3.2 10L131-41z"/>
+  </g>
+  <g class="edge" transform="translate(.32 252.4)">
+    <path fill="none" stroke="#000" d="M234.8-149.8l63 38.4"/>
+    <path stroke="#000" d="M299.8-114.3l6.7 8.2-10.4-2.3z"/>
+  </g>
+  <g class="edge" transform="translate(.32 252.4)">
+    <path fill="none" stroke="#000" d="M191.4-152.5c-9.6 2.8-19.3 4-29 4"/>
+    <path stroke="#000" d="M162.2-145l-9.7-4 10-3z"/>
+  </g>
+  <g class="edge" transform="translate(.32 252.4)">
+    <path fill="none" stroke="#000" d="M195-149.6L133-111.3"/>
+    <path stroke="#000" d="M135-108.3l-10.4 2.3 6.6-8.2z"/>
+  </g>
+  <g class="edge" transform="translate(.32 252.4)">
+    <path fill="none" stroke="#000" d="M214.8-143.8v25.4" stroke-dasharray="5 2"/>
+    <path stroke="#000" d="M218.3-118.4l-3.5 10-3.5-10z"/>
+  </g>
+  <g class="node" transform="translate(.32 252.4)">
+    <ellipse cx="214.8" cy="-234" fill="#fff" fill-opacity=".8" stroke="#000" rx="42.8" ry="18"/>
+    <text x="214.8" y="-229.8" font-size="14" font-family="Times, serif" text-anchor="middle">
+      Website
+    </text>
+  </g>
+  <g class="edge" transform="translate(.32 252.4)">
+    <path fill="none" stroke="#000" d="M214.8-215.8v25.4"/>
+    <path stroke="#000" d="M218.3-190.4l-3.5 10-3.5-10z"/>
+  </g>
+</svg>

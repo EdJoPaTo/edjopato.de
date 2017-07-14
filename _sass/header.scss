@@ -36,3 +36,15 @@
     }
   }
 }
+
+.hero {
+  .title, .subtitle {
+    text-shadow: 1px 1px 10px #fff;
+  }
+}
+
+.hero.is-dark {
+  .title, .subtitle {
+    text-shadow: 1px 1px 10px #000;
+  }
+}

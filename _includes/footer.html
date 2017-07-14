@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      {% if page.background.source || page.background.name %}<p>
+      {% if page.background.source or page.background.name %}<p>
         Hintergrundbild{% if page.background.name %}
           "{{ page.background.name }}"{% endif %}{% if page.background.source %}
         von {% if page.background.source.url %}

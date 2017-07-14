@@ -32,6 +32,7 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
+  - serve.sh
   - toSk1Mserver.sh
 
 defaults:

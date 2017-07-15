@@ -12,9 +12,9 @@ layout: default
   </div>
 </div>
 
-<div class="section">
+<div class="section other-posts{% if page.background %}{% if page.background.is-dark %} is-dark{% endif %} background-fixed" style="background-color: {{ page.background.color }}; background-image: {{ page.background.style }};{% endif %}">
   <div class="container">
-    <div class="content">
+    <div class="content box">
       <h1>Ähnliche Posts</h1>{% for post in site.related_posts %}
       <p>
         <h2><a href="{{ post.url | relative_url }}">{{ post.title}}</a></h2>

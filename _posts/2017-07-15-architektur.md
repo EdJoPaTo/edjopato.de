@@ -8,7 +8,7 @@ categories: tti
 tags: bpaas-angebot architektur komponenten
 header: large
 background:
-  style: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)), url(/assets/backgrounds/luhepark1.jpg)
+  style: url(/assets/backgrounds/luhepark1.jpg)
   color: '#555'
   is-dark: true
   name: 'Luhepark Winsen'

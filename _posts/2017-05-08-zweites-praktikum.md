@@ -5,7 +5,7 @@ date: '2017-05-08 17:20:00 +0200'
 categories: tti
 tags: bpaas-angebot praktikum meeting
 ---
-Ein paar Wochen seit dem letzten Post zum BPaaS-Angebot sind mittlerweile vergangen.
+Ein paar Wochen seit dem letzten Post zum BPaaS Angebot sind mittlerweile vergangen.
 Der anvisierte Prototyp existiert mittlerweile im Großen und Ganzen.
 
 # Prototyp

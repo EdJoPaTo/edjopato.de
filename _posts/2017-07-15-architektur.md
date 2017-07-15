@@ -3,9 +3,9 @@ layout: post
 title: Die finale Architektur
 date: '2017-07-15 01:30:00 +0200'
 sitemap:
-  lastmod: 2017-07-15 02:10:00 +0200
+  lastmod: 2017-07-15 02:30:00 +0200
 categories: tti
-tags: praktikum bpaas-angebot architektur komponenten
+tags: bpaas-angebot architektur komponenten
 header: large
 background:
   style: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)), url(/assets/backgrounds/luhepark1.jpg)

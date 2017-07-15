@@ -2,6 +2,8 @@
 layout: post
 title: Die finale Architektur
 date: '2017-07-15 01:30:00 +0200'
+sitemap:
+  lastmod: 2017-07-15 02:10:00 +0200
 categories: tti
 tags: praktikum bpaas-angebot architektur komponenten
 header: large
@@ -50,4 +52,4 @@ Aus Zeitgründen wurde der Monitor im Laufe des Projekts zurückgestellt und nic
 Die **Services** stellen die einzelnen Schritte eines Business Prozesses dar.
 Diese können von Kunden erstellt und in unserem System zur Verwendung registriert werden.
 Dafür wurde ein RESTful Schnittstelle definiert, um Service Anbietern eine möglichst simple Schnittstelle zu bieten.
-Mehr dazu in einem folgenden Blog Post, sobald dieser erschienen ist…
+Mehr dazu im [Service Blog Post]({% post_url 2017-07-15-services %})…

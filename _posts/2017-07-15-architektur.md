@@ -3,7 +3,7 @@ layout: post
 title: Die finale Architektur
 date: '2017-07-15 01:30:00 +0200'
 sitemap:
-  lastmod: 2017-07-15 02:30:00 +0200
+  lastmod: 2017-07-16 16:25:00 +0200
 categories: tti
 tags: bpaas-angebot architektur komponenten
 header: large
@@ -41,15 +41,15 @@ Der **BPExecutor** nimmt die von außen kommenden Anfragen an, einen Business Pr
 Die zusätzlich benötigten Informationen holt er über die API aus dem Data Center.
 Sobald alle Informationen gesammelt sind, werden diese in eine RabbitMQ Queue gepackt.
 Diese Queue wird von einer freien **BPInstance** abgerufen und der Business Prozess gestartet.
-Es können also immer genau so viele Business Prozesse ausgeführt werden, die aktuell BPInstances gestartet werden.
+So können immer genau so viele Business Prozesse ausgeführt werden, wie BPInstances gestartet sind.
 Wird ein Business Prozess beendet, wird die BPInstance wieder frei und kann den nächsten Business Prozess ausführen.
 Mehr zum BPExecutor und der BPInstance im Blog Eintrag vom Verantwortlichen der beiden Komponenten, sobald dieser erschienen ist…
 
-Der **Monitor** dient zur Auswertung der Kundenaktivität um aussagen zu können, wie viel ein Business Prozess oder Service genutzt wurde.
+Der **Monitor** dient zur Auswertung der Kundenaktivität, um Aussagen treffen zu können, wie viel ein Business Prozess oder Service genutzt wurde.
 Dafür beobachtet dieser im System verlaufende RabbitMQ Nachrichten.
 Aus Zeitgründen wurde der Monitor im Laufe des Projekts zurückgestellt und nicht weiter bearbeitet.
 
 Die **Services** stellen die einzelnen Schritte eines Business Prozesses dar.
 Diese können von Kunden erstellt und in unserem System zur Verwendung registriert werden.
-Dafür wurde ein RESTful Schnittstelle definiert, um Service Anbietern eine möglichst simple Schnittstelle zu bieten.
+Dafür wurde eine RESTful Schnittstelle definiert, um Service Anbietern eine möglichst simple Schnittstelle zu bieten.
 Mehr dazu im [Service Blog Post]({% post_url 2017-07-15-services %})…

@@ -2,6 +2,8 @@
 layout: post
 title: Das neue HAW HH Kalenderbot Backend
 date: '2017-07-18 00:50:00 +0200'
+sitemap:
+  lastmod: 2017-07-18 15:12:00 +0200
 tags: calendarbot haw docker telegram
 header: large
 background:
@@ -35,6 +37,7 @@ Aus diesen UserConfigs werden dann vom Parser neue Kalender generiert.
 Und das, sobald sich eine UserConfig oder ein Veranstaltungsplan ändert.
 Der neue Kalender steht also innerhalb von wenigen Sekunden statt bis zu einer Stunde später.
 
+Mehr Infos zum Bot findest du auf der [Website des Kalenderbots](//calendarbot.hawhh.de).
 Interesse am Quellcode des neuen Backends? Im Gegensatz zum alten Backend ist dieses nun betrachtungswürdig und auf [GitHub](//github.com/HAWHHCalendarBot/backend) bereitgestellt.
 Noch ist das neue Backend nicht im Einsatz, zum neuen Semester wird dies aber passieren.
 

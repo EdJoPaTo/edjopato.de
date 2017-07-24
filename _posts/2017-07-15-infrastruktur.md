@@ -2,13 +2,14 @@
 layout: post
 title: Die Infrastruktur
 date: '2017-07-15 21:30:00 +0200'
+lastmod: 2017-07-24 08:50:00 +0200
 categories:
   - tti
 tags:
   - bpaas-angebot
   - infrastruktur
   - docker
-  - swarm
+  - docker-swarm
   - portainer
 header: large
 background:

@@ -2,8 +2,7 @@
 layout: post
 title: Requirements der Stakeholder - Analyse des Vorschlags
 date: '2017-04-03 16:08:00 +0200'
-sitemap:
-  lastmod: 2017-04-04 20:38:00 +0200
+lastmod: 2017-04-04 20:38:00 +0200
 categories:
   - tti
 tags:

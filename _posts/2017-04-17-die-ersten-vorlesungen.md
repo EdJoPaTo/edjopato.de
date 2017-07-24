@@ -2,8 +2,7 @@
 layout: post
 title: "Die ersten Vorlesungen"
 date: 2017-04-17 07:07:00 +0200
-sitemap:
-  lastmod: 2017-05-08 11:00:00 +0200
+lastmod: 2017-05-08 11:00:00 +0200
 categories:
   - tti
 tags:

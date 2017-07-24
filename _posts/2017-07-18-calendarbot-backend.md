@@ -2,8 +2,7 @@
 layout: post
 title: Das neue HAW HH Kalenderbot Backend
 date: '2017-07-18 00:50:00 +0200'
-sitemap:
-  lastmod: 2017-07-18 15:12:00 +0200
+lastmod: 2017-07-18 15:12:00 +0200
 tags:
   - calendarbot
   - docker

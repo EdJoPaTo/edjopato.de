@@ -2,8 +2,7 @@
 layout: post
 title: "Website überarbeitet: Jetzt mit Jekyll und einem Blog"
 date: 2017-03-30 14:32:00 +0200
-sitemap:
-  lastmod: 2017-04-04 20:56:00 +0200
+lastmod: 2017-04-04 20:56:00 +0200
 tags:
   - jekyll
   - website

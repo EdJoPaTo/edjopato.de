@@ -4,8 +4,12 @@ title: Die finale Architektur
 date: '2017-07-15 01:30:00 +0200'
 sitemap:
   lastmod: 2017-07-16 16:25:00 +0200
-categories: tti
-tags: bpaas-angebot architektur komponenten
+categories:
+  - tti
+tags:
+  - architektur
+  - bpaas-angebot
+  - komponenten
 header: large
 background:
   style: url(/assets/backgrounds/luhepark1.jpg)

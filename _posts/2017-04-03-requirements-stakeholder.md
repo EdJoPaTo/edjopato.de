@@ -4,8 +4,11 @@ title: Requirements der Stakeholder - Analyse des Vorschlags
 date: '2017-04-03 16:08:00 +0200'
 sitemap:
   lastmod: 2017-04-04 20:38:00 +0200
-categories: tti
-tags: bpaas-angebot vorbereitung
+categories:
+  - tti
+tags:
+  - bpaas-angebot
+  - vorbereitung
 ---
 
 Zur Entwicklung des BPaaS Angebots müssen die Requirements der Stakeholder genauer betrachtet werden, um zu verstehen, was das BPaaS Angebot können muss. Möglicherweise kann dann bereits bestehende Software integriert werden, wenn sie den Anforderungen genügt.

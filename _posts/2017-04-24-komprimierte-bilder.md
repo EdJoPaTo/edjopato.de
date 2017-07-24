@@ -2,7 +2,13 @@
 layout: post
 title: Bildkomprimierung für das Web
 date: '2017-04-24 17:00:00 +0200'
-tags: kompression bilder svg png jpg gif
+tags:
+  - bilder
+  - kompression
+  - gif
+  - jpg
+  - png
+  - svg
 header: large
 background:
   style: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),url(/assets/backgrounds/wl-hagel.jpg)

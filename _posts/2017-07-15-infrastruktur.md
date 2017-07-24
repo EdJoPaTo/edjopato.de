@@ -2,8 +2,14 @@
 layout: post
 title: Die Infrastruktur
 date: '2017-07-15 21:30:00 +0200'
-categories: tti
-tags: bpaas-angebot infrastruktur docker swarm portainer
+categories:
+  - tti
+tags:
+  - bpaas-angebot
+  - infrastruktur
+  - docker
+  - swarm
+  - portainer
 header: large
 background:
   style: url(/assets/backgrounds/luhepark3.jpg)

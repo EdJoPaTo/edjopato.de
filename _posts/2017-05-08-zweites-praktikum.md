@@ -2,8 +2,12 @@
 layout: post
 title: Ein Prototyp und das zweite Praktikum
 date: '2017-05-08 17:20:00 +0200'
-categories: tti
-tags: bpaas-angebot praktikum meeting
+categories:
+  - tti
+tags:
+  - bpaas-angebot
+  - meeting
+  - praktikum
 ---
 Ein paar Wochen seit dem letzten Post zum BPaaS Angebot sind mittlerweile vergangen.
 Der anvisierte Prototyp existiert mittlerweile im Großen und Ganzen.

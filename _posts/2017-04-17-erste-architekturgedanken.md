@@ -2,8 +2,12 @@
 layout: post
 title: Erste Architekturgedanken
 date: '2017-04-17 21:35:00 +0200'
-categories: tti
-tags: bpaas-angebot meeting architektur
+categories:
+  - tti
+tags:
+  - architektur
+  - bpaas-angebot
+  - meeting
 ---
 Nach unserem [ersten Praktikumstermin]({% post_url 2017-04-09-praktikum1 %}) fand fast eine Woche später ein kurzes Meeting statt. Ein großer Vorteil des Meetings war die vorher grob geplante Struktur und welche Themen angesprochen werden wollen, weshalb es deutlich effektiver und strukturierter ab lief, als das erste Praktikum.
 Begonnen wurde das Meeting mit einem Überblick über den Stand aller Anwesenden.

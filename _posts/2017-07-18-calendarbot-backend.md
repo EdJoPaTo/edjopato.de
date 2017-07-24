@@ -4,7 +4,11 @@ title: Das neue HAW HH Kalenderbot Backend
 date: '2017-07-18 00:50:00 +0200'
 sitemap:
   lastmod: 2017-07-18 15:12:00 +0200
-tags: calendarbot haw docker telegram
+tags:
+  - calendarbot
+  - docker
+  - haw
+  - telegram
 header: large
 background:
   style: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(/assets/backgrounds/haw-raindrops1.jpg)

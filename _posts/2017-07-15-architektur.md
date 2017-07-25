@@ -2,7 +2,7 @@
 layout: post
 title: Die finale Architektur
 date: '2017-07-15 01:30:00 +0200'
-lastmod: 2017-07-25 13:08:00 +0200
+lastmod: 2017-07-25 13:15:00 +0200
 categories:
   - tti
 tags:
@@ -38,7 +38,7 @@ Dafür wird [RabbitMQ](//rabbitmq.com) verwendet.
 Mehr zur API im Blog Eintrag vom Verantwortlichen der API, sobald dieser erschienen ist…
 
 Der **Data Center** enthält die persistent gespeicherten Informationen unseres Systems, wie die Business Prozesse oder die hinterlegten Services, die verwendet werden können.
-Mehr zur Definition dieser Daten im Blog Eintrag der Verantwortlichen, sobald dieser erschienen ist…
+Mehr zur Definition dieser Daten im [Blog Post](//haw-hamburg-tti.blogspot.de/2017/07/business-processes-in-einer-bpaas.html) der Verantwortlichen…
 
 Der **BPExecutor** nimmt die von außen kommenden Anfragen an, einen Business Prozess auszuführen.
 Die zusätzlich benötigten Informationen holt er über die API aus dem Data Center.

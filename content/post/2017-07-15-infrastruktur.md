@@ -10,9 +10,9 @@ date: 2017-07-15T21:30:00+02:00
 lastmod: 2017-07-24T08:50:00+02:00
 tags:
 - bpaas-angebot
-- infrastruktur
 - docker
 - docker-swarm
+- infrastruktur
 - portainer
 title: Die Infrastruktur
 aliases:

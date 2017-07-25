@@ -1,0 +1,17 @@
+baseURL: https://edjopato.de/
+DefaultContentLanguage: de
+disablePathToLower: true
+languageCode: de
+metaDataFormat: "yaml"
+paginate: 5
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+theme: edjopato-hugo-theme
+title: EdJoPaTo
+
+menu:
+  main:
+    - Name: "Blog"
+      Identifier: "blog"
+      URL: "/post/"
+

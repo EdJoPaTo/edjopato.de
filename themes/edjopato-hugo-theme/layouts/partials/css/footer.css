@@ -1,0 +1,23 @@
+footer {
+  background-color: #222;
+  padding: 3rem 1.5rem 6rem;
+  text-align: center;
+}
+
+footer, footer a {
+  color: #b5b5b5;
+}
+
+footer svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 3px;
+}
+
+footer svg * {
+  fill: #b5b5b5;
+}
+
+footer a {
+  text-decoration: none;
+}

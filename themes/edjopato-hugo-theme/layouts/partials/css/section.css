@@ -1,0 +1,17 @@
+section.main {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 3rem 0;
+  line-height: 1.5;
+}
+
+section.main>div, section.main>article {
+  margin: 0 auto;
+  padding: 0 0.5rem;
+  max-width: 1300px;
+}
+
+section img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}

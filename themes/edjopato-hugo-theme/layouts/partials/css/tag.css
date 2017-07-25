@@ -1,0 +1,25 @@
+.tag {
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 9999px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  line-height: 1.5;
+  padding-left: 0.875em;
+  padding-right: 0.875em;
+}
+
+.tag.category {
+  background-color: #A00;
+  color: white;
+}
+
+.meta a {
+  color: #444;
+  text-decoration: none;
+}
+
+.meta a:hover {
+  text-decoration: underline;
+}

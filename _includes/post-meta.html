@@ -1,3 +1,0 @@
-<span class="date">{{ include.post.date | date: '%-d.%m.%Y' }}</span>{% for cat in include.post.categories %}
-<a href="/blog/{{ cat }}"><span class="tag is-primary">{{ cat }}</span></a>{% endfor %}{% for tag in include.post.tags %}
-<span class="tag">{{ tag }}</span>{% endfor %}

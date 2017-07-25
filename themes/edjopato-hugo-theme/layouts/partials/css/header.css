@@ -1,0 +1,28 @@
+header {
+  color: white;
+  padding-bottom: 9rem;
+  padding-top: 9rem;
+  text-align: center;
+  text-shadow: 1px 1px 10px #000;
+}
+
+header.has-background {
+  padding-bottom: 18rem;
+  padding-top: 18rem;
+}
+
+@media screen and (max-width: 1000px) {
+  header, header.has-background {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+}
+
+header h1, header h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 1.25rem;
+}

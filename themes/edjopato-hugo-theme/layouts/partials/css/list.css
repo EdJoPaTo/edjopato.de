@@ -1,0 +1,27 @@
+.list article {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  max-width: 1300px;
+  padding: 2rem;
+  padding-bottom: 3rem;
+}
+
+.list:not(:first-child) article:first-child {
+  margin-top: 2rem;
+}
+
+.list h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.list h1 a {
+  text-decoration: none;
+}
+
+.list .meta {
+  margin: 0.5rem 0;
+}

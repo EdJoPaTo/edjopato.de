@@ -1,0 +1,16 @@
+{{ define "css"}}
+{{ partial "css/list.css" . | print | safeCSS }}
+{{ partial "css/pagination.css" . | print | safeCSS }}
+{{ partial "css/tag.css" . | print | safeCSS }}
+{{ end }}
+
+{{ define "main" }}
+<section class="list">
+  <div>
+    {{ range .Paginator.Pages }}
+      {{ partial "listentry.html" . }}
+    {{ end }}
+    {{ template "_internal/pagination.html" . }}
+  </div>
+</section>
+{{ end }}

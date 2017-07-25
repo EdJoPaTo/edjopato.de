@@ -1,0 +1,36 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 rgba(245, 245, 245, 0.2);
+}
+
+nav > div {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1300px;
+  min-height: 3.25rem;
+  padding: 0 0.5rem;
+}
+
+nav, nav a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: whitesmoke;
+}
+
+nav .left, nav .right {
+  display: flex;
+  flex-grow: 1;
+}
+
+nav .right {
+  justify-content: flex-end;
+}
+
+nav .left > *, nav .right > * {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+}

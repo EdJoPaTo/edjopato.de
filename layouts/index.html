@@ -1,0 +1,26 @@
+{{ define "css" }}
+{{ partial "css/index.css" . | print | safeCSS }}
+{{ end }}
+
+{{ define "header" }}
+<header style="text-align: center;">
+  <h1>Hi!</h1>
+  <h2>Ich bin Edgar!</h2>
+  <img class="avatar" src="/assets/cheese.svg" alt="Avatar">
+</header>
+{{ end }}
+
+{{ define "main" }}
+  {{ range where .Site.Data.projects ".background" "!=" nil }}
+  <section class="has-bg{{ if eq .background.dark "false" }} is-light{{ end }}" style="background-image: {{ .background.style | safeCSS }}">
+    <h1><a href="{{ .url | safeURL }}" target="_blank">{{ .title }}</a></h1>
+    <h2>{{ .description | safeHTML }}</h2>
+  </section>
+  {{ end }}
+  {{ range where .Site.Data.projects ".background" "==" nil }}
+  <section class="alternating-bg">
+    <h1><a href="{{ .url | safeURL }}" target="_blank">{{ .title }}</a></h1>
+    <h2>{{ .description | safeHTML }}</h2>
+  </section>
+  {{ end }}
+{{ end }}

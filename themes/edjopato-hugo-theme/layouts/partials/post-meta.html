@@ -1,0 +1,10 @@
+<div class="meta">
+  <time>{{ .Date.Format "Mon, 2. Jan 2006" }}</time>,
+  Lesezeit: {{ .ReadingTime }} Min
+  {{ range .Params.categories }}
+  <a href="{{ "/categories/" | relURL }}{{ . }}"><span class="tag category">{{ . }}</span></a>
+  {{ end }}
+  {{ range .Params.tags }}
+  <a href="{{ "/tags/" | relURL }}{{ . }}"><span class="tag">{{ . }}</span></a>
+  {{ end }}
+</div>

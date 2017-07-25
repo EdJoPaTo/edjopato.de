@@ -1,2 +1,2 @@
 #!/bin/bash
-bundle exec jekyll serve -P 4200 -H 0.0.0.0 --drafts
+hugo server -p 4200 --bind 0.0.0.0 --buildDrafts --buildFuture --navigateToChanged

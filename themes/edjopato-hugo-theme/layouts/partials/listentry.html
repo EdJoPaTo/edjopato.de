@@ -1,0 +1,6 @@
+<article>
+  <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+  {{ partial "post-meta.html" . }}
+  {{ .Summary }}
+  <a href="{{ .RelPermalink }}">weiterlesen…</a>
+</article>

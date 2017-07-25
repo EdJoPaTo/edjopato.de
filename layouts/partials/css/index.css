@@ -1,0 +1,85 @@
+nav {
+  background-color: #222;
+  box-shadow: 0 1px 0 rgba(10, 10, 10, 0.1);
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header h2 {
+  margin: 0.5rem 0 2rem;
+  font-size: 2rem;
+}
+
+section {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+section, section a {
+  color: white;
+}
+
+section h1, section h2 {
+  font-weight: normal;
+}
+
+section h1 a {
+  text-decoration: none;
+}
+
+section h1 {
+  font-size: 2rem;
+}
+
+section h2 {
+  font-size: 1.25rem;
+}
+
+@media screen and (min-width: 1000px) {
+  section.has-bg {
+    padding-bottom: 18rem;
+    padding-top: 18rem;
+  }
+  section.alternating-bg {
+    padding-bottom: 9rem;
+    padding-top: 9rem;
+  }
+}
+
+section.has-bg {
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 1px 1px 10px #000;
+}
+
+section.has-bg.is-light {
+  color: black;
+  text-shadow: 1px 1px 10px #FFF;
+}
+
+.alternating-bg:nth-child(2n), .alternating-bg:nth-child(2n) a {
+  background-color: white;
+  color: black;
+}
+
+.alternating-bg:nth-child(2n+1) {
+  background-color: #363636;
+}
+
+.avatar {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px;
+    border-radius: 25%;
+    transition: transform 0.5s, border-radius 0.5s;
+}
+
+.avatar:hover {
+    transform: rotate(360deg);
+    border-radius: 50%;
+}

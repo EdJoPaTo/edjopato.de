@@ -1,0 +1,45 @@
+[{
+    "title": "Blog",
+    "description": "Ein Blog über Dinge. Mit Typos.",
+    "url": "/post",
+    "background": {
+      "style": "radial-gradient(rgba(0,0,0,0.6) 30%, rgba(0,0,0,0.1)), url(/assets/backgrounds/waves-and-circles.svg)",
+      "dark": true
+    }
+  }, {
+    "title": "HAW Hamburg Kalender Bot",
+    "description": "Ein Telegram Bot, der persönliche Veranstaltungskalender für die HAW Hamburg erzeugt.",
+    "url": "//calendarbot.hawhh.de",
+    "background": {
+      "style": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(/assets/backgrounds/haw-raindrops1.jpg)",
+      "dark": true
+    }
+  }, {
+    "title": "Silfani EVE Tools",
+    "description": "Eine Sammlung von Tools für <a href=\"//eveonline.com\" target=\"_blank\">EVE Online</a>, einem MMO Spiel.<br>Hier gibt es hauptsächlich kleine Tools die zumindest mir den EVE Alltag erleichtern.",
+    "url": "//silfani.3t0.de",
+    "background": {
+      "style": "url(/assets/backgrounds/nemesiscloak.jpg)",
+      "dark": true
+    }
+  },
+  {
+    "title": "Legacy EVE Tools",
+    "description": "Hier gibt es die alte EVE Tool Sammlung.",
+    "url": "//eve.3t0.de",
+    "background": {
+      "style": "url(/assets/backgrounds/orcawarp.jpg)",
+      "dark": true
+    }
+  },
+  {
+    "title": "TeamSpeak 3",
+    "description": "Ein öffentlicher TeamSpeak 3 Server ist unter <a href=\"http://ts.3t0.de\" target=\"_blank\">ts.3t0.de</a> gehostet.<br>Komm doch mal vorbei. Jeder ist willkommen.",
+    "url": "ts3server://ts.3t0.de"
+  },
+  {
+    "title": "GitHub",
+    "description": "Meine Programmierprojekte sind meist auf GitHub zu finden.<br>Schau doch mal auf meinem <a href=\"//github.com/EdJoPaTo\" target=\"_blank\">Profil</a> vorbei.",
+    "url": "//github.com/EdJoPaTo"
+  }
+]

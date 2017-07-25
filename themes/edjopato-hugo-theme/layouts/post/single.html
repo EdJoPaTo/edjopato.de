@@ -1,0 +1,22 @@
+{{ define "css"}}
+{{ partial "css/code.css" . | print | safeCSS }}
+{{ partial "css/list.css" . | print | safeCSS }}
+{{ partial "css/section.css" . | print | safeCSS }}
+{{ partial "css/tag.css" . | print | safeCSS }}
+{{ end }}
+
+{{ define "main" }}
+<section class="main">
+  <div class="container">
+    {{ partial "post-meta.html" . }}
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+<section class="old-post list">
+  {{ range first 5 (where (where .Site.RegularPages "Section" .Section) "Date" "<" .Date ) }}
+    {{ partial "listentry.html" . }}
+  {{ end }}
+</section>
+{{ end }}

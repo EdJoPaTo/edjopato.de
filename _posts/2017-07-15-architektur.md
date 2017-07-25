@@ -2,7 +2,7 @@
 layout: post
 title: Die finale Architektur
 date: '2017-07-15 01:30:00 +0200'
-lastmod: 2017-07-16 16:25:00 +0200
+lastmod: 2017-07-25 13:08:00 +0200
 categories:
   - tti
 tags:
@@ -46,7 +46,7 @@ Sobald alle Informationen gesammelt sind, werden diese in eine RabbitMQ Queue ge
 Diese Queue wird von einer freien **BPInstance** abgerufen und der Business Prozess gestartet.
 So können immer genau so viele Business Prozesse ausgeführt werden, wie BPInstances gestartet sind.
 Wird ein Business Prozess beendet, wird die BPInstance wieder frei und kann den nächsten Business Prozess ausführen.
-Mehr zum BPExecutor und der BPInstance im Blog Eintrag vom Verantwortlichen der beiden Komponenten, sobald dieser erschienen ist…
+Mehr zum BPExecutor und der BPInstance im [Blog Post zum Thema]({% post_url 2017-07-25-bpexecutor-bpinstance %})…
 
 Der **Monitor** dient zur Auswertung der Kundenaktivität, um Aussagen treffen zu können, wie viel ein Business Prozess oder Service genutzt wurde.
 Dafür beobachtet dieser im System verlaufende RabbitMQ Nachrichten.

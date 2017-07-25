@@ -11,7 +11,9 @@ aliases:
 ---
 
 Neben der Praktikumsaufgabe zur Erstellung eines BPaaS Angebots findet auch eine Vorlesung im generelleren Bereich der "Technik und Technologie verteilter Informationssysteme" (TTI) statt.
-In dieser werden Grundlagen aus den unterschiedlichen Bereichen vermittelt und in Gruppenarbeiten Themen selbst angeeignet oder ausarbeitet. Dazu gibt es im folgenden Post, sowie späteren Posts Zusammenfassungen zu den einzelnen Vorlesungsterminen. Insgesamt sind 12 Vorlesungen angesetzt.
+In dieser werden Grundlagen aus den unterschiedlichen Bereichen vermittelt und in Gruppenarbeiten Themen selbst angeeignet oder ausarbeitet.
+Dazu gibt es im folgenden Post, sowie späteren Posts Zusammenfassungen zu den einzelnen Vorlesungsterminen.
+Insgesamt sind 12 Vorlesungen angesetzt.
 
 # Die erste Vorlesung am 21. März
 
@@ -46,15 +48,17 @@ Dabei stellt die Virtualisierung und damit Abstrahierung unterer Schichten ein e
 
 ![Virtualisierung im Software Stack](/assets/2017/04/vm.svg)
 
-Bild Quelle: Ulrike Steffens mit Vorlage von Sieh, V., Universität Erlangen-Nürnberg: Vorlesung Virtuelle Maschinen, Wintersemester 2016/17. [Online Version](https://www4.cs.fau.de/Lehre/WS16/V_VM/Vorlesung/einleitung.pdf) Folie 7
+Bild Quelle: Ulrike Steffens mit Vorlage von Sieh, V., Universität Erlangen-Nürnberg: Vorlesung Virtuelle Maschinen, Wintersemester 2016 / 17. [Online Version](https://www4.cs.fau.de/Lehre/WS16/V_VM/Vorlesung/einleitung.pdf) Folie 7
 
 Dafür wurde auf Schnittstellen zum Betriebssystem eingegangen und auf Eigenschaften der Virtualisierung, wie Partitionierung (verschiedene Anwendungen laufen auf einer physischen Maschine), Isolation (VMs bekommen voneinander gegenseitig nichts mit) sowie der Kapselung (Zustände lassen sich Hardware unabhängig ablegen).
 Es ging danach um Hypervisor und Container wie Docker.
 
 In einer Gruppenarbeit wurde sich dann mit [Pattern für Cloud Systeme](//cloudpatterns.org) befasst und anschließend exemplarisch vorgestellt.
 
-Zum Ende des Praktikums wurden die 3 Stakeholder des BPaaS Angebots nochmal genauer betrachtet und in jeweils einer Gruppe für einen Stakeholder die Requirements genauer ausgearbeitet. In meiner Gruppe wurde der Prozessanbieter genauer betrachtet.
-Grobes Ergebnis der Gruppenarbeit war, das es Systeme gibt, die Dinge können, die wir in unserem BPaaS Angebot benötigen. Welche Anforderungen wir wirklich haben und ob besagte Systeme diese Anforderungen erfüllen können, war in der Gruppe offensichtlich nicht von Relevanz.
+Zum Ende des Praktikums wurden die 3 Stakeholder des BPaaS Angebots nochmal genauer betrachtet und in jeweils einer Gruppe für einen Stakeholder die Requirements genauer ausgearbeitet.
+In meiner Gruppe wurde der Prozessanbieter genauer betrachtet.
+Grobes Ergebnis der Gruppenarbeit war, das es Systeme gibt, die Dinge können, die wir in unserem BPaaS Angebot benötigen.
+Welche Anforderungen wir wirklich haben und ob besagte Systeme diese Anforderungen erfüllen können, war in der Gruppe offensichtlich nicht von Relevanz.
 Darauf basierend ist der [Post zu den Requirements]({{< relref "2017-04-03-requirements-stakeholder.md" >}}) entstanden.
 
 # 3. Vorlesung am 04. April
@@ -88,7 +92,9 @@ Er hatte einen hohen Demo Anteil, in dem er einen kleinen Service erstellt hat u
 Dies funktionierte auch deswegen als Live Demo gut, weil er sehr gut und schnell mit dem Kubernetes CLI umgehen konnte.
 Ich hätte mir dennoch etwas mehr visuelles "was habe ich jetzt vor" gewünscht, um zu sehen worauf er eigentlich gerade hin arbeitet.
 
-Fortgesetzt wurde die Vorlesung von unserer Professorin mit der Mandantenfähigkeit von Cloud Services. Grundlegend wurde dieser Abschnitt bereits zwei Vorlesungen früher als Isolation für IaaS erklärt. Dieser Part stellte also eher nur eine detailliertere Wiederholung auf Basis für PaaS und SaaS da.
+Fortgesetzt wurde die Vorlesung von unserer Professorin mit der Mandantenfähigkeit von Cloud Services.
+Grundlegend wurde dieser Abschnitt bereits zwei Vorlesungen früher als Isolation für IaaS erklärt.
+Dieser Part stellte also eher nur eine detailliertere Wiederholung auf Basis für PaaS und SaaS da.
 
 Im letzten Teil der Vorlesung wurde sich dann mit grundlegenden Standards für Webservices befasst:
 

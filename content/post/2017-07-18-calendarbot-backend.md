@@ -17,7 +17,8 @@ aliases:
 ---
 
 Der HAW HH Kalenderbot [@HAWHHCalendarBot](//t.me/HAWHHCalendarBot), ein von einer nicht unerheblichen Zahl von HAW Studenten genutzter Telegram Bot zur Erstellung eines personalisierten, abonnierbaren Kalenders, hat ein neues Backend.
-Wie vielleicht einige mitbekommen haben, war das alte Backend vom Quellcode… nicht vorzeigbar. Das hat sich nun mit einem neuen Backend geändert.
+Wie vielleicht einige mitbekommen haben, war das alte Backend vom Quellcode… nicht vorzeigbar.
+Das hat sich nun mit einem neuen Backend geändert.
 
 Begonnen wurde das alte Backend im ersten Semester als Tool zum Download von Unterlagen zu Vorlesungen unterschiedlicher Profs in einen gemeinsamen, geteilten Dropbox Ordner.
 In dieses Tool wurde dann das Parsen von den Vorlesungsplan PDFs integriert.

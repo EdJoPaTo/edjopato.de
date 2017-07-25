@@ -23,7 +23,9 @@ Diese so erstellten, statisch Seiten lade ich dann hoch.
 Ein Problem stellen große Bilder dar, da diese schnell relativ groß werden.
 Um entgegen zu wirken, habe ich mir einige Dinge angewöhnt, um die Bilder auf meiner Website zu komprimieren.
 
-(Ja, mich stört aktuell noch die das benutzte CSS Framework [Bulma](//bulma.io), da ich es aktuell komplett einbinde. Bulma bietet aber den Vorteil, nur Teile des Frameworks einbinden zu können. Muss ich in Zukunft mal machen.)
+(Ja, mich stört aktuell noch die das benutzte CSS Framework [Bulma](//bulma.io), da ich es aktuell komplett einbinde.
+Bulma bietet aber den Vorteil, nur Teile des Frameworks einbinden zu können.
+Muss ich in Zukunft mal machen.)
 
 # SVG
 
@@ -38,7 +40,10 @@ So ist es egal, ob ein Oval auf einem kleinen Handydisplay oder auf einem 4K Mon
 
 "Waves and Circles" Quelle: [FreeVector](http://www.freevector.com/waves-and-circles)
 
-Ein gutes Beispiel ist das aktuelle Hintergrundbild "Waves and Circles" der [Blog Übersichtsseite](/blog): Es besteht nur aus abstrakten Formen, wie Kurven, Kreisen oder Farbverläufen. Das SVG ist 44 kB groß. Als 800x600 PNG gespeichert benötigt es 176 kB (1300x1000 PNG benötigt 313 kB). Und man wird im SVG nie Pixel erkennen können.
+Ein gutes Beispiel ist das aktuelle Hintergrundbild "Waves and Circles" der [Blog Übersichtsseite](/blog): Es besteht nur aus abstrakten Formen, wie Kurven, Kreisen oder Farbverläufen.
+Das SVG ist 44 kB groß.
+Als 800x600 PNG gespeichert benötigt es 176 kB (1300x1000 PNG benötigt 313 kB).
+Und man wird im SVG nie Pixel erkennen können.
 
 
 ## Von Rasterbild zu SVG
@@ -62,7 +67,8 @@ Sind sie als Bilder in der PDF gespeichert, können diese, wie andere Rasterbild
 
 ## Kompression von SVG Dateien
 
-[SVGO](//github.com/svg/svgo) ist ein Tool zum Optimieren von SVGs. Da dies ein CLI Tool mit vielen Konfigurationsmöglichkeiten ist, die nicht auf jedes SVG gleich angewandt werden können, wurde das [SVGOMG](//github.com/jakearchibald/svgomg) (SVGO Missing GUI) Projekt ins Leben gerufen.
+[SVGO](//github.com/svg/svgo) ist ein Tool zum Optimieren von SVGs.
+Da dies ein CLI Tool mit vielen Konfigurationsmöglichkeiten ist, die nicht auf jedes SVG gleich angewandt werden können, wurde das [SVGOMG](//github.com/jakearchibald/svgomg) (SVGO Missing GUI) Projekt ins Leben gerufen.
 SVGOMG ist [hier](//jakearchibald.github.io/svgomg/) gehostet und kann direkt im Browser benutzt werden.
 Alle Interaktionen passieren danach lokal im Browser.
 
@@ -86,10 +92,12 @@ Hinzu kommt, dass das SVG unabhängig der Bildschirmgröße scharf dargestellt w
 
 # PNG/ JPG
 
-Bei Rasterbildern kommt es darauf an, was das Bild darstellt. Ist es ein simples Bild mit wenigen, gleichen Farben, wie Schaugrafiken, dann bietet sich die Umwandlung in SVG oder das Speichern als PNG an.
+Bei Rasterbildern kommt es darauf an, was das Bild darstellt.
+Ist es ein simples Bild mit wenigen, gleichen Farben, wie Schaugrafiken, dann bietet sich die Umwandlung in SVG oder das Speichern als PNG an.
 Bilder mit vielen unterschiedlichen Farben, wie Fotos, sind eigentlich immer mit JPG kleiner speicherbar.
 
-Generell achte ich darauf, die Bilder nicht mit zu großen Dimensionen zu Speichern. 2000x1000 Pixel hoch/ breit reicht für Hintergrundbilder völlig aus.
+Generell achte ich darauf, die Bilder nicht mit zu großen Dimensionen zu speichern.
+2000x1000 Pixel hoch/ breit reicht für Hintergrundbilder völlig aus.
 PNGs speichere ich mit [GIMP](//gimp.org) mit einer minimalen Farbpalette (`Image -> Mode -> Indexed…`).
 Dazu sucht GIMP die n meist genutzten Farben und speichert das Bild komplett mit diesen Farben.
 16 oder 32 Farben reichen für die meisten Schaugrafiken aus.
@@ -101,7 +109,8 @@ Mit diesem Skript wurde aus dem Aprilwetter Hintergrundbild (3,2 MB Originalgrö
 
 # GIF
 
-Da GIFs eine Ansammlung aus Bildern darstellt, sind diese besonders groß. Da ich diese aber sehr selten verwende, habe ich damit noch nicht so viele Erfahrungen gesammelt.
+Da GIFs eine Ansammlung aus Bildern darstellt, sind diese besonders groß.
+Da ich diese aber sehr selten verwende, habe ich damit noch nicht so viele Erfahrungen gesammelt.
 Wenn benötigt, nutze ich [ezGIF](//ezgif.com/) und erreiche damit schon relativ große Erfolge.
 Aber es geht sicherlich noch besser.
 

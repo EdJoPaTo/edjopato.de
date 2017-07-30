@@ -28,7 +28,7 @@ Die **Website** wird von den Nutzern unseren BPaaS Angebots genutzt.
 Sie bietet eine grafische Schnittstelle zu unserem System.
 Mit ihrer Hilfe können die Business Prozesse ausgeführt werden.
 Außerdem können neue Business Prozesse und die darin verwendeten Services angelegt werden.
-Zum erstellen der Website wurde das [React Framework](//facebook.github.io/react/) verwendet.
+Zum Erstellen der Website wurde das [React Framework](//facebook.github.io/react/) verwendet.
 Mehr dazu im Blog Eintrag vom Verantwortlichen der Website, sobald dieser erschienen ist…
 
 Die Website benutzt für alle Interaktionen mit unserem System die **API**.

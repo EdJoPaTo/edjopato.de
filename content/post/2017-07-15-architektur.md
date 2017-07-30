@@ -7,7 +7,7 @@ background:
 categories:
 - tti
 date: 2017-07-15T01:30:00+02:00
-lastmod: 2017-07-25T13:15:00+02:00
+lastmod: 2017-07-25T17:32:00+02:00
 tags:
 - architektur
 - bpaas-angebot
@@ -52,6 +52,7 @@ Mehr zum BPExecutor und der BPInstance im [Blog Post zum Thema]({{< relref "2017
 Der **Monitor** dient zur Auswertung der Kundenaktivität, um Aussagen treffen zu können, wie viel ein Business Prozess oder Service genutzt wurde.
 Dafür beobachtet dieser im System verlaufende RabbitMQ Nachrichten.
 Aus Zeitgründen wurde der Monitor im Laufe des Projekts zurückgestellt und nicht weiter bearbeitet.
+Etwas ausführlicher beschrieben wird der Monitor im [Blog Post](//tti-ss2017-portfolio.jimdo.com/2017/07/08/monitor-oder-ein-anfang/) des Verantwortlichen…
 
 Die **Services** stellen die einzelnen Schritte eines Business Prozesses dar.
 Diese können von Kunden erstellt und in unserem System zur Verwendung registriert werden.

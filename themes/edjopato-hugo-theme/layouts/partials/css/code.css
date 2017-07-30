@@ -21,7 +21,7 @@ pre .kt, pre .kr {
   font-weight: bold;
 }
 
-pre .mi {
+pre .kc, pre .mi {
   /* const / operator */
   color: #6A6;
 }

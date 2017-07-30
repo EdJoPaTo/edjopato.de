@@ -10,7 +10,9 @@ background:
 date: 2017-03-30T14:32:00+02:00
 lastmod: 2017-04-04T20:56:00+02:00
 tags:
+- blog
 - jekyll
+- static-page
 - website
 title: 'Website überarbeitet: Jetzt mit Jekyll und einem Blog'
 aliases:

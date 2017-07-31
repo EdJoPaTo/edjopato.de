@@ -29,7 +29,7 @@ Sie bietet eine grafische Schnittstelle zu unserem System.
 Mit ihrer Hilfe können die Business Prozesse ausgeführt werden.
 Außerdem können neue Business Prozesse und die darin verwendeten Services angelegt werden.
 Zum Erstellen der Website wurde das [React Framework](//facebook.github.io/react/) verwendet.
-Mehr dazu im Blog Eintrag vom Verantwortlichen der Website, sobald dieser erschienen ist…
+Mehr dazu im [Blog Eintrag zum Praktikum](//tti-ss17-wiechmann.jimdo.com/praktikum/) vom Verantwortlichen der Website…
 
 Die Website benutzt für alle Interaktionen mit unserem System die **API**.
 Diese bietet eine REST Schnittstelle an, die mit Hilfe von [Swagger](//swagger.io/) definiert wurde.

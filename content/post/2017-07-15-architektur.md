@@ -7,7 +7,7 @@ background:
 categories:
 - tti
 date: 2017-07-15T01:30:00+02:00
-lastmod: 2017-07-25T17:32:00+02:00
+lastmod: 2017-08-01T01:44:00+02:00
 tags:
 - architektur
 - bpaas-angebot
@@ -36,7 +36,7 @@ Diese bietet eine REST Schnittstelle an, die mit Hilfe von [Swagger](//swagger.i
 Dies bietet den Vorteil, das Swagger sowohl eine gute Doku, als auch vereinfachte Erstellung der API Komponente bietet.
 Die API ist stateless und reicht sämtliche Anfragen an die jeweiligen, zuständigen Komponenten innerhalb des Systems weiter.
 Dafür wird [RabbitMQ](//rabbitmq.com) verwendet.
-Mehr zur API im Blog Eintrag vom Verantwortlichen der API, sobald dieser erschienen ist…
+Mehr zur API im [Blog Post](//tti-ss2017-portfolio.jimdo.com/2017/07/13/beschreibung-unserer-api/) vom Verantwortlichen…
 
 Der **Data Center** enthält die persistent gespeicherten Informationen unseres Systems, wie die Business Prozesse oder die hinterlegten Services, die verwendet werden können.
 Mehr zum [Data Center](//haw-hamburg-tti.blogspot.de/2017/07/datenbank-fur-eine-bpaas-plattform.html) und zur [Definition der gespeicherten Daten](//haw-hamburg-tti.blogspot.de/2017/07/business-processes-in-einer-bpaas.html) im jeweiligen Blog Post der Verantwortlichen…

@@ -21,7 +21,7 @@ tags:
 ---
 Ich habe ein Abstraktionstool für Resilio Sync erstellt.
 Was ist überhaupt Resilio Sync, warum habe ich das getan und was hilft mir das?
-<!-- more -->
+<!--more-->
 
 # Resilio Sync
 

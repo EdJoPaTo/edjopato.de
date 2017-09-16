@@ -24,15 +24,6 @@
     }
   },
   {
-    "title": "Legacy EVE Tools",
-    "description": "Hier gibt es die alte EVE Tool Sammlung.",
-    "url": "//eve.3t0.de",
-    "background": {
-      "style": "url(/assets/backgrounds/orcawarp.jpg)",
-      "dark": true
-    }
-  },
-  {
     "title": "TeamSpeak 3",
     "description": "Ein öffentlicher TeamSpeak 3 Server ist unter [ts.3t0.de](http://ts.3t0.de) gehostet.\n\nKomm doch mal vorbei. Jeder ist willkommen.",
     "url": "ts3server://ts.3t0.de"

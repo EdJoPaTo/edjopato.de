@@ -5,7 +5,7 @@ background:
   name: Blick aus dem HAW Fenster
   style: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(/assets/backgrounds/haw-raindrops1.jpg)
 date: 2017-07-18T00:50:00+02:00
-lastmod: 2017-07-18T15:12:00+02:00
+lastmod: 2017-09-16T15:52:00+02:00
 tags:
 - calendarbot
 - docker
@@ -33,7 +33,7 @@ Anfangs dachte ich über eine neue Implementierung des Backends mittels [NodeJS]
 Jedoch finde ich für mich die Sprache C# komfortabler als NodeJS und da seit noch nicht allzu langer Zeit mittels [.NET Core](//dotnet.github.io/) auch C# auf Linux und macOS läuft, bot sich dies an.
 Da die Container in der für [TTI](/blog/tti) genutzten Docker Swarm Umgebung gut liefen, wurde die Entscheidung gefällt, auch hierfür werden Docker Container genutzt.
 Damit ist der Host vServer auch unabhängig von der genutzten Programmiersprache und kann leichter geupdatet werden, wenn nur die Container migriert werden müssen.
-(Meine alte [EVE Seite](//eve.3t0.de) lebt schon seit Jahren auf PHP, nicht gerade migrierfreundlich, aber nicht Tod zu kriegen… Definitely learned from that.)
+(Meine alte [EVE Seite](//eve.3t0.de) lebt schon seit Jahren auf PHP, nicht gerade migrierfreundlich, aber nicht Tod zu kriegen… Definitely learned from that. Edit: It's dead, Jim)
 
 Um von dem bisherigen Monolithen weg zu kommen, wurde die Architektur dreigeteilt: Der Telegram Bot wie bisher, der Downloader und der Parser.
 Der Downloader lädt regelmäßig die aktuellen Kalender von den HAW Servern und stellt diese intern bereit.

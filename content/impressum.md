@@ -8,7 +8,7 @@ date: 2017-07-25T13:54:32+02:00
 lastmod: 2017-07-25T13:54:32+02:00
 title: "Impressum"
 ---
-Der Verantwortliche für diese Website (3t0.de, edjopato.de) und deren Inhalt ist Edgar Toll.
+Der Verantwortliche für diese Website (edjopato.de) und deren Inhalt ist Edgar Toll.
 
 Kontaktemail: info@3t0.de (Kontakt bitte ausschließlich auf Englisch oder Deutsch)
 

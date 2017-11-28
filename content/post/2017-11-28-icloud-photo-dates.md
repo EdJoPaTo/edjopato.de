@@ -5,7 +5,7 @@ background:
   name: Schmetterling in Bad Harzburg
   style: url(/assets/backgrounds/schmetterling.jpg)
 date: 2017-11-28T23:32:00+01:00
-lastmod: 2017-11-28T23:32:00+01:00
+lastmod: 2017-11-28T23:45:00+01:00
 title: Alte Bilder korrekt in die iCloud Photos importieren
 subtitle: Exif Datum berücksichtigen
 tags:
@@ -29,9 +29,9 @@ Mit dem Befehl `jhead -ft *.jpg` lässt sich das Exif Datum auf die FileTime sch
 Diese Bilder dann importiert, landen an der richtigen Stelle im Photo Stream.
 
 
-# Der sonstige Import-Vorgang
+# Mein Import-Vorgang
 
-- Bilder auf meinem Linux System sammeln
+- Bilder auf meinem Linux System in einem Ordner sammeln
 - Mit dem oberen Befehl alle Dateiänderungsdaten auf das jeweilige Exif Datum setzen
 - Mit [Transmit](https://itunes.apple.com/de/app/transmit/id917432930) die Bilder vom Linux Rechner (über SFTP) in die Photo Library laden
 - Fertig

@@ -39,7 +39,7 @@
   box-shadow: 0 0 2px 0 #dbdbdb;
 }
 
-.pagination a {
+.pagination a, .pagination span {
   align-items: center;
   display: inline-flex;
   height: 2.25rem;

@@ -16,7 +16,6 @@ tags:
   - libreelec
   - pi
   - raspberry
-draft: true
 ---
 Seit vom vorläufigen DVB-T2 auf das "richtige" DVB-T2 umgestellt wurde, empfangen wir nur noch NDR.
 Im Folgenden beschreibe ich meinen Weg, öffentliche Fernsehsender mit dem Pi auf den Fernseher zu bringen.

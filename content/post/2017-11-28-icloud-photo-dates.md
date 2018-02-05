@@ -14,7 +14,6 @@ tags:
   - icloud
   - ios
   - photos
-  -
 ---
 Ich habe meine Fotos früher aus dem iCloud Photo Stream in die Dropbox und später auf meinen NAS gepackt, da ich nur 5 GB iCloud Speicherplatz hatte und diesen nicht erweitern wollte.
 Mittlerweile habe ich diesen Schritt gemacht und wollte die alten Bilder wieder importieren.

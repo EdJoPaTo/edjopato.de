@@ -5,7 +5,7 @@ background:
   name: HAW Hamburg Brücke zwischen BT5 und BT7
   style: url(/assets/backgrounds/haw-bridge-snow.jpg)
 date: 2018-02-05T16:30:00+01:00
-lastmod: 2018-02-05T16:30:00+01:00
+lastmod: 2018-08-08T07:00:00+02:00
 title: Raspberry Pi IPTV
 tags:
   - ard
@@ -14,8 +14,7 @@ tags:
   - iptv
   - kodi
   - libreelec
-  - pi
-  - raspberry
+  - raspberry-pi
 ---
 Seit vom vorläufigen DVB-T2 auf das "richtige" DVB-T2 umgestellt wurde, empfangen wir nur noch NDR.
 Im Folgenden beschreibe ich meinen Weg, öffentliche Fernsehsender mit dem Pi auf den Fernseher zu bringen.

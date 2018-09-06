@@ -5,7 +5,7 @@ background:
   name: HAW Hamburg Brücke zwischen BT5 und BT7
   style: url(/assets/backgrounds/haw-bridge-snow.jpg)
 date: 2018-02-05T16:30:00+01:00
-lastmod: 2018-08-08T07:00:00+02:00
+lastmod: 2018-08-07T20:30:00+02:00
 title: Raspberry Pi IPTV
 tags:
   - ard
@@ -61,7 +61,7 @@ Tipp: über diesen Weg kann man auch Livestreams in VLC schauen, in dem man dies
 
 Der erste Gedanke war eine \*.strm Datei auf den Raspberry zu legen, die nur den Link zum Stream enthält, wie im folgenden Beispiel der (aktuelle) "Das Erste" Stream:
 ```
-https://daserstelive-lh.akamaihd.net/i/daserste_de@38086/master.m3u8
+https://daserstehdde-lh.akamaihd.net/i/daserstehd_de@629196/master.m3u8
 ```
 Funktioniert, aber man muss immer die jeweilige Datei aus dem Ordner öffnen, in die man die Dateien gelegt hat.
 

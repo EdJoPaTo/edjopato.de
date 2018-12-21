@@ -1,12 +1,9 @@
 ---
 background:
-  style: radial-gradient(rgba(0,0,0,0.6) 30%, rgba(0,0,0,0.1)), url(/assets/backgrounds/waves-and-circles.svg)
+  style: url(/assets/backgrounds/wl-laptop.jpg)
   color: '#555'
   is-dark: true
-  name: 'Waves and Circles'
-  source:
-    name: FreeVector
-    url: '//www.freevector.com/waves-and-circles'
+  name: 'Mit dem Laptop im Garten'
 title: Blog
 subtitle: 'Ein Blog über Dinge. Mit Typos.'
 aliases:

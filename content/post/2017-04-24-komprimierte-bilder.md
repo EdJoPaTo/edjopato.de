@@ -5,6 +5,7 @@ background:
   name: Aprilwetter Winsen
   style: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),url(/assets/backgrounds/wl-hagel.jpg)
 date: 2017-04-24T17:00:00+02:00
+lastmod: 2018-12-21T23:26:00+01:00
 tags:
 - bilder
 - kompression
@@ -40,7 +41,7 @@ So ist es egal, ob ein Oval auf einem kleinen Handydisplay oder auf einem 4K Mon
 
 "Waves and Circles" Quelle: [FreeVector](http://www.freevector.com/waves-and-circles)
 
-Ein gutes Beispiel ist das aktuelle Hintergrundbild "Waves and Circles" der [Blog Übersichtsseite](/blog): Es besteht nur aus abstrakten Formen, wie Kurven, Kreisen oder Farbverläufen.
+Ein gutes Beispiel ist das Hintergrundbild "Waves and Circles", welches eine Zeit lang das Hintergrundbild der [Blog Übersichtsseite](/blog) war: Es besteht nur aus abstrakten Formen, wie Kurven, Kreisen oder Farbverläufen.
 Das SVG ist 44 kB groß.
 Als 800x600 PNG gespeichert benötigt es 176 kB (1300x1000 PNG benötigt 313 kB).
 Und man wird im SVG nie Pixel erkennen können.

@@ -3,7 +3,7 @@ background:
   name: Neue Hamburger U-Bahn Station Elbbrücken
   style: url(/assets/backgrounds/hh-elbbruecken.jpg)
 date: 2018-12-23T02:35:00+01:00
-lastmod: 2018-12-23T02:35:00+01:00
+lastmod: 2018-12-23T02:45:00+01:00
 title: iPhone Battery Health
 tags:
   - apple
@@ -44,6 +44,10 @@ Bug oder Feature? Unklar.
 # Herangehensweise
 
 Die Datensammlung und die Logik zum Generieren von Plots liegt in einem [GitHub Repo](https://github.com/EdJoPaTo/iPhoneBatteryHealth).
+
+Die Daten werden in einer CSV Datei gesammelt.
+Soll ein neuer Plot erstellt werden, wird mit Hilfe von NodeJS die CSV Datei eingelesen und passend für Gnuplot in temporäre CSV Dateien geschrieben.
+Letztere liest dann das durch NodeJS gestartete Gnuplot und erstellt die Plots als PNG, SVG und PDF.
 
 Wenn ich noch mal Langeweile habe, könnte man die Datenhaltung von CSV auf ein JSON Format ändern.
 Damit ließen sich zum Beispiel genauere Zeitstempel als monatlich realisieren.

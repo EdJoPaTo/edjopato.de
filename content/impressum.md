@@ -1,7 +1,5 @@
 ---
 background:
-  color: ''
-  is-dark: true
   name: 'Blick aus dem 12. Stock der HAW Hamburg'
   style: url(/assets/backgrounds/haw-raindrops2.jpg)
 date: 2017-07-25T13:54:32+02:00

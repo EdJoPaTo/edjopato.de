@@ -1,7 +1,5 @@
 ---
 background:
-  color: '#91bffa'
-  is-dark: true
   name: Luhepark Winsen
   style: url(/assets/backgrounds/luhepark4.jpg)
 categories:

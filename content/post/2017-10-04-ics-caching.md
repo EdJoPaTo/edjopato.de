@@ -1,7 +1,5 @@
 ---
 background:
-  color: '#8497b7'
-  is-dark: true
   name: Maschsee Hannover
   style: url(/assets/backgrounds/maschsee.jpg)
 date: 2017-10-04T19:54:00+02:00

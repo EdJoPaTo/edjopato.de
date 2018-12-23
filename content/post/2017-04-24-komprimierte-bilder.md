@@ -1,7 +1,5 @@
 ---
 background:
-  color: '#999'
-  is-dark: true
   name: Aprilwetter Winsen
   style: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),url(/assets/backgrounds/wl-hagel.jpg)
 date: 2017-04-24T17:00:00+02:00

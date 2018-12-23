@@ -1,7 +1,5 @@
 ---
 background:
-  color: '#777'
-  is-dark: true
   name: Blick aus dem HAW Fenster
   style: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(/assets/backgrounds/haw-raindrops1.jpg)
 date: 2017-07-18T00:50:00+02:00

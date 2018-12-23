@@ -1,7 +1,5 @@
 ---
 background:
-  color: '#cee0eb'
-  is-dark: true
   name: Brücke bei Fahrenholz über die Ilmenau
   style: url(/assets/backgrounds/fahrenholz.jpg)
 date: 2017-07-30T17:27:00+02:00

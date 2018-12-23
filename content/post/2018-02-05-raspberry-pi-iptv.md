@@ -1,7 +1,5 @@
 ---
 background:
-  color: '#3c3c5c'
-  is-dark: true
   name: HAW Hamburg Brücke zwischen BT5 und BT7
   style: url(/assets/backgrounds/haw-bridge-snow.jpg)
 date: 2018-02-05T16:30:00+01:00

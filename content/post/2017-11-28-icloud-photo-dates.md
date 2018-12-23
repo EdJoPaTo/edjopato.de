@@ -1,7 +1,5 @@
 ---
 background:
-  color: '#535652'
-  is-dark: true
   name: Schmetterling in Bad Harzburg
   style: url(/assets/backgrounds/schmetterling.jpg)
 date: 2017-11-28T23:32:00+01:00

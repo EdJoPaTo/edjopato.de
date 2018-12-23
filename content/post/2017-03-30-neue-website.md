@@ -1,7 +1,5 @@
 ---
 background:
-  color: '#555'
-  is-dark: true
   name: Waves and Circles
   source:
     name: FreeVector

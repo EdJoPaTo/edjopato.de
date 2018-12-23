@@ -3,7 +3,7 @@
   "description": "Ein Blog über Dinge. Mit Typos.",
   "url": "/post",
   "background": {
-    "style": "radial-gradient(rgba(0,0,0,0.6) 30%, rgba(0,0,0,0.1)), url(/assets/backgrounds/waves-and-circles.svg)",
+    "style": "url(/assets/backgrounds/wl-laptop.jpg)",
     "dark": true
   }
 }, {

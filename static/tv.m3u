@@ -3,9 +3,15 @@
 https://daserstehdde-lh.akamaihd.net/i/daserstehd_de@629196/master.m3u8
 #EXTINF:-1,ZDF
 https://zdf1314-lh.akamaihd.net/i/de14_v1@392878/master.m3u8
+#EXTINF:-1,NDR-HH
+https://ndrfs-lh.akamaihd.net/i/ndrfs_hh@430231/master.m3u8
+#EXTINF:-1,NDR-NDS
+https://ndrfs-lh.akamaihd.net/i/ndrfs_nds@430233/master.m3u8
 #EXTINF:-1,WDR
 https://wdrfsgeo-lh.akamaihd.net/i/wdrfs_geogeblockt@530016/master.m3u8
 #EXTINF:-1,3sat
 http://zdf0910-lh.akamaihd.net/i/dach10_v1@392872/master.m3u8
+#EXTINF:-1,arte
+https://artelive-lh.akamaihd.net/i/artelive_de@393591/master.m3u8
 #EXTINF:-1,KIKA
 https://kikade-lh.akamaihd.net/i/livetvkika_de@450035/master.m3u8

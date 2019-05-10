@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1,Das Erste
-https://daserstehdde-lh.akamaihd.net/i/daserstehd_de@629196/master.m3u8
+https://mcdn.daserste.de/daserste/de/master.m3u8
 #EXTINF:-1,ZDF
 https://zdf1314-lh.akamaihd.net/i/de14_v1@392878/master.m3u8
 #EXTINF:-1,NDR-HH

@@ -6,7 +6,7 @@ section.main {
 
 section.main>div, section.main>article {
   margin: 0 auto;
-  padding: 0 0.5rem;
+  padding: 0 1rem;
   max-width: 1300px;
 }
 

@@ -3,13 +3,13 @@ background:
   name: Neue Hamburger U-Bahn Station Elbbrücken
   style: url(/assets/backgrounds/hh-elbbruecken.jpg)
 date: 2018-12-23T02:35:00+01:00
-lastmod: 2018-12-23T02:45:00+01:00
+lastmod: 2019-01-14T22:55:00+01:00
 title: iPhone Battery Health
 tags:
   - apple
   - iPhone
   - battery
-  - lithium ion
+  - lithium-ion
 ---
 Apple hat mit seiner Akku Drossel eine Menge negative Presse bekommen und das Battery Health Feature eingeführt.
 Daraufhin habe ich einfach mal ein paar Freunde gefragt, "wie sieht es denn bei dir aus", und dies geplottet.

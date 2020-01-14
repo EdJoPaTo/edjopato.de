@@ -3,11 +3,13 @@ background:
   name: Blick aus dem HAW Fenster
   style: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(/assets/backgrounds/haw-raindrops1.jpg)
 date: 2017-07-18T00:50:00+02:00
-lastmod: 2017-09-16T15:52:00+02:00
+lastmod: 2019-01-14T22:55:00+01:00
 tags:
 - calendarbot
 - docker
 - haw
+- haw-hamburg
+- hawhh
 - telegram
 title: Das neue HAW HH Kalenderbot Backend
 aliases:

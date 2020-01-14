@@ -3,13 +3,15 @@ background:
   name: Maschsee Hannover
   style: url(/assets/backgrounds/maschsee.jpg)
 date: 2017-10-04T19:54:00+02:00
-lastmod: 2017-10-04T19:54:00+02:00
+lastmod: 2019-01-14T22:55:00+01:00
 title: Caching von abonnierten ICS Kalendern
 tags:
 - calendarbot
 - exchange
 - google
 - haw
+- haw-hamburg
+- hawhh
 - ios
 - macos
 - telegram

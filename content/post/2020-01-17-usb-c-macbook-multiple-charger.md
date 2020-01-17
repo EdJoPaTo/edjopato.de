@@ -1,15 +1,18 @@
 ---
 background:
+  name: USB-C Netzteile an der Hochschule. Mit bunten LEDs.
   style: url(/assets/backgrounds/usb-pd-charger.jpg)
 date: 2020-01-17T14:10:00+01:00
-lastmod: 2020-01-17T14:10:00+01:00
-title: Mehrere USB-C Power Delivery Charger an einem MacBook
+lastmod: 2020-01-17T15:00:00+01:00
+title: Mehrere USB-C Netzteile an einem MacBook
 tags:
-  - usb-c
+  - apple
+  - macbook
   - power-delivery
+  - usb-c
 ---
-Was passiert eigentlich, wenn man mehrere USB-C Power Delivery Netzteile an ein MacBook anschließt?
-Wenn das im Gespräch aufkam, war die Antwort bisher immer, mit meinem MacBook probier ich das nicht aus.
+Was passiert eigentlich, wenn man mehrere USB-C Netzteile an ein MacBook anschließt?
+Wenn das in einem Gespräch aufkam, war die Antwort von allen bisher immer, mit meinem MacBook probier ich das nicht aus.
 Da aber die Thunderbolt Displays, die Apple selbst empfiehlt, auch laden können und mehrere gleichzeitig benutzt werden können, muss es eine Lösung geben.
 <!--more-->
 
@@ -33,7 +36,7 @@ Und aus jux noch ein no name USB-A 5V 2.1A Netzteil (11W) mit irgendeinem no nam
 # Sidequest Innenwiderstände der Kabel
 
 Da die beiden Kabel jeweils 90 cm lang sind, sollte der Innenwiderstand relativ ähnlich sein.
-Das eine Kabel ist für Datenübertragung das andere zum Laden gemacht, von daher war meine Annahme, die Spannung am dem roten Kabel müsste höher sein -> geringerer Innenwiderstand.
+Das rote Kabel ist für Datenübertragung das schwarze zum Laden gemacht, von daher war meine Annahme, die Spannung am Ende des roten Kabels müsste höher sein -> geringerer Innenwiderstand.
 Um gleiche Messergebnisse zu haben, habe ich das Kabel angesteckt und kurz gewartet.
 Damit ist die aufgenommene Leistung des MacBooks ähnlich und pendete sich auf etwa 15W ein (bei 20V).
 
@@ -42,7 +45,7 @@ Am Ende des schwarzen Datenkabels war die Spannung etwa bei 20.12V.
 Am Ende des roten Ladekabels etwa bei 20.00V.
 
 Größerer Spannungsabfall über dem Kabel bedeutet größerer Innenwiderstand.
-Der Innenwiderstand des roten Ladekabels ist also höher / schlechter.
+Der Innenwiderstand des roten Ladekabels ist also entgegen der Erwartung höher / schlechter.
 
 # Mehrere Charger am MacBook
 

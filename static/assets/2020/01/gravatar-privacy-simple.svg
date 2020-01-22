@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+	<circle cx="250" cy="250" r="250" fill="#fa0000"/>
+	<g font-family="sans-serif">
+		<text x="177.2998" y="26.396484" font-size="15px" style="line-height:1.25"><tspan x="177.2998" y="26.396484">EdJoPaTo was here</tspan></text>
+		<g text-anchor="middle">
+			<text x="248.65112" y="148.42532" font-size="65px" style="line-height:1.05"><tspan x="248.65112" y="148.42532" text-align="center">This service</tspan><tspan x="248.65112" y="216.67532" text-align="center">violates</tspan><tspan x="248.65112" y="284.92532" text-align="center">your privacy</tspan></text>
+			<text x="250.04492" y="342.51007" font-family="sans-serif" font-size="23px" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="250.04492" y="342.51007">When you see this, this service</tspan><tspan x="250.04492" y="371.26007">shares e-mail addresses</tspan><tspan x="250.04492" y="400.01007">with a 3rd party (gravatar)</tspan><tspan x="250.04492" y="428.76007">which are beeing tracked.</tspan><tspan x="250.04492" y="457.51007">Have i accepted that?</tspan><tspan x="250.04492" y="486.26007"/></text>
+			<text x="250.04492" y="318.9212" display="none" font-family="sans-serif" font-size="23px" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="0" y="0">When you see this, this service</tspan><tspan x="0" y="0">shares e-mail addresses</tspan><tspan x="0" y="0">with a 3rd party (gravatar)</tspan><tspan x="0" y="0">which are beeing tracked</tspan><tspan x="0" y="0">AND contain my full name.</tspan><tspan x="0" y="0">Have i accepted that?</tspan><tspan x="0" y="0"/></text>
+		</g>
+	</g>
+</svg>

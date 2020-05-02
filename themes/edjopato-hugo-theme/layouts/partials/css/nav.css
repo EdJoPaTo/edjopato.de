@@ -1,19 +1,19 @@
 nav {
-  background-color: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 1px 0 rgba(245, 245, 245, 0.2);
+  background: linear-gradient(rgba(0,0,0,.7), transparent);
 }
 
 nav > div {
   display: flex;
   margin: 0 auto;
   max-width: 1300px;
-  min-height: 3.25rem;
+  min-height: 3.5rem;
   padding: 0 0.5rem;
 }
 
 nav, nav a {
   color: #bbb;
   text-decoration: none;
+  text-shadow: 1px 1px 10px #000;
 }
 
 nav a:hover {
@@ -32,5 +32,5 @@ nav .right {
 nav .left > *, nav .right > * {
   display: flex;
   align-items: center;
-  padding: 0.5rem 0.75rem;
+  padding: 0.5rem 0.75rem 1rem;
 }

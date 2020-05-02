@@ -66,15 +66,16 @@ section.has-bg.is-light {
 }
 
 .avatar {
-    width: 50%;
-    max-width: 400px;
-    height: auto;
-    margin: 20px;
-    border-radius: 25%;
-    transition: transform 0.5s, border-radius 0.5s;
+  box-shadow: 1px 1px 10px rgb(255, 255, 0);
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  margin: 20px;
+  border-radius: 25%;
+  transition: transform 0.5s, border-radius 0.5s;
 }
 
 .avatar:hover {
-    transform: rotate(360deg);
-    border-radius: 50%;
+  transform: rotate(360deg);
+  border-radius: 50%;
 }

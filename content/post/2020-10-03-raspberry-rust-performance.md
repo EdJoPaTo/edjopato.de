@@ -98,6 +98,7 @@ Spannend fand ich persönlich dass der Unterschied zwischen Raspberry Pi 2, 3 un
 Pi 2 benötigt, verglichen mit dem Pi 4, fast 4 mal so lange und der Pi 4 hat nur eine etwa 60% höhere Frequenz, weit ab von dem vierfachen.
 Auch der Unterschied zwischen 2 und 3 bzw. 3 und 4 ist jeweils recht groß.
 Für mich war der 3er beispielsweise bisher nur ein "etwas schneller und WLAN" Upgrade, keine fast Verdoppelung.
+Leserkommentar: Auch der Sprung von Pi 1 zu 2 ist gewaltig: 4 fach Kerne aber 10 fache Release Build Dauer.
 
 Interessanterweise waren Rock Pi und Raspberry Pi 4 beim Release nahezu gleich schnell, obwohl der Rock Pi sowohl eine höhere Frequenz als auch mehr Threads hat.
 Beim Dev Build macht sich aber die höhere Frequenz bemerkbar.

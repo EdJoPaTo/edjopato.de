@@ -3,7 +3,7 @@ background:
   name: Oktober Blumen im Luhepark
   style: url(/assets/2020/10/flower-red.jpg)
 date: 2020-10-03T04:05:00+02:00
-lastmod: 2020-10-03T04:05:00+02:00
+lastmod: 2020-10-03T04:40:00+02:00
 title: Performance unterschiedlicher Raspberry Pis
 tags:
   - intel-nuc
@@ -14,7 +14,7 @@ tags:
   - rust
 ---
 Ich hab mich gefragt, wie die unterschiedlichen Raspberries etwa vergleichbar sind in Performance.
-Der Pi 2 und Pi sind beides 4 Kerner, das sollte nicht soo viel unterschied machen, oder?
+Der Pi 2 und Pi 4 sind beides 4 Kerner, das sollte nicht soo viel Unterschied machen, oder?
 Da ich aktuell mehr mit Rust mache, habe ich einfach mal eines meiner Rust Tools auf unterschiedlichen Geräten gebaut.
 <!--more-->
 
@@ -95,8 +95,11 @@ Entweder sind die Geräte in meinem Besitz oder zum Zeitpunkt des Testens für H
 
 Der älteste Raspi 1B ist erwarteterweise der Langsamste, da dieser auch nur 1 Kern hat.
 Spannend fand ich persönlich dass der Unterschied zwischen Raspberry Pi 2, 3 und 4 doch so groß ist.
+Pi 2 benötigt, verglichen mit dem Pi 4, fast 4 mal so lange und der Pi 4 hat nur eine etwa 60% höhere Frequenz, weit ab von dem vierfachen.
+Auch der Unterschied zwischen 2 und 3 bzw. 3 und 4 ist jeweils recht groß.
+Für mich war der 3er beispielsweise bisher nur ein "etwas schneller und WLAN" Upgrade, keine fast Verdoppelung.
 
-Interessanterweise waren Rock Pi und Raspberry Pi 4 beim Release nahezu gleich schnell, obwohl der Rock Pi sowohl eine höhere Frequenz hat als auch mehr Threads.
+Interessanterweise waren Rock Pi und Raspberry Pi 4 beim Release nahezu gleich schnell, obwohl der Rock Pi sowohl eine höhere Frequenz als auch mehr Threads hat.
 Beim Dev Build macht sich aber die höhere Frequenz bemerkbar.
 
 Mein Hauptgerät, der NUC5i3 ist nicht der schnellste, beim Dev Build aber ganz passabel dabei.

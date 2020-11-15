@@ -79,6 +79,7 @@ Entweder sind die Geräte in meinem Besitz oder zum Zeitpunkt des Testens für H
 | --- | --- | --- | --- | --- | --- | --- |
 | Raspberry Pi 1B | ARM1176 | 1 | 1 | 700 MHz | 41m 13s | 21.35s |
 | Raspberry Pi 2 | Cortex-A7 | 4 | 4 | 900 MHz | 3m 52s | 9.51s |
+| Pine Phone 1.2b | Cortex-A53 | 4 | 4 | 1152 MHz | 2m 23s | 5.29s |
 | Netcup RS G? (2014) | KVM | 1 | 1 | 2493 MHz | 2m 15s | 3.17s |
 | Raspberry Pi 3 | Cortex-A53 | 4 | 4 | 1200 MHz | 2m 07s | 5.80s |
 | Raspberry Pi 4 | Cortex-A72 | 4 | 4 | 1500 MHz | 1m 09s | 3.20s |
@@ -115,6 +116,7 @@ Hier hat auch das MacBook mit 8 Threads einiges Wett machen können.
 Wenn ich auf einem ARM Gerät entwickeln wollen würde, würde ich zum Raspberry Pi 4 tendieren, da dieser auch generell viel Support bietet und nicht all zu teuer ist.
 2 GB würden mir tendenziell reichen.
 Hier bin ich noch gespannt, wie sich das PinePhone schlägt und wie gut man sogar auf den PinePhone Rust entwickeln kann.
+Edit: Selbe CPU wie der Raspberry Pi 3 und etwas langsamerer CPU Takt: Vergleichbar mit dem Raspberry Pi 3.
 
 Für ein x86_64 Gerät bieten sich wohl immer Geräte mit mehr Kernen an.
 Im Dev Build ist die Single Core Performance wichtig, aber selbst das 8 Jahre alte Zenbook war hier gut dabei.

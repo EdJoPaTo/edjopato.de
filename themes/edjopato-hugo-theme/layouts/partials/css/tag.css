@@ -10,6 +10,13 @@
   padding-right: 0.875em;
 }
 
+@media (prefers-color-scheme: dark) {
+  .tag {
+    background-color: #111;
+    color: whitesmoke;
+  }
+}
+
 .tag.category {
   background-color: #A00;
   color: white;

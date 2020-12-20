@@ -8,6 +8,14 @@
   padding-bottom: 3rem;
 }
 
+@media (prefers-color-scheme: dark) {
+  .list article {
+    background-color: rgba(25, 25, 25, 0.8);
+    box-shadow: 0 0 5px 1px rgba(25, 25, 25, 0.8);
+    color: whitesmoke;
+  }
+}
+
 .list:not(:first-child) article:first-child {
   margin-top: 2rem;
 }

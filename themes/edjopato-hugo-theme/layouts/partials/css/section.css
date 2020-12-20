@@ -4,6 +4,13 @@ section.main {
   line-height: 1.5;
 }
 
+@media (prefers-color-scheme: dark) {
+  section.main {
+    background-color: rgba(25, 25, 25, 0.85);
+    color: whitesmoke;
+  }
+}
+
 section.main>div, section.main>article {
   margin: 0 auto;
   padding: 0 1rem;

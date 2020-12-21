@@ -1,7 +1,7 @@
 ---
 background:
   name: Aprilwetter Winsen
-  style: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),url(/assets/backgrounds/wl-hagel.jpg)
+  style: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),url(/assets/2017/04/wl-hagel.jpg)
 date: 2017-04-24T17:00:00+02:00
 lastmod: 2018-12-21T23:26:00+01:00
 tags:
@@ -33,7 +33,7 @@ Mit den meisten Logos oder schematischen Darstellungen funktioniert dies.
 Ein weiterer Vorteil ist, das die abstrakte Darstellung skalierbar ist.
 So ist es egal, ob ein Oval auf einem kleinen Handydisplay oder auf einem 4K Monitor dargestellt wird, da das SVG zur Laufzeit auf die entsprechenden Pixel gerendert wird.
 
-![Waves and Circles](/assets/backgrounds/waves-and-circles.svg)
+![Waves and Circles](/assets/2017/03/waves-and-circles.svg)
 
 "Waves and Circles" Quelle: [FreeVector](http://www.freevector.com/waves-and-circles)
 

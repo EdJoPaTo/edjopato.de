@@ -1,7 +1,7 @@
 ---
 background:
   name: Verschwörhaus Banner
-  style: url(/assets/backgrounds/ulm-verschwoerhaus-banner.jpg)
+  style: url(/assets/2019/03/ulm-verschwoerhaus-banner.jpg)
 date: 2019-03-01T01:50:00+01:00
 lastmod: 2019-03-01T01:50:00+01:00
 title: Wikidata Workshop Ulm

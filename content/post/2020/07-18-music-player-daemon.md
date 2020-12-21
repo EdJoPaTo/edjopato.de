@@ -1,7 +1,7 @@
 ---
 background:
   name: Apfelbaum bei Nacht
-  style: url(/assets/backgrounds/wl-nightly-appletree.jpg)
+  style: url(/assets/2020/07/wl-nightly-appletree.jpg)
 date: 2020-07-18T15:50:00+02:00
 lastmod: 2020-07-18T15:50:00+02:00
 title: Einfach nur Musik hören

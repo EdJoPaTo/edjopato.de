@@ -1,7 +1,7 @@
 ---
 background:
   name: Hamburger Landungsbrücken
-  style: url(/assets/backgrounds/hh-landingbridges.jpg)
+  style: url(/assets/2018/08/hh-landingbridges.jpg)
 date: 2018-08-08T23:40:00+02:00
 lastmod: 2020-07-18T15:50:00+02:00
 title: Der Musik spielende Raspberry Pi

@@ -1,7 +1,7 @@
 ---
 background:
   name: HAW Hamburg Brücke zwischen BT5 und BT7
-  style: url(/assets/backgrounds/haw-bridge-snow.jpg)
+  style: url(/assets/2018/08/haw-bridge-snow.jpg)
 date: 2018-02-05T16:30:00+01:00
 lastmod: 2018-08-07T20:30:00+02:00
 title: Raspberry Pi IPTV

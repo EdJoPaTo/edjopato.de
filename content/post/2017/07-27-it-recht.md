@@ -1,7 +1,7 @@
 ---
 background:
   name: Luhe am Morgen
-  style: url(/assets/backgrounds/luhe.jpg)
+  style: url(/assets/2017/07/luhe.jpg)
 date: 2017-07-27T03:22:00+02:00
 lastmod: 2017-07-27T03:22:00+02:00
 title: Vortrag zum IT-Recht

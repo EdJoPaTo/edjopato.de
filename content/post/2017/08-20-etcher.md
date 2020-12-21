@@ -1,7 +1,7 @@
 ---
 background:
   name: Metronom Strecke zwischen Winsen und Harburg
-  style: url(/assets/backgrounds/metronom.jpg)
+  style: url(/assets/2017/08/metronom.jpg)
 date: 2017-08-20T12:50:00+02:00
 lastmod: 2017-08-20T12:50:00+02:00
 title: Etcher - Ein Image Flash Tool

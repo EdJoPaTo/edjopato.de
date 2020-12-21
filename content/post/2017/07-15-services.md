@@ -1,7 +1,7 @@
 ---
 background:
   name: Luhepark Winsen
-  style: url(/assets/backgrounds/luhepark2.jpg)
+  style: url(/assets/2017/07/luhepark2.jpg)
 categories:
 - tti
 date: 2017-07-15T02:10:00+02:00

@@ -1,7 +1,7 @@
 ---
 background:
   name: USB-C Netzteile an der Hochschule. Mit bunten LEDs.
-  style: url(/assets/backgrounds/usb-pd-charger.jpg)
+  style: url(/assets/2020/01/usb-pd-charger.jpg)
 date: 2020-01-17T14:10:00+01:00
 lastmod: 2020-01-17T15:00:00+01:00
 title: Mehrere USB-C Netzteile an einem MacBook

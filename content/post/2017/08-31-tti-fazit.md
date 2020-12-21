@@ -1,7 +1,7 @@
 ---
 background:
   name: Winsen, Nachts im Regen
-  style: url(/assets/backgrounds/nightwetstreet.jpg)
+  style: url(/assets/2017/07/nightwetstreet.jpg)
 date: 2017-07-31T23:58:00+02:00
 lastmod: 2017-08-01T01:35:00+02:00
 title: TTI Fazit

@@ -1,5 +1,9 @@
 {{ define "css" }}
-{{ partial "css/section.css" . | print | safeCSS }}
+@media screen and (min-width: 1000px) {
+  body {
+    background-image: url(/assets/backgrounds/blackopsbridge.jpg);
+  }
+}
 {{ end }}
 
 {{ define "main" }}

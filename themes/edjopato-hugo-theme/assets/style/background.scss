@@ -5,11 +5,3 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-{{ if .Params.background }}
-@media screen and (min-width: 1000px) {
-  body {
-    background-image: {{ .Params.background.style | safeCSS }};
-  }
-}
-{{ end }}

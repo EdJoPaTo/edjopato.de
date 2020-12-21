@@ -10,8 +10,6 @@ tags:
 - bpaas-angebot
 - services
 title: Die Services
-aliases:
-- /blog/tti/2017/07/15/services.html
 ---
 
 Die Services unseres BPaaS Angebots stellen die Bestandteile eines Business Prozesses dar.

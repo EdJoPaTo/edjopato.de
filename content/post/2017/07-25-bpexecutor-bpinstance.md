@@ -10,8 +10,6 @@ tags:
 - bpexecutor
 - bpinstance
 title: BPExecutor und BPInstance
-aliases:
-- /blog/tti/2017/07/25/bpexecutor-bpinstance.html
 ---
 
 Die beiden Hauptkomponenten unseres Systems: Der BPExecutor und die BPInstance.

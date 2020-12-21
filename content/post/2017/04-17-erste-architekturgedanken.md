@@ -7,8 +7,6 @@ tags:
 - bpaas-angebot
 - meeting
 title: Erste Architekturgedanken
-aliases:
-- /blog/tti/2017/04/17/erste-architekturgedanken.html
 ---
 
 Nach unserem [ersten Praktikumstermin]({{< relref "../2017/04-09-praktikum1.md" >}}) fand fast eine Woche später ein kurzes Meeting statt.

@@ -11,8 +11,6 @@ tags:
 - bpaas-angebot
 - komponenten
 title: Die finale Architektur
-aliases:
-- /blog/tti/2017/07/15/architektur.html
 ---
 
 Ein Teil unseres Teams hat sich dazu entschlossen, die Themen des Vortrages in einzelnen Blog Posts der jeweiligen Personen aufzuarbeiten und gegeneinander zu verlinken, um einen genaueren Einblick der jeweiligen Komponenten für die Leser zu bieten.

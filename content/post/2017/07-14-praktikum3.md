@@ -10,8 +10,6 @@ tags:
 - retrospektive
 - scrum
 title: Das dritte Praktikum
-aliases:
-- /blog/tti/2017/07/14/praktikum3.html
 ---
 
 Von unserer Professorin und dem Laborassistenten wurde für uns eine Scrum Retrospektive vorbereitet.

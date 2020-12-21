@@ -13,8 +13,6 @@ tags:
 - static-page
 - website
 title: 'Website überarbeitet: Jetzt mit Jekyll und einem Blog'
-aliases:
-- /blog/2017/03/30/neue-website.html
 ---
 
 Meine Website als Übersicht über meine Projekte war bisher immer sehr spartanisch.

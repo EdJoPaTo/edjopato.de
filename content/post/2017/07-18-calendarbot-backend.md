@@ -12,8 +12,6 @@ tags:
 - hawhh
 - telegram
 title: Das neue HAW HH Kalenderbot Backend
-aliases:
-- /blog/2017/07/18/calendarbot-backend.html
 ---
 
 Der HAW HH Kalenderbot [@HAWHHCalendarBot](//t.me/HAWHHCalendarBot), ein von einer nicht unerheblichen Zahl von HAW Studenten genutzter Telegram Bot zur Erstellung eines personalisierten, abonnierbaren Kalenders, hat ein neues Backend.

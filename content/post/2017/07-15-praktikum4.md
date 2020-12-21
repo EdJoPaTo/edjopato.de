@@ -10,8 +10,6 @@ tags:
 - abgabe
 - praktikum
 title: Das letzte Praktikum
-aliases:
-- /blog/tti/2017/07/15/praktikum4.html
 ---
 
 Das letzte Praktikum war relativ unspektakulär: Das Vorstellen unseres BPaaS Systems und die Planung unseres Vorstellungsvortrags für die letzte Vorlesung, in der jede Praktikumsgruppe die eigene Lösung vorstellen wird.

@@ -12,8 +12,6 @@ tags:
 - png
 - svg
 title: Bildkomprimierung für das Web
-aliases:
-- /blog/2017/04/24/komprimierte-bilder.html
 ---
 
 Um ein möglichst rundes Blog Angebot zu erstellen, versuche ich die Seitenladezeit so gering wie möglich zu halten.

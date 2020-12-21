@@ -6,8 +6,6 @@ tags:
 - bpaas-angebot
 - praktikum
 title: Das erste Praktikum
-aliases:
-- /blog/tti/2017/04/09/praktikum1.html
 ---
 
 Letzten Mittwoch fand das Erste von vier Praktika in TTI statt.

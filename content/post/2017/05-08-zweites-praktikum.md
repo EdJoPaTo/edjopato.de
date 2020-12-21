@@ -7,8 +7,6 @@ tags:
 - meeting
 - praktikum
 title: Ein Prototyp und das zweite Praktikum
-aliases:
-- /blog/tti/2017/05/08/zweites-praktikum.html
 ---
 
 Ein paar Wochen seit dem letzten Post zum BPaaS Angebot sind mittlerweile vergangen.

@@ -6,8 +6,6 @@ lastmod: 2017-05-08T11:00:00+02:00
 tags:
 - vorlesung
 title: Die ersten Vorlesungen
-aliases:
-- /blog/tti/2017/04/17/die-ersten-vorlesungen.html
 ---
 
 Neben der Praktikumsaufgabe zur Erstellung eines BPaaS Angebots findet auch eine Vorlesung im generelleren Bereich der "Technik und Technologie verteilter Informationssysteme" (TTI) statt.

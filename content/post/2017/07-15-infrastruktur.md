@@ -13,8 +13,6 @@ tags:
 - infrastruktur
 - portainer
 title: Die Infrastruktur
-aliases:
-- /blog/tti/2017/07/15/infrastruktur.html
 ---
 
 Für unser BPaaS Angebot haben wir uns, da wir als Team größtenteils aus technischen Informatikern bestehen, dafür entschieden, eine eigene Lösung für das Hosting zu nutzen, statt eine Fremde zu adaptieren.

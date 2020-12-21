@@ -1,5 +1,5 @@
 <div class="meta">
-  <time>{{ .Date.Format "Mon, 2. Jan 2006" }}</time>,
+  <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" title="{{ .Date.Format "Mon, 2. January 2006 15:04 MST" | safeHTML }}">{{ .Date.Format "Jan 2006" }}</time>,
   Lesezeit: {{ .ReadingTime }} Min
   {{ range .Params.categories }}
   <a href="{{ "/categories/" | relURL }}{{ . }}"><span class="tag category">{{ . }}</span></a>

@@ -29,4 +29,20 @@
 {{ partial "footer.html" . }}
 </body>
 
+<script type='text/javascript'>
+  function updateBg() {
+    var date = new Date();
+    var hour = date.getHours();
+    var minute = date.getMinutes();
+    var minuteOfDay = (hour * 60) + minute;
+    var hue = minuteOfDay % 360;
+
+    var body = document.getElementsByTagName("body")[0];
+    body.style["background-color"] = "hsl(" + hue + ",100%,20%)";
+    console.log("update bg hue", hue, date);
+  }
+  setInterval(updateBg, 30000);
+  updateBg();
+</script>
+
 </html>

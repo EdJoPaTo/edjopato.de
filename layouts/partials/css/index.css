@@ -1,3 +1,7 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+
 header h1 {
   font-size: 3rem;
 }
@@ -5,6 +9,10 @@ header h1 {
 header h2 {
   margin: 0.5rem 0 2rem;
   font-size: 2rem;
+}
+
+footer {
+  background: linear-gradient(rgba(0,0,0,.5), transparent);
 }
 
 section {
@@ -56,13 +64,20 @@ section.has-bg.is-light {
   text-shadow: 1px 1px 10px #FFF;
 }
 
-.alternating-bg:nth-child(2n), .alternating-bg:nth-child(2n) a {
-  background-color: white;
-  color: black;
+.alternating-bg:nth-child(2n+1) {
+  background-color: rgba(255,255,255,0.7);
 }
 
-.alternating-bg:nth-child(2n+1) {
-  background-color: #363636;
+.alternating-bg:nth-child(2n) {
+  background-color: rgba(0,0,0,0.4);
+}
+
+.alternating-bg:nth-child(2n), .alternating-bg:nth-child(2n) a {
+  color: whitesmoke;
+}
+
+.alternating-bg:nth-child(2n+1), .alternating-bg:nth-child(2n+1) a {
+  color: black;
 }
 
 .avatar {

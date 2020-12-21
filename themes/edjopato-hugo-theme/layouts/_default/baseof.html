@@ -10,7 +10,7 @@
   {{ block "css" . }}{{ end }}
 {{ if .Params.background }}
 @media screen and (min-width: 1000px) {
-  body {
+  html {
     background-image: {{ .Params.background.style | safeCSS }};
   }
 }
@@ -37,7 +37,7 @@
     var minuteOfDay = (hour * 60) + minute;
     var hue = minuteOfDay % 360;
 
-    var element = document.getElementsByTagName("body")[0];
+    var element = document.getElementsByTagName("html")[0];
     element.style["background-color"] = "hsl(" + hue + ",100%,20%)";
     console.log("update bg hue", hue, date);
   }

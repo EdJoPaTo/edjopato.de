@@ -1,7 +1,7 @@
 ---
 background:
   name: Praktikum 4 Präsentationsplanung
-  style: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(/assets/2017/06/praktikum4.jpg)
+  style: url(/assets/2017/06/praktikum4.jpg)
 categories:
 - tti
 date: 2017-07-15T00:25:00+02:00

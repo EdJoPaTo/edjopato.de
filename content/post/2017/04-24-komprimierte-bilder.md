@@ -1,7 +1,7 @@
 ---
 background:
   name: Aprilwetter Winsen
-  style: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),url(/assets/2017/04/wl-hagel.jpg)
+  style: url(/assets/2017/04/wl-hagel.jpg)
 date: 2017-04-24T17:00:00+02:00
 lastmod: 2018-12-21T23:26:00+01:00
 tags:

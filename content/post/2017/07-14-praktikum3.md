@@ -1,7 +1,7 @@
 ---
 background:
   name: Praktikum 3 Retrospektive
-  style: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)), url(/assets/2017/06/praktikum3.jpg)
+  style: url(/assets/2017/06/praktikum3.jpg)
 categories:
 - tti
 date: 2017-07-14T23:55:00+02:00

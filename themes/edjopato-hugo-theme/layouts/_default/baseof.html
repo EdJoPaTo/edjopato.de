@@ -37,8 +37,8 @@
     var minuteOfDay = (hour * 60) + minute;
     var hue = minuteOfDay % 360;
 
-    var body = document.getElementsByTagName("body")[0];
-    body.style["background-color"] = "hsl(" + hue + ",100%,20%)";
+    var element = document.getElementsByTagName("body")[0];
+    element.style["background-color"] = "hsl(" + hue + ",100%,20%)";
     console.log("update bg hue", hue, date);
   }
   setInterval(updateBg, 30000);

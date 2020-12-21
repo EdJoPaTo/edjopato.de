@@ -12,7 +12,7 @@ tags:
   - rust
   - raspberry-pi
 ---
-Unter meinem Bett liegt [immer noch]({{< relref "2018-08-08-mpd-pi.md" >}}) ein Raspberry Pi, der Internet Radio spielt.
+Unter meinem Bett liegt [immer noch]({{< relref "../2018/08-08-mpd-pi.md" >}}) ein Raspberry Pi, der Internet Radio spielt.
 Und MPD bleibt immer noch stecken, wenn das Internet weg war.
 Mit einem kleinen Rust Programm habe ich mir nun Abhilfe geschaffen.
 <!--more-->

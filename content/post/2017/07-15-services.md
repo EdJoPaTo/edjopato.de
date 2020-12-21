@@ -49,4 +49,4 @@ Die BPInstance benötigt zum Arbeiten also nur die BaseUrl eines Services, mit H
 
 So lassen sich über diese Schnittstelle sehr frei Services erstellen oder auch bestehende mit Hilfe von Wrappern in unser System einbinden.
 
-Wenn dich noch mehr Komponenten unseres BPaaS Angebots interessieren, schau dir doch die Übersicht aller Komponenten im Blog Post der [Architektur]({{< relref "2017-07-15-architektur.md" >}}) unseres Systems an.
+Wenn dich noch mehr Komponenten unseres BPaaS Angebots interessieren, schau dir doch die Übersicht aller Komponenten im Blog Post der [Architektur]({{< relref "../2017/07-15-architektur.md" >}}) unseres Systems an.

@@ -26,5 +26,5 @@ Dazu haben wir Themen, die wir ansprechen wollen, sowie dessen Zuständige für 
 Alle Inhalte für die Präsentation, die die jeweiligen Vortragenden benötigen, werden dann von einer Person unseres Teams gesammelt und in eine Präsentation gepackt, um ein gemeinsames Look & Feel sicherzustellen.
 Außerdem wurde ein Zeitplan erstellt, um die Vortragsdauer von 30 Minuten weder zu über- noch zu unterbieten.
 Ein Teil unseres Teams hat sich dazu entschlossen, die Themen des Vortrages in einzelnen Blog Posts der jeweiligen Personen aufzuarbeiten und gegeneinander zu verlinken, um einen genaueren Einblick der jeweiligen Komponenten für die Leser zu bieten.
-Die Übersicht über die Komponenten bietet der [Architektur]({{< relref "2017-07-15-architektur.md" >}}) Post.
+Die Übersicht über die Komponenten bietet der [Architektur]({{< relref "../2017/07-15-architektur.md" >}}) Post.
 Dort sind alle weiteren Artikel verlinkt.

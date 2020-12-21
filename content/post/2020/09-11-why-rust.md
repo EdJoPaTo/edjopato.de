@@ -107,6 +107,6 @@ Außerdem ist Rust auch ressourceneffizienter als andere Sprachen.
 Programme gebaut in Rust verbrauchen wenig CPU / RAM.
 TypeScript / JavaScript laufen in NodeJS, quasi einem Chromium Browser.
 Dass das nicht immer ganz effizient sein kann, war mir bewusst.
-Aber auch [der Umbau des Kalenderbot Backends von C# zu Rust]({{< relref "2020-09-11-calendarbot-rust.md#ressourcenauslastung" >}}) hat mir gezeigt, dass auch C# nicht annähernd so effizient arbeitet.
+Aber auch [der Umbau des Kalenderbot Backends von C# zu Rust]({{< relref "../2020/09-11-calendarbot-rust.md#ressourcenauslastung" >}}) hat mir gezeigt, dass auch C# nicht annähernd so effizient arbeitet.
 
 Ein paar Projekte sind aktuell mit Rust in Arbeit, mal schauen, hoffentlich landet davon auch etwas im Blog.

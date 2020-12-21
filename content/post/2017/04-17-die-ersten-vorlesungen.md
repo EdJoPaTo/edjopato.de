@@ -19,7 +19,7 @@ Insgesamt sind 12 Vorlesungen angesetzt.
 
 Wie für die erste Vorlesung gewohnt, beginnt diese mit dem Organisatorischen: Wer steht da eigentlich vorne, was macht das Praktikum, wie sieht die Prüfungsleistung aus und so weiter.
 So hat sich unsere Professorin [Ulrike Steffens](//users.informatik.haw-hamburg.de/~steffens/) vorgestellt, uns die Praktikumsaufgabe des BPaaS Angebots vorgestellt und uns die Prüfungsform des ePortfolios erläutert.
-Mehr dazu im [ersten Post]({{< relref "2017-03-30-tti.md" >}}) zum Thema [TTI](/blog/tti).
+Mehr dazu im [ersten Post]({{< relref "../2017/03-30-tti.md" >}}) zum Thema [TTI](/blog/tti).
 
 Danach wurde recht zeitig mit dem Vorlesungsstoff begonnen.
 Dabei begann es mit der Definition des Cloud Computings und dessen gewünschte Eigenschaften:
@@ -59,7 +59,7 @@ Zum Ende des Praktikums wurden die 3 Stakeholder des BPaaS Angebots nochmal gena
 In meiner Gruppe wurde der Prozessanbieter genauer betrachtet.
 Grobes Ergebnis der Gruppenarbeit war, das es Systeme gibt, die Dinge können, die wir in unserem BPaaS Angebot benötigen.
 Welche Anforderungen wir wirklich haben und ob besagte Systeme diese Anforderungen erfüllen können, war in der Gruppe offensichtlich nicht von Relevanz.
-Darauf basierend ist der [Post zu den Requirements]({{< relref "2017-04-03-requirements-stakeholder.md" >}}) entstanden.
+Darauf basierend ist der [Post zu den Requirements]({{< relref "../2017/04-03-requirements-stakeholder.md" >}}) entstanden.
 
 # 3. Vorlesung am 04. April
 

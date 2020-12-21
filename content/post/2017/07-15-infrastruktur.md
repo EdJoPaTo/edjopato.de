@@ -21,7 +21,7 @@ Für unser BPaaS Angebot haben wir uns, da wir als Team größtenteils aus techn
 Dafür bot sich eine Container basierte Infrastruktur an, wofür Docker, genauer Docker Swarm, gewählt wurde.
 
 Ein Vorteil, der zu dieser Entscheidung führte, ist die Abstraktion, mit welcher Programmiersprache und Umgebung die Ziele der jeweiligen Komponente erfüllt werden.
-(Eine Übersicht über alle Komponenten gibt es [hier]({{< relref "2017-07-15-architektur.md" >}}).)
+(Eine Übersicht über alle Komponenten gibt es [hier]({{< relref "../2017/07-15-architektur.md" >}}).)
 Die Nutzung vieler unterschiedlicher Programmiersprachen sorgt zwar für eine schlechtere Wartbarkeit, da nicht jeder jede Komponente warten kann, wurde innerhalb dieser Aufgabenstellung jedoch in Kauf genommen.
 Außerdem ist die Nutzung eines Systems wie Docker Swarm gegenüber Kubernetes vergleichsweise einfach, da Docker Swarm Bestandteil von Docker ist und mit jeder (neueren) Docker Installation genutzt werden kann.
 

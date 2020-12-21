@@ -24,7 +24,7 @@ Das ganze Einrichten mache aber ich ;)
 
 Als Image für den Raspberry Pi fiel wieder ein XMBC Image ein.
 Gibt's nicht mehr, XMBC heißt schon länger Kodi und als Image ist in [NOOBS](https://www.raspberrypi.org/downloads/noobs/) ist [LibreELEC](https://libreelec.tv/) enthalten.
-Ich habe das Image direkt herunter geladen und auf eine SD Karte [gespielt]({{< relref "2017-08-20-etcher.md" >}}) anstatt über NOOBS zu gehen.
+Ich habe das Image direkt herunter geladen und auf eine SD Karte [gespielt]({{< relref "../2017/08-20-etcher.md" >}}) anstatt über NOOBS zu gehen.
 
 SD Karte einstecken, HDMI Kabel an den Fernseher, Strom dran, läuft.
 Die Installation verläuft recht simpel, Namen festlegen, WLAN Daten eingeben und Kodi ist einsatzbereit.

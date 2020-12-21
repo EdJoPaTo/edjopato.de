@@ -11,7 +11,7 @@ aliases:
 - /blog/tti/2017/04/17/erste-architekturgedanken.html
 ---
 
-Nach unserem [ersten Praktikumstermin]({{< relref "2017-04-09-praktikum1.md" >}}) fand fast eine Woche später ein kurzes Meeting statt.
+Nach unserem [ersten Praktikumstermin]({{< relref "../2017/04-09-praktikum1.md" >}}) fand fast eine Woche später ein kurzes Meeting statt.
 Ein großer Vorteil des Meetings war die vorher grob geplante Struktur und welche Themen angesprochen werden wollen, weshalb es deutlich effektiver und strukturierter ab lief, als das erste Praktikum.
 Begonnen wurde das Meeting mit einem Überblick über den Stand aller Anwesenden.
 Dabei wurde festgestellt, dass den meisten eine Architektur und Schnittstellenbeschreibungen fehlen, an denen sie ihre Komponenten entwickeln können.

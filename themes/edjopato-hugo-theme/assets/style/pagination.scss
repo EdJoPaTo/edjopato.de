@@ -38,15 +38,16 @@
 
 .pagination li.disabled {
   background-color: #dbdbdb;
+  box-shadow: 0 0 2px 0 #dbdbdb;
   color: #7a7a7a;
   opacity: 0.5;
   pointer-events: none;
-  box-shadow: 0 0 2px 0 #dbdbdb;
 }
 
 @media (prefers-color-scheme: dark) {
   .pagination li.disabled {
     background-color: #000;
+    box-shadow: 0 0 2px 0 #000;
     color: #7a7a7a;
   }
 }

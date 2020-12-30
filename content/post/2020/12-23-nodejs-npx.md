@@ -3,14 +3,16 @@ background:
   name: Steinstufen im Regen
   style: url(/assets/2020/12/wl-rain-steps.jpg)
 date: 2020-12-23T00:07:00+01:00
-lastmod: 2020-12-23T18:07:00+01:00
+lastmod: 2020-12-30T01:58:00+01:00
 title: NodeJS binaries ausführen ohne npx
 tags:
+  - bash
   - command-line
+  - javascript
   - nodejs
   - npm
-  - javascript
   - typescript
+  - zsh
 ---
 Wer mit NodeJS arbeitet und entwickelt, der nutzt sicherlich auch Tools, welche beispielsweise als devDependency im Projekt hinterlegt sind.
 Beispielsweise einen Test Runner wie `ava` oder einen Code Linter wie `xo` oder `eslint`.
@@ -119,3 +121,27 @@ Und der Weg ist aus meiner Sicht auch noch simpler.
 Was mich jedoch wundert:
 Hat dieser Weg noch einen weiteren Nachteil, den ich nicht sehe?
 Ansonsten würde dieser doch häufiger irgendwo erwähnt?
+
+# Edit 23.12.2020: Self Made 2.0
+
+Beispielsweise `find` mit `-execdir` ist nicht begeistert über PATH mit relativem Pfad.
+
+Als Ersatz habe ich mir nun in der `.bashrc` (`.zshrc`, …) eine Funktion dafür gebaut (und die Anpassung aus der `$PATH` variable heraus geworfen):
+
+```bash
+function npx() {
+	echo edjopato fixed npx
+	seek=$1
+	shift 1
+	eval "./node_modules/.bin/$seek $@"
+}
+```
+
+Wenn man nun `npx xo --fix` ausführt, so wird die eigens definierte Funktion ausgerufen.
+Als erstes wird das echo ausgeführt.
+Dadurch sehe ich, dass das ganze auch wirklich noch funktioniert und nicht wieder auf das `npx` von `npm` leitet.
+Danach wird das erste Argument (`xo`) als Variable `seek` gespeichert und alle darauf folgenden Argumente um 1 nach vorn geschoben (`shift`).
+Am Schluss wird die binary mit dem Namen von `seek` in besagtem `node_modules` Ordner versucht auszuführen.
+Als Argumente dienen dazu die Argumente von unserer `npx` Funktion, abgesehen vom ersten (`xo`) welches ja bereits mit `shift` heraus geschoben wurde.
+
+Diese Funktion ist nun ein guter Ersatz, welche seinen Job in 4 Zeilen Bash erfüllt, ganz ohne viele Dependencies.

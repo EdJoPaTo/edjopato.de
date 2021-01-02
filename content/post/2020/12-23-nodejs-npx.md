@@ -3,7 +3,7 @@ background:
   name: Steinstufen im Regen
   style: url(/assets/2020/12/wl-rain-steps.jpg)
 date: 2020-12-23T00:07:00+01:00
-lastmod: 2020-12-30T01:58:00+01:00
+lastmod: 2021-01-02T16:02:00+01:00
 title: NodeJS binaries ausführen ohne npx
 tags:
   - bash
@@ -122,7 +122,7 @@ Was mich jedoch wundert:
 Hat dieser Weg noch einen weiteren Nachteil, den ich nicht sehe?
 Ansonsten würde dieser doch häufiger irgendwo erwähnt?
 
-# Edit 23.12.2020: Self Made 2.0
+# Edit 30.12.2020: Self Made 2.0
 
 Beispielsweise `find` mit `-execdir` ist nicht begeistert über PATH mit relativem Pfad.
 

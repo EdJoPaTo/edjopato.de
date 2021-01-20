@@ -6,7 +6,7 @@ footer {
 }
 
 footer, footer a {
-  color: #b5b5b5;
+  color: whitesmoke;
   text-shadow: 1px 1px 10px #000;
 }
 
@@ -22,12 +22,12 @@ footer svg * {
 
 footer a {
   text-decoration: none;
+  opacity: 0.75;
 }
 
 footer a:hover {
-  color: whitesmoke;
-}
-
-footer svg:hover * {
-  fill: whitesmoke;
+  opacity: 0.95;
+  svg * {
+    fill: whitesmoke;
+  }
 }

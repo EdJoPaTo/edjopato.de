@@ -3,7 +3,7 @@ background:
   name: Engel beim Versuch durch den Geheimgang in das Heaven Backoffice zu gelangen
   style: url(/assets/2021/01/rc3-heaven-backoffice.png)
 date: 2021-01-20T12:38:00+01:00
-lastmod: 2021-01-20T12:38:00+01:00
+lastmod: 2021-01-20T14:09:00+01:00
 title: Wie verlaufen Meetings im Himmel?
 tags:
   - c3
@@ -49,12 +49,15 @@ Der Himmel hat eine Vielzahl von Aufgaben, hauptsächlich ist es jedoch der Ort 
 Auf dem Congress selber gibt es über 4000 Engel, von denen die meisten nicht in Teams sind, sondern generellere Aufgaben übernehmen.
 Meistens sind dies Aufgaben, die nach kurzer Einweisung übernommen werden, wie Türschichten (Bändchenkontrolle), einsammeln von Flaschen von den Bottle Drop Points, bedienen der Kameras in den Sälen und so weiter.
 All diese Aufgaben werden im Engelsystem aufgenommen, in Schichten aufgeteilt und die Engel können sich dort Aufgaben aussuchen, wann und wo sie diese übernehmen wollen.
-Schichtplanung (die Engel des Heaven Teams werden deswegen SchiKo = Schicht Koordinatoren genannt) und das Well being der Engel sind so die Hauptaufgaben während eines Congresses.
+Schichtplanung und das Well being der Engel sind so die Hauptaufgaben während eines Congresses.
 
-Nebenbei schlagen auch noch alle möglichen Probleme beim Heaven auf.
-Zum Beispiel ruft ein Engel einer Türschicht beim Heaven an, warum denn das Hallentor neben ihnen offen steht und niemand dort kontrolliert.
+Nebenbei schlagen auch noch alle möglichen Probleme beim Himmel auf.
+Zum Beispiel ruft ein Engel einer Türschicht beim Himmel an, warum denn das Hallentor neben ihnen offen steht und niemand dort kontrolliert.
 Vor allem Nachts kommen die großartigsten Probleme auf, zu denen man dann die relevanten Stellen / Teams ausfindig macht und löst.
 Chaos stand ja schließlich an erster Stelle beim Congress ;)
+
+Das Heaven Team besteht aus etwa 70 Schicht Koordinatoren (so werden die Engel im Himmel häufig genannt).
+Ohne das es da eine klare Abgrenzung gibt, besteht das Kernteam aus etwa 10-15 Leuten, in den Meetings sind meistens so 7-30 anwesend.
 
 # Meetings
 
@@ -68,8 +71,9 @@ Beim letzten Meeting wurde der Termin des Nächsten entschieden und so wissen al
 Außerdem wurde auch schon das Pad des nächsten Termins angelegt.
 Auf dieses Pad kann nun jeder Topics schreiben, die relevant werden.
 Wenn also jemand sieht, dass man über etwas sprechen sollte, dann kommt dies auf das Pad (= die Tagesordnung).
+(Später dazu mehr.)
 
-Beispielsweise gibt es hier "zur Kenntnisnahme" wie Themen aus anderen Meetings anderer Teams, die für den Himmel relevant werden können.
+Beispielsweise gibt es hier "zur Kenntnisnahme", wie beispielsweise Themen aus Meetings anderer Teams, die für den Himmel relevant werden können.
 Die meisten Topics sind allerdings Diskussionspunkte, wie der Himmel etwas machen möchte.
 Dabei haben alle Topics einen kurzen Titel, eine verantwortliche Person (und wenn es nur die Person ist, die das ganze angestoßen hat) und ein paar Stichpunkte, worum es gehen soll.
 
@@ -143,7 +147,7 @@ Das Mantra "wenn du willst, das es besser wird, mach es doch einfach" funktionie
 Am Anfang waren solche "losen Strukturen" etwas ungewohnt für mich ("Können wir nicht X" "Mach doch einfach"), aber mittlerweile komme ich damit gut klar.
 Grade dadurch, dass alle ein Interesse haben, dass es gut wird und dem niemand wirklich im Wege steht, kommt so viel "geiler Scheiß" bei rum.
 Klar kommt es dann auch vor, dass man dann ein "ups" von irgendjemandem aufräumt, aber hey, jeder macht mal "ups".
-Das beste Beispiel aus dem Heaven ist wohl Schichten anlegen:
+Das beste Beispiel aus dem Himmel ist wohl das Schichten anlegen:
 Mehrere Schichten über 4 Tage im 2h Takt sind ziemlich schnell erstellt.
 Gelöscht wird dann mit ein paar Leuten manuell.
 Kommt jedes Jahr mindestens einmal vor. ;)

@@ -3,7 +3,7 @@ background:
   name: Engel beim Versuch durch den Geheimgang in das Heaven Backoffice zu gelangen
   style: url(/assets/2021/01/rc3-heaven-backoffice.png)
 date: 2021-01-20T12:38:00+01:00
-lastmod: 2021-01-20T14:09:00+01:00
+lastmod: 2021-01-20T14:29:00+01:00
 title: Wie verlaufen Meetings im Himmel?
 tags:
   - c3
@@ -63,7 +63,7 @@ Ohne das es da eine klare Abgrenzung gibt, besteht das Kernteam aus etwa 10-15 L
 
 All dieses Chaos will geplant und vorbereitet werden.
 Und so trifft sich unter anderem der Himmel vor und nach so einer Veranstaltung regelmäßig.
-Beispielsweise die Teamübergreifenden Orga-Meetings verlaufen ziemlich ähnlich zu denen des Himmels, ich gehe hier aber erstmal nur auf den Himmel ein.
+Beispielsweise die teamübergreifenden Orga-Meetings verlaufen ziemlich ähnlich zu denen des Himmels, ich gehe hier aber erstmal nur auf den Himmel ein.
 
 ## Vorbereitung
 
@@ -107,7 +107,7 @@ Wenn man ein paar Tage später etwas von dem Protokoll wissen will und weiß, es
 Wenn man selbst oder jemand anderes es aufgeschrieben hat, dann ist es einem auch später noch hilfreich.
 
 So werden nun die einzelnen Punkte der Tagesordnung abgearbeitet.
-Bei jedem Punkt (ausgenommen der "Kenntnisnahme") wird am eine ein "Weiteres Vorgehen" definiert.
+Bei jedem Punkt (ausgenommen der "Kenntnisnahme") wird ein "Weiteres Vorgehen" definiert.
 Wie wollen wir damit weiter machen?
 Was genau soll passieren?
 Und vor allem: Wer kümmert sich darum, dass das passiert.

@@ -3,7 +3,7 @@ DefaultContentLanguage: de
 disablePathToLower: true
 languageCode: de
 metaDataFormat: "yaml"
-paginate: 5
+paginate: 10
 pygmentsCodeFences: true
 pygmentsUseClasses: true
 theme: edjopato-hugo-theme
@@ -14,4 +14,3 @@ menu:
     - Name: "Blog"
       Identifier: "blog"
       URL: "/post/"
-

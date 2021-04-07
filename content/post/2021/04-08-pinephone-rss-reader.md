@@ -3,7 +3,7 @@ background:
   name: Strommast und Wolken
   style: url(/assets/2021/04/landline.jpg)
 date: 2021-04-08T00:21:00+02:00
-lastmod: 2021-04-08T00:21:00+02:00
+lastmod: 2021-04-08T01:30:00+02:00
 title: PinePhone als RSS und Mastodon Reader
 tags:
   - desktop
@@ -66,6 +66,7 @@ Vielleicht in ein paar Monaten.
 # News
 Für News nutze ich aktuell RSS Feeds.
 Zumeist unter iOS am Handy oder Tablet.
+Mein Blog hat übrigens auch einen [RSS Feed](/index.xml).
 
 Irgendwie bin ich auf [NewsFlash](https://gitlab.com/news-flash/news_flash_gtk) gestoßen, ich weiß nicht mehr wie.
 Vielleicht weil es eine Rust Anwendung ist, die GTK nutzt und ich soetwas auch immer mal ausprobieren will.
@@ -109,7 +110,7 @@ Also gut, Mastodon Client.
 Das Mastodon Maskottchen ist ein Mammut, eine Kurznachricht wird Toot genannt.
 Als GTK Client gibt es [Tootle](https://github.com/bleakgrey/tootle).
 Installiert, eingeloggt, läuft.
-Falls man mir folgen möchte, [auf chaos.social bin ich @EdJoPaTo](https://chaos.social/@EdJoPaTo).
+Falls du mir folgen möchtest, [auf chaos.social bin ich @EdJoPaTo](https://chaos.social/@EdJoPaTo).
 
 Eine kleine Überraschung gab es noch:
 Ein Toot mit Bild, das will ich mir größer ansehen, tippe darauf.

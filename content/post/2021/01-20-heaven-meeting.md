@@ -3,7 +3,7 @@ background:
   name: Engel beim Versuch durch den Geheimgang in das Heaven Backoffice zu gelangen
   style: url(/assets/2021/01/rc3-heaven-backoffice.png)
 date: 2021-01-20T12:38:00+01:00
-lastmod: 2021-01-20T14:29:00+01:00
+lastmod: 2021-04-08T01:35:00+01:00
 title: Wie verlaufen Meetings im Himmel?
 tags:
   - c3
@@ -33,7 +33,7 @@ In welchem Umfeld agiert der Himmel eigentlich und was tut der Himmel?
 
 ## Umfeld des Himmel
 
-Der Himmel ist eines von eines von über 30 Teams die den Chaos Communication Congress (kurz c3) organisieren.
+Der Himmel ist eines von über 30 Teams die den Chaos Communication Congress (kurz c3) organisieren.
 Dabei ist der Congress eine Veranstaltung zwischen den Jahren, die zuletzt 17000 Teilnehmende hatte und nahezu komplett von Freiwilligen organisiert wird (genau genommen bezahlen sie sogar dafür, helfen zu dürfen).
 Diese Freiwilligen werden Engel genannt.
 Vor allem zur Vor- und Nachbereitung eines Congresses gruppieren sich Engel in die Teams, die bestimmte Aufgaben übernehmen.

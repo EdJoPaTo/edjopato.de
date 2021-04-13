@@ -3,7 +3,7 @@ background:
   name: Strommast bei Nacht
   style: url(/assets/2021/04/powerpole.jpg)
 date: 2021-04-13T13:22:00+02:00
-lastmod: 2021-04-13T13:22:00+02:00
+lastmod: 2021-04-13T15:30:00+02:00
 title: Visionen von Projekten und Firmen
 tags:
   - communication
@@ -84,7 +84,7 @@ Aber auch das Bewerben bei Firmen aus dem Interesse heraus, für etwas dort sein
 ## Was habe ich als Teilhabender / Mitarbeiter von Visionen
 
 Je nach der Position, die ich in einer Firma habe, bieten Visionen auch unterschiedliche Möglichkeiten für mich.
-Um Grunde bieten sie aber immer eine Optimierungsgrundlage.
+Im Grunde bieten sie aber immer eine Optimierungsgrundlage.
 Das tun wir gerade, das ist unsere Vision.
 Wie verändern wir das Aktuelle, um dichter an unsere Vision zu kommen?
 Aber auch die Frage, was man komplett anderes, unabhängiges machen könnte, um die Vision voran zu treiben.

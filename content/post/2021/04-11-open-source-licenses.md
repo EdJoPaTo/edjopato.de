@@ -3,7 +3,7 @@ background:
   name: Wolken
   style: url(/assets/2021/04/clouds.jpg)
 date: 2021-04-11T15:10:00+02:00
-lastmod: 2021-04-11T15:10:00+02:00
+lastmod: 2021-04-13T18:11:00+02:00
 title: Open Source Lizenzen
 tags:
   - copyleft
@@ -17,7 +17,7 @@ tags:
 ---
 Ich habe mit der Zeit nun schon so einige Software Projekte, von denen nahezu alle Open Source auf GitHub sind.
 Und eigentlich will ich auch, dass das so bleibt.
-Bisher habe ich einfach überall die MIT Lizenz rein geworfen, aber geht das noch besser?
+Bisher habe ich einfach überall die MIT Lizenz reingeworfen, aber geht das noch besser?
 <!--more-->
 
 Vorweg natürlich gesagt, ich bin definitiv kein Anwalt und verkünde hier nur mein Halbwissen.
@@ -36,14 +36,14 @@ Dadurch wird sichergestellt, dass eine Software auch Open Source weiter lebt.
 Die Copyleft Lizenzen unterscheiden sich grob in ihrem Umfang, welchen sie abdecken.
 
 Die "schwächeren" Copyleft Lizenzen verlangen das Veröffentlichen von Veränderungen und Erweiterungen, sobald man jemandem eine Kopie davon gibt.
-Sprich wenn man seine Veränderung nicht nur für sich selbst haben will.
+Sprich, wenn man seine Veränderung nicht nur für sich selbst haben will.
 
-Die "starken" Copyleft Lizenzen verlangen zusätzlich noch das Veröffentlichen von Software, die mithilfe der lizensierten Software gebaut wurde (sobald man diese an Andere gibt).
+Die "starken" Copyleft Lizenzen verlangen zusätzlich noch das Veröffentlichen von Software, die mithilfe der lizenzierten Software gebaut wurde (sobald man diese an Andere gibt).
 Hat meistens den Nachteil, dass dies Firmen nicht unbedingt gefällt.
 
 Ein Problem haben die "starken" Copyleft Lizenzen noch:
 Ich muss die Software nur dann veröffentlichen, wenn ich diese an Andere weitergebe.
-Baue ich beispielsweise ein Backend, dann kann dies tausende Zugriffe verabeiten, ohne das jemand jemals die ausführbare Datei zu Gesicht bekommt.
+Baue ich beispielsweise ein Backend, dann kann dies tausende Zugriffe verarbeiten, ohne das jemand jemals die ausführbare Datei zu Gesicht bekommt.
 Hierfür gibt es die Network Copyleft Lizenzen.
 Diese werten eine Software bereits als "durch andere benutzt", wenn Andere beispielsweise über ein Netzwerk damit interagieren.
 Ein Fork einer REST API muss also, sobald sie von jemandem zugegriffen werden kann, ebenfalls unter einer vergleichbaren Lizenz veröffentlicht werden.
@@ -79,7 +79,7 @@ Version 2 ist stark daran interessiert, dass Quellcode ein geben und nehmen ist 
 Version 3 versucht, die Version 2 zu verbessern und einige Punkte strikter auszuformulieren.
 Hier wird der Lizenztext deutlich länger und damit wohl auch deutlich komplexer.
 Ein Hauptargument von Linus gegen die Version 3 ist der Zwang, das Hardware, welche die Software ausführt, auch in der Lage sein muss, Forks auszuführen.
-Bei Version 3 muss also ein Gerät das aufspielen von anderen Versionen erlauben, bei Version 2 ist dies nicht explizit gefordert.
+Bei Version 3 muss also ein Gerät das Aufspielen von anderen Versionen erlauben, bei Version 2 ist dies nicht explizit gefordert.
 
 Aus Nutzer Sicht ist die Version 3 damit noch mal besser, da sie noch mehr Freiheiten für den Nutzer bedeuten.
 Firmen tun sich damit schwerer.
@@ -88,16 +88,16 @@ Firmen tun sich damit schwerer.
 
 Normalerweise wird der Lizenztext mit einer veröffentlichten Software mit ausgeliefert.
 Auf GitHub liegt im Hauptordner eine `LICENSE` Datei, welche auch automatisch von GitHub gelesen und wenn bekannt, am Repository bereits die Lizenz markiert wird.
-Veröffentlicht man Libraries auf beispielsweise [NPM](https://www.npmjs.com/) oder [Crates.io](crates.io), so muss die jeweilige Projekt Konfigurationsdatei eine Lizenz beinhalten.
+Veröffentlicht man Libraries auf beispielsweise [NPM](https://www.npmjs.com/) oder [Crates.io](crates.io), so muss die jeweilige Projektkonfigurationsdatei eine Lizenz beinhalten.
 Bei NPM ist dies beispielsweise Freitext.
 Bei crates.io muss die Lizenzdatei angegeben werden oder eine Bezeichnung aus der [SPDX Lizenzliste](https://github.com/spdx/license-list-data/tree/v3.6/text) haben.
 
-Software die beispielsweise im Arch Linux (User) Repository landen, haben ebenfalls ein Lizenz Feld in jeder Paketbeschreibung.
+Software die beispielsweise im Arch Linux (User) Repository landen, haben ebenfalls ein Lizenzfeld in jeder Paketbeschreibung.
 
 Zusätzlich sehen Lizenzen vor, dass diese in allen Quellcode Dateien erwähnt werden.
 Persönlich finde ich dies aber als relativ viel Arbeit und "dont repeat yourself".
-Ein Projekt hat eine LICENSE Datei oder eine Projekt Datei, die dies bereits deklariert.
-Wenn jemandem die Lizenz unklar ist, darf diese sowieso nicht so einfach genutzt werden und ich sehe es als nicht all zu schwer an, die Lizenz durch diese zwei Wege zu finden.
+Ein Projekt hat eine LICENSE Datei oder eine Projektdatei, die dies bereits deklariert.
+Wenn jemandem die Lizenz unklar ist, darf diese sowieso nicht so einfach genutzt werden und ich sehe es als nicht allzu schwer an, die Lizenz durch diese zwei Wege zu finden.
 
 # Welche Lizenzen nutze ich jetzt?
 
@@ -122,18 +122,18 @@ Wenn ich in Zukunft einfach keine Lust mehr habe und irgendwer den Bot übernimm
 
 Libraries und Templates sind schon komplizierter.
 Einerseits will ich, dass diese Open Source sind und bleiben, andererseits will ich auch, dass diese genutzt werden können.
-Würde ich diese beispielsweise als AGPL lizensieren, so müsste ich bereits einige selbst entwickelte Software, die ich aktuell nicht veröffentlicht habe, veröffentlichen.
+Würde ich diese beispielsweise als AGPL lizenzieren, so müsste ich bereits einige selbst entwickelte Software, die ich aktuell nicht veröffentlicht habe, veröffentlichen.
 Nur weil ich darin meine eigene Library verwende, interessiert sicherlich nicht jeden der Workaround, den ich nie anständig gemacht habe. ;)
 LGPL wäre eine Überlegung wert, da hier nur Änderungen und Erweiterungen öffentlich bleiben müssten.
 Die MIT ist jedoch auch deutlich simpler.
-Hier bin ich mir noch nicht so recht im klaren.
+Hier bin ich mir noch nicht so recht im Klaren.
 
 Auch fehlt mir noch die Unterscheidung zwischen den Permissive Lizenzen und ob die MIT an der Stelle so eine gute Wahl ist.
 
 # Fazit
 
-Auf meiner Suche nach besseren Lizenzen kam ich doch an einigen, für mich neuen Dingen verbei.
+Auf meiner Suche nach besseren Lizenzen kam ich doch an einigen, für mich neuen Dingen vorbei.
 Die Unterteilung in unterschiedliche Kategorien von Copyleft Lizenzen und das man Änderungen für sich selbst machen kann, ohne diese zu Veröffentlichen, waren für mich vorher relativ unbekannt.
 
 So richtig sicher in meiner Wahl der Lizenzen bin ich mir zwar immer noch nicht so recht, aber ich weiß definitiv schon mal mehr als vorher.
-Und wie eingangs schon erwähnt, wenn es noch interessante Details gibt, die ich vielleicht noch garnicht weiß oder ich hier Blödsinn von mir gebe, teilt es mir gerne mit ;)
+Und wie eingangs schon erwähnt, wenn es noch interessante Details gibt, die ich vielleicht noch gar nicht weiß oder ich hier Blödsinn von mir gebe, teilt es mir gerne mit ;)

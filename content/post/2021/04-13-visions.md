@@ -3,7 +3,7 @@ background:
   name: Strommast bei Nacht
   style: url(/assets/2021/04/powerpole.jpg)
 date: 2021-04-13T13:22:00+02:00
-lastmod: 2021-04-13T15:30:00+02:00
+lastmod: 2021-04-13T18:11:00+02:00
 title: Visionen von Projekten und Firmen
 tags:
   - communication
@@ -15,11 +15,11 @@ tags:
 Viele Firmen und Projekte haben einen Slogan, Leitbilder (= Mission Statements), Visionen, Grundwerte (= Core Values), Philosophien, … die den Willen des Projekts oder der Firma beschreiben.
 Ich denke, dass solche kurz und knappen Aussagen Firmen und Projekten helfen, von Menschen verstanden zu werden.
 Daraus können dann Ideologien und langfristiges Verhalten abgeleitet werden und Entscheidungen getroffen werden, ob einem dieses Projekt zusagt oder eben nicht.
-Ohne derartige Aussagen, halte ich das für ziemlich unmöglich.
+Ohne derartige Aussagen halte ich das für ziemlich unmöglich.
 <!--more-->
 
-Im folgenden will ich generell auf kurz und knappe Aussagen eingehen und fasse diese für mich als Visionen zusammen.
-Natürlich sind Grundwerte und Leitbilder unterschiedliche Dinge und relevant, aber beides geht für mich grundlegend in die selbe Richtung: Idealbilder der Zukunft.
+Im Folgenden will ich generell auf kurz und knappe Aussagen eingehen und fasse diese für mich als Visionen zusammen.
+Natürlich sind Grundwerte und Leitbilder unterschiedliche Dinge und relevant, aber beides geht für mich grundlegend in dieselbe Richtung: Idealbilder der Zukunft.
 
 # Warum braucht es Visionen
 
@@ -43,8 +43,8 @@ Und dann betrachte ich, was diese Firma vermutlich tun wird, wenn Städte Autos 
 
   Diese Firma ist vermutlich besonders auf Kurzstrecken Fahrzeuge spezialisiert und forscht möglicherweise in Richtung verbesserter Stop & Go Systeme.
   Vermutlich ist auch hier der Innenraum ein besonderer Fokus.
-  Wenn die Autos aus Innenstädten verboten werden, dann wird diese Firma vermutlich andere Transportmittel einsetzen wollen um weiterhin urbane Kunden schnell an ihr Ziel zu bringen.
-  Vielleicht macht diese Firma dies auch bereits oder hat bereits vor dem Verbot selbst festgestellt, dass es bessere Wege gibt um die Vision zu erfüllen.
+  Wenn die Autos aus Innenstädten verboten werden, dann wird diese Firma vermutlich andere Transportmittel einsetzen wollen, um weiterhin urbane Kunden schnell an ihr Ziel zu bringen.
+  Vielleicht macht diese Firma dies auch bereits oder hat bereits vor dem Verbot selbst festgestellt, dass es bessere Wege gibt, um die Vision zu erfüllen.
 
 - Rennfahrzeuge bauen, die besonders energieeffizient Rennen gewinnen.
 
@@ -64,7 +64,7 @@ Visionen helfen im Grunde zwei Gruppen: denen im Projekt / der Firma und denen a
 ## Was habe ich als Externer / Kunde / Nutzer von Visionen
 
 In den meisten Fällen sind wir nicht Teil von Projekten und Firmen, sondern betrachten diese nur von außen.
-Dabei sehen wir als erstes die offensichtlichen Dinge.
+Dabei sehen wir als Erstes die offensichtlichen Dinge.
 Mehrere Firmen stellen beispielsweise etwas her, was ich brauche.
 Nun habe ich als Kunde die Möglichkeit, nach unterschiedlichen Kriterien zu entscheiden, was mir zusagt.
 Selbst wenn ich nur auf den Preis achte, haben Visionen möglicherweise bereits einen Einfluss.
@@ -72,7 +72,7 @@ IKEA beispielsweise spricht von Preisen, die sich so viele Menschen wie möglich
 Aber ich kann auch noch andere Dinge davon ableiten.
 
 Kaufe ich beispielsweise bei einer Firma, die Inklusion als Grundwert hat, wird das Produkt vermutlich besonders zugänglich sein.
-Habe ich ein Problem mit dem Produkt, welches der Vision entgegen steht, so wird diese Firma eher gewillt sein, dies zu verbessern.
+Habe ich ein Problem mit dem Produkt, welches der Vision entgegensteht, so wird diese Firma eher gewillt sein, dies zu verbessern.
 Um hier mal ein Beispiel zu nennen:
 Habe ich eine Sehbehinderung, wird besagte Firma mir vermutlich eher helfen wollen, mein Gerät zu bedienen, als eine mit völlig anderen Visionen.
 
@@ -87,11 +87,11 @@ Je nach der Position, die ich in einer Firma habe, bieten Visionen auch untersch
 Im Grunde bieten sie aber immer eine Optimierungsgrundlage.
 Das tun wir gerade, das ist unsere Vision.
 Wie verändern wir das Aktuelle, um dichter an unsere Vision zu kommen?
-Aber auch die Frage, was man komplett anderes, unabhängiges machen könnte, um die Vision voran zu treiben.
+Aber auch die Frage, was man komplett anderes, unabhängiges machen könnte, um die Vision voranzutreiben.
 
 Auch profitieren die agilen Ansätze von Visionen.
 Der Gedanke hier ist ja gerade aktiv auf neue Erkenntnisse zu reagieren und die Dinge zuerst zu machen, die einem besonders viel helfen.
-Und um zu sortieren, für was man die Arbeitskraft einsetzen will, bietet die Vision aus meiner Sicht quasi die perfekte Grundlage.
+Und um zu sortieren, wofür man die Arbeitskraft einsetzen will, bietet die Vision aus meiner Sicht quasi die perfekte Grundlage.
 
 Einen großen Vorteil von Visionen sehe ich noch in der dezentralen Eigenschaft dieser.
 Riesige Firmen können Visionen formulieren und diese dann, ohne durch eine zentrale Stelle abgenickt zu werden, ausführen.
@@ -122,7 +122,7 @@ Was einmal eine gute Vision zu sein schien ist mittlerweile vielleicht gar nicht
 Hier muss man regelmäßig in eine Diskussion gehen und Visionen überdenken, sodass diese "mit wachsen".
 
 Als letztes Problem in meiner Liste sehe ich noch die vage oder unverständlich formulierten Visionen.
-Zu vage Formulierungen oder als Extremfall "Null Aussagen" könnte man genauso gut weg lassen, diese helfen einem nicht weiter.
+Zu vage Formulierungen oder als Extremfall "Null Aussagen" könnte man genauso gut weglassen, diese helfen einem nicht weiter.
 Visionen, die nicht verstanden oder unterschiedlich aufgefasst werden, führen ebenfalls dazu, die angedachten Visionen nicht zu erreichen.
 Unterschiedliche Auffassungen können dazu führen, in andere Richtungen zu handeln oder auch gegeneinander zu arbeiten.
 Wenn ich mich nicht fragen kann, hilft X für "kurze, prägnante Formulierung einer Vision", dann ist die Vision zu komplex.

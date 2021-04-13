@@ -3,7 +3,7 @@ background:
   name: Engel beim Versuch durch den Geheimgang in das Heaven Backoffice zu gelangen
   style: url(/assets/2021/01/rc3-heaven-backoffice.png)
 date: 2021-01-20T12:38:00+01:00
-lastmod: 2021-04-08T01:35:00+01:00
+lastmod: 2021-04-13T18:11:00+02:00
 title: Wie verlaufen Meetings im Himmel?
 tags:
   - c3
@@ -31,14 +31,14 @@ Natürlich laufen bei den Meetings vom Himmel Dinge auch so, wie es zum Beispiel
 Um ein bisschen einschätzen zu können, in welchem Kontext diese Meetings eigentlich stattfinden will ich zuerst noch mal auf zwei Dinge eingehen:
 In welchem Umfeld agiert der Himmel eigentlich und was tut der Himmel?
 
-## Umfeld des Himmel
+## Umfeld des Himmels
 
 Der Himmel ist eines von über 30 Teams die den Chaos Communication Congress (kurz c3) organisieren.
 Dabei ist der Congress eine Veranstaltung zwischen den Jahren, die zuletzt 17000 Teilnehmende hatte und nahezu komplett von Freiwilligen organisiert wird (genau genommen bezahlen sie sogar dafür, helfen zu dürfen).
 Diese Freiwilligen werden Engel genannt.
 Vor allem zur Vor- und Nachbereitung eines Congresses gruppieren sich Engel in die Teams, die bestimmte Aufgaben übernehmen.
 Diese Teams haben untereinander keine Rangordnung und agieren relativ autark.
-So gibt es beispielsweise Teams wie das LOC (Logistics Operation Center) welches Materialien zwischen den Veranstaltungen einlagert und Bestellungen für andere Teams übernimmt.
+So gibt es beispielsweise Teams wie das LOC (Logistics Operation Center), welches Material zwischen den Veranstaltungen einlagert und Bestellungen für andere Teams übernimmt.
 Ein völlig anderes Team ist beispielsweise das BOC (Bar Operation Center), welches Getränke beschafft, diese auf der Veranstaltung zu den Bars bringt und für dessen Verkauf sorgt.
 Ein weiteres Team Bottles kümmert sich um das einsammeln und sortieren von den Flaschen, die überall auf so einem Congress in Bottle Drop Points hinterlassen werden.
 Nur um ein paar Beispiele für die Vielzahl von Teams zu nennen.
@@ -122,7 +122,7 @@ Ein weiterer Unterschied zu sonstigen Meetings:
 Es gibt keine definierte End Zeit.
 Irgendwann sind die Themen alle durch oder man entscheidet sich zu einem "lass uns nächstes Mal weiter machen".
 Meistens dauert so ein Meeting dann 1½ Stunden, ich habe aber auch schon alles von 20 Minuten bis 3 Stunden mitgemacht.
-Noch offene Themen und Themen die wieder angesprochen werden müssen, werden dann auf das Pad für das nächste Mumble aufgeführt.
+Noch offene Themen und Themen, die wieder angesprochen werden müssen, werden dann auf das Pad für das nächste Mumble aufgeführt.
 
 Dann wird noch ein nächster Termin entschieden.
 Meistens passiert dies im 2/4/6/8 Wochen + 1 Tag System.
@@ -157,15 +157,15 @@ Beim Chaos habe ich sie noch nicht vermisst.
 Man hat eh grade andere Dinge vor Augen, wie das Pad.
 Außerdem geht das ganze auch auf die Performance.
 Auch wenn 40 Leute im Mumble sind, die CPU merkt kaum was.
-Bei einigen Orga Mumbles gibt es im Anschluss ein "Tele Bier" in einem Jitsi (Voice bleibt im Mumble, deutlich Ressourceneffizierter und nicht alle sind am Bild interessiert).
-Dann wird aber auch nichts mehr produktiv gemacht und der Hauptaugenmerk liegt auf Mensch.
+Bei einigen Orga Mumbles gibt es im Anschluss ein "Tele Bier" in einem Jitsi (Voice bleibt im Mumble, deutlich Ressourceneffizienter und nicht alle sind am Bild interessiert).
+Dann wird aber auch nichts mehr produktiv gemacht und das Hauptaugenmerk liegt auf Mensch.
 
 Für kleine Meetings und wenn man etwas diskutieren will, sind Kameras definitiv hilfreich.
 Sobald man eh etwas produktiv vor Augen hat oder mehr Leute anwesend sind, lohnt sich die Kamera aus meiner Sicht nicht.
-Grade wenn schwächere Hardware dabei ist.
+Gerade wenn schwächere Hardware dabei ist.
 
 So etwas wie den Smalltalk vor dem Meeting und das relativ offene Ende sehe ich als ganz nett an.
-Die Gespräche vor dem jeweiligen Meeting erinnern mich an die Gespräche in der Kaffee Ecke:
+Die Gespräche vor dem jeweiligen Meeting erinnern mich an die Gespräche in der Kaffee-Ecke:
 Nicht immer zum Thema aber doch schon immer mal in die Richtung.
 Und dadurch das alle schon früher da sind, fängt man dann auch pünktlich an.
 Keine "akademische Viertelstunde" oder "lass uns noch kurz warten, jemand fehlt noch".

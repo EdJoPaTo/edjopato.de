@@ -3,7 +3,7 @@ background:
   name: Strommast und Wolken
   style: url(/assets/2021/04/landline.jpg)
 date: 2021-04-08T00:21:00+02:00
-lastmod: 2021-04-08T01:30:00+02:00
+lastmod: 2021-04-13T18:11:00+02:00
 title: PinePhone als RSS und Mastodon Reader
 tags:
   - desktop
@@ -21,13 +21,13 @@ Ich benutze mein Handy zu viel für Belanglosigkeiten.
 Ich hänge zu viel auf Social Media herum.
 Immer up to date sein.
 
-Gleichzeitig habe ich seit einem Vierteljahr ein PinePhone welches ich leider nicht all zu viel nutze.
+Gleichzeitig habe ich seit einem Vierteljahr ein PinePhone, welches ich leider nicht allzu viel nutze.
 Da geht doch was.
 <!--more-->
 
 Wem das [PinePhone](https://www.pine64.org/pinephone/) nichts sagt, das ist quasi ein Raspberry Pi im Smartphone Format von Pine64.
 In [einem älteren Artikel]({{< relref "../2021/01-30-bl602-rust-experiments.md" >}}) habe ich das PinePhone auch schon angeteasert, dort liegt es im Bild auf dem Tisch und versorgt einen PineNut der selben Firma(?) mit Strom.
-An sich ein cooles Gerät, man kann eines von vielen Linux Betriebssystemen nehmen und entweder auf das eMMC aufspielen oder von der SD Karte starten.
+An sich ein cooles Gerät, man kann eines von vielen Linux Betriebssystemen nehmen und entweder auf das eMMC aufspielen oder von der SD-Karte starten.
 Funktioniert mehr oder weniger gut, man merkt, dass die Zielgruppe Entwickler sind, die dort verbessern und entwickeln wollen.
 Nun habe ich das PinePhone schon seit einer Weile und experimentiere immer mal ein wenig damit, mal Manjaro mit KDE Mobile, mal mit Phosh, mal Lomiri (ehemals Ubuntu Touch, welches ich damals witzigerweise auch schon unterstützt habe, aber aus dem [Ubuntu Edge](https://www.indiegogo.com/projects/ubuntu-edge/) wurde ja nie etwas…)
 
@@ -44,7 +44,7 @@ Messenger, News, Social Media.
 Dort wäre ich wohl hauptsächlich bei Telegram, ein Nebenschauplatz wären wohl XMPP und Matrix.
 
 [Telegram Desktop](https://github.com/telegramdesktop/tdesktop) ist… sagen wir nicht gewillt, mobile Gerätedisplays unterstützen zu wollen.
-Das Interface steht rechts über, damit ist soetwas wie der Senden Button einfach nicht benutzbar.
+Das Interface steht rechts über, damit ist so etwas wie der Senden Button einfach nicht benutzbar.
 Es gibt [mehrere Issues in unterschiedlichen Formen dazu im Telegram Desktop Repo](https://github.com/telegramdesktop/tdesktop/issues?q=pinephone), alle werden abgeschmettert.
 Einen anderen Telegram Client habe ich bisher noch nicht probiert.
 Der [Chat Client von Purism](https://source.puri.sm/Librem5/chatty) kann, zumindest laut Settings, Telegram, das wäre mal ein Experiment wert.
@@ -73,8 +73,8 @@ Vielleicht weil es eine Rust Anwendung ist, die GTK nutzt und ich soetwas auch i
 Wie auch immer, es läuft auf dem PinePhone und kann RSS Feeds.
 Also die RSS Feeds von meinem bisherigen Reader exportiert und in NewsFlash importieren wollen, geht nicht.
 Das Import Fenster geht nicht auf.
-Ok, vielleicht liegt das daran, das eine GTK Anwendung auf dem zu dem Zeitpunkt benutzen KDE Mobile nicht all zu gut läuft?
-Also Manjaro mit Phosh (Gnome-ish) auf eine SD Karte und damit ausprobiert.
+Ok, vielleicht liegt das daran, das eine GTK Anwendung auf dem zu dem Zeitpunkt benutzen KDE Mobile nicht allzu gut läuft?
+Also Manjaro mit Phosh (Gnome-ish) auf eine SD-Karte und damit ausprobiert.
 Import Fenster geht auf, läuft.
 
 Nun lese ich seit Wochen meine RSS Feeds auf dem PinePhone.
@@ -99,7 +99,7 @@ Dinge wie Twitter, YouTube und Co verwende ich komplett ohne Accounts.
 ([Yotter](https://github.com/ytorg/Yotter) ist ein anonymes Frontend für Twitter und YouTube, welches ich für anonyme YouTube Subscriptions nutze.)
 
 Einzig eine Möglichkeit, Bilder / Fotos zu teilen, vermisse ich aktuell.
-Aktuell landen ein paar Bilder hier als Hintergründe im Blog, das wars.
+Aktuell landen ein paar Bilder hier als Hintergründe im Blog, das war's.
 Da wär vielleicht ein wenig mehr cool, vor allem weil ich regelmäßig mal nach "oh, das ist cool, schick mal" gefragt werde.
 Es scheint also auch noch Leute zu interessieren.
 Hier überlege ich, [Pixelfed](https://pixelfed.org) zu nutzen, habe ich aber bisher noch nicht weiter verfolgt.

@@ -3,22 +3,22 @@ background:
   name: Set me
   style: url(/assets/2021/04/water.jpg)
 date: 2021-05-28T17:55:00+02:00
-lastmod: 2021-05-28T17:55:00+02:00
+lastmod: 2021-05-28T18:02:00+02:00
 title: Vergleich einiger Netcup und Hetzner Cloud Server
 tags:
+  - hetzner
   - intel-nuc
   - linux
   - macbook
-  - raspberry-pi
   - netcup
-  - hetzner
+  - raspberry-pi
 ---
 Heute gab es ein Netcup Sonderangebot mit einem neuen Server, dem "Game Invader".
 Geklickt und die Frage gestellt, wie schnell ist das Ding nun eigentlich im Verhältnis?
 <!--more-->
 
 Also hab ich mal ein paar Netcup / Hetzner Server herbeigezaubert, auf die ich Zugriff habe und einfach mal [hyperfine](https://github.com/sharkdp/hyperfine) mit FFmpeg angeworfen.
-In einem bestehenden Projekt von mir nutze ich regelmäßig FFmpeg, welches eine weile alle Kerne auslastet, bis es fertig ist.
+In einem bestehenden Projekt von mir nutze ich regelmäßig FFmpeg, welches eine Weile alle Kerne auslastet, bis es fertig ist.
 Klingt nach einem guten Vergleich, also los.
 Den Command aus dem Tool genommen und als Input nun den Das Erste Livestream verwendet.
 (Das besagte Tool integriert auch noch Untertitel in die mp4, daher die dafür relevanten FFmpeg Argumente.)

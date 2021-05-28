@@ -3,6 +3,10 @@ p code {
   color: #BA2121;
 }
 
+pre {
+  overflow-x: auto;
+}
+
 pre .k, pre .kd {
   /* language keywords */
   color: #008000;

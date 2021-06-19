@@ -6,16 +6,16 @@
 {{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
 {{ $style := resources.Get "style/main.scss" | resources.ToCSS $options }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-<style>
-  {{ block "css" . }}{{ end }}
+{{ block "headpart" . }}{{ end }}
 {{ if .Params.background }}
+<style>
 @media screen and (min-width: 1000px) {
   html {
     background-image: {{ .Params.background.style | safeCSS }};
   }
 }
-{{ end }}
 </style>
+{{ end }}
 </head>
 
 <body>

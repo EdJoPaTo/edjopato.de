@@ -1,5 +1,7 @@
-{{ define "css" }}
-{{ partial "css/index.css" . | print | safeCSS }}
+{{ define "headpart" }}
+{{ $options := (dict "targetPath" "index.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
+{{ $style := resources.Get "style/index.css" | resources.ToCSS $options }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 {{ end }}
 
 {{ define "header" }}

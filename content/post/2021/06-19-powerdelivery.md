@@ -2,18 +2,19 @@
 background:
   name: Sonnenaufgang
   style: url(/assets/2021/06/sunrise.jpg)
-date: 2021-06-18T20:00:00+02:00
-lastmod: 2021-06-18T20:00:00+02:00
+date: 2021-06-20T19:14:00+02:00
+lastmod: 2021-06-20T19:14:00+02:00
 title: Strömekraft - PowerDelivery in Netzteilen und portablen USB Akkus
 tags:
   - apple
   - battery
   - charger
   - lithium-ion
+  - macbook
   - power
+  - power-delivery
   - usb
   - usb-c
-draft: true
 ---
 Wenn man Geräte laden will, dann braucht man Netzteile und mobile USB Akkus.
 Diese verwenden häufig USB PowerDelivery.
@@ -24,7 +25,7 @@ Mit der Zeit habe ich einige Punkte, auf die ich dabei achten würde und will et
 
 USB PowerDelivery oder USB PD ist ein USB Standard, welcher Teil der für den USB-C Stecker vorgesehen Features ist.
 PowerDelivery funktioniert nicht für die "alten" USB-A oder USB-B Stecker.
-Dabei wird, im Gegensatz zu altbekanntem USB statt 5V eine Spannung ausgehandelt.
+Dabei wird, im Gegensatz zum altbekanntem 5V USB, eine Spannung ausgehandelt.
 Das angesteckte Gerät kann nach einer bestimmten Spannung / Strom Konstellation fragen und wenn das liefernde Gerät diese bietet, bekommt es diese.
 Die Idee hierbei ist, eine höhere Leistung (Watt) zu übertragen, ohne große Ströme (Ampere) zu haben.
 USB PD 2.0 sieht als Spannungsprofile 5V, 9V und 15V bei maximal 3A und 20V bei bis zu 5A, wenn die Kabel dies erlauben (100W), vor.
@@ -33,7 +34,7 @@ Anfordernde Geräte können die Spannung auf 0.02V genau anfordern.
 
 PowerDelivery sieht hier auch das Drosseln der Datenübertragungsgeschwindigkeit vor.
 Ist ein Kabel zu schlecht abgeschirmt und der Strom zu groß, wird automatisch von USB 3.0 Übertragungsgeschwindigkeiten auf USB 2.0 reduziert, um die Datenverluste zu minimieren.
-Da Hersteller gerne billige Kabel mitliefern und die meisten Leute ihre Handys eh nur laden und keine Daten übertragen, werden meist in Handys nur USB 2.0 Controller verbaut.
+Da Hersteller gerne billige Kabel mitliefern und die meisten Leute ihre Handys eh nur laden und keine Daten übertragen, werden in Handys meist nur USB 2.0 Controller verbaut.
 Die schlechten Kabel würden eh auf USB 2.0 drosseln, USB 3.0 macht hier also wenig Sinn.
 
 Kürzlich wurde EPR (Extended Power Range) als Spezifikation vorgestellt.
@@ -45,7 +46,7 @@ Ein weiterer Aspekt ist die Aushandlung.
 Gehen wir mal von Netzteil und Laptop aus.
 Steckt man den Laptop an das Netzteil, beginnt die Verbindung bei 5V 500mA.
 Der Laptop fragt nun das Netzteil "kannst du PowerDelivery 3.0?" welches das Netzteil beispielsweise verneint.
-Daraufhin fragt der Laptop das aus der Sicht des Laptops interessanteste Spannungsprofil an.
+Daraufhin fragt der Laptop nach dem, aus der Sicht des Laptops, interessantesten Spannungsprofil.
 Beispielsweise "kannst du 20V 5A" (100W)?
 Wenn das Netzteil nein sagt, wird das nächste Spannungsprofil erfragt, bis das Netzteil das Angeforderte bieten kann.
 Haben wir hier ein kleines Handy Netzteil mit 18W, so ist vermutlich das erste funktionierende Profil 9V 2A.
@@ -67,7 +68,7 @@ Andere Qi Charger haben tendenziell 50 % Verlust.
 Rechnet man das mal auf die Smartphones hoch, die allein die Deutschen besitzen, kommt man auf eine gewaltige Energieverschwendung nur durch Qi Charging Verluste.
 Qi Charging ist für mich deswegen immer noch nichts.
 Es ist einfach nur eine Ressourcenverwendung.
-Ich persönlich würde ja auch keinen Kuchen backen, bei dem ich hinterher nur die Hälfte bekomme und der Rest der Abwärme zum Opfer fällt…
+Ich persönlich würde ja auch keinen Kuchen backen, bei dem die Hälfte des Kuchens der Abwärme des Backofens zum Opfer fällt…
 Da backe ich den Kuchen dann lieber so, dass ich hinterher mehr davon habe. ;)
 Und ein Kabel einstecken finde ich nun wirklich nicht so kompliziert.
 
@@ -79,8 +80,9 @@ Weniger Wärme bedeutet weniger benötigte Kühlkörper und weniger Kühlkörper
 Persönlich würde ich also immer versuchen, die effizienteren GaN Netzteile zu kaufen.
 
 Galium Nitride hat vor allem Vorteile in Netzteilen, da diese größere Ströme leiten als beispielsweise andere Computerchips / Boards.
-Das Gute an der Fertigung mit Galium Nitride ist das gleiche Werkzeug wie vorher mit Silizium.
-Galium Nitride ist lediglich neuer und damit unbekannter, es fehlt also vor allem an Erfahrung im Umgang damit, welches für Silizium basierte Komponenten seit Jahrzehnten besteht.
+Das Gute an der Fertigung mit Galium Nitride sind die gleichen Maschinen, welche auch für die Fertigung mit Silizium benötigt werden.
+Galium Nitride ist lediglich neuerer und damit unbekannter Rohstoff.
+Es fehlt also vor allem an Erfahrung im Umgang damit, welches für siliziumbasierte Komponenten seit Jahrzehnten besteht.
 Aber immer mehr Hersteller setzen so langsam auf GaN.
 
 # Mehrere Anschlüsse
@@ -90,8 +92,8 @@ Die bekannten USB-A Ports mit 5V sind dabei relativ einfach herzustellen.
 Man verwendet ein größeres Netzteil mit 5V 9A und baut 3 Ports parallel an.
 Diese ziehen dann jeweils 5V und den benötigten Strom.
 
-Mit PowerDelivery und USB-C ist das nicht mehr ganz so einfach, da man unterschiedliche Spannung nicht mehr durch parallel schalten der Ports erreichen kann.
-Hier müssen also quasi mehrere Netzteile in einem Verbaut werden.
+Mit PowerDelivery und USB-C ist das nicht mehr ganz so einfach, da man unterschiedliche Spannungen nicht mehr durch das parallel Schalten der Ports erreichen kann.
+Hier müssen also mehrere Netzteile in einem Gehäuse verbaut werden.
 Häufig zu finden ist ein USB-C Port mit PD und mehrere USB-A Ports mit bekanntem parallel schalten der Ports.
 
 Bei mehreren USB-C Ports wird es spannend.
@@ -100,10 +102,11 @@ Dies kann auf einem Port 60W oder auf zwei Ports 45W + 18W.
 Hierbei nutzt der Hersteller einen Trick.
 Wenn nur der Haupt Port benutzt wird, dann werden beide Netzteile im inneren zusammen geschaltet und liefern zusammen die 60W.
 Werden beide Ports verwendet, laufen die beiden Netzteile im inneren getrennt auf ihren eigenen Spannungen der jeweiligen Geräte.
-Dieses zusammenschalten der Netzteile im inneren ist relativ komplex und ich habe dies bisher nur mit 2 USB-C Ports gesehen.
+Dieses Zusammenschalten der Netzteile im inneren ist relativ komplex und ich habe dies bisher nur mit 2 USB-C Ports gesehen.
 Meistens ist dabei auch ein Port als der Haupt Port gekennzeichnet und nur dieser ist in der Lage, die große Leistung ausgegeben.
 
-Hier muss man bedenken, dass man, sobald ein zweites Gerät ansteckt, das Netzteil dies erkennen muss und die zusammenschaltung stoppen muss.
+Hier muss man bedenken, dass das Netzteil erkennen und darauf reagieren muss, sobald man ein zweites Gerät ansteckt.
+Die Zusammenschaltung muss gestoppt werden und vor allem muss dafür gesorgt werden, dass das neue Gerät keine 20V ab bekommt, die es möglicherweise gar nicht abkannn. (Magic smoke)
 Der Ladestrom wird also kurz unterbrochen und beide Geräte handeln ihre Spannung mit dem jeweiligen Netzteil im Inneren aus.
 Gleiches passiert, wenn das zweite Gerät wieder getrennt wird.
 
@@ -117,8 +120,8 @@ Und damit kommen wir auch zum nächsten Thema.
 
 Warum können einige Geräte mit 18W, andere mit 60W und noch wieder andere mit 100W geladen werden?
 Dafür müssen wir ein wenig auf die Grenzen von Lithium-Ionen-Akkus schauen.
-Ein Akku ist verhältnismäßig klein und kann nur eine bestimmte Menge Energie aufnehmen oder abgeben.
-Wird zu viel Energie aufgenommen oder abgegeben, erhitzt sich dieser und wir bekommen einen Brand.
+Ein Akku ist verhältnismäßig klein und kann nur eine bestimmte Menge Energie zur Zeit aufnehmen oder abgeben.
+Wird zu schnell zu viel Energie aufgenommen oder abgegeben, erhitzt sich dieser und wir bekommen einen Brand.
 Da die Akkus mit 3.7V funktionieren und wir die Leistung begrenzen müssen, müssen wir also den Strom begrenzen der in oder aus dem Akku fließt.
 
 Schalten wir zwei Akkus parallel, können wir weiterhin jeden der beiden Akkus mit dem gleichen Strom laden.
@@ -138,10 +141,11 @@ Man sagt, Lithium-Ionen-Akkus haben, je nach Bauweise und Größe, 500 - 1000 La
 (Dabei muss man sagen, das 80 % immer noch nicht wenig ist. Meistens sind jedoch die 100 % schon knapp bemessen.)
 Wenn wir also größere Akkus für die gleichen Aufgaben verwenden, sparen wir Ladezyklen.
 Und da wir schon wissen, dass mehrere parallele Akkus sich auch schneller laden lassen, ist dies ein zusätzlicher Vorteil großer Akkus.
+(Teslas SuperCharger funktionieren nur bei Teslas, weil alle Anderen zu kleine Akku Kapazitäten verbauen und damit mit den großen Ladeströmen nicht klarkommen.)
 
 Umgekehrt bedeutet das aber auch: Kleinere Akkus laden langsamer oder altern schneller bei gleichem Verbrauch.
 Da ein Handyakku deutlich kleiner ist als ein 13″ Laptop und dieser Akku kleiner ist als der von einem 15″ Laptop, kann man sich hier erklären, warum diese mit 18W, 60W oder 100W geladen werden.
-Auch wird damit klar, warum Apple Handys mit weniger Strom geladen werden als Android Handys, da diese meist deutlich größere Akkus haben.
+Auch wird damit klar, warum Apple Handys mit weniger Strom geladen werden als Android Handys, da letztere meist deutlich größere Akkus haben.
 
 Ein letzter Aspekt ist die Alterung durch extreme Ladezustände.
 Neben der schnelleren Alterung durch hohe Ladeströme, altern Akkus auch schneller, wenn sie auf extremen Ladezuständen sind.
@@ -156,7 +160,7 @@ Tesla beispielsweise fährt mit tausenden Lithium-Ionen-Akkus durch die Gegend.
 Normalerweise werden diese nur bis 80 geladen.
 Will man jedoch weiter fahren, stellt man am Abend zuvor auf 100 % und den Abreisezeitpunkt ein.
 Das Fahrzeug wird dann bis 80 % geladen und pausiert dann.
-Rechtzeitig vor Abreise wird das Laden auf 100 begonnen.
+Rechtzeitig vor Abreise wird das Laden auf 100 % begonnen.
 Apple Geräte und Linux Betriebssysteme (mit kompatibler Hardware) können dies ebenfalls und beschränken das Laden beispielsweise auf 80 % bis kurz vor dem Aufwachen.
 Dadurch wird die Zeit, die die Akkus auf 100 % verbringen, minimiert.
 
@@ -220,6 +224,7 @@ Auch bei Akkus kommt es stark darauf an, was man damit vorhat.
 Soll es klein und portabel sein?
 Dann würde ich zu einem 10000 mAh Akku greifen.
 Dieser sollte über USB PD geladen werden können und sowohl USB-A als auch USB-C als Ausgang bieten.
+Micro-USB würde ich nicht mehr kaufen.
 Damit kann man dann sowohl ältere Geräte mit USB-A als auch neue Geräte mit USB-C zu USB-C laden.
 18W USB PD Output sind hier gar nicht so unüblich.
 
@@ -229,7 +234,7 @@ Hier würde ich darauf achten, dass der Akku 30W USB PD kann.
 Beispielsweise kann mein 26800 mAh Akku meinen Laptop mit 30W laden, was schon praktisch ist.
 Diese Akkus sind aber tendenziell relativ schwer und teuer.
 
-Schick Schnack wie LCD Akkustand Anzeigen auf 1 % genau halte ich eher überflüssig.
+Schick Schnack wie LCD Akkustand Anzeigen auf 1 % genau halte ich für eher überflüssig.
 Tendenziell reichen 4 LED Punkte oder wie im Falle meines großen Akkus auch 10 LED Punkte.
 Genauer ist der Ladecontroller in dem Akku eh nicht, als das ich dem dann auch vertrauen würde.
 

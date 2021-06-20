@@ -3,7 +3,7 @@ background:
   name: Sonnenaufgang
   style: url(/assets/2021/06/sunrise.jpg)
 date: 2021-06-20T19:14:00+02:00
-lastmod: 2021-06-20T20:40:00+02:00
+lastmod: 2021-06-20T22:26:00+02:00
 title: Strömekraft - PowerDelivery in Netzteilen und portablen USB Akkus
 tags:
   - apple
@@ -62,7 +62,7 @@ Selbst Apples eigenes 60W MacBook Netzteil antwortet auf die Frage "kannst du 9V
 Scheinbar unterstützt der MagSafe Charger auch kein USB PD 3.0 und handelt damit auch nicht dynamisch aus, sondern muss die vorgegebenen Profile von PD 2.0 verwenden.
 Damit funktioniert der MagSafe Charger bei quasi keinem Charger mit voller Leistung, der vorher hergestellt wurde, weil einfach niemand mit solch einer krummen Zahl rechnen konnte und diese erst explizit einbauen muss.
 
-Anmerkung nebenbei: der MagSafe Charger kann durch seine gute Ausrichtung der Spulen sogar mit 20W Versorgung 15W Ladeleistung an das Handy bringen.
+Anmerkung nebenbei: Der MagSafe Charger kann durch seine gute Ausrichtung der Spulen sogar mit 20W Versorgung 15W Ladeleistung an das Handy bringen.
 Das sind für Qi Charger vergleichsweise sehr gute 25 % Verlust.
 Andere Qi Charger haben tendenziell 50 % Verlust.
 Rechnet man das mal auf die Smartphones hoch, die allein die Deutschen besitzen, kommt man auf eine gewaltige Energieverschwendung nur durch Qi Charging Verluste.
@@ -92,7 +92,7 @@ Die bekannten USB-A Ports mit 5V sind dabei relativ einfach herzustellen.
 Man verwendet ein größeres Netzteil mit 5V 9A und baut 3 Ports parallel an.
 Diese ziehen dann jeweils 5V und den benötigten Strom.
 
-Mit PowerDelivery und USB-C ist das nicht mehr ganz so einfach, da man unterschiedliche Spannungen nicht mehr durch das parallel Schalten der Ports erreichen kann.
+Mit PowerDelivery und USB-C ist das nicht mehr ganz so einfach, da man unterschiedliche Spannungen nicht mehr durch das Parallelschalten der Ports erreichen kann.
 Hier müssen also mehrere Netzteile in einem Gehäuse verbaut werden.
 Häufig zu finden ist ein USB-C Port mit PD und mehrere USB-A Ports mit bekanntem parallel schalten der Ports.
 
@@ -100,13 +100,13 @@ Bei mehreren USB-C Ports wird es spannend.
 Beispielsweise habe ich hier ein Netzteil, welches zwei USB-C Ports hat.
 Dies kann auf einem Port 60W oder auf zwei Ports 45W + 18W.
 Hierbei nutzt der Hersteller einen Trick.
-Wenn nur der Haupt Port benutzt wird, dann werden beide Netzteile im inneren zusammen geschaltet und liefern zusammen die 60W.
-Werden beide Ports verwendet, laufen die beiden Netzteile im inneren getrennt auf ihren eigenen Spannungen der jeweiligen Geräte.
-Dieses Zusammenschalten der Netzteile im inneren ist relativ komplex und ich habe dies bisher nur mit 2 USB-C Ports gesehen.
-Meistens ist dabei auch ein Port als der Haupt Port gekennzeichnet und nur dieser ist in der Lage, die große Leistung ausgegeben.
+Wenn nur der Haupt Port benutzt wird, dann werden beide Netzteile im Inneren zusammen geschaltet und liefern zusammen die 60W.
+Werden beide Ports verwendet, laufen die beiden Netzteile im Inneren getrennt auf ihren eigenen Spannungen der jeweiligen Geräte.
+Dieses Zusammenschalten der Netzteile im Inneren ist relativ komplex und ich habe dies bisher nur mit 2 USB-C Ports gesehen.
+Meistens ist dabei auch ein Port als der Haupt-Port gekennzeichnet und nur dieser ist in der Lage, die große Leistung auszugeben.
 
 Hier muss man bedenken, dass das Netzteil erkennen und darauf reagieren muss, sobald man ein zweites Gerät ansteckt.
-Die Zusammenschaltung muss gestoppt werden und vor allem muss dafür gesorgt werden, dass das neue Gerät keine 20V ab bekommt, die es möglicherweise gar nicht abkannn. (Magic smoke)
+Die Zusammenschaltung muss gestoppt werden und vor allem muss dafür gesorgt werden, dass das neue Gerät keine 20V ab bekommt, die es möglicherweise gar nicht abkann. (Magic smoke)
 Der Ladestrom wird also kurz unterbrochen und beide Geräte handeln ihre Spannung mit dem jeweiligen Netzteil im Inneren aus.
 Gleiches passiert, wenn das zweite Gerät wieder getrennt wird.
 
@@ -122,7 +122,7 @@ Warum können einige Geräte mit 18W, andere mit 60W und noch wieder andere mit 
 Dafür müssen wir ein wenig auf die Grenzen von Lithium-Ionen-Akkus schauen.
 Ein Akku ist verhältnismäßig klein und kann nur eine bestimmte Menge Energie zur Zeit aufnehmen oder abgeben.
 Wird zu schnell zu viel Energie aufgenommen oder abgegeben, erhitzt sich dieser und wir bekommen einen Brand.
-Da die Akkus mit 3.7V funktionieren und wir die Leistung begrenzen müssen, müssen wir also den Strom begrenzen der in oder aus dem Akku fließt.
+Da die Akkus mit 3.7V funktionieren und wir die Leistung begrenzen müssen, müssen wir also den Strom begrenzen, der in oder aus dem Akku fließt.
 
 Schalten wir zwei Akkus parallel, können wir weiterhin jeden der beiden Akkus mit dem gleichen Strom laden.
 Zusammen haben wir damit den doppelten Ladestrom.
@@ -212,7 +212,7 @@ Gerade mit GaN sind 30W+ Netzteile auch klein und dann kann man solch ein Netzte
 Wenn man für seinen Laptop ein Netzteil kauft:
 Einige Laptops (ähm Dell) laden gar nicht erst, wenn das Netzteil weniger als 60W bereitstellt.
 Das ist etwas unpraktisch und sollte beim Kaufen berücksichtigt werden.
-(Es ist schon cool, das ich mein MacBook selbst mit 5V 3A = 15W laden kann und es morgens voll ist.)
+(Es ist schon cool, dass ich mein MacBook selbst mit 5V 3A = 15W laden kann und es morgens voll ist.)
 
 Falls man noch einen Laptop ohne USB-C hat: Es gibt Adapter von USB-C auf Laptop Stecker, wie beispielsweise für Thinkpads, welche passenderweise genau 20V benötigen, welche auch von USB PD 2.0 bereitgestellt werden können.
 Diese fragen dann explizit nach 20V Profilen und akzeptieren nichts anderes.
@@ -229,12 +229,12 @@ Damit kann man dann sowohl ältere Geräte mit USB-A als auch neue Geräte mit U
 18W USB PD Output sind hier gar nicht so unüblich.
 
 Kommt es nicht auf die physikalische Größe bzw. das Gewicht an, dann halten größere Akkus einfach länger.
-Durch das mehr an Kapazität / Zellen ist auch der Entladestrom dieser größer.
+Durch das Mehr an Kapazität / Zellen ist auch der Entladestrom dieser größer.
 Hier würde ich darauf achten, dass der Akku 30W USB PD kann.
 Beispielsweise kann mein 26800 mAh Akku meinen Laptop mit 30W laden, was schon praktisch ist.
 Diese Akkus sind aber tendenziell relativ schwer und teuer.
 
-Schick Schnack wie LCD Akkustand Anzeigen auf 1 % genau halte ich für eher überflüssig.
+Schnickschnack wie LCD Akkustand Anzeigen auf 1 % genau halte ich für eher überflüssig.
 Tendenziell reichen 4 LED Punkte oder wie im Falle meines großen Akkus auch 10 LED Punkte.
 Genauer ist der Ladecontroller in dem Akku eh nicht, als das ich dem dann auch vertrauen würde.
 

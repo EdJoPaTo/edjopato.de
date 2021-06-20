@@ -3,7 +3,7 @@ background:
   name: Sonnenaufgang
   style: url(/assets/2021/06/sunrise.jpg)
 date: 2021-06-20T19:14:00+02:00
-lastmod: 2021-06-20T19:14:00+02:00
+lastmod: 2021-06-20T20:40:00+02:00
 title: Strömekraft - PowerDelivery in Netzteilen und portablen USB Akkus
 tags:
   - apple
@@ -17,8 +17,8 @@ tags:
   - usb-c
 ---
 Wenn man Geräte laden will, dann braucht man Netzteile und mobile USB Akkus.
-Diese verwenden häufig USB PowerDelivery.
-Mit der Zeit habe ich einige Punkte, auf die ich dabei achten würde und will etwas auf die Hintergründe eingehen.
+Diese verwenden häufig USB PowerDelivery und mit der Zeit habe ich einiges darüber gelernt.
+Wenn ich mir Geräte mit USB-C und PowerDelivery anschaue, achte ich auf einige Details und möchte hier etwas auf die Hintergründe eingehen.
 <!--more-->
 
 # Was ist PowerDelivery?

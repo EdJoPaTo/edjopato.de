@@ -3,7 +3,7 @@ background:
   name: Hamburger Skyline aus Sicht einer Elbfähre
   style: url(/assets/2021/04/hh-skyline.jpg)
 date: 2021-06-29T18:42:00+02:00
-lastmod: 2021-06-29T18:42:00+02:00
+lastmod: 2021-06-29T22:34:00+02:00
 title: Browser Erweiterungen
 categories:
   - how-do-i
@@ -18,6 +18,11 @@ Da sich seit dem schon einiges getan hat, könnte ich Mal wieder vom aktuellen S
 Ich habe damals versucht, alles in einem Blogpost zu behandeln, aber es bietet sich wohl an, dies ein wenig aufzuteilen.
 Hier nun also ein Überblick über meine aktuellen Browser Erweiterungen im Firefox.
 <!--more-->
+
+**Edit 22:34**:
+- Privacy Badger entfernt
+- LocalCDN zu Decentraleyes hinzugefügt
+- Links zu Chrome, Edge und Opera hinzugefügt
 
 Allgemein muss man vielleicht noch einmal sagen: Erweiterungen können in der Lage sein, jeglichen Browserverlauf und Inhalt einzusehen.
 Und damit auch sensible Informationen wie Passwörter oder Interessen!
@@ -42,6 +47,9 @@ Habe ich mir aber noch nicht angeschaut, steht auf meiner TODO-Liste.
 Aber im Grunde: Installieren, läuft.
 
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+- [addons.opera.com](https://addons.opera.com/en/extensions/details/ublock/)
+- [chrome.google.com](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- [microsoftedge.microsoft.com](https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak)
 - [Sourcecode](https://github.com/gorhill/uBlock)
 
 ## ClearURLs
@@ -55,31 +63,50 @@ All diese Informationen löscht ClearURLs aus den URLs heraus.
 Und sorgt dabei auch gleich für kürzere, weniger nervige URLs.
 
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
+- [chrome.google.com](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk)
+- [microsoftedge.microsoft.com](https://microsoftedge.microsoft.com/addons/detail/mdkdmaickkfdekbjdoojfalpbkgaddei)
+- ~~addons.opera.com~~
 - [Sourcecode](https://gitlab.com/KevinRoebert/ClearUrls)
 
-## Privacy Badger
+## ~~Privacy Badger~~
 
-Der Privacy Badger erkennt und entfernt unsichtbare Tracker durch ihr Verhalten.
-Teilweise werden diese bereits durch uBlock Origin und uMatrix entfernt, uMatrix ist aber definitiv keine Empfehlung für jeden.
-Privacy Badger funktioniert "einfach so" und ist daher aus meiner Sicht eine gute Empfehlung.
+Leserkommentar:
+uBlock Origin tut bereits, was Privacy Badger verspricht.
+Weniger Erweiterungen sind besser, also keine Empfehlung mehr.
 
-- [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
 - [Sourcecode](https://github.com/EFForg/privacybadger)
 
-## Decentraleyes
+## Decentraleyes / LocalCDN
 
 Viele übermäßig große Webseiten verwenden Content Delivery Networks um diese zu groß gewordenen Webseiten nicht mehr vollständig selber ausliefern zu müssen.
 Das hat den Vorteil, dass diese CDN weltweit verteilt und dichter am Nutzer sein können.
 Dies hat aber auch den Nachteil, dass diese genau wissen, für welche Webseiten sie gerade Dinge ausliefern, die Nutzer also Nachverfolgen können.
 
-Decentraleyes stellt Ressourcen aus CDNs lokal bereit.
+Decentraleyes oder LocalCDN stellen Ressourcen aus CDNs lokal bereit.
 Dafür wird, wenn Inhalt benötigt wird, dieser einmal in einer Variante ohne [Referer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer) erfragt.
 Das CDN kann also nicht mehr allzu viel damit anfangen.
 Diese werden danach lokal bereitgestellt.
 Da CDNs statischen Content bereitstellen, der sich nicht häufig ändert (dank Versionierung meistens sogar nie), können diese auch gut lokal zwischengespeichert werden.
 
+Leserkommentar:
+LocalCDN ist ein Fork von Decentraleyes.
+Beide haben dasselbe Ziel nur unterschiedliche Maintainer.
+Persönlich nutze ich Decentraleyes, weil diese Erweiterung in den Arch Linux Repositories verfügbar ist.
+Für eine brauchbare Aussage müsste ich jedoch beide Varianten vergleichen, was ich bisher nicht getan habe.
+
+Decentraleyes
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
+- [addons.opera.com](https://addons.opera.com/extensions/details/decentraleyes/)
+- [chrome.google.com](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
+- [microsoftedge.microsoft.com](https://microsoftedge.microsoft.com/addons/detail/lmijmgnfconjockjeepmlmkkibfgjmla)
 - [Sourcecode](https://git.synz.io/Synzvato/decentraleyes)
+
+LocalCDN
+- [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/)
+- ~~addons.opera.com~~
+- ~~chrome.google.com~~
+- ~~microsoftedge.microsoft.com~~
+- [Sourcecode](https://codeberg.org/nobody/LocalCDN)
 
 ## GNOME Shell integration
 
@@ -87,6 +114,9 @@ Wenn man als Desktop Umgebung Gnome (oder ein Derivat, wie im Falle von Ubuntu) 
 Damit der Browser dies kann, benötigt man diese Browsererweiterung und auf dem System die "chrome-gnome-shell".
 
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/)
+- [chrome.google.com](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep)
+- ~~addons.opera.com~~
+- ~~microsoftedge.microsoft.com~~
 - [Sourcecode](https://gitlab.gnome.org/GNOME/chrome-gnome-shell)
 
 # Kleine Helferlein
@@ -103,6 +133,9 @@ Und dafür ist diese Erweiterung großartig.
 Ich persönlich habe eingestellt, dass diese dem System Theme folgt, sprich tagsüber hell und nachts dunkel.
 
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/darkreader)
+- [chrome.google.com](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh/)
+- [microsoftedge.microsoft.com](https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc/)
+- ~~addons.opera.com~~
 - [Sourcecode](https://github.com/darkreader/darkreader)
 
 ## Privacy Redirect
@@ -121,6 +154,9 @@ Manchmal gehen einige Dinge nicht, vielleicht ist ein Video buggy oder man brauc
 Dann kann man die Erweiterung mal eben aufmachen und die jeweilige automatische Umleitung kurzzeitig deaktivieren.
 
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/)
+- [chrome.google.com](https://chrome.google.com/webstore/detail/privacy-redirect/pmcmeagblkinmogikoikkdjiligflglb)
+- [microsoftedge.microsoft.com](https://microsoftedge.microsoft.com/addons/detail/privacy-redirect/elnabkhcgpajchapppkhiaifkgikgihj)
+- ~~addons.opera.com~~
 - [Sourcecode](https://github.com/SimonBrazell/privacy-redirect)
 
 ## SingleFile
@@ -130,6 +166,9 @@ Dafür ist diese Erweiterung.
 Viel mehr kann ich hier eigentlich gar nicht mehr dazu sagen.
 
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/single-file/)
+- [chrome.google.com](https://chrome.google.com/extensions/detail/mpiodijhokgodhhofbcjdecpffjipkle)
+- [microsoftedge.microsoft.com](https://microsoftedge.microsoft.com/addons/detail/efnbkdcfmcmnhlkaijjjmhjjgladedno)
+- ~~addons.opera.com~~
 - [Sourcecode](https://github.com/gildas-lormeau/SingleFile)
 
 ## SVG Screenshot
@@ -144,6 +183,9 @@ Auch kann man mit Tools, wie beispielsweise Inkscape, seine Screenshots viel lei
 Mit im Grunde allen Vorteilen von SVGs.
 
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/svg-screenshots/)
+- [chrome.google.com](https://chrome.google.com/webstore/detail/svg-screenshot/nfakpcpmhhilkdpphcjgnokknpbpdllg)
+- ~~addons.opera.com~~
+- ~~microsoftedge.microsoft.com~~
 - [Sourcecode](https://github.com/felixfbecker/svg-screenshots)
 
 # Experten
@@ -165,6 +207,9 @@ Dafür hat uBlock Origin aber auch einige Features bekommen, die vorher nur uMat
 Muss ich mich aber noch mal mit auseinandersetzen.
 
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/umatrix/)
+- [addons.opera.com](https://addons.opera.com/en-gb/extensions/details/umatrix/)
+- [chrome.google.com](https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf)
+- ~~microsoftedge.microsoft.com~~
 - [Sourcecode](https://github.com/gorhill/uMatrix)
 
 ## Temporary Containers
@@ -175,12 +220,15 @@ Wenn man sich bei einer Webseite in Container A anmeldet, dann weiß Container B
 Mit der [Firefox Multi-Account Containers Erweiterung](https://github.com/stoically/temporary-containers) bietet Firefox selbst die Möglichkeit, mehrere Container für beispielsweise Arbeit, Freizeit und Banking bereitzustellen.
 
 Mir geht das aber nicht weit genug.
-Warum denn nicht einfach für alles einfach nen Container benutzen und den hinterher wieder löschen?
+Warum denn nicht einfach für alles einfach einen Container benutzen und den hinterher wieder löschen?
 Damit ist alles von allem getrennt.
 
 Vermutlich sollte ich auf meine Benutzung der Erweiterung noch mal in einem weiteren Blogpost eingehen, das würde den Rahmen des kurzen Überblicks wohl sprengen.
 
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/)
+- ~~addons.opera.com~~
+- ~~chrome.google.com~~
+- ~~microsoftedge.microsoft.com~~
 - [Sourcecode](https://github.com/stoically/temporary-containers)
 
 # Fazit

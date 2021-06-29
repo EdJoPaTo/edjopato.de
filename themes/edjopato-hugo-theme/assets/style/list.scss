@@ -1,11 +1,22 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .list article {
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.8);
-  margin: 0 auto;
-  margin-bottom: 2rem;
+  margin: 1rem;
   max-width: 700px;
   padding: 2rem;
   padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .list article {
+    margin: 1rem 0;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,8 +27,8 @@
   }
 }
 
-.list:not(:first-child) article:first-child {
-  margin-top: 2rem;
+.list:not(:first-child) {
+  margin-top: 1rem;
 }
 
 .list h1 {

@@ -3,7 +3,7 @@ DefaultContentLanguage: de
 disablePathToLower: true
 languageCode: de
 metaDataFormat: "yaml"
-paginate: 10
+paginate: 12
 pygmentsCodeFences: true
 pygmentsUseClasses: true
 theme: edjopato-hugo-theme

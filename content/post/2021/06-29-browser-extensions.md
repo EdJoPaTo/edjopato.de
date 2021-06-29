@@ -13,9 +13,9 @@ tags:
   - firefox
   - privacy
 ---
-Vor über einem Jahr habe ich meinen [Blogpost, wie ich Browser verwende]({{< relref "../2020/06-18-browser.md" >}}) nun schon geschrieben.
-Da sich seit dem schon einiges getan hat, könnte ich dies Mal aktualisieren.
-Ich habe damals versucht alles in einem Blogpost zu behandeln, aber es bietet sich wohl an, dies ein wenig aufzuteilen.
+Vor über einem Jahr habe ich meinen [Blogpost, wie ich Browser verwende]({{< relref "../2020/06-18-browser.md" >}}), nun schon geschrieben.
+Da sich seit dem schon einiges getan hat, könnte ich Mal wieder vom aktuellen Stand berichten.
+Ich habe damals versucht, alles in einem Blogpost zu behandeln, aber es bietet sich wohl an, dies ein wenig aufzuteilen.
 Hier nun also ein Überblick über meine aktuellen Browser Erweiterungen im Firefox.
 <!--more-->
 
@@ -35,8 +35,8 @@ Diese würde ich eigentlich jedem einfach so empfehlen.
 uBlock Origin (Achtung, nicht "uBlock"!) ist ein Content Blocker.
 Dieser entfernt hauptsächlich Werbung.
 
-Hier muss ich mich aber noch mal mehr mit befassen, uBlock hat mittlerweile mehr Features als noch vor einigen Jahren und da sind einige gute hinzugekommen.
-Unter anderem das Erkennen von CNAME DNS Einträgen auf CDNs und Tracker (was immer häufiger wird), finde ich hier spannend.
+Hier muss ich mich aber noch mal mehr mit befassen, uBlock hat mittlerweile mehr Features, als noch vor einigen Jahren und da sind einige Gute hinzugekommen.
+Unter anderem das Erkennen von CNAME DNS Einträgen auf CDNs und Tracker (was immer häufiger wird), finde ich spannend.
 Habe ich mir aber noch nicht angeschaut, steht auf meiner TODO-Liste.
 
 Aber im Grunde: Installieren, läuft.
@@ -46,7 +46,7 @@ Aber im Grunde: Installieren, läuft.
 
 ## ClearURLs
 
-Häufig enthalten URLs etliche zusätzliche Parameter, wie Referenzen, woher man den Link hat usw.
+Häufig enthalten URLs etliche, zusätzliche Parameter, wie Referenzen, woher man den Link hat usw.
 Diese werden vom Anbieter genutzt, um Tracking zu betreiben.
 Kommst du von einem Newsletter?
 Hat dir eine Freundin diesen Link gegeben und du hast dieselben Parameter im Link, wie sie schon hatte?
@@ -70,20 +70,20 @@ Privacy Badger funktioniert "einfach so" und ist daher aus meiner Sicht eine gut
 
 Viele übermäßig große Webseiten verwenden Content Delivery Networks um diese zu groß gewordenen Webseiten nicht mehr vollständig selber ausliefern zu müssen.
 Das hat den Vorteil, dass diese CDN weltweit verteilt und dichter am Nutzer sein können.
-Dies hat aber auch den Nachteil, das diese genau wissen, für welche Webseiten sie gerade Dinge ausliefern, die Nutzer also Nachverfolgen können.
+Dies hat aber auch den Nachteil, dass diese genau wissen, für welche Webseiten sie gerade Dinge ausliefern, die Nutzer also Nachverfolgen können.
 
 Decentraleyes stellt Ressourcen aus CDNs lokal bereit.
 Dafür wird, wenn Inhalt benötigt wird, dieser einmal in einer Variante ohne [Referer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer) erfragt.
 Das CDN kann also nicht mehr allzu viel damit anfangen.
 Diese werden danach lokal bereitgestellt.
-Da CDNs statischen Content bereitstellen, der sich nicht häufig ändert (meistens sogar nie dank Versionierung), können diese auch gut lokal zwischengespeichert werden.
+Da CDNs statischen Content bereitstellen, der sich nicht häufig ändert (dank Versionierung meistens sogar nie), können diese auch gut lokal zwischengespeichert werden.
 
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
 - [Sourcecode](https://git.synz.io/Synzvato/decentraleyes)
 
 ## GNOME Shell integration
 
-Wenn man als Desktop Umgebung Gnome (oder ein Derivat wie im Falle von Ubuntu) verwendet, dann kann man Gnome Erweiterungen über [extensions.gnome.org](https://extensions.gnome.org/) installieren.
+Wenn man als Desktop Umgebung Gnome (oder ein Derivat, wie im Falle von Ubuntu) verwendet, dann kann man Gnome Erweiterungen über [extensions.gnome.org](https://extensions.gnome.org/) installieren.
 Damit der Browser dies kann, benötigt man diese Browsererweiterung und auf dem System die "chrome-gnome-shell".
 
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/)
@@ -108,8 +108,10 @@ Ich persönlich habe eingestellt, dass diese dem System Theme folgt, sprich tags
 ## Privacy Redirect
 
 Einige der großen Dienste sind anstrengend, langsam und nicht gerade freundlich für die Privatsphäre.
-Für Twitter gibt es beispielsweise [Nitter](https://github.com/zedeus/nitter), für YouTube gibt es [Invidious](https://github.com/iv-org/invidious), für Maps gibt es [OpenStreetMap](https://www.openstreetmap.org/).
-Für Videos verwende ich beispielsweise ausschließlich Invidious, welch es einfach so viel weniger Ressourcen im Browser benötigt und weniger anstrengend ist.
+Dafür gibt es leichtgewichtige, privatsphärefreundlichere Alternativen.
+um ein paar Beispiele zu nennen:
+Für Twitter gibt es [Nitter](https://github.com/zedeus/nitter), für YouTube gibt es [Invidious](https://github.com/iv-org/invidious), für Maps gibt es [OpenStreetMap](https://www.openstreetmap.org/) usw.
+Für Videos verwende ich beispielsweise ausschließlich Invidious, welches einfach so viel weniger Ressourcen im Browser benötigt und weniger anstrengend ist.
 
 Mit dieser Erweiterung kann man diese Seiten automatisch erkennen und auf die jeweilige Alternative umleiten.
 Dabei wird entweder zufällig aus einer der vielen hinterlegten Instanzen ausgewählt oder die Instanz des Vertrauens gewählt.
@@ -137,8 +139,8 @@ Man kann aber auch einen Bereich als SVG mit Text usw. als Inhalt exportieren.
 Dabei hilft diese Erweiterung.
 
 Der Vorteil dabei ist, dass nicht die Pixel, sondern die Inhalte als SVG gespeichert werden.
-Zum einen ist dies häufig kleiner als ein Bild, zum Anderen bleiben Informationen wie Texte erhalten.
-Auch kann man hinterher mit beispielsweise Inkscape seine Screenshots viel leichter manipulieren.
+Zum Einen ist dies häufig kleiner als ein Bild, zum Anderen bleiben Informationen wie Texte erhalten.
+Auch kann man mit Tools, wie beispielsweise Inkscape, seine Screenshots viel leichter manipulieren.
 Mit im Grunde allen Vorteilen von SVGs.
 
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/svg-screenshots/)
@@ -147,7 +149,7 @@ Mit im Grunde allen Vorteilen von SVGs.
 # Experten
 
 Einige Erweiterungen, die ich benutze, würde ich definitiv nicht jedem empfehlen.
-Diese brauchen entweder mehr Wissen, was da genau gerade passiert und wie man diese benutzt oder sind möglicherweise einfach anstrengend, wenn man noch nicht an diese gewöhnt ist.
+Entweder wird mehr Wissen vorrausgesetzt, was da genau gerade passiert und wie man diese benutzt oder sind möglicherweise einfach anstrengend, wenn man noch nicht an diese gewöhnt ist.
 Beide sind aber einfach großartig und ich würde diese nicht missen wollen.
 Meiner Mutter würde ich diese aber beispielsweise nicht empfehlen ;)
 

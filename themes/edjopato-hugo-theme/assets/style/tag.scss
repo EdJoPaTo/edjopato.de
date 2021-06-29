@@ -8,6 +8,7 @@
   line-height: 1.5;
   padding-left: 0.875em;
   padding-right: 0.875em;
+  text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,13 +21,4 @@
 .tag.category {
   background-color: #A00;
   color: white;
-}
-
-.meta a {
-  color: #444;
-  text-decoration: none;
-}
-
-.meta a:hover {
-  text-decoration: underline;
 }

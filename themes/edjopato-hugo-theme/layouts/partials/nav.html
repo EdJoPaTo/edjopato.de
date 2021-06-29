@@ -1,12 +1,6 @@
 <nav>
-  <div>
-    <div class="left">
-      <a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
-    </div>
-    <div class="right">
-      {{ range .Site.Menus.main }}
-<a href="{{ .URL }}">{{ .Name }}</a>
-      {{ end }}
-    </div>
-  </div>
+  <a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+  {{ range .Site.Menus.main }}
+  <a href="{{ .URL }}">{{ .Name }}</a>
+  {{ end }}
 </nav>

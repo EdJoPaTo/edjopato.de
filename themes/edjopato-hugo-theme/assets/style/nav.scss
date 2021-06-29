@@ -1,13 +1,8 @@
 nav {
   background: linear-gradient(rgba(0,0,0,.7), transparent);
-}
-
-nav > div {
   display: flex;
-  margin: 0 auto;
-  max-width: 700px;
+  justify-content: space-evenly;
   min-height: 3.5rem;
-  padding: 0 0.5rem;
 }
 
 nav, nav a {
@@ -20,16 +15,7 @@ nav a:hover {
   color: whitesmoke;
 }
 
-nav .left, nav .right {
-  display: flex;
-  flex-grow: 1;
-}
-
-nav .right {
-  justify-content: flex-end;
-}
-
-nav .left > *, nav .right > * {
+nav > * {
   display: flex;
   align-items: center;
   padding: 0.5rem 0.75rem 1rem;

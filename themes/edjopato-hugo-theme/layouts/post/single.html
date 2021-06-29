@@ -1,14 +1,12 @@
 {{ define "main" }}
 <section class="main">
-  <div class="container">
-    {{ partial "post-meta.html" . }}
-    <div class="content">
-      {{ .Content }}
-    </div>
+  {{ partial "post-meta.html" . }}
+  <div class="content">
+    {{ .Content }}
   </div>
 </section>
 <section class="old-post list">
-  {{ range first 5 (where (where .Site.RegularPages "Section" .Section) "Date" "<" .Date ) }}
+  {{ range first 6 (where (where .Site.RegularPages "Section" .Section) "Date" "<" .Date ) }}
     {{ partial "listentry.html" . }}
   {{ end }}
 </section>

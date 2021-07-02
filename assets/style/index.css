@@ -75,11 +75,11 @@ section.has-bg.is-light {
   width: 40vmin;
   height: auto;
   margin: 5vmin;
-  border-radius: 25%;
+  border-radius: 35% 20%;
   transition: transform 0.5s, border-radius 0.5s;
 }
 
 .avatar:hover {
   transform: rotate(360deg);
-  border-radius: 50%;
+  border-radius: 20% 35%;
 }

@@ -10,7 +10,7 @@
 {{ if .Params.background }}
 <style>
 @media screen and (min-width: 1000px) {
-  html {
+  header.has-background {
     background-image: {{ .Params.background.style | safeCSS }};
   }
 }

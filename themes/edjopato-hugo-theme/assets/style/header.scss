@@ -1,20 +1,14 @@
 header {
   color: white;
-  padding-bottom: 9rem;
-  padding-top: 9rem;
+  padding: 5rem 1rem;
   text-align: center;
   text-shadow: 1px 1px 10px #000;
 }
 
-header.has-background {
-  padding-bottom: 18rem;
-  padding-top: 18rem;
-}
-
-@media screen and (max-width: 1000px) {
-  header, header.has-background {
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+@media screen and (min-width: 1000px) {
+  header.has-background {
+    padding-bottom: 35vh;
+    padding-top: 35vh;
   }
 }
 

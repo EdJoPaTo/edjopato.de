@@ -7,7 +7,7 @@
 {{ define "header" }}
 <header style="text-align: center;">
   <h1>Hi!</h1>
-  <h2>Ich bin Edgar!</h2>
+  <div>Ich bin Edgar!</div>
   <img class="avatar" src="/assets/cheese.svg" alt="Avatar">
 </header>
 {{ end }}
@@ -15,14 +15,14 @@
 {{ define "main" }}
   {{ range where .Site.Data.projects ".background" "!=" nil }}
   <section class="has-bg{{ if eq .background.dark "false" }} is-light{{ end }}" style="background-image: {{ .background.style | safeCSS }}">
-    <h1><a href="{{ .url | safeURL }}">{{ .title }}</a></h1>
-    <h2>{{ .description | markdownify }}</h2>
+    <h2><a href="{{ .url | safeURL }}">{{ .title }}</a></h2>
+    {{ .description | markdownify }}
   </section>
   {{ end }}
   {{ range where .Site.Data.projects ".background" "==" nil }}
   <section class="alternating-bg">
-    <h1><a href="{{ .url | safeURL }}">{{ .title }}</a></h1>
-    <h2>{{ .description | markdownify }}</h2>
+    <h2><a href="{{ .url | safeURL }}">{{ .title }}</a></h2>
+    {{ .description | markdownify }}
   </section>
   {{ end }}
 {{ end }}

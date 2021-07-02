@@ -1,14 +1,10 @@
 header {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  font-size: 2rem;
 }
 
 header h1 {
   font-size: 3rem;
-}
-
-header h2 {
-  margin: 0.5rem 0 2rem;
-  font-size: 2rem;
 }
 
 footer {
@@ -16,28 +12,19 @@ footer {
 }
 
 section {
+  font-size: 1.25rem;
   padding: 10vmin 1rem;
   text-align: center;
 }
 
 section, section a {
   color: white;
-}
-
-section h1, section h2 {
-  font-weight: normal;
-}
-
-section h1 a {
   text-decoration: none;
 }
 
-section h1 {
-  font-size: 2rem;
-}
-
 section h2 {
-  font-size: 1.25rem;
+  font-weight: normal;
+  font-size: 2rem;
 }
 
 section.has-bg {

@@ -1,34 +1,34 @@
-section.main {
+.single {
   background-color: rgba(255, 255, 255, 0.92);
   padding: 3rem 0;
   line-height: 1.5;
 }
 
 @media (prefers-color-scheme: dark) {
-  section.main {
+  .single {
     background-color: rgba(25, 25, 25, 0.92);
     color: whitesmoke;
   }
 }
 
-section.main>div, section.main>article {
+.single>* {
   margin: 0 auto;
   padding: 0 1rem;
   max-width: 600px;
 }
 
-section img {
+.single img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
 }
 
-section.main h1 {
+.single h1 {
   font-size: 1.75rem;
   margin-bottom: 0;
 }
 
-section.main h2 {
+.single h2 {
   font-size: 1.2rem;
   margin: 0;
 }

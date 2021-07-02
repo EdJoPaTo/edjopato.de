@@ -16,6 +16,8 @@
 }
 </style>
 {{ end }}
+{{ $built := resources.Get "js/updatebg.js" | js.Build "updatebg.js" }}
+<script src="{{ $built.RelPermalink }}" defer></script>
 </head>
 
 <body>
@@ -28,8 +30,4 @@
 </main>
 {{ partial "footer.html" . }}
 </body>
-
-{{ $built := resources.Get "js/updatebg.js" | js.Build "updatebg.js" }}
-<script src="{{ $built.RelPermalink }}" async></script>
-
 </html>

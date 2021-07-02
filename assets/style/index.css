@@ -16,7 +16,7 @@ footer {
 }
 
 section {
-  padding: 3rem 1rem;
+  padding: 10vmin 1rem;
   text-align: center;
 }
 
@@ -40,21 +40,12 @@ section h2 {
   font-size: 1.25rem;
 }
 
-@media screen and (min-width: 1000px) {
-  section.has-bg {
-    padding-bottom: 18rem;
-    padding-top: 18rem;
-  }
-  section.alternating-bg {
-    padding-bottom: 9rem;
-    padding-top: 9rem;
-  }
-}
-
 section.has-bg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 20vmin;
+  padding-top: 20vmin;
   text-shadow: 1px 1px 10px #000;
 }
 
@@ -81,10 +72,9 @@ section.has-bg.is-light {
 
 .avatar {
   box-shadow: 1px 1px 10px rgb(255, 255, 0);
-  width: 50%;
-  max-width: 400px;
+  width: 40vmin;
   height: auto;
-  margin: 20px;
+  margin: 5vmin;
   border-radius: 25%;
   transition: transform 0.5s, border-radius 0.5s;
 }

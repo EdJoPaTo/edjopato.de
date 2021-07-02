@@ -12,26 +12,81 @@
     style: url(/assets/backgrounds/haw-raindrops1.jpg)
     dark: true
 
+- title: ESP NeoPixel Clock
+  url: https://github.com/EdJoPaTo/esp-mqtt-neopixel-clock
+  description: Uhr aus einem NeoPixel LED Ring
+  background:
+    style: url(/assets/2021/07/pixelclock.jpg)
+    dark: false
+
+- title: ESP NeoMatrix Adventskranz
+  url: https://github.com/EdJoPaTo/esp-mqtt-neopixel-clock
+  description: Adventskranz auf einer NeoPixel LED Matrix
+  background:
+    style: url(/assets/2021/07/adventwrath.jpg)
+    dark: true
+
 - title: Silfani EVE Tools
   url: https://silfani.de
   description: |
     Eine Sammlung von Tools für [EVE Online](//eveonline.com), einem MMO Spiel.
 
-    Hier gibt es hauptsächlich kleine Tools die zumindest mir den EVE Alltag erleichtern.
+    Spiele ich zwar schon eine Weile nicht mehr, aber ein Großteil funktioniert noch.
   background:
     style: url(/assets/backgrounds/nemesiscloak.jpg)
     dark: true
 
-- title: GitHub
-  url: https://github.com/EdJoPaTo
+- title: Website Stalker
+  url: https://github.com/EdJoPaTo/website-stalker
+  description: Tool zum Beobachten von Änderungen auf Webseiten
+
+- title: mqttui
+  url: https://github.com/EdJoPaTo/mqttui
+  description: Terminal UI zur Betrachung von MQTT Nachrichten
+
+- title: Deno Semver Redirect
+  url: https://dsr.edjopato.de
   description: |
-    Meine Programmierprojekte sind meist auf GitHub zu finden.
+    [Deno Abhängigkeiten](https://deno.land/x) mit [SemVer](https://semver.org/) laden
 
-    Schau doch mal auf meinem [Profil](//github.com/EdJoPaTo) vorbei.
+- title: Telegraf Inline Menu
+  url: https://github.com/EdJoPaTo/telegraf-inline-menu
+  description: Library für das Telegram Framework Telegraf zu einfachen Erstellung von Inline Button Menüs
 
-- title: TeamSpeak 3
-  url: ts3server://ts.3t0.de
+- title: Telegraf Stateless Question
+  url: https://github.com/EdJoPaTo/telegraf-stateless-question
+  description: Library für das Telegram Framework Telegraf zum Stellen von Fragen an Bot Nutzer ohne State
+
+- title: Wikidata Telegram Bot
+  url: https://telegram.me/WikidataBot
+  description: Telegram Bot zum Suchen auf Wikidata
+
+- title: Telegram Chat Record Bot
+  url: https://telegram.me/ChatRecordBot
+  description: Telegram Bot zum Mitschreiben von Nachrichten über einen kurzen Zeitraum wie ein Meeting
+
+- title: iPhone Battery Health
+  url: https://github.com/EdJoPaTo/iPhoneBatteryHealth
+  description: Monatlich aktualisierte Sammlung vom Battery Health Zustand von iPhones und Apple Watches
+
+- title: mpdPi
+  url: https://github.com/EdJoPaTo/mpdPi
+  description: Raspberry Pi als simpler Musikspieler via [mpd](https://www.musicpd.org/)
+
+- title: LinuxScripts
+  url: https://github.com/EdJoPaTo/LinuxScripts
+  description: Skriptsammlung zum Einrichten meiner Linux (und macOS) Rechner
+
+- title: hawhh.de
+  url: https://hawhh.de
   description: |
-    Ein öffentlicher TeamSpeak 3 Server ist unter [ts.3t0.de](http://ts.3t0.de) gehostet.
+    Suchmaschine und Direktlinks um die Website der [HAW Hamburg](https://www.haw-hamburg.de/) zu durchsuchen.
 
-    Komm gern mal vorbei. Jeder ist willkommen.
+    Ansonsten findet man ja nichts wieder…
+
+- title: dkjjk
+  url: https://dkjjk.de
+  description: |
+    Für mich persönlich gehostete Dienste, die gerne mit benutzt werden können.
+
+    Solange wir uns auf eine 0% Verfügbarkeitsgarantie einigen können ;)

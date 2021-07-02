@@ -1,6 +1,7 @@
 .tag {
   align-items: center;
   background-color: whitesmoke;
+  color: #222;
   border-radius: 9999px;
   display: inline-flex;
   font-size: 0.75rem;
@@ -11,14 +12,19 @@
   text-decoration: none;
 }
 
+.tag.category {
+  background-color: #222;
+  color: whitesmoke;
+}
+
 @media (prefers-color-scheme: dark) {
   .tag {
     background-color: #111;
     color: whitesmoke;
   }
-}
 
-.tag.category {
-  background-color: #A00;
-  color: white;
+  .tag.category {
+    background-color: whitesmoke;
+    color: #222;
+  }
 }

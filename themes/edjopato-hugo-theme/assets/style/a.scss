@@ -1,7 +1,13 @@
 a {
-  color: #A00;
+  color: black;
 }
 
 a:hover {
   text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: white;
+  }
 }

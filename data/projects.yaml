@@ -1,0 +1,37 @@
+- title: Blog
+  url: /post/
+  description: Ein Blog über Dinge. Mit Typos.
+  background:
+    style: url(/assets/backgrounds/wl-laptop.jpg)
+    dark: true
+
+- title: HAW Hamburg Kalender Bot
+  url: https://calendarbot.hawhh.de
+  description: Ein Telegram Bot, der persönliche Veranstaltungskalender für die HAW Hamburg erzeugt.
+  background:
+    style: url(/assets/backgrounds/haw-raindrops1.jpg)
+    dark: true
+
+- title: Silfani EVE Tools
+  url: https://silfani.de
+  description: |
+    Eine Sammlung von Tools für [EVE Online](//eveonline.com), einem MMO Spiel.
+
+    Hier gibt es hauptsächlich kleine Tools die zumindest mir den EVE Alltag erleichtern.
+  background:
+    style: url(/assets/backgrounds/nemesiscloak.jpg)
+    dark: true
+
+- title: GitHub
+  url: https://github.com/EdJoPaTo
+  description: |
+    Meine Programmierprojekte sind meist auf GitHub zu finden.
+
+    Schau doch mal auf meinem [Profil](//github.com/EdJoPaTo) vorbei.
+
+- title: TeamSpeak 3
+  url: ts3server://ts.3t0.de
+  description: |
+    Ein öffentlicher TeamSpeak 3 Server ist unter [ts.3t0.de](http://ts.3t0.de) gehostet.
+
+    Komm gern mal vorbei. Jeder ist willkommen.

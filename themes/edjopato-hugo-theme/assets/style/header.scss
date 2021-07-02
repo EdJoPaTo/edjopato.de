@@ -1,5 +1,6 @@
 header {
   color: white;
+  font-size: 1.25rem;
   padding: 5rem 1rem;
   text-align: center;
   text-shadow: 1px 1px 10px #000;
@@ -12,11 +13,11 @@ header {
   }
 }
 
-header h1, header h2 {
+header * {
   font-weight: normal;
   margin: 0;
 }
 
-header h2 {
-  font-size: 1.25rem;
+header h1 {
+  font-size: 2rem;
 }

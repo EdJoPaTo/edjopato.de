@@ -5,9 +5,4 @@
     {{ .Content }}
   </div>
 </section>
-<section class="old-post list">
-  {{ range first 6 (where (where .Site.RegularPages "Section" .Section) "Date" "<" .Date ) }}
-    {{ partial "listentry.html" . }}
-  {{ end }}
-</section>
 {{ end }}

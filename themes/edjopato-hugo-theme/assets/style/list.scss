@@ -5,22 +5,18 @@
 }
 
 .list article {
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.8);
-  margin: 1rem;
   max-width: 600px;
-  padding: 2rem;
   padding-bottom: 3rem;
-}
+  padding: 2rem;
 
-@media screen and (max-width: 700px) {
-  .list article {
+  margin: 1rem;
+  @media screen and (max-width: 700px) {
     margin: 1rem 0;
   }
-}
 
-@media (prefers-color-scheme: dark) {
-  .list article {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.8);
+  @media (prefers-color-scheme: dark) {
     background-color: rgba(25, 25, 25, 0.8);
     box-shadow: 0 0 5px 1px rgba(25, 25, 25, 0.8);
   }

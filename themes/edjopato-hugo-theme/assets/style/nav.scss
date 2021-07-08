@@ -1,14 +1,14 @@
 nav {
   background: linear-gradient(transparent, rgba(0,0,0,.7));
+  color: #bbb;
   display: flex;
   justify-content: space-evenly;
   min-height: 3.5rem;
+  text-shadow: 1px 1px 10px #000;
 }
 
-nav, nav a {
-  color: #bbb;
+nav a {
   text-decoration: none;
-  text-shadow: 1px 1px 10px #000;
 }
 
 nav a:hover {

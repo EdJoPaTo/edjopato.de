@@ -1,13 +1,7 @@
 a {
-  color: black;
+  color: inherit;
 }
 
 a:hover {
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  a {
-    color: white;
-  }
 }

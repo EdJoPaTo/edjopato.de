@@ -8,7 +8,7 @@ section {
   text-align: center;
 }
 
-section, section a {
+section {
   color: white;
 }
 
@@ -39,11 +39,11 @@ section.has-bg.is-light {
   background-color: rgba(0,0,0,0.3);
 }
 
-.alternating-bg:nth-child(2n), .alternating-bg:nth-child(2n) a {
+.alternating-bg:nth-child(2n) {
   color: whitesmoke;
 }
 
-.alternating-bg:nth-child(2n+1), .alternating-bg:nth-child(2n+1) a {
+.alternating-bg:nth-child(2n+1) {
   color: black;
 }
 

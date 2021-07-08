@@ -1,37 +1,37 @@
 footer {
-  background: linear-gradient(rgba(0,0,0,.8), transparent);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent);
   color: whitesmoke;
   opacity: 0.8;
   padding: 4rem 1rem 3rem;
   text-align: center;
   text-shadow: 1px 1px 10px #000;
-}
 
-footer div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 1rem 0;
-}
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 0;
+  }
 
-footer svg {
-  height: 32px;
-  width: 32px;
-  margin: 4px;
-}
+  svg {
+    height: 32px;
+    width: 32px;
+    margin: 4px;
+  }
 
-footer svg * {
-  fill: #b5b5b5;
-}
-
-footer a {
-  text-decoration: none;
-  opacity: 0.75;
-}
-
-footer a:hover {
-  opacity: 0.95;
   svg * {
-    fill: whitesmoke;
+    fill: #b5b5b5;
+  }
+
+  a {
+    text-decoration: none;
+    opacity: 0.75;
+  }
+
+  a:hover {
+    opacity: 0.95;
+    svg * {
+      fill: whitesmoke;
+    }
   }
 }

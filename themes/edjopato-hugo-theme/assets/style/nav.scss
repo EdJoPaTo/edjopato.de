@@ -1,22 +1,22 @@
 nav {
-  background: linear-gradient(transparent, rgba(0,0,0,.7));
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
   color: #bbb;
   display: flex;
   justify-content: space-evenly;
   min-height: 3.5rem;
   text-shadow: 1px 1px 10px #000;
-}
 
-nav a {
-  text-decoration: none;
-}
+  a {
+    text-decoration: none;
+  }
 
-nav a:hover {
-  color: whitesmoke;
-}
+  a:hover {
+    color: whitesmoke;
+  }
 
-nav > * {
-  display: flex;
-  align-items: center;
-  padding: 0.75rem;
+  > * {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+  }
 }

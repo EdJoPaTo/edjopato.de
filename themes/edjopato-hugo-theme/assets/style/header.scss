@@ -4,20 +4,20 @@ header {
   padding: 5rem 1rem;
   text-align: center;
   text-shadow: 1px 1px 10px #000;
-}
 
-@media screen and (min-width: 1000px) {
-  header.has-background {
-    padding-bottom: 35vh;
-    padding-top: 35vh;
+  &.has-background {
+    @media screen and (min-width: 1000px) {
+      padding-bottom: 35vh;
+      padding-top: 35vh;
+    }
   }
-}
 
-header * {
-  font-weight: normal;
-  margin: 0;
-}
+  * {
+    font-weight: normal;
+    margin: 0;
+  }
 
-header h1 {
-  font-size: 2.5rem;
+  h1 {
+    font-size: 2.5rem;
+  }
 }

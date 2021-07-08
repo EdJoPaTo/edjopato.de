@@ -1,51 +1,52 @@
 p code {
   /* inline code */
-  color: #BA2121;
+  color: #ba2121;
 }
 
 pre {
   overflow-x: auto;
-}
 
-pre .k, pre .kd {
-  /* language keywords */
-  color: #008000;
-  font-weight: bold;
-}
+  .k, .kd {
+    /* language keywords */
+    color: #008000;
+    font-weight: bold;
+  }
 
-pre .nn, pre .nc {
-  /* namespaces, classes */
-  color: #0000FF;
-  font-weight: bold;
-}
+  .nn,
+  .nc {
+    /* namespaces, classes */
+    color: #0000ff;
+    font-weight: bold;
+  }
 
-pre .s, pre .s1, pre .s2, pre .sr {
-  /* string */
-  color: #BA2121;
-}
+  .s, .s1, .s2, .sr {
+    /* string */
+    color: #ba2121;
+  }
 
-pre .kt, pre .kr {
-  /*type */
-  color: #B00040;
-  font-weight: bold;
-}
+  .kt, .kr {
+    /*type */
+    color: #b00040;
+    font-weight: bold;
+  }
 
-pre .kc, pre .mi {
-  /* const / operator */
-  color: #6A6;
-}
+  .kc, .mi {
+    /* const / operator */
+    color: #6a6;
+  }
 
-pre .o {
-  /* operator */
-  color: #666;
-}
+  .o {
+    /* operator */
+    color: #666;
+  }
 
-pre .p {
-  /* semicolon, brakets*/
-  color: #666;
-}
+  .p {
+    /* semicolon, brakets*/
+    color: #666;
+  }
 
-pre .cm, pre .c1 {
-  /* comment */
-  color: #666;
+  .cm, .c1 {
+    /* comment */
+    color: #666;
+  }
 }

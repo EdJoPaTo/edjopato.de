@@ -17,7 +17,7 @@
 </style>
 {{ end }}
 {{ $built := resources.Get "js/updatebg.js" | js.Build "updatebg.js" }}
-<script src="{{ $built.RelPermalink }}" defer></script>
+<script src="{{ $built.RelPermalink }}"></script>
 </head>
 
 <body>

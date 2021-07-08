@@ -10,19 +10,20 @@
   > * {
     margin-right: 0.4rem;
   }
-}
 
-.tags {
-  display: inline;
+  .tags {
+    display: inline;
 
-  a {
-    text-decoration: none;
-  }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
 
-  a:hover {
-    color: black;
-    @media (prefers-color-scheme: dark) {
-      color: white;
+    a:hover {
+      color: black;
+      @media (prefers-color-scheme: dark) {
+        color: white;
+      }
     }
   }
 }

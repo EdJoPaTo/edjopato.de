@@ -1,5 +1,9 @@
+:root {
+  --time-hue: 200;
+}
+
 html {
-  background-color: #333;
+  background-color: hsl(var(--time-hue), 100%, 25%);
 }
 
 html, .has-background {

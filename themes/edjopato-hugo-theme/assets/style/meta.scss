@@ -1,0 +1,28 @@
+.meta {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+
+  color: #555;
+  @media (prefers-color-scheme: dark) {
+    color: #bbb;
+  }
+
+  > * {
+    margin-right: 0.4rem;
+  }
+}
+
+.tags {
+  display: inline;
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: black;
+    @media (prefers-color-scheme: dark) {
+      color: white;
+    }
+  }
+}

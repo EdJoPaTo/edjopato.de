@@ -22,10 +22,6 @@
   }
 }
 
-.list:not(:first-child) {
-  margin-top: 1rem;
-}
-
 .list h2 {
   font-size: 2rem;
   font-weight: normal;
@@ -34,8 +30,4 @@
   a {
     text-decoration: none;
   }
-}
-
-.list .meta {
-  margin: 0.5rem 0;
 }

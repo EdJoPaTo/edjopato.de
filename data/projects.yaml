@@ -13,7 +13,7 @@
     dark: true
 
 - title: ESP NeoPixel Clock
-  url: https://github.com/EdJoPaTo/esp-mqtt-neopixel-clock
+  url: /post/2021/07-16-esp-pixelring-clock/
   description: Uhr aus einem NeoPixel LED Ring
   background:
     style: url(/assets/2021/07/pixelclock.jpg)

@@ -14,3 +14,9 @@ menu:
     - Name: "Blog"
       Identifier: "blog"
       URL: "/post/"
+
+server:
+  headers:
+  - for: /**
+    values:
+      Content-Security-Policy: base-uri 'none'; form-action 'none'; default-src 'none'; img-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self'

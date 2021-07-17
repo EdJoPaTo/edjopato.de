@@ -1,11 +1,11 @@
 <div class="meta">
-  <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" title="{{ .Date.Format "Mon, 2. January 2006 15:04 MST" | safeHTML }}">{{ .Date.Format "2006-01-02" }}</time>
+  <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" title="{{ .Date.Format "Mon, 2. January 2006 15:04 MST" }}">{{ .Date.Format "2006-01-02" }}</time>
   <span title="{{ .WordCount }} Wörter">{{ .ReadingTime }} Min Lesezeit</span>
   <div class="tags">
-    {{ range .Params.categories }}
+    {{ range .Params.categories -}}
     <a href="{{ "/categories/" | relURL }}{{ . }}/" class="category">{{ . }}</a>
     {{ end }}
-    {{ range .Params.tags }}
+    {{ range .Params.tags -}}
     <a href="{{ "/tags/" | relURL }}{{ . }}/" class="tag">{{ . }}</a>
     {{ end }}
   </div>

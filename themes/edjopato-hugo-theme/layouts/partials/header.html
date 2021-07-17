@@ -1,6 +1,6 @@
 <header{{ if .Params.background }} class="has-background"{{end}}>
   <h1>{{ .Title }}</h1>
-  {{ if .Params.subtitle }}
-  <div>{{ .Params.subtitle }}</div>
-  {{ end }}
+{{- with .Params.subtitle }}
+  <div>{{ . }}</div>
+{{- end }}
 </header>

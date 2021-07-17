@@ -1,13 +1,13 @@
 <footer>
-{{ if .Params.background }}
+{{- with .Params.background }}
   <p>
     Titelbild
-    {{ if .Params.background.name }}"{{ .Params.background.name }}"{{ end }}
-    {{ if .Params.background.source }}
-    von <a href="{{ .Params.background.source.url }}">{{ .Params.background.source.name }}</a>
-    {{ end }}
+    {{ with .name }}"{{ . }}"{{ end }}
+    {{- with .source }}
+    von <a href="{{ .url }}">{{ .name }}</a>
+    {{- end }}
   </p>
-{{ end }}
+{{- end }}
   <p>
     <a href="{{ relref . "/impressum.md" }}">Impressum</a>
   </p>

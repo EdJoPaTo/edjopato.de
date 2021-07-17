@@ -1,8 +1,13 @@
 {{ define "main" }}
 <main class="list">
-  {{ range .Paginator.Pages }}
-    {{ partial "listentry.html" . }}
-  {{ end }}
+{{- range .Paginator.Pages }}
+  <article>
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+{{ partial "post-meta.html" . }}
+    {{ .Summary | plainify }}
+    <a href="{{ .RelPermalink }}">weiterlesen…</a>
+  </article>
+{{ end -}}
 </main>
 {{ template "_internal/pagination.html" . }}
 {{ end }}

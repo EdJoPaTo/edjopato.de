@@ -3,11 +3,11 @@
 
 <head>
 {{ partial "head.html" . }}
-{{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
-{{ $style := resources.Get "style/main.scss" | resources.ToCSS $options }}
+{{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true ) -}}
+{{ $style := resources.Get "style/main.scss" | resources.ToCSS $options -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 {{ block "headpart" . }}{{ end }}
-{{ if .Params.background }}
+{{- if .Params.background }}
 <style>
 @media screen and (min-width: 1000px) {
   header.has-background {
@@ -15,8 +15,8 @@
   }
 }
 </style>
-{{ end }}
-{{ $built := resources.Get "js/updatebg.js" | js.Build "updatebg.js" }}
+{{- end }}
+{{ $built := resources.Get "js/updatebg.js" | js.Build "updatebg.js" -}}
 <script src="{{ $built.RelPermalink }}"></script>
 </head>
 

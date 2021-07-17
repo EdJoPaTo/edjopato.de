@@ -1,6 +1,6 @@
 {{ define "headpart" }}
-{{ $options := (dict "targetPath" "index.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
-{{ $style := resources.Get "style/index.css" | resources.ToCSS $options }}
+{{ $options := (dict "targetPath" "index.css" "outputStyle" "compressed" "enableSourceMap" true ) -}}
+{{ $style := resources.Get "style/index.css" | resources.ToCSS $options -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 {{ end }}
 
@@ -13,13 +13,13 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ range where .Site.Data.projects ".background" "!=" nil }}
+  {{- range where .Site.Data.projects ".background" "!=" nil }}
   <section class="has-bg{{ if eq .background.dark "false" }} is-light{{ end }}" style="background-image: {{ .background.style | safeCSS }}">
     <h2><a href="{{ .url | safeURL }}">{{ .title }}</a></h2>
     {{ .description | markdownify }}
   </section>
   {{ end }}
-  {{ range where .Site.Data.projects ".background" "==" nil }}
+  {{- range where .Site.Data.projects ".background" "==" nil }}
   <section class="alternating-bg">
     <h2><a href="{{ .url | safeURL }}">{{ .title }}</a></h2>
     {{ .description | markdownify }}

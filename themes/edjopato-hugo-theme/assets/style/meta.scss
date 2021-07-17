@@ -11,15 +11,15 @@
     margin-right: 0.4rem;
   }
 
-  .tags {
+  div {
     display: inline;
+  }
 
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
+  a {
+    text-decoration: none;
+    color: inherit;
 
-    a:hover {
+    &:hover {
       color: black;
       @media (prefers-color-scheme: dark) {
         color: white;

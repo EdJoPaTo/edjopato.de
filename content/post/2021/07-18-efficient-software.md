@@ -108,7 +108,7 @@ Ja, C beispielsweise war besser, aber eben auch nicht so einfach.
 # Brauche ich das wirklich?
 
 Etwas, was mir immer häufiger auffällt:
-Menschen wissen nicht, was wie wirklich brauchen und holen sich eine eierlegende Wollmilchsau.
+Menschen wissen nicht, was sie wirklich brauchen und holen sich eine eierlegende Wollmilchsau.
 Häufig vermischen diese alle möglichen Aufgaben zu einer zähflüssigen Matsche und können zwar alles, aber nichts besonders gut.
 
 Wenn ich mir beispielsweise ein Tabellenkalkulationsprogramm wie LibreOffice Calc anschaue, dann vermischt dieses einige Aufgaben.

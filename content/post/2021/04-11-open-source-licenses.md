@@ -3,7 +3,7 @@ background:
   name: Wolken
   style: url(/assets/2021/04/clouds.jpg)
 date: 2021-04-11T15:10:00+02:00
-lastmod: 2021-04-13T18:11:00+02:00
+lastmod: 2021-09-02T08:40:00+02:00
 title: Open Source Lizenzen
 tags:
   - copyleft
@@ -90,7 +90,7 @@ Normalerweise wird der Lizenztext mit einer veröffentlichten Software mit ausge
 Auf GitHub liegt im Hauptordner eine `LICENSE` Datei, welche auch automatisch von GitHub gelesen und wenn bekannt, am Repository bereits die Lizenz markiert wird.
 Veröffentlicht man Libraries auf beispielsweise [NPM](https://www.npmjs.com/) oder [Crates.io](crates.io), so muss die jeweilige Projektkonfigurationsdatei eine Lizenz beinhalten.
 Bei NPM ist dies beispielsweise Freitext.
-Bei crates.io muss die Lizenzdatei angegeben werden oder eine Bezeichnung aus der [SPDX Lizenzliste](https://github.com/spdx/license-list-data/tree/v3.6/text) haben.
+Bei crates.io muss die Lizenzdatei angegeben werden oder eine Bezeichnung aus der [SPDX Lizenzliste](https://github.com/spdx/license-list-data/tree/master/text) haben.
 
 Software die beispielsweise im Arch Linux (User) Repository landen, haben ebenfalls ein Lizenzfeld in jeder Paketbeschreibung.
 

@@ -8,10 +8,10 @@ https://ndrfs-lh.akamaihd.net/i/ndrfs_hh@430231/master.m3u8
 #EXTINF:-1,NDR-NDS
 https://ndrfs-lh.akamaihd.net/i/ndrfs_nds@430233/master.m3u8
 #EXTINF:-1,WDR
-https://wdrfsgeo-lh.akamaihd.net/i/wdrfs_geogeblockt@530016/master.m3u8
+https://mcdn.wdr.de/wdr/wdrfs/de/master.m3u8
 #EXTINF:-1,3sat
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8
 #EXTINF:-1,arte
-https://artelive-lh.akamaihd.net/i/artelive_de@393591/master.m3u8
+https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8
 #EXTINF:-1,KIKA
 https://kikade-lh.akamaihd.net/i/livetvkika_de@450035/master.m3u8

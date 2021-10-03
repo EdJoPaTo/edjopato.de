@@ -1,4 +1,6 @@
-<header{{ if .Params.background }} class="has-background"{{end}}>
+{{- $images := .Resources.ByType "image" -}}
+{{- $cover := $images.GetMatch "cover" -}}
+<header{{ if or $cover .Params.background }} class="has-background"{{end}}>
   <h1>{{ .Title }}</h1>
 {{- with .Params.subtitle }}
   <div>{{ . }}</div>

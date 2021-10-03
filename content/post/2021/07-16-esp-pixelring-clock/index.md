@@ -1,9 +1,11 @@
 ---
-background:
-  name: Die Pixelring Uhr
-  style: url(/assets/2021/07/pixelclock.jpg)
-date: 2021-07-16T14:57:00+02:00
 title: LED-Pixelring Uhr
+date: 2021-07-16T14:57:00+02:00
+resources:
+  - name: cover
+    title: Die Pixelring Uhr
+    src: pixelclock.jpg
+  - src: HueScale.svg
 tags:
   - arduino
   - c
@@ -45,7 +47,7 @@ Hat die Farbe keine Helligkeit, so ist sie schwarz.
 Damit lassen sich alle Farben beschreiben.
 Zum Beispiel grün ist bei 120°, hellgrün hat eine geringere Sättigung und dunkelgrün eine geringere Helligkeit.
 Ich arbeite relativ gerne mit HSV statt mit RGB, da man mit der Anpassung von nur einem der drei Werte schon schöne Verläufe erzeugen kann.
-![Farbtonskala in Grad](/assets/2021/07/HueScale.svg)
+![Farbtonskala in Grad](HueScale.svg)
 Quelle: https://commons.wikimedia.org/wiki/File:HueScale.svg
 
 Das entscheidende Detail, welches mir auffiel: 6 Stunden sind 360 Minuten und die Farbtonskala hat 360°.
@@ -78,7 +80,7 @@ Ich habe also für die Stundenmarkierungen nur die Sättigung reduziert, alles a
 Für die Sekunden habe ich die Komplementärfarbe gewählt.
 Auch relativ einfach zu berechnen, diese ist nämlich 180° weiter.
 
-![Die Uhr an der Wand](/assets/2021/07/pixelclock.jpg)
+![Die Uhr an der Wand](pixelclock.jpg)
 Das Foto ist mit falschem Fokus gemacht worden, um die LEDs besser sehen zu können.
 LEDs haben die Angewohnheit, sehr punktuell deutlich heller als ihre Umgebung zu sein und das können Kameras nicht sonderlich gut fotografieren.
 

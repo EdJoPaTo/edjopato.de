@@ -10,6 +10,10 @@ pygmentsUseClasses: true
 theme: edjopato-hugo-theme
 title: EdJoPaTo
 
+params:
+  images:
+  - /apple-touch-icon.png
+
 menu:
   main:
     - Name: "Blog"

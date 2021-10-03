@@ -16,7 +16,7 @@
   url: /post/2021/07-16-esp-pixelring-clock/
   description: Uhr aus einem NeoPixel LED Ring
   background:
-    style: url(/assets/2021/07/pixelclock.jpg)
+    style: url(/post/2021/07-16-esp-pixelring-clock/pixelclock.jpg)
     dark: false
 
 - title: ESP NeoMatrix Adventskranz

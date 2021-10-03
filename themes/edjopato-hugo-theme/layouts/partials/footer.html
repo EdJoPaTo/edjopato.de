@@ -8,6 +8,17 @@
     {{- end }}
   </p>
 {{- end }}
+{{- $images := .Resources.ByType "image" -}}
+{{- $cover := $images.GetMatch "cover" -}}
+{{- with $cover }}
+  <p>
+    Titelbild
+    {{ with .Title }}"{{ . }}"{{ end }}
+    {{- if .Params.sourceUrl }}
+    von <a href="{{ .Params.sourceUrl }}">{{ .Params.sourceName }}</a>
+    {{- end }}
+  </p>
+{{- end }}
   <p>
     <a href="{{ relref . "/impressum.md" }}">Impressum</a>
   </p>

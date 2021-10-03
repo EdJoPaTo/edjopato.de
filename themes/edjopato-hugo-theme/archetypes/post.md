@@ -1,19 +1,20 @@
 ---
-background:
-  name: Set me
-  style: url(/assets/backgrounds/blackopsbridge.jpg)
-  source:
-    name: Source
-    url: link
+title: {{ replace .TranslationBaseName "-" " " | title }}
+date: {{ .Date }}
+draft: true
+resources:
+  - name: cover
+    src: blackopsbridge.jpg
+    title: Set me
+    params:
+      sourceName: Set me
+      sourceUrl: Set me
 license:
   name: CC BY-ND 4.0
   url: https://creativecommons.org/licenses/by-nd/4.0/
-date: {{ .Date }}
-title: {{ replace .TranslationBaseName "-" " " | title }}
 categories:
   - fancy
 tags:
   - some
   - tags
-draft: true
 ---

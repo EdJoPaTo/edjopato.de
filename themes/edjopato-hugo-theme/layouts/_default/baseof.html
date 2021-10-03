@@ -16,6 +16,17 @@
 }
 </style>
 {{- end }}
+{{- $images := .Resources.ByType "image" -}}
+{{- $cover := $images.GetMatch "cover" -}}
+{{- with $cover }}
+<style>
+  @media screen and (min-width: 1000px) {
+    header.has-background {
+      background-image: url({{ .RelPermalink }});
+    }
+  }
+</style>
+{{- end }}
 {{ $built := resources.Get "js/updatebg.js" | js.Build "updatebg.js" -}}
 <script src="{{ $built.RelPermalink }}"></script>
 </head>

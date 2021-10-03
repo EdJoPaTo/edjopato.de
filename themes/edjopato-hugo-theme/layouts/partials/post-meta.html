@@ -8,10 +8,10 @@
   <a href="{{ .url }}">{{ .name }}</a>
 {{- end }}
 {{- end }}
-  {{ range .Params.categories -}}
+{{- range .Params.categories }}
   <a href="{{ "/categories/" | relURL }}{{ . }}/" class="category">{{ . }}</a>
-  {{ end }}
-  {{ range .Params.tags -}}
+{{- end }}
+{{- range .Params.tags }}
   <a href="{{ "/tags/" | relURL }}{{ . }}/" class="tag">{{ . }}</a>
-  {{ end }}
+{{- end }}
 </div>

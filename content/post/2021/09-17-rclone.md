@@ -3,7 +3,6 @@ license:
   name: CC BY-ND 4.0
   url: https://creativecommons.org/licenses/by-nd/4.0/
 date: 2021-09-17T23:24:00+02:00
-lastmod: 2021-09-17T23:24:00+02:00
 title: Cloud-sync per Command-Line mit Rclone
 categories:
   - open-source

@@ -3,7 +3,6 @@ background:
   name: Umleitung um einen Pfahl
   style: url(/assets/2020/09/wl-night-loop.jpg)
 date: 2020-09-17T14:37:00+02:00
-lastmod: 2020-09-17T14:37:00+02:00
 title: Commands auf einem entfernten Gerät ausführen
 tags:
   - arch-linux

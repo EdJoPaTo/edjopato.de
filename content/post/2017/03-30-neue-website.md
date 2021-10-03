@@ -6,7 +6,6 @@ background:
     url: //www.freevector.com/waves-and-circles
   style: radial-gradient(rgba(0,0,0,0.6) 30%, rgba(0,0,0,0.1)), url(/assets/2017/03/waves-and-circles.svg)
 date: 2017-03-30T14:32:00+02:00
-lastmod: 2017-04-04T20:56:00+02:00
 tags:
 - blog
 - jekyll

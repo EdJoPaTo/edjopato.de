@@ -5,7 +5,6 @@ background:
 categories:
 - tti
 date: 2017-07-15T01:30:00+02:00
-lastmod: 2017-08-01T01:44:00+02:00
 tags:
 - architektur
 - bpaas-angebot

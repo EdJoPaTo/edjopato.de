@@ -3,7 +3,6 @@ background:
   name: Mensa Berliner-Tor an der der HAW Hamburg
   style: url(/assets/2020/01/haw-mensa.jpg)
 date: 2020-01-14T22:40:00+01:00
-lastmod: 2019-01-14T22:55:00+01:00
 title: MensaMining
 subtitle: Mensa Daten des Hamburger Studierendenwerks
 tags:

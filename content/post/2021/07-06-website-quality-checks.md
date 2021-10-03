@@ -3,7 +3,6 @@ background:
   name: Luhebrücke
   style: url(/assets/2021/07/bridge.jpg)
 date: 2021-07-06T22:40:00+02:00
-lastmod: 2021-07-06T22:40:00+02:00
 title: Qualitätschecks von Webseiten
 tags:
   - browser

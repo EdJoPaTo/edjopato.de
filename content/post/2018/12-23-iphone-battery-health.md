@@ -3,7 +3,6 @@ background:
   name: Neue Hamburger U-Bahn Station Elbbrücken
   style: url(/assets/2018/12/hh-elbbruecken.jpg)
 date: 2018-12-23T02:35:00+01:00
-lastmod: 2019-01-14T22:55:00+01:00
 title: iPhone Battery Health
 tags:
   - apple

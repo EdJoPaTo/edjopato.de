@@ -5,7 +5,6 @@ background:
 categories:
 - tti
 date: 2017-07-15T02:10:00+02:00
-lastmod: 2017-07-15T02:30:00+02:00
 tags:
 - bpaas-angebot
 - services

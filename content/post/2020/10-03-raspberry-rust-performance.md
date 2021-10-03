@@ -3,7 +3,6 @@ background:
   name: Oktober Blumen im Luhepark
   style: url(/assets/2020/10/flower-red.jpg)
 date: 2020-10-03T04:05:00+02:00
-lastmod: 2020-10-03T04:40:00+02:00
 title: Performance unterschiedlicher Raspberry Pis
 tags:
   - intel-nuc

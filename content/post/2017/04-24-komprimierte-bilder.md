@@ -3,7 +3,6 @@ background:
   name: Aprilwetter Winsen
   style: url(/assets/2017/04/wl-hagel.jpg)
 date: 2017-04-24T17:00:00+02:00
-lastmod: 2018-12-21T23:26:00+01:00
 tags:
 - bilder
 - kompression

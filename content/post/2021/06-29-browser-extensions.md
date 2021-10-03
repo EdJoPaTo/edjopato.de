@@ -3,7 +3,6 @@ background:
   name: Hamburger Skyline aus Sicht einer Elbfähre
   style: url(/assets/2021/04/hh-skyline.jpg)
 date: 2021-06-29T18:42:00+02:00
-lastmod: 2021-06-29T22:34:00+02:00
 title: Browser Erweiterungen
 categories:
   - how-do-i

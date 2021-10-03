@@ -1,6 +1,5 @@
 ---
 date: 2021-07-25T22:57:00+02:00
-lastmod: 2021-07-25T22:57:00+02:00
 title: Google Stadia
 tags:
   - gaming

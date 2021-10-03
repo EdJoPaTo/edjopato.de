@@ -3,7 +3,6 @@ background:
   name: Set me
   style: url(/assets/2020/09/wl-rain-rhododendron.jpg)
 date: 2020-09-11T22:53:00+02:00
-lastmod: 2020-09-11T22:53:00+02:00
 title: Das Kalenderbot Backend zu Rust migrieren
 tags:
   - calendarbot

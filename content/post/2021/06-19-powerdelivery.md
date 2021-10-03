@@ -3,7 +3,6 @@ background:
   name: Sonnenaufgang
   style: url(/assets/2021/06/sunrise.jpg)
 date: 2021-06-20T19:14:00+02:00
-lastmod: 2021-06-20T22:26:00+02:00
 title: Strömekraft - PowerDelivery in Netzteilen und portablen USB Akkus
 tags:
   - apple

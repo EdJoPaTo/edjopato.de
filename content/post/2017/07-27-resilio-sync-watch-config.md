@@ -3,7 +3,6 @@ background:
   name: Brücke bei Fahrenholz über die Ilmenau
   style: url(/assets/2017/07/fahrenholz.jpg)
 date: 2017-07-30T17:27:00+02:00
-lastmod: 2017-07-30T17:27:00+02:00
 title: Das "Resilio Sync Watch Config" Tool
 tags:
   - bittorrent

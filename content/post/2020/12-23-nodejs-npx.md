@@ -3,7 +3,6 @@ background:
   name: Steinstufen im Regen
   style: url(/assets/2020/12/wl-rain-steps.jpg)
 date: 2020-12-23T00:07:00+01:00
-lastmod: 2021-01-02T16:02:00+01:00
 title: NodeJS binaries ausführen ohne npx
 tags:
   - bash

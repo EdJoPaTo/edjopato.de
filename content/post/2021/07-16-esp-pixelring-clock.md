@@ -3,7 +3,6 @@ background:
   name: Die Pixelring Uhr
   style: url(/assets/2021/07/pixelclock.jpg)
 date: 2021-07-16T14:57:00+02:00
-lastmod: 2021-07-16T15:11:00+02:00
 title: LED-Pixelring Uhr
 tags:
   - arduino

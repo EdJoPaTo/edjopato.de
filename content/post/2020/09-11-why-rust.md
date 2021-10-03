@@ -3,7 +3,6 @@ background:
   name: Rasensprenger im Garten
   style: url(/assets/2020/09/wl-lawn-sprinkler.jpg)
 date: 2020-09-11T22:50:00+02:00
-lastmod: 2020-09-12T07:50:00+02:00
 title: Was macht Rust für mich spannend?
 tags:
   - csharp

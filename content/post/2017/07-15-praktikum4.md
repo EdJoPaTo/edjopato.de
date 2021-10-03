@@ -5,7 +5,6 @@ background:
 categories:
 - tti
 date: 2017-07-15T00:25:00+02:00
-lastmod: 2017-07-15T01:30:00+02:00
 tags:
 - abgabe
 - praktikum

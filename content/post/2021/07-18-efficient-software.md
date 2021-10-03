@@ -1,6 +1,5 @@
 ---
 date: 2021-07-18T17:12:00+02:00
-lastmod: 2021-07-18T17:12:00+02:00
 title: Gedanken zu effizienter Software
 tags:
   - browser

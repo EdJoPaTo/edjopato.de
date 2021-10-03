@@ -3,7 +3,6 @@ background:
   name: Set me
   style: url(/assets/2021/04/water.jpg)
 date: 2021-05-28T17:55:00+02:00
-lastmod: 2021-05-28T20:10:00+02:00
 title: Vergleich einiger Netcup und Hetzner Cloud Server
 tags:
   - hetzner

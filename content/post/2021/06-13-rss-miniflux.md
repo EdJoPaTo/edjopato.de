@@ -3,7 +3,6 @@ background:
   name: Steinstufen nach dem Regen
   style: url(/assets/2020/09/wl-rain-steps.jpg)
 date: 2021-06-13T18:16:00+02:00
-lastmod: 2021-06-13T18:16:00+02:00
 title: RSS lesen synchronisieren mit Miniflux
 tags:
   - desktop

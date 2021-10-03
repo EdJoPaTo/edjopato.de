@@ -3,7 +3,6 @@ background:
   name: Fahrzeuge für Spielkinder und Minderjährige auf dem 36c3
   style: url(/assets/2020/01/36c3cars.jpg)
 date: 2020-01-22T16:15:00+01:00
-lastmod: 2020-01-22T16:15:00+01:00
 title: Gravatar Privacy
 tags:
   - gravatar

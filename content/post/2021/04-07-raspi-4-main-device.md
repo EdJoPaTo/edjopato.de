@@ -3,7 +3,6 @@ background:
   name: Zweiter Schneeschauer bei einem Aprilspaziergang
   style: url(/assets/2021/04/april-weather.jpg)
 date: 2021-04-07T22:23:00+02:00
-lastmod: 2021-04-13T18:11:00+02:00
 title: Raspberry Pi 4 als Hauptgerät
 tags:
   - debian

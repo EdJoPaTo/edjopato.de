@@ -2,7 +2,6 @@
 categories:
 - tti
 date: 2017-04-17T07:07:00+02:00
-lastmod: 2017-05-08T11:00:00+02:00
 tags:
 - vorlesung
 title: Die ersten Vorlesungen

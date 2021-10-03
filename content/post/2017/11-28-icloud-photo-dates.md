@@ -3,7 +3,6 @@ background:
   name: Schmetterling in Bad Harzburg
   style: url(/assets/2017/11/schmetterling.jpg)
 date: 2017-11-28T23:32:00+01:00
-lastmod: 2017-11-28T23:45:00+01:00
 title: Alte Bilder korrekt in die iCloud Photos importieren
 subtitle: Exif Datum berücksichtigen
 tags:

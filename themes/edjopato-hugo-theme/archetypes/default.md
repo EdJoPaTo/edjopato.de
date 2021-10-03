@@ -6,6 +6,5 @@ background:
     name: Source
     url: link
 date: {{ .Date }}
-lastmod: {{ .Date }}
 title: {{ replace .TranslationBaseName "-" " " | title }}
 ---

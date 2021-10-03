@@ -3,7 +3,6 @@ background:
   name: Volle Luhe im Regen
   style: url(/assets/2020/09/wl-luhe-rain.jpg)
 date: 2020-09-08T23:50:00+02:00
-lastmod: 2020-09-08T23:50:00+02:00
 title: Das stecken bleibende Internetradio entrosten
 tags:
   - internet-radio

@@ -3,7 +3,6 @@ background:
   name: Kekse in Werkzeugformen
   style: url(/assets/2021/04/cookie-tools.jpg)
 date: 2021-04-07T20:30:00+02:00
-lastmod: 2021-04-13T18:11:00+02:00
 title: Schnelle Suche in und nach Dateien in *nix Systemen
 tags:
   - arch-linux

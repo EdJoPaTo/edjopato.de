@@ -3,7 +3,6 @@ background:
   name: Hamburger Hafenkräne
   style: url(/assets/2021/04/hh-cranes.jpg)
 date: 2021-04-07T21:28:00+02:00
-lastmod: 2021-04-07T21:28:00+02:00
 title: Mal eben Videos und Sound bearbeiten
 tags:
   - arch-linux

@@ -3,7 +3,6 @@ background:
   name: Das Ende einer Steinschlange
   style: url(/assets/2021/01/stone-snake.jpg)
 date: 2021-01-03T04:15:00+01:00
-lastmod: 2021-01-03T04:15:00+01:00
 title: MQTT Rust vs NodeJS
 tags:
   - async

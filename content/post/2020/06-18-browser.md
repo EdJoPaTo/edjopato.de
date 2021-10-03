@@ -3,7 +3,6 @@ background:
   name: Schlossteich in Winsen
   style: url(/assets/2020/06/wl-schlossteich.jpg)
 date: 2020-06-18T17:55:00+02:00
-lastmod: 2020-06-19T09:45:00+02:00
 title: Wie machst du eigentlich - Browser
 categories:
   - how-do-i

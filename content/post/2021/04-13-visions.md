@@ -3,7 +3,6 @@ background:
   name: Strommast bei Nacht
   style: url(/assets/2021/04/powerpole.jpg)
 date: 2021-04-13T13:22:00+02:00
-lastmod: 2021-04-13T18:11:00+02:00
 title: Visionen von Projekten und Firmen
 tags:
   - communication

@@ -2,7 +2,6 @@
 categories:
 - tti
 date: 2017-04-03T16:08:00+02:00
-lastmod: 2017-04-04T20:38:00+02:00
 tags:
 - bpaas-angebot
 - vorbereitung

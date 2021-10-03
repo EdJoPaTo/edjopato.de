@@ -3,7 +3,6 @@ background:
   name: Nächtlicher Schnee
   style: url(/assets/2021/01/snow-rail-tracks.jpg)
 date: 2021-01-30T18:56:00+01:00
-lastmod: 2021-01-30T18:58:00+01:00
 title: Erste BL602 Experimente mit Rust
 tags:
   - bl602

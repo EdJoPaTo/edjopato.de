@@ -3,7 +3,6 @@ background:
   name: Strommast und Wolken
   style: url(/assets/2021/04/landline.jpg)
 date: 2021-04-08T00:21:00+02:00
-lastmod: 2021-04-13T18:11:00+02:00
 title: PinePhone als RSS und Mastodon Reader
 tags:
   - desktop

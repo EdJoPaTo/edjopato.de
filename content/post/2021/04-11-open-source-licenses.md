@@ -3,7 +3,6 @@ background:
   name: Wolken
   style: url(/assets/2021/04/clouds.jpg)
 date: 2021-04-11T15:10:00+02:00
-lastmod: 2021-09-02T08:40:00+02:00
 title: Open Source Lizenzen
 tags:
   - copyleft

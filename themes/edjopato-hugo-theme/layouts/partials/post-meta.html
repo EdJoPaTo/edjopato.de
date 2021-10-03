@@ -1,11 +1,11 @@
 <div class="meta">
   <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" title="{{ .Date.Format "Mon, 2. January 2006 15:04 MST" }}">{{ .Date.Format "2006-01-02" }}</time>
   <span title="{{ .WordCount }} Wörter">{{ .ReadingTime }} Min Lesezeit</span>
-{{- if ne .Params.license "nope" }}
-{{- with .Params.license }}
+{{- $license := .Params.license  -}}
+{{- if not $license }}{{ $license = $.Site.Params.license }}{{ end -}}
+{{- if ne $license "nope" }}
+{{- with $license }}
   <a href="{{ .url }}">{{ .name }}</a>
-{{- else }}
-  <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
 {{- end }}
 {{- end }}
   {{ range .Params.categories -}}

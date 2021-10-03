@@ -1,9 +1,6 @@
 ---
-license:
-  name: CC BY-ND 4.0
-  url: https://creativecommons.org/licenses/by-nd/4.0/
-date: 2021-09-20T12:34:00+02:00
 title: ISOs booten mit Ventoy
+date: 2021-09-20T12:34:00+02:00
 categories:
   - open-source
 tags:

@@ -1,6 +1,8 @@
 .meta {
   font-size: 0.9rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
 
   color: #555;
   @media (prefers-color-scheme: dark) {
@@ -8,11 +10,8 @@
   }
 
   > * {
-    margin-right: 0.4rem;
-  }
-
-  div {
-    display: inline;
+    margin-right: 0.6rem;
+    margin-bottom: 0.6rem;
   }
 
   a {

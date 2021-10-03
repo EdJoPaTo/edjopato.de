@@ -8,12 +8,10 @@
   <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
 {{- end }}
 {{- end }}
-  <div class="tags">
-    {{ range .Params.categories -}}
-    <a href="{{ "/categories/" | relURL }}{{ . }}/" class="category">{{ . }}</a>
-    {{ end }}
-    {{ range .Params.tags -}}
-    <a href="{{ "/tags/" | relURL }}{{ . }}/" class="tag">{{ . }}</a>
-    {{ end }}
-  </div>
+  {{ range .Params.categories -}}
+  <a href="{{ "/categories/" | relURL }}{{ . }}/" class="category">{{ . }}</a>
+  {{ end }}
+  {{ range .Params.tags -}}
+  <a href="{{ "/tags/" | relURL }}{{ . }}/" class="tag">{{ . }}</a>
+  {{ end }}
 </div>

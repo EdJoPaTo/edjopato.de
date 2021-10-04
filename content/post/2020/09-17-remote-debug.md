@@ -1,19 +1,19 @@
 ---
+title: Commands auf einem entfernten Gerät ausführen
+date: 2020-09-17T14:37:00+02:00
 background:
   name: Umleitung um einen Pfahl
   style: url(/assets/2020/09/wl-night-loop.jpg)
-date: 2020-09-17T14:37:00+02:00
-title: Commands auf einem entfernten Gerät ausführen
+categories:
+  - open-source
 tags:
-  - arch-linux
   - command-line
-  - javascript
   - linux
   - macos
   - nodejs
   - rsync
   - rust
-  - ssh
+  - server
   - typescript
 ---
 Manchmal hat man den Bedarf, einen Befehl auf einem entfernen Gerät auszuführen.

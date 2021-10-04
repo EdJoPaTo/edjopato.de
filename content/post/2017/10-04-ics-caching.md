@@ -1,19 +1,17 @@
 ---
+title: Caching von abonnierten ICS Kalendern
+date: 2017-10-04T19:54:00+02:00
 background:
   name: Maschsee Hannover
   style: url(/assets/2017/10/maschsee.jpg)
-date: 2017-10-04T19:54:00+02:00
-title: Caching von abonnierten ICS Kalendern
+categories:
+  - open-source
 tags:
-- calendarbot
-- exchange
-- google
-- haw
-- haw-hamburg
-- hawhh
-- ios
-- macos
-- telegram
+  - calendarbot
+  - haw-hamburg
+  - ios
+  - macos
+  - telegram
 ---
 Der [HAWHHCalendarBot](https://calendarbot.hawhh.de) wird mittlerweile doch recht viel genutzt.
 Eine der häufigsten Kritiken ist das langsame Aktualisieren des Kalenders mit dem Google Kalender.

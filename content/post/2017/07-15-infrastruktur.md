@@ -1,24 +1,22 @@
 ---
+title: Die Infrastruktur
+date: 2017-07-15T21:30:00+02:00
 background:
   name: Luhepark Winsen
   style: url(/assets/2017/07/luhepark3.jpg)
 categories:
 - tti
-date: 2017-07-15T21:30:00+02:00
 tags:
-- bpaas-angebot
-- docker
-- docker-swarm
-- infrastruktur
-- portainer
-title: Die Infrastruktur
+  - bpaas-angebot
+  - container
+  - haw-hamburg
 ---
 
 Für unser BPaaS Angebot haben wir uns, da wir als Team größtenteils aus technischen Informatikern bestehen, dafür entschieden, eine eigene Lösung für das Hosting zu nutzen, statt eine Fremde zu adaptieren.
 Dafür bot sich eine Container basierte Infrastruktur an, wofür Docker, genauer Docker Swarm, gewählt wurde.
 
 Ein Vorteil, der zu dieser Entscheidung führte, ist die Abstraktion, mit welcher Programmiersprache und Umgebung die Ziele der jeweiligen Komponente erfüllt werden.
-(Eine Übersicht über alle Komponenten gibt es [hier]({{< relref "../2017/07-15-architektur.md" >}}).)
+(Eine Übersicht über alle Komponenten gibt es [hier]({{< relref "/content/post/2017/07-15-architektur.md" >}}).)
 Die Nutzung vieler unterschiedlicher Programmiersprachen sorgt zwar für eine schlechtere Wartbarkeit, da nicht jeder jede Komponente warten kann, wurde innerhalb dieser Aufgabenstellung jedoch in Kauf genommen.
 Außerdem ist die Nutzung eines Systems wie Docker Swarm gegenüber Kubernetes vergleichsweise einfach, da Docker Swarm Bestandteil von Docker ist und mit jeder (neueren) Docker Installation genutzt werden kann.
 

@@ -1,16 +1,13 @@
 ---
+title: Bildkomprimierung für das Web
+date: 2017-04-24T17:00:00+02:00
 background:
   name: Aprilwetter Winsen
   style: url(/assets/2017/04/wl-hagel.jpg)
-date: 2017-04-24T17:00:00+02:00
+categories:
+  - open-source
 tags:
-- bilder
-- kompression
-- gif
-- jpg
-- png
-- svg
-title: Bildkomprimierung für das Web
+  - photos
 ---
 
 Um ein möglichst rundes Blog Angebot zu erstellen, versuche ich die Seitenladezeit so gering wie möglich zu halten.

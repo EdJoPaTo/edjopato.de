@@ -1,14 +1,14 @@
 ---
+title: Die Services
+date: 2017-07-15T02:10:00+02:00
 background:
   name: Luhepark Winsen
   style: url(/assets/2017/07/luhepark2.jpg)
 categories:
-- tti
-date: 2017-07-15T02:10:00+02:00
+  - tti
 tags:
-- bpaas-angebot
-- services
-title: Die Services
+  - bpaas-angebot
+  - haw-hamburg
 ---
 
 Die Services unseres BPaaS Angebots stellen die Bestandteile eines Business Prozesses dar.
@@ -46,4 +46,4 @@ Die BPInstance benötigt zum Arbeiten also nur die BaseUrl eines Services, mit H
 
 So lassen sich über diese Schnittstelle sehr frei Services erstellen oder auch bestehende mit Hilfe von Wrappern in unser System einbinden.
 
-Wenn dich noch mehr Komponenten unseres BPaaS Angebots interessieren, schau dir doch die Übersicht aller Komponenten im Blog Post der [Architektur]({{< relref "../2017/07-15-architektur.md" >}}) unseres Systems an.
+Wenn dich noch mehr Komponenten unseres BPaaS Angebots interessieren, schau dir doch die Übersicht aller Komponenten im Blog Post der [Architektur]({{< relref "/content/post/2017/07-15-architektur.md" >}}) unseres Systems an.

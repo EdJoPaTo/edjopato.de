@@ -1,21 +1,21 @@
 ---
-background:
-  name: Steinstufen nach dem Regen
-  style: url(/assets/2020/09/wl-rain-steps.jpg)
-date: 2021-06-13T18:16:00+02:00
 title: RSS lesen synchronisieren mit Miniflux
+date: 2021-06-13T18:16:00+02:00
+resources:
+  - name: cover
+    src: wl-rain-steps.jpg
+    title: Steinstufen nach dem Regen
+categories:
+  - open-source
 tags:
   - desktop
-  - foss
   - linux
-  - news
-  - phone
   - pine64
   - pinephone
   - rss
   - smartphone
 ---
-Seit einer Weile [lese ich meine RSS Feeds auf dem PinePhone via NewsFlash]({{< relref "../2021/04-08-pinephone-rss-reader.md" >}}).
+Seit einer Weile [lese ich meine RSS Feeds auf dem PinePhone via NewsFlash]({{< relref "/content/post/2021/04-08-pinephone-rss-reader.md" >}}).
 Das funktioniert erstaunlich gut.
 Vor ein paar Tagen kam ich darauf, dass YouTube (und Invidious) ebenfalls Atom Feeds bereitstellt, über die man sich seine Subscriptions abbilden kann.
 Nur schaue ich meine Videos eher nicht am Handy.

@@ -1,16 +1,17 @@
 ---
+title: Performance unterschiedlicher Raspberry Pis
+date: 2020-10-03T04:05:00+02:00
 background:
   name: Oktober Blumen im Luhepark
   style: url(/assets/2020/10/flower-red.jpg)
-date: 2020-10-03T04:05:00+02:00
-title: Performance unterschiedlicher Raspberry Pis
+categories:
+  - open-source
 tags:
-  - intel-nuc
   - linux
-  - macbook
-  - netcup
+  - macos
   - raspberry-pi
   - rust
+  - server
 ---
 Ich hab mich gefragt, wie die unterschiedlichen Raspberries etwa vergleichbar sind in Performance.
 Der Pi 2 und Pi 4 sind beides 4 Kerner, das sollte nicht soo viel Unterschied machen, oder?
@@ -106,7 +107,7 @@ Beim Dev Build macht sich aber die höhere Frequenz bemerkbar.
 Mein Hauptgerät, der NUC5i3 ist nicht der schnellste, beim Dev Build aber ganz passabel dabei.
 Vielleicht würde es sich für das Entwickeln jedoch anbieten, auf mein MacBook zu wechseln.
 
-Zwischenzeitlich war eine Idee, das [Bauen auf einem der Server zu machen]({{< relref "../2020/09-17-remote-debug.md" >}}), allerdings sieht man hier schon relativ gut, dass der Dev Build nicht wirklich schneller (oder sogar langsamer) ist.
+Zwischenzeitlich war eine Idee, das [Bauen auf einem der Server zu machen]({{< relref "/content/post/2020/09-17-remote-debug.md" >}}), allerdings sieht man hier schon relativ gut, dass der Dev Build nicht wirklich schneller (oder sogar langsamer) ist.
 Vielleicht bringt G(eneration) 9 der Server hier noch mal einen Benefit, ich habe aber aktuell keinen davon im Einsatz um diesen zum Testen zu nutzen.
 
 Der 36 Threads Server an der Hochschule war interessanterweise sogar langsamer im Dev Build als andere Geräte, hat beim Release Build einfach durch die Menge an Threads schnell bauen können.

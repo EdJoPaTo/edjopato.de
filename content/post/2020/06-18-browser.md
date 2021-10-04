@@ -1,18 +1,16 @@
 ---
+title: Wie machst du eigentlich - Browser
+date: 2020-06-18T17:55:00+02:00
 background:
   name: Schlossteich in Winsen
   style: url(/assets/2020/06/wl-schlossteich.jpg)
-date: 2020-06-18T17:55:00+02:00
-title: Wie machst du eigentlich - Browser
 categories:
   - how-do-i
+  - open-source
 tags:
-  - arch-linux
-  - browser
-  - firefox
   - ios
+  - linux
   - macos
-  - safari
   - web
   - windows
 ---

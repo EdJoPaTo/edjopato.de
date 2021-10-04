@@ -1,16 +1,17 @@
 ---
+title: Das neue HAW HH Kalenderbot Backend
+date: 2017-07-18T00:50:00+02:00
 background:
   name: Blick aus dem HAW Fenster
   style: url(/assets/backgrounds/haw-raindrops1.jpg)
-date: 2017-07-18T00:50:00+02:00
+categories:
+  - open-source
 tags:
-- calendarbot
-- docker
-- haw
-- haw-hamburg
-- hawhh
-- telegram
-title: Das neue HAW HH Kalenderbot Backend
+  - calendarbot
+  - container
+  - haw-hamburg
+  - server
+  - telegram
 ---
 
 Der HAW HH Kalenderbot [@HAWHHCalendarBot](//t.me/HAWHHCalendarBot), ein von einer nicht unerheblichen Zahl von HAW Studenten genutzter Telegram Bot zur Erstellung eines personalisierten, abonnierbaren Kalenders, hat ein neues Backend.

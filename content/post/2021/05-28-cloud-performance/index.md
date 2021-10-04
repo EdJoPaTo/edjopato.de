@@ -1,16 +1,15 @@
 ---
-background:
-  name: Set me
-  style: url(/assets/2021/04/water.jpg)
-date: 2021-05-28T17:55:00+02:00
 title: Vergleich einiger Netcup und Hetzner Cloud Server
+date: 2021-05-28T17:55:00+02:00
+resources:
+  - name: cover
+    src: water.jpg
+    title: Elbwasser
 tags:
-  - hetzner
-  - intel-nuc
   - linux
-  - macbook
-  - netcup
+  - macos
   - raspberry-pi
+  - server
 ---
 Heute gab es ein Netcup Sonderangebot mit einem neuen Server, dem "Game Invader".
 Geklickt und die Frage gestellt, wie schnell ist das Ding nun eigentlich im Verhältnis?
@@ -96,4 +95,4 @@ Aber deswegen ist er noch lange nicht schlecht.
 Vor allem nicht für den Preis.
 
 Und vielleicht muss ich mir mal ein kleines Skript bauen, um solche hyperfine Vergleiche mal eben auf einigen Raspberries und vServern ausführen zu können.
-Der [Vergleich der Raspberry Pis]({{< relref "../2020/10-03-raspberry-rust-performance.md" >}})  war zumindest für mich ja auch recht eindrucksvoll, wie viel besser diese doch auch zwischen Pi 2 und Pi 4 geworden sind, obwohl alle 4 Kerne hatten.
+Der [Vergleich der Raspberry Pis]({{< relref "/content/post/2020/10-03-raspberry-rust-performance.md" >}})  war zumindest für mich ja auch recht eindrucksvoll, wie viel besser diese doch auch zwischen Pi 2 und Pi 4 geworden sind, obwohl alle 4 Kerne hatten.

@@ -82,6 +82,6 @@ Der neue Monitor hat einen deutlich kleineren Rahmen als die U2711, aber so im A
 (In einem Laptop hingegeben wäre dies anders, für den Desktop ist es für mich aber einfach nicht relevant.)
 
 Alles in allem ist der Monitor mit seinen Features schon cool.
-[Das Einstellen der Helligkeit über DDC/CI]({{< relref "../2020/08-17-ddc.md" >}}) funktioniert weiterhin problemlos.
+[Das Einstellen der Helligkeit über DDC/CI]({{< relref "/content/post/2020/08-17-ddc.md" >}}) funktioniert weiterhin problemlos.
 Ich kann mal eben ein USB-C Gerät anstecken und benutzen.
 Nur das mit der DisplayPort MST Chain bedarf noch neuerer Hardware, was meinen aktuellen NUC5i3 angeht.

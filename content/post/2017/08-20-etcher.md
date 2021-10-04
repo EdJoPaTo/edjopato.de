@@ -1,15 +1,15 @@
 ---
+title: Etcher - Ein Image Flash Tool
+date: 2017-08-20T12:50:00+02:00
 background:
   name: Metronom Strecke zwischen Winsen und Harburg
   style: url(/assets/2017/08/metronom.jpg)
-date: 2017-08-20T12:50:00+02:00
-title: Etcher - Ein Image Flash Tool
+categories:
+  - open-source
 tags:
-  - dd
-  - etcher
-  - sd-card
-  - unetbootin
-  - usb-drive
+  - raspberry-pi
+  - smarthome
+  - usb
 ---
 Wer mit Images arbeitet, kennt das Problem: Irgendwie müssen die Images auf die SD-Karte für den Raspberry Pi oder den USB Stick, um den PC aufzusetzen.
 Dafür bietet sich Etcher an.

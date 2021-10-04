@@ -1,19 +1,16 @@
 ---
+title: Mal eben Videos und Sound bearbeiten
+date: 2021-04-07T21:28:00+02:00
 background:
   name: Hamburger Hafenkräne
   style: url(/assets/2021/04/hh-cranes.jpg)
-date: 2021-04-07T21:28:00+02:00
-title: Mal eben Videos und Sound bearbeiten
+categories:
+  - open-source
 tags:
-  - arch-linux
-  - bash
   - command-line
-  - debian
   - linux
   - macos
   - raspberry-pi
-  - terminal
-  - zsh
 ---
 Ein Video welches man ohne Ton braucht?
 Oder nur das Audio aus dem Video?
@@ -73,7 +70,7 @@ Der alias `ffmpegVideo` löscht also weder Audio noch Video.
 `ffmpeg` kann außerdem das Internet als Input verwenden.
 Beispielsweise die m3u8 Streams, welche im Hintergrund für die meisten Streams im Internet genutzt werden, können von ffmpeg gelesen und als eine Video/Audio Datei gespeichert werden.
 
-In [Raspberry Pi IPTV]({{< relref "../2018/02-05-raspberry-pi-iptv.md" >}}) gehe ich ein wenig darauf ein, wie man an so einen m3u8 Stream kommt.
+In [Raspberry Pi IPTV]({{< relref "/content/post/2018/02-05-raspberry-pi-iptv.md" >}}) gehe ich ein wenig darauf ein, wie man an so einen m3u8 Stream kommt.
 Häufig ist aber [youtube-dl](https://ytdl-org.github.io/youtube-dl/) eine einfachere Hilfe.
 
 # Fazit

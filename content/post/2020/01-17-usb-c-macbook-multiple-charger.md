@@ -1,14 +1,14 @@
 ---
+title: Mehrere USB-C Netzteile an einem MacBook
+date: 2020-01-17T14:10:00+01:00
 background:
   name: USB-C Netzteile an der Hochschule. Mit bunten LEDs.
   style: url(/assets/2020/01/usb-pd-charger.jpg)
-date: 2020-01-17T14:10:00+01:00
-title: Mehrere USB-C Netzteile an einem MacBook
+categories:
+  - open-source
 tags:
-  - apple
-  - macbook
   - power-delivery
-  - usb-c
+  - usb
 ---
 Was passiert eigentlich, wenn man mehrere USB-C Netzteile an ein MacBook anschließt?
 Wenn das in einem Gespräch aufkam, war die Antwort von allen bisher immer, mit meinem MacBook probier ich das nicht aus.

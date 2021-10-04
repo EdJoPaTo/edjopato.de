@@ -6,15 +6,12 @@ resources:
     title: Die Pixelring Uhr
     src: pixelclock.jpg
   - src: HueScale.svg
+categories:
+  - open-source
 tags:
-  - arduino
   - c
-  - esp
-  - esp8266
   - microcontroller
-  - neopixel
-  - platformio
-  - ws2812
+  - smarthome
 ---
 Ich habe bei mir mittlerweile seit über einem Jahr einen LED-Pixelring als Uhr hängen.
 Am Anfang habe ich mir überlegt, wie ich diesen so nutzen kann, dass man auf einen Blick die Uhrzeit ablesen kann?

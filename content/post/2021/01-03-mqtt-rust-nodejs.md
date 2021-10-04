@@ -1,18 +1,15 @@
 ---
+title: MQTT Rust vs NodeJS
+date: 2021-01-03T04:15:00+01:00
 background:
   name: Das Ende einer Steinschlange
   style: url(/assets/2021/01/stone-snake.jpg)
-date: 2021-01-03T04:15:00+01:00
-title: MQTT Rust vs NodeJS
 tags:
-  - async
-  - javascript
-  - mqtt
   - nodejs
   - raspberry-pi
   - rust
-  - typescript
   - smarthome
+  - typescript
 ---
 In meinem Netzwerk laufen eine Vielzahl von "smarten" Geräten, die über MQTT angesteuert werden.
 So existiert beispielsweise ein Tool, welches LEDs an MQTT anbindet, als auch eines welches MQTT Nachrichten schlau empfängt und sendet um "smart" zu werden.

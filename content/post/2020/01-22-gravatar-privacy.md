@@ -1,14 +1,13 @@
 ---
+title: Gravatar Privacy
+date: 2020-01-22T16:15:00+01:00
 background:
   name: Fahrzeuge für Spielkinder und Minderjährige auf dem 36c3
   style: url(/assets/2020/01/36c3cars.jpg)
-date: 2020-01-22T16:15:00+01:00
-title: Gravatar Privacy
+categories:
+  - open-source
 tags:
-  - gravatar
-  - avatar
   - web
-  - service
   - privacy
 ---
 Wie sorgt man dafür, dass bei allen Diensten der eigene Avatar angezeigt wird?

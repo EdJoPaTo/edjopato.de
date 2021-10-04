@@ -1,14 +1,14 @@
 ---
+title: Einfach nur Musik hören
+date: 2020-07-18T15:50:00+02:00
 background:
   name: Apfelbaum bei Nacht
   style: url(/assets/2020/07/wl-nightly-appletree.jpg)
-date: 2020-07-18T15:50:00+02:00
-title: Einfach nur Musik hören
+categories:
+  - open-source
 tags:
-  - arch-linux
+  - linux
   - command-line
-  - internet-radio
-  - mpd
   - music
 ---
 
@@ -17,7 +17,7 @@ Internet Radio oder Musik die hier auf der Platte liegt.
 Aber muss dafür wirklich ein "riesiges" VLC mit GUI und allem laufen, nur um Musik abzuspielen?
 <!--more-->
 
-Auf einem [Raspberry Pi an meiner Musikanlage habe ich bereits ein mpd im Einsatz]({{< relref "../2018/08-08-mpd-pi.md" >}}).
+Auf einem [Raspberry Pi an meiner Musikanlage habe ich bereits ein mpd im Einsatz]({{< relref "/content/post/2018/08-08-mpd-pi.md" >}}).
 Der mpd, der Music Player Daemon ist ein Hintergrund Prozess mit eigentlich nur einem Job:
 Eine Musik Playlist auf dem lokalen Audio Output abzuspielen.
 

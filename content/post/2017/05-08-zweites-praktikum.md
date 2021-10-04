@@ -1,12 +1,11 @@
 ---
-categories:
-- tti
-date: 2017-05-08T17:20:00+02:00
-tags:
-- bpaas-angebot
-- meeting
-- praktikum
 title: Ein Prototyp und das zweite Praktikum
+date: 2017-05-08T17:20:00+02:00
+categories:
+  - tti
+tags:
+  - bpaas-angebot
+  - haw-hamburg
 ---
 
 Ein paar Wochen seit dem letzten Post zum BPaaS Angebot sind mittlerweile vergangen.

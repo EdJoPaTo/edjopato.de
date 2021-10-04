@@ -1,16 +1,14 @@
 ---
+title: PinePhone als RSS und Mastodon Reader
+date: 2021-04-08T00:21:00+02:00
 background:
   name: Strommast und Wolken
   style: url(/assets/2021/04/landline.jpg)
-date: 2021-04-08T00:21:00+02:00
-title: PinePhone als RSS und Mastodon Reader
+categories:
+  - open-source
 tags:
   - desktop
-  - foss
   - linux
-  - mastodon
-  - news
-  - phone
   - pine64
   - pinephone
   - rss
@@ -25,7 +23,7 @@ Da geht doch was.
 <!--more-->
 
 Wem das [PinePhone](https://www.pine64.org/pinephone/) nichts sagt, das ist quasi ein Raspberry Pi im Smartphone Format von Pine64.
-In [einem älteren Artikel]({{< relref "../2021/01-30-bl602-rust-experiments.md" >}}) habe ich das PinePhone auch schon angeteasert, dort liegt es im Bild auf dem Tisch und versorgt einen PineNut der selben Firma(?) mit Strom.
+In [einem älteren Artikel]({{< relref "/content/post/2021/01-30-bl602-rust-experiments.md" >}}) habe ich das PinePhone auch schon angeteasert, dort liegt es im Bild auf dem Tisch und versorgt einen PineNut der selben Firma(?) mit Strom.
 An sich ein cooles Gerät, man kann eines von vielen Linux Betriebssystemen nehmen und entweder auf das eMMC aufspielen oder von der SD-Karte starten.
 Funktioniert mehr oder weniger gut, man merkt, dass die Zielgruppe Entwickler sind, die dort verbessern und entwickeln wollen.
 Nun habe ich das PinePhone schon seit einer Weile und experimentiere immer mal ein wenig damit, mal Manjaro mit KDE Mobile, mal mit Phosh, mal Lomiri (ehemals Ubuntu Touch, welches ich damals witzigerweise auch schon unterstützt habe, aber aus dem [Ubuntu Edge](https://www.indiegogo.com/projects/ubuntu-edge/) wurde ja nie etwas…)

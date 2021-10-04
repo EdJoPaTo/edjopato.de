@@ -1,20 +1,15 @@
 ---
+title: Das "Resilio Sync Watch Config" Tool
+date: 2017-07-30T17:27:00+02:00
 background:
   name: Brücke bei Fahrenholz über die Ilmenau
   style: url(/assets/2017/07/fahrenholz.jpg)
-date: 2017-07-30T17:27:00+02:00
-title: Das "Resilio Sync Watch Config" Tool
+categories:
+  - open-source
 tags:
-  - bittorrent
-  - cli
-  - file
-  - jasmine
+  - command-line
   - nodejs
-  - resilio-sync
-  - sharing
-  - sync
-  - testing
-  - travis-ci
+  - linux
 ---
 Ich habe ein Abstraktionstool für Resilio Sync erstellt.
 Was ist überhaupt Resilio Sync, warum habe ich das getan und was hilft mir das?

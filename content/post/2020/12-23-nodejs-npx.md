@@ -1,17 +1,15 @@
 ---
+title: NodeJS binaries ausführen ohne npx
+date: 2020-12-23T00:07:00+01:00
 background:
   name: Steinstufen im Regen
   style: url(/assets/2020/12/wl-rain-steps.jpg)
-date: 2020-12-23T00:07:00+01:00
-title: NodeJS binaries ausführen ohne npx
+categories:
+  - open-source
 tags:
-  - bash
   - command-line
-  - javascript
   - nodejs
-  - npm
   - typescript
-  - zsh
 ---
 Wer mit NodeJS arbeitet und entwickelt, der nutzt sicherlich auch Tools, welche beispielsweise als devDependency im Projekt hinterlegt sind.
 Beispielsweise einen Test Runner wie `ava` oder einen Code Linter wie `xo` oder `eslint`.

@@ -4,12 +4,9 @@ date: 2021-09-20T12:34:00+02:00
 categories:
   - open-source
 tags:
-  - dd
-  - etcher
-  - unetbootin
-  - usb-drive
+  - usb
 ---
-Ventoy ist quasi ein Ersatz für das Beschreiben von USB-Sticks mit ISO Dateien [mittels Etcher und Co]({{< relref "../2017/08-20-etcher.md" >}}).
+Ventoy ist quasi ein Ersatz für das Beschreiben von USB-Sticks mit ISO Dateien [mittels Etcher und Co]({{< relref "/content/post/2017/08-20-etcher.md" >}}).
 Das benutze ich schon seit einer ganzen Weile, immer dann, wenn man mal mit einem ISO an einen Rechner will.
 
 Erstmal das warum, also wann brauche ich überhaupt ISOs auf einem USB-Stick?

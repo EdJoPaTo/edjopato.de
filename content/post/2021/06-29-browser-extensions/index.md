@@ -1,18 +1,21 @@
 ---
-background:
-  name: Hamburger Skyline aus Sicht einer Elbfähre
-  style: url(/assets/2021/04/hh-skyline.jpg)
-date: 2021-06-29T18:42:00+02:00
 title: Browser Erweiterungen
+date: 2021-06-29T18:42:00+02:00
+resources:
+  - name: cover
+    src: hh-skyline.jpg
+    title: Hamburger Skyline aus Sicht einer Elbfähre
 categories:
   - how-do-i
+  - open-source
 tags:
-  - browser
-  - extension
-  - firefox
+  - linux
+  - macos
   - privacy
+  - web
+  - windows
 ---
-Vor über einem Jahr habe ich meinen [Blogpost, wie ich Browser verwende]({{< relref "../2020/06-18-browser.md" >}}), nun schon geschrieben.
+Vor über einem Jahr habe ich meinen [Blogpost, wie ich Browser verwende]({{< relref "/content/post/2020/06-18-browser.md" >}}), nun schon geschrieben.
 Da sich seit dem schon einiges getan hat, könnte ich Mal wieder vom aktuellen Stand berichten.
 Ich habe damals versucht, alles in einem Blogpost zu behandeln, aber es bietet sich wohl an, dies ein wenig aufzuteilen.
 Hier nun also ein Überblick über meine aktuellen Browser Erweiterungen im Firefox.

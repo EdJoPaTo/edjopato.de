@@ -1,17 +1,14 @@
 ---
+title: Vortrag zum IT-Recht
+date: 2017-07-27T03:22:00+02:00
 background:
   name: Luhe am Morgen
   style: url(/assets/2017/07/luhe.jpg)
-date: 2017-07-27T03:22:00+02:00
-title: Vortrag zum IT-Recht
 categories:
   - tti
 tags:
-  - checkliste
-  - datenschutz
-  - datensicherheit
-  - recht
-  - vertrag
+  - haw-hamburg
+  - privacy
 ---
 In der letzten TTI Vorlesung hat ein Fachanwalt für IT Recht einen Vortrag über "Rechtliche Aspekte des Cloud-Computing" gehalten.
 Die Punkte aus dem Vortrag, die mir am wichtigsten sind, will ich hier einmal aufführen.

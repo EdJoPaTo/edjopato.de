@@ -1,11 +1,11 @@
 ---
-categories:
-- tti
-date: 2017-04-03T16:08:00+02:00
-tags:
-- bpaas-angebot
-- vorbereitung
 title: Requirements der Stakeholder - Analyse des Vorschlags
+date: 2017-04-03T16:08:00+02:00
+categories:
+  - tti
+tags:
+  - bpaas-angebot
+  - haw-hamburg
 ---
 
 Zur Entwicklung des BPaaS Angebots müssen die Requirements der Stakeholder genauer betrachtet werden, um zu verstehen, was das BPaaS Angebot können muss.

@@ -1,20 +1,16 @@
 ---
+title: Arduino/PlatformIO WLAN Zugangsdaten ablegen
+date: 2021-01-12T10:20:00+01:00
 background:
   name: Seltener Schnee
   style: url(/assets/2021/01/snowy-logs.jpg)
-date: 2021-01-12T10:20:00+01:00
-title: Arduino/PlatformIO WLAN Zugangsdaten ablegen
+categories:
+  - open-source
 tags:
-  - arduino
   - c
-  - credentials
-  - esp32
-  - esp8266
   - linux
   - microcontroller
-  - platformio
   - secrets
-  - wifi
   - wlan
 ---
 Wenn man mit den ESP8266 oder ESP32 arbeitet, dann meistens, weil man das WLAN dieser Chips nutzen will.

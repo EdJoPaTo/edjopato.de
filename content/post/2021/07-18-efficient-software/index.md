@@ -1,11 +1,11 @@
 ---
-date: 2021-07-18T17:12:00+02:00
 title: Gedanken zu effizienter Software
+date: 2021-07-18T17:12:00+02:00
+categories:
+  - open-source
 tags:
-  - browser
   - c
   - csharp
-  - efficiency
   - environment
   - rust
   - typescript
@@ -52,7 +52,7 @@ Beispielsweise verwendete ich für meine Telegram Bots ein Framework (Telegraf b
 Meine [hawhh.de](https://hawhh.de) Webseite war damals mit AngularJS (Angular 1) entstanden, einfach, weil ich damit auch mal herumspielen wollte.
 Durch die Frontend-Logik von Angular 1 wurden hier Elemente nacheinander geladen, welche aufeinander aufbauen.
 Dies hat beispielsweise auch für lange Ladezeiten gesorgt, da die Wartezeiten bis zur Antwort vom Webserver sich natürlich immer aufsummierten.
-Auch die [Optimierung der Webseite]({{< relref "../2021/07-06-website-quality-checks.md" >}}) war so schwer möglich.
+Auch die [Optimierung der Webseite]({{< relref "/content/post/2021/07-06-website-quality-checks/index.md" >}}) war so schwer möglich.
 An der Stelle habe ich mich dann dazu entschieden, diese Webseite als statischen Content neu zu bauen.
 Dieser wird nicht jedes Mal bei dem Nutzer zusammengebaut, sondern einmalig und dann dem Webserver bereitgestellt.
 Das häufige, das Aufrufen der Webseite, hat nun also minimale Komplexität: Simple HTML Dateien anzeigen.
@@ -66,8 +66,8 @@ Komplexität sollte einmalig in der Vorbereitung stecken.
 Seit Jahren verwende ich relativ viel Node.js mit JavaScript und später TypeScript.
 TypeScript wird ebenfalls einmalig in JavaScript gewandelt und letzteres wird dann vom Interpreter ausgeführt.
 Weiterhin ist JavaScript jedoch eine interpretierte Sprache, auch wenn TypeScript nicht direkt ausgeführt wird.
-Dies war [einer der Gründe]({{< relref "../2020/09-11-why-rust.md" >}}), warum ich mir eine komplierte Programmiersprache ansehen wollte und so irgendwann mal bei Rust gelandet bin.
-Dort habe ich dann beispielsweise ein Teil des Kalenderbots, welcher bis dahin in C#, einer VM basierten Programmiersprache entstanden war, in Rust [neu entwickelt]({{< relref "../2020/09-11-calendarbot-rust.md" >}}).
+Dies war [einer der Gründe]({{< relref "/content/post/2020/09-11-why-rust.md" >}}), warum ich mir eine komplierte Programmiersprache ansehen wollte und so irgendwann mal bei Rust gelandet bin.
+Dort habe ich dann beispielsweise ein Teil des Kalenderbots, welcher bis dahin in C#, einer VM basierten Programmiersprache entstanden war, in Rust [neu entwickelt]({{< relref "/content/post/2020/09-11-calendarbot-rust.md" >}}).
 Das führte zu so einigen Laufzeitverbesserungen.
 Ja, Rust zu kompilieren dauert relativ lange und ist ressourcenintensiv, aber einige meiner, letztes Jahr entstandenen Tools habe ich seither nicht anfassen müssen.
 Und zu Laufzeit sind diese sehr effizient.

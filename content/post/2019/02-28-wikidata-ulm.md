@@ -1,12 +1,13 @@
 ---
+title: Wikidata Workshop Ulm
+date: 2019-03-01T01:50:00+01:00
 background:
   name: Verschwörhaus Banner
   style: url(/assets/2019/03/ulm-verschwoerhaus-banner.jpg)
-date: 2019-03-01T01:50:00+01:00
-title: Wikidata Workshop Ulm
+categories:
+  - open-source
 tags:
   - wikidata
-  - ulm
   - telegram
 ---
 Am Wochenende war ich auf dem Wikidata Workshop in Ulm.

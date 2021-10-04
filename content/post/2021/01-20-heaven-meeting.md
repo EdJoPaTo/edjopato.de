@@ -1,22 +1,13 @@
 ---
+title: Wie verlaufen Meetings im Himmel?
+date: 2021-01-20T12:38:00+01:00
 background:
   name: Engel beim Versuch durch den Geheimgang in das Heaven Backoffice zu gelangen
   style: url(/assets/2021/01/rc3-heaven-backoffice.png)
-date: 2021-01-20T12:38:00+01:00
-title: Wie verlaufen Meetings im Himmel?
 tags:
   - c3
-  - chaos
-  - codimd
   - communication
-  - congress
-  - hackmd
   - heaven
-  - hedgedoc
-  - jitsi
-  - meeting
-  - mumble
-  - rc3
 ---
 Ich bin nun schon einige Jahre im Himmel/Heaven Team des Chaos Communication Congress und dort gibt es zur Vor- und Nachbereitung der Kongresse online Meetings.
 Diese online Meetings verlaufen schon seit Jahren anders als die, an denen ich jetzt mit Corona häufiger teilnehme.

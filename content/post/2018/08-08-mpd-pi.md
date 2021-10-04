@@ -1,13 +1,14 @@
 ---
+title: Der Musik spielende Raspberry Pi
+date: 2018-08-08T23:40:00+02:00
 background:
   name: Hamburger Landungsbrücken
   style: url(/assets/2018/08/hh-landingbridges.jpg)
-date: 2018-08-08T23:40:00+02:00
-title: Der Musik spielende Raspberry Pi
+categories:
+  - open-source
 tags:
-  - mpd
-  - internet-radio
-  - shairport-sync
+  - linux
+  - music
   - raspberry-pi
 ---
 

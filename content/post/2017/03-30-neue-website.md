@@ -1,17 +1,17 @@
 ---
+title: 'Website überarbeitet: Jetzt mit Jekyll und einem Blog'
+date: 2017-03-30T14:32:00+02:00
 background:
   name: Waves and Circles
   source:
     name: FreeVector
     url: //www.freevector.com/waves-and-circles
   style: radial-gradient(rgba(0,0,0,0.6) 30%, rgba(0,0,0,0.1)), url(/assets/2017/03/waves-and-circles.svg)
-date: 2017-03-30T14:32:00+02:00
+categories:
+  - open-source
 tags:
-- blog
-- jekyll
-- static-page
-- website
-title: 'Website überarbeitet: Jetzt mit Jekyll und einem Blog'
+  - web
+  - website
 ---
 
 Meine Website als Übersicht über meine Projekte war bisher immer sehr spartanisch.

@@ -1,17 +1,17 @@
 ---
+title: Das stecken bleibende Internetradio entrosten
+date: 2020-09-08T23:50:00+02:00
 background:
   name: Volle Luhe im Regen
   style: url(/assets/2020/09/wl-luhe-rain.jpg)
-date: 2020-09-08T23:50:00+02:00
-title: Das stecken bleibende Internetradio entrosten
+categories:
+  - open-source
 tags:
-  - internet-radio
-  - mpd
   - music
   - rust
   - raspberry-pi
 ---
-Unter meinem Bett liegt [immer noch]({{< relref "../2018/08-08-mpd-pi.md" >}}) ein Raspberry Pi, der Internet Radio spielt.
+Unter meinem Bett liegt [immer noch]({{< relref "/content/post/2018/08-08-mpd-pi.md" >}}) ein Raspberry Pi, der Internet Radio spielt.
 Und MPD bleibt immer noch stecken, wenn das Internet weg war.
 Mit einem kleinen Rust Programm habe ich mir nun Abhilfe geschaffen.
 <!--more-->

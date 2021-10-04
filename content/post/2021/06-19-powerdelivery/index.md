@@ -1,19 +1,14 @@
 ---
-background:
-  name: Sonnenaufgang
-  style: url(/assets/2021/06/sunrise.jpg)
-date: 2021-06-20T19:14:00+02:00
 title: Strömekraft - PowerDelivery in Netzteilen und portablen USB Akkus
+date: 2021-06-20T19:14:00+02:00
+resources:
+  - name: cover
+    src: sunrise.jpg
+    title: Sonnenaufgang
 tags:
-  - apple
   - battery
-  - charger
-  - lithium-ion
-  - macbook
-  - power
   - power-delivery
   - usb
-  - usb-c
 ---
 Wenn man Geräte laden will, dann braucht man Netzteile und mobile USB Akkus.
 Diese verwenden häufig USB PowerDelivery und mit der Zeit habe ich einiges darüber gelernt.

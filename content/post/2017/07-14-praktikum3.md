@@ -1,15 +1,14 @@
 ---
+title: Das dritte Praktikum
+date: 2017-07-14T23:55:00+02:00
 background:
   name: Praktikum 3 Retrospektive
   style: url(/assets/2017/06/praktikum3.jpg)
 categories:
-- tti
-date: 2017-07-14T23:55:00+02:00
+  - tti
 tags:
-- praktikum
-- retrospektive
-- scrum
-title: Das dritte Praktikum
+  - communication
+  - haw-hamburg
 ---
 
 Von unserer Professorin und dem Laborassistenten wurde für uns eine Scrum Retrospektive vorbereitet.

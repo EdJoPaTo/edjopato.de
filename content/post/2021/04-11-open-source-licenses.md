@@ -1,16 +1,14 @@
 ---
+title: Open Source Lizenzen
+date: 2021-04-11T15:10:00+02:00
 background:
   name: Wolken
   style: url(/assets/2021/04/clouds.jpg)
-date: 2021-04-11T15:10:00+02:00
-title: Open Source Lizenzen
+categories:
+  - open-source
 tags:
-  - copyleft
-  - foss
-  - license
   - linux
   - nodejs
-  - npm
   - rust
   - telegram
 ---

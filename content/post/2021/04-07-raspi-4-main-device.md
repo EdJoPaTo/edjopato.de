@@ -1,22 +1,22 @@
 ---
+title: Raspberry Pi 4 als Hauptgerät
+date: 2021-04-07T22:23:00+02:00
 background:
   name: Zweiter Schneeschauer bei einem Aprilspaziergang
   style: url(/assets/2021/04/april-weather.jpg)
-date: 2021-04-07T22:23:00+02:00
-title: Raspberry Pi 4 als Hauptgerät
+categories:
+  - open-source
 tags:
-  - debian
   - desktop
   - linux
   - raspberry-pi
-  - ubuntu
 ---
 Ein Arbeitskollege hat alte Hardware entrümpelt und ich habe mir mal angeschaut, was man damit anfangen kann.
 Einer davon war zwar noch 64bit, aber das war auch alles.
 Da dachte ich, ein Raspberry ist doch besser als das.
 <!--more-->
 
-Ich habe den PC auch gleich mit meinem [Raspberry Pi Vergleich]({{< relref "../2020/10-03-raspberry-rust-performance.md" >}}) betrachtet und festgestellt, irgendwo zwischen Raspberry Pi 3 und 4.
+Ich habe den PC auch gleich mit meinem [Raspberry Pi Vergleich]({{< relref "/content/post/2020/10-03-raspberry-rust-performance.md" >}}) betrachtet und festgestellt, irgendwo zwischen Raspberry Pi 3 und 4.
 Also ja, ein Raspberry Pi 4 ist besser als das.
 Vor allem, wenn man die Leistungsaufnahme von 160W im Idle von der alten Kiste mit betrachtet.
 

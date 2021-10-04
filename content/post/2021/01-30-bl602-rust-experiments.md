@@ -1,19 +1,14 @@
 ---
+title: Erste BL602 Experimente mit Rust
+date: 2021-01-30T18:56:00+01:00
 background:
   name: Nächtlicher Schnee
   style: url(/assets/2021/01/snow-rail-tracks.jpg)
-date: 2021-01-30T18:56:00+01:00
-title: Erste BL602 Experimente mit Rust
+categories:
+  - open-source
 tags:
-  - bl602
-  - embedded
-  - esp
-  - esp32
-  - esp8266
   - microcontroller
   - pine64
-  - pinecone
-  - pinenut
   - risc-v
   - rust
 ---

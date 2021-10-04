@@ -1,17 +1,16 @@
 ---
+title: Das Kalenderbot Backend zu Rust migrieren
+date: 2020-09-11T22:53:00+02:00
 background:
   name: Set me
   style: url(/assets/2020/09/wl-rain-rhododendron.jpg)
-date: 2020-09-11T22:53:00+02:00
-title: Das Kalenderbot Backend zu Rust migrieren
+categories:
+  - open-source
 tags:
   - calendarbot
-  - hawhh
-  - haw-hamburg
-  - haw
-  - rust
   - csharp
-  - javascript
+  - haw-hamburg
+  - rust
   - typescript
 ---
 In letzter Zeit wollte ich etwas Erfahrungen mit Rust sammeln.

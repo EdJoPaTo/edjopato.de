@@ -1,15 +1,14 @@
 ---
+title: BPExecutor und BPInstance
+date: 2017-07-25T13:08:00+02:00
 background:
   name: Luhepark Winsen
   style: url(/assets/2017/07/luhepark4.jpg)
 categories:
-- tti
-date: 2017-07-25T13:08:00+02:00
+  - tti
 tags:
-- bpaas-angebot
-- bpexecutor
-- bpinstance
-title: BPExecutor und BPInstance
+  - bpaas-angebot
+  - haw-hamburg
 ---
 
 Die beiden Hauptkomponenten unseres Systems: Der BPExecutor und die BPInstance.

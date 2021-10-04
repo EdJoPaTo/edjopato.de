@@ -1,18 +1,15 @@
 ---
-background:
-  name: Luhebrücke
-  style: url(/assets/2021/07/bridge.jpg)
-date: 2021-07-06T22:40:00+02:00
 title: Qualitätschecks von Webseiten
+date: 2021-07-06T22:40:00+02:00
+resources:
+  - name: cover
+    src: bridge.jpg
+    title: Luhebrücke
+categories:
+  - open-source
 tags:
-  - browser
-  - chrome
-  - firefox
-  - mozilla
   - privacy
-  - safari
   - web
-  - website
 ---
 Webseiten können eine gute Struktur haben und gut benutzbar sein.
 Sie können schnell laden und sichere Verbindungen nutzen.

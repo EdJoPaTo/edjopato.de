@@ -1,11 +1,11 @@
 ---
-categories:
-- tti
-date: 2017-04-09T04:20:00+02:00
-tags:
-- bpaas-angebot
-- praktikum
 title: Das erste Praktikum
+date: 2017-04-09T04:20:00+02:00
+categories:
+  - tti
+tags:
+  - bpaas-angebot
+  - haw-hamburg
 ---
 
 Letzten Mittwoch fand das Erste von vier Praktika in TTI statt.
@@ -30,7 +30,7 @@ Dafür ist die Hardware-nahe Seite der performanten und skalierenden Durchführu
 # Der Ablauf
 
 Das Praktikum begann damit, dass erst über eine grundlegende Architektur geredet wurde.
-Spannenderweise kam dabei der Konsens auf etwas ähnliches, was bereits in meinem [letzten Post]({{< relref "../2017/04-03-requirements-stakeholder.md" >}}) als Überlegung entstanden ist (warum auch immer das noch mal erdacht werden musste).
+Spannenderweise kam dabei der Konsens auf etwas ähnliches, was bereits in meinem [letzten Post]({{< relref "/content/post/2017/04-03-requirements-stakeholder.md" >}}) als Überlegung entstanden ist (warum auch immer das noch mal erdacht werden musste).
 Danach ging die Diskussion weiter, welche Personen wo in der Architektur Aufgaben übernehmen, dass Docker sich super dafür eignet und das Publish Subscribe Messaging Pattern dafür sorgen können, dass keine Nachrichten verloren gehen werden.
 Das mag ja auch alles schön sein, hat nur meine Eingangsfrage, was wir überhaupt bauen müssen und was unsere Requirements an das System überhaupt sind, überhaupt nicht beantwortet.
 Geschweige denn, dass ich auch, bis auf ein kurzes Mal googeln, wenig Ahnung davon habe, was ein Business Process überhaupt ist.

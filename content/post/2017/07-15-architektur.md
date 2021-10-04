@@ -1,15 +1,14 @@
 ---
+title: Die finale Architektur
+date: 2017-07-15T01:30:00+02:00
 background:
   name: Luhepark Winsen
   style: url(/assets/2017/07/luhepark1.jpg)
 categories:
-- tti
-date: 2017-07-15T01:30:00+02:00
+  - tti
 tags:
-- architektur
-- bpaas-angebot
-- komponenten
-title: Die finale Architektur
+  - bpaas-angebot
+  - haw-hamburg
 ---
 
 Ein Teil unseres Teams hat sich dazu entschlossen, die Themen des Vortrages in einzelnen Blog Posts der jeweiligen Personen aufzuarbeiten und gegeneinander zu verlinken, um einen genaueren Einblick der jeweiligen Komponenten für die Leser zu bieten.
@@ -42,7 +41,7 @@ Sobald alle Informationen gesammelt sind, werden diese in eine RabbitMQ Queue ge
 Diese Queue wird von einer freien **BPInstance** abgerufen und der Business Prozess gestartet.
 So können immer genau so viele Business Prozesse ausgeführt werden, wie BPInstances gestartet sind.
 Wird ein Business Prozess beendet, wird die BPInstance wieder frei und kann den nächsten Business Prozess ausführen.
-Mehr zum BPExecutor und der BPInstance im [Blog Post zum Thema]({{< relref "../2017/07-25-bpexecutor-bpinstance.md" >}})…
+Mehr zum BPExecutor und der BPInstance im [Blog Post zum Thema]({{< relref "/content/post/2017/07-25-bpexecutor-bpinstance.md" >}})…
 
 Der **Monitor** dient zur Auswertung der Kundenaktivität, um Aussagen treffen zu können, wie viel ein Business Prozess oder Service genutzt wurde.
 Dafür beobachtet dieser im System verlaufende RabbitMQ Nachrichten.
@@ -52,4 +51,4 @@ Etwas ausführlicher beschrieben wird der Monitor im [Blog Post](//tti-ss2017-po
 Die **Services** stellen die einzelnen Schritte eines Business Prozesses dar.
 Diese können von Kunden erstellt und in unserem System zur Verwendung registriert werden.
 Dafür wurde eine RESTful Schnittstelle definiert, um Service Anbietern eine möglichst simple Schnittstelle zu bieten.
-Mehr dazu im [Service Blog Post]({{< relref "../2017/07-15-services.md" >}})…
+Mehr dazu im [Service Blog Post]({{< relref "/content/post/2017/07-15-services.md" >}})…

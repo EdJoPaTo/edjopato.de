@@ -1,19 +1,16 @@
 ---
+title: Schnelle Suche in und nach Dateien in *nix Systemen
+date: 2021-04-07T20:30:00+02:00
 background:
   name: Kekse in Werkzeugformen
   style: url(/assets/2021/04/cookie-tools.jpg)
-date: 2021-04-07T20:30:00+02:00
-title: Schnelle Suche in und nach Dateien in *nix Systemen
+categories:
+  - open-source
 tags:
-  - arch-linux
-  - bash
   - command-line
-  - debian
   - linux
   - macos
   - raspberry-pi
-  - terminal
-  - zsh
 ---
 Wenn man mal eben etwas sucht… "Ich hab doch mal, wo war das noch?".
 Für genau diesen Fall gibt es schnelle Command Line Tools die mir schon manchmal "mal eben" geholfen haben.

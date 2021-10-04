@@ -1,16 +1,16 @@
 ---
+title: Alte Bilder korrekt in die iCloud Photos importieren
+subtitle: Exif Datum berücksichtigen
+date: 2017-11-28T23:32:00+01:00
 background:
   name: Schmetterling in Bad Harzburg
   style: url(/assets/2017/11/schmetterling.jpg)
-date: 2017-11-28T23:32:00+01:00
-title: Alte Bilder korrekt in die iCloud Photos importieren
-subtitle: Exif Datum berücksichtigen
 tags:
-  - apple
-  - exif
-  - icloud
   - ios
+  - linux
+  - macos
   - photos
+  - windows
 ---
 Ich habe meine Fotos früher aus dem iCloud Photo Stream in die Dropbox und später auf meinen NAS gepackt, da ich nur 5 GB iCloud Speicherplatz hatte und diesen nicht erweitern wollte.
 Mittlerweile habe ich diesen Schritt gemacht und wollte die alten Bilder wieder importieren.

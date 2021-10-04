@@ -1,6 +1,7 @@
 ---
 title: {{ replace .TranslationBaseName "-" " " | title }}
 date: {{ .Date }}
+draft: true
 resources:
   - name: cover
     src: blackopsbridge.jpg

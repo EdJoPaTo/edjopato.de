@@ -1,47 +1,39 @@
 .list {
+  color: whitesmoke;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 
-  article {
-    max-width: 600px;
-    padding-bottom: 3rem;
-    padding: 2rem;
-
-    margin: 1rem;
-    @media screen and (max-width: 700px) {
-      margin: 1rem 0;
-    }
-
-    background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.8);
-    @media (prefers-color-scheme: dark) {
-      background-color: rgba(25, 25, 25, 0.8);
-      box-shadow: 0 0 5px 1px rgba(25, 25, 25, 0.8);
-    }
+  ul {
+    padding: 0;
+    margin: 0;
   }
 
-  h2 {
-    font-size: 2rem;
-    font-weight: normal;
-    margin: 0;
+  li {
+    display: flex;
+  }
 
-    a {
-      text-decoration: none;
-    }
+  li > * {
+    align-items: center;
+    display: flex;
+    margin: 0.5rem;
+  }
+
+  time {
+    font-family: monospace;
+    line-break: strict;
+    white-space: nowrap;
   }
 
   a {
-    color: hsl(var(--time-hue), 100%, 20%);
-    @media (prefers-color-scheme: dark) {
-      color: hsl(var(--time-hue), 100%, 80%);
-    }
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+
+  a {
+    color: hsl(var(--time-hue), 100%, 80%);
   }
 
   a:hover {
-    color: black;
-    @media (prefers-color-scheme: dark) {
-      color: white;
-    }
+    color: white;
   }
 }

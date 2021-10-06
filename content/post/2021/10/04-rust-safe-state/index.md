@@ -150,7 +150,7 @@ Diese doch recht simple Syntax sorgt also dafür, dass unser Programm sowohl sic
 Wenn man das ganze jetzt noch weiter denkt, kann man auch beispielsweise einen Ort des Notfallbuttons dazu definieren.
 Dieser könnte dann nur ausgelesen werden, solange man eben in dem Zustand ist, dass ein Notfallbutton gedrückt wurde.
 
-All das kann man natürlich auch in TypeScript nachimplementieren, beispielsweise in dem man dies über private Variablen und eine Klasse kapselt.
+All das kann man natürlich auch in TypeScript nach implementieren, beispielsweise in dem man dies über private Variablen und eine Klasse kapselt.
 In Rust ist es aber eben Teil des Sprachkonzepts, nur valide Zustände abbildbar zu machen.
 Das verhindert Fehler schon per Design und zur Kompilierzeit, nicht erst zur Laufzeit, wenn der Fahrstuhl in Flammen steht.
 
@@ -163,7 +163,7 @@ Hat man beispielsweise JSON Daten, so kann man diese mit TypeScript einlesen und
 ```typescript
 const data: Data = {…};
 const jsonString: string = JSON.stringify(data);
-const dataAgain: Data = JSON.parse(data);
+const dataAgain: Data = JSON.parse(jsonString);
 ```
 
 In diesem Fall sind die Angaben von Typen in TypeScript jedoch nur "müsste das sein".

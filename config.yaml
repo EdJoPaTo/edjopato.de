@@ -10,6 +10,10 @@ pygmentsUseClasses: true
 theme: edjopato-hugo-theme
 title: EdJoPaTo
 
+# Helpful when sending single pages to people
+# canonifyURLs: true
+# relativeUrls: true
+
 params:
   images:
   - /apple-touch-icon.png

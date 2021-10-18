@@ -7,11 +7,11 @@ header {
   width: 40vmin;
   height: auto;
   margin: 5vmin;
-  border-radius: 35% 20%;
+  border-radius: 25%;
   transition: transform 0.5s, border-radius 0.5s;
 }
 
 .avatar:hover {
-  transform: rotate(360deg);
-  border-radius: 20% 35%;
+  transform: rotate(720deg);
+  border-radius: 50%;
 }

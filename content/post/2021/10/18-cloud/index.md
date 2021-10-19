@@ -10,6 +10,7 @@ categories:
 tags:
   - linux
   - macos
+  - server
   - windows
 ---
 Aktuelle Themen in der Firma brachten mich zum Nachdenken, was Cloud für mich bedeutet und wie ich persönlich damit umgehen will.
@@ -17,7 +18,7 @@ Es ist nicht das erste Mal, dass ich in diesem Blog von "ge-cloud" schreibe und 
 Ab wann ist eine Cloud "spooky" und bis wohin bin ich bereit diese zu akzeptieren?
 
 Es wäre inkonsequent zu sagen "Google Drive ist böse" und stattdessen einen Amazon S3 Bucket für die Dateien zu verwenden.
-Einfach einen Firmennamen zu nennen und zu verteufeln hilft nicht weiter - pauschal Clouds abzulehnen auch nicht.
+Einen Firmennamen zu nennen und zu verteufeln hilft nicht weiter - pauschal Clouds abzulehnen auch nicht.
 Sind Menschen mit einer selbst gehosteten Nextcloud böse?
 
 # Was will ich überhaupt?
@@ -53,11 +54,11 @@ Teilweise bieten Cloud Dienstleister redundante Speicherung von Daten, was durch
 Allerdings sind Dienstleistungen frei im Internet nicht unbedingt so sicher, wie im eigenen VPN ohne direkten Zugriff vom Internet.
 Hier muss man abwägen, ob die Vorteile das Risiko überwiegen.
 
-Hier muss man allerdings aufpassen, dass man nicht zu viele Systeme für dieselbe Aufgabe benutzt.
+Man sollte allerdings aufpassen, dass man nicht mehrere Systeme für dieselbe Aufgabe benutzt.
 Ein gutes Beispiel im Firmenumfeld sind wohl die Messenger und die sichere Dateiablage.
 Wie viele Menschen schicken auch die geheimen Daten über den unsicheren Messenger?
 Wir sind nun mal Menschen und machen regelmäßig Fehler.
-Die könnte man vermeiden, in dem man einfach weniger Systeme bereitstellt und immer versucht, nur die Systeme zu halten, die den benötigten Schutzbedarf für alles bieten.
+Die könnte man vermeiden, in dem man weniger Systeme bereitstellt und immer versucht, nur die Systeme zu halten, die den benötigten Schutzbedarf für alles bieten.
 
 # Muss es wirklich eine Cloud sein?
 
@@ -69,14 +70,14 @@ Ich persönlich verwende für Dateien [Resilio](https://www.resilio.com/) bzw. d
 Beide Tools arbeiten über das BitTorrent Protokoll, welches gleichzeitig an viele andere Peers sendet als auch empfängt.
 Da hier Direktverbindungen genutzt werden, wird dies ziemlich schnell über LAN und auch bei vielen langsamen Peers kommt man auf einen doch recht schnellen Download.
 
-Bei diesen Ansätzen gibt es einfach keine Server, die die Daten kennen würden.
+Bei diesen Ansätzen gibt es keine Server, die die Daten kennen würden.
 Und wenn einem der hauseigene Upload zu langsam ist, kann man immer noch einen verschlüsselten Share auf einem gut angebundenen Server einrichten.
 Da der Server den Key nicht bekommt, kann dieser die Daten zwar nicht entschlüsseln, aber trotzdem verteilen.
 
 So ziemlich alle Entwickler kennen wohl das Tool Git, was im Grunde genommen auch genau das für Klartext-Dateien tut.
 Dezentrales Tool, nur leider verstehen viele Leute nicht, was Git alles lösen kann.
 Zum Beispiel bekommt man Versionierung geschenkt (und mit Remote, welcher einen Force Push verhindert, auch Revisionssicherheit).
-Auch automatische Backups von Klartext-Dateien sind damit einfach gelöst.
+Auch automatische Backups von Klartext-Dateien sind damit entspannt gelöst.
 Irgendwas zerschossen?
 Einfach auf einen älteren Commit zurückgehen.
 
@@ -107,14 +108,14 @@ Und der andere Punkt ist vermutlich mit Quellcode einfach zu beschreiben.
 Wenn ich meinen Quellcode automatisch testen lassen will, dann sollen die Testergebnisse überall reproduzierbar sein.
 Es hilft mir nicht, wenn ich einen Computer habe, auf dem es nicht läuft, auf allen anderen aber schon.
 Ich will mein Testscript gegen einen Computer werfen und dieser soll das ausführen.
-Wenn dieser Computer aber eine besondere Syntax hat, dann kann ich nicht einfach von A nach B wechseln.
+Wenn dieser Computer aber eine besondere Syntax hat, dann kann ich nicht von A nach B wechseln.
 Ein Bash Script, welches `cargo test` ausführt, läuft überall.
 Eine GitHub Action, welche irgendwelche dunkle Magie einsetzt, läuft eben nur in GitHub Runnern und ich kann nicht so einfach zu einem anderen Test Runner umziehen.
 Das, was ich mache, soll also interoperabel auf den Computern fremder Menschen laufen.
 
 Und genauso sehe ich das auch für andere Cloud Dinge:
 Solange ich das jeweilige, gewünschte Ziel auch lokal ausführen kann, kann ich mir die Cloud aussuchen und kette mich nicht an einer bestimmten Cloud fest.
-So kann man alles einfach lokal testen und ausprobieren und wenn die jeweilige Cloud doof wird, wechselt man.
+So kann man alles lokal testen und ausprobieren und wenn die jeweilige Cloud doof wird, wechselt man.
 Ein paar Beispiele, warum eine Cloud doof werden könnte:
 - Preissteigerungen (Walled Garden können teuer werden)
 - Rechtsgrundlagen ändern sich (EU kippt Privacy Shield)

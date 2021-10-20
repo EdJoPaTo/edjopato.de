@@ -65,7 +65,7 @@ Das gilt natürlich nicht nur für Daten, die zum Beispiel auf Open Data Plattfo
 Es ist schon mal gut, wenn man Daten überhaupt bekommt, selbst wenn sie nur unstrukturiert (PDF) vorliegen.
 Besser sind maschinenlesbare, strukturierte Daten.
 Ein Freund hatte hier eine Formulierung, die mir im Kopf geblieben ist:
-"Nur weil ein Mensch eine Struktur auf einem Blatt Papier erkennt, sind das noch keine strukturierten Daten."
+"Nur weil ein Mensch visuell eine Struktur erkennt, sind das noch keine strukturierten Daten."
 
 > Misstraue Autoritäten – fördere Dezentralisierung
 

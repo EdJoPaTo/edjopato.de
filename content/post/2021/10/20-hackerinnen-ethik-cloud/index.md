@@ -33,7 +33,7 @@ Um mal ein Beispiel für so eine Frage aus dem "Hacker*Innen 0, 1 | 2" zu nennen
 > 1. Ich nutze diese, biete aber eine Opt-out Möglichkeit an.
 > 2. Ich nutze diese nicht, um die Privatsphäre der Nutzer*Innen zu schützen.
 
-Hier gibt es unterschiedliche Meinungen, die diskutiert werden und Einige merken an, dass man die Fonts herunterladen und selbst hosten kann, wodurch Google die Möglichkeit des trackens verliert.
+Hier gibt es unterschiedliche Meinungen, die diskutiert werden und Einige merken an, dass man die Fonts herunterladen und selbst hosten kann, wodurch Google die Möglichkeit des Trackings verliert.
 Am Ende werden dann die jeweils zur Frage relevanten Grundsätze aus der Hacker*Innen-Ethik aufgezeigt und es geht zur nächsten Frage.
 Bei dieser Frage sind das "Misstraue Autoritäten – fördere Dezentralisierung" und "Öffentliche Daten nützen, private Daten schützen".
 
@@ -48,7 +48,7 @@ In meinem letzten Post ging ich darauf ein, dass man immer erklären können sol
 Mein Interesse daran war jedoch nicht unbedingt die Aufklärung, sondern das Aufzeigen von Lücken.
 Wenn ich den Grundsatz so lese, wäre es jedoch eine gute Idee, gut zu dokumentieren, wie die eigene Cloud Lösung so funktioniert.
 So kann man selbst (und andere) verstehen, was genau dort alles passiert.
-Hier hilft es dann natürlich wieder Komplexität zu vermeiden und simplere Systeme zu nutzen, so diese sind einfacher zu erklären.
+Hier hilft es dann natürlich wieder Komplexität zu vermeiden und simplere Systeme zu nutzen, diese sind einfacher zu erklären.
 
 Ein anderer Aspekt, der in diesem Grundsatz noch mit schwingt, ist der Zugang zu Computern.
 Man sollte dabei unterstützen, dass alle einen Zugang dazu finden.
@@ -88,7 +88,7 @@ Es ist beispielsweise besser Trello, Gitlab und Google Drive zu verwenden, statt
 Dadurch wird man resilienter bei einzelnen Problemdomänen, statt arbeitsunfähig, wenn plötzlich alles tot ist.
 
 Dezentralisierung muss aber nicht nur die Dienste und Orte meinen, es kann auch Verantwortung meinen.
-Für die eine Problemdomäne ist jemand anders verantwortlich, als für eine andere.
+Für die eine Problemdomäne ist jemand anders verantwortlich als für eine andere.
 Einige Firmen überlassen den Teams beispielsweise sehr viele Entscheidungen, wie und wo sie ihre Projektdaten ablegen (solange bestimmte Ansprüche erfüllt sind).
 Das eine Team benutzt dann eben MacBooks und Apples "Numbers" Applikation, während das Nächste mit "Collabora Online" Spreadsheets bearbeitet.
 
@@ -137,7 +137,7 @@ Dann sind alle über die Hintergründe informiert und können mit diesem Wissen 
 
 # Elon Musks Effizienz
 
-Unabhängig der Hacker*Innen-Ethik fällt mir ein Zitat von Elon Musk ein, was mir mittlerweile seit einiger Zeit regelmäßig durch den Kopf geht, wenn ich Dinge bewerte und hinterfrage.
+Unabhängig der Hacker*Innen-Ethik fällt mir ein Zitat von Elon Musk ein, was mir seit einiger Zeit regelmäßig durch den Kopf geht, wenn ich Dinge bewerte und hinterfrage.
 "Lösche Komponenten. Wenn du keine Komponenten wieder hinzufügst, löschst du nicht genug."
 Elon Musk hat aus meiner Sicht ein Talent dafür, Effizienz zu sehen und anzustreben.
 Tesla und SpaceX sind Firmen, die an vielen Stellen bestehende Systeme einfach nur durch bessere Effizienz übertrumpfen.

@@ -1,9 +1,10 @@
 ---
 title: PinePhone als RSS und Mastodon Reader
 date: 2021-04-08T00:21:00+02:00
-background:
-  name: Strommast und Wolken
-  style: url(/assets/2021/04/landline.jpg)
+resources:
+  - name: cover
+    title: Strommast und Wolken
+    src: landline.jpg
 categories:
   - open-source
 tags:
@@ -23,7 +24,7 @@ Da geht doch was.
 <!--more-->
 
 Wem das [PinePhone](https://www.pine64.org/pinephone/) nichts sagt, das ist quasi ein Raspberry Pi im Smartphone Format von Pine64.
-In [einem älteren Artikel]({{< relref "/content/post/2021/01-30-bl602-rust-experiments.md" >}}) habe ich das PinePhone auch schon angeteasert, dort liegt es im Bild auf dem Tisch und versorgt einen PineNut der selben Firma(?) mit Strom.
+In [einem älteren Artikel]({{< relref "/content/post/2021/01-30-bl602-rust-experiments/index.md" >}}) habe ich das PinePhone auch schon angeteasert, dort liegt es im Bild auf dem Tisch und versorgt einen PineNut der selben Firma(?) mit Strom.
 An sich ein cooles Gerät, man kann eines von vielen Linux Betriebssystemen nehmen und entweder auf das eMMC aufspielen oder von der SD-Karte starten.
 Funktioniert mehr oder weniger gut, man merkt, dass die Zielgruppe Entwickler sind, die dort verbessern und entwickeln wollen.
 Nun habe ich das PinePhone schon seit einer Weile und experimentiere immer mal ein wenig damit, mal Manjaro mit KDE Mobile, mal mit Phosh, mal Lomiri (ehemals Ubuntu Touch, welches ich damals witzigerweise auch schon unterstützt habe, aber aus dem [Ubuntu Edge](https://www.indiegogo.com/projects/ubuntu-edge/) wurde ja nie etwas…)
@@ -87,7 +88,7 @@ Den RSS Reader am normalen Handy benutze ich tatsächlich nur noch als "OPML Que
 Ansonsten wird dieser nicht mehr genutzt.
 Ein hoch auf freie Software mit freien Formaten, die man leicht in andere Tools bekommt.
 
-![NewsFlash auf dem PinePhone](/assets/2021/04/pinephone-newsflash.jpg)
+![NewsFlash auf dem PinePhone](pinephone-newsflash.jpg)
 
 # Social Media
 Was Social Media angeht, werden mich sicherlich viele für komisch halten.

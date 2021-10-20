@@ -1,15 +1,17 @@
 ---
 title: Mal eben Videos und Sound bearbeiten
 date: 2021-04-07T21:28:00+02:00
-background:
-  name: Hamburger Hafenkräne
-  style: url(/assets/2021/04/hh-cranes.jpg)
+resources:
+  - name: cover
+    title: Hamburger Hafenkräne
+    src: hh-cranes.jpg
 categories:
   - open-source
 tags:
   - command-line
   - linux
   - macos
+  - music
   - raspberry-pi
 ---
 Ein Video welches man ohne Ton braucht?

@@ -15,7 +15,7 @@ tags:
   - rss
   - smartphone
 ---
-Seit einer Weile [lese ich meine RSS Feeds auf dem PinePhone via NewsFlash]({{< relref "/content/post/2021/04-08-pinephone-rss-reader.md" >}}).
+Seit einer Weile [lese ich meine RSS Feeds auf dem PinePhone via NewsFlash]({{< relref "/content/post/2021/04-08-pinephone-rss-reader/index.md" >}}).
 Das funktioniert erstaunlich gut.
 Vor ein paar Tagen kam ich darauf, dass YouTube (und Invidious) ebenfalls Atom Feeds bereitstellt, über die man sich seine Subscriptions abbilden kann.
 Nur schaue ich meine Videos eher nicht am Handy.

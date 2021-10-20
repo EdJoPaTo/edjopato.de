@@ -1,9 +1,10 @@
 ---
 title: Wie verlaufen Meetings im Himmel?
 date: 2021-01-20T12:38:00+01:00
-background:
-  name: Engel beim Versuch durch den Geheimgang in das Heaven Backoffice zu gelangen
-  style: url(/assets/2021/01/rc3-heaven-backoffice.png)
+resources:
+  - name: cover
+    title: Engel beim Versuch durch den Geheimgang in das Heaven Backoffice zu gelangen
+    src: rc3-heaven-backoffice.png
 tags:
   - c3
   - communication

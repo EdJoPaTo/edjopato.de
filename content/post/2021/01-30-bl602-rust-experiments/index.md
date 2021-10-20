@@ -1,9 +1,10 @@
 ---
 title: Erste BL602 Experimente mit Rust
 date: 2021-01-30T18:56:00+01:00
-background:
-  name: Nächtlicher Schnee
-  style: url(/assets/2021/01/snow-rail-tracks.jpg)
+resources:
+  - name: cover
+    title: Nächtlicher Schnee
+    src: snow-rail-tracks.jpg
 categories:
   - open-source
 tags:
@@ -70,7 +71,7 @@ Um im Artikel die passenden Links zu hinterlegen habe ich diese herausgesucht un
 Wenn man die `memory.x` anpasst und damit definiert, dass das Program in den Flash und nicht wie für das Debuggen benötigt in den RAM geschrieben wird, wird dies vom Chip gelesen und gestartet.
 Ergebnis: Beim blink Programm blinkt die LED! (nachdem man auf den passenden GPIO gewechselt hat, an dem die LED anliegt)
 
-![PineNut an meinem PinePhone](/assets/2021/01/pinephone-pinenut.jpg)
+![PineNut an meinem PinePhone](pinephone-pinenut.jpg)
 
 Ich kann nun also grundlegende Rust Programme auf dem BL602 ausführen.
 Yay!

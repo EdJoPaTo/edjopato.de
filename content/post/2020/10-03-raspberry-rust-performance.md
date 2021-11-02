@@ -18,13 +18,13 @@ Der Pi 2 und Pi 4 sind beides 4 Kerner, das sollte nicht soo viel Unterschied ma
 Da ich aktuell mehr mit Rust mache, habe ich einfach mal eines meiner Rust Tools auf unterschiedlichen Geräten gebaut.
 <!--more-->
 
-Als Repo habe ich mein [Meeting Countdown](https://github.com/EdJoPaTo/meeting-countdown) Tool genutzt.
-Das Projekt selbst ist vermutlich relativ egal, solange es auf allen Geräten das selbe ist.
+Als Repository habe ich mein [Meeting Countdown](https://github.com/EdJoPaTo/meeting-countdown) Tool genutzt.
+Das Projekt selbst ist vermutlich relativ egal, solange es auf allen Geräten dasselbe ist.
 In diesem Fall hat es 15 Dependencies und das Paket selber macht 16 teilweise parallelisierbare Kompilationen.
 
-Um die Dauer des Bauens ohne Downloads zu ermitteln habe ich immer erst einmal `cargo build` laufen lassen, sodass alles herunter geladen ist.
+Um die Dauer des Bauens ohne Downloads zu ermitteln habe ich immer erst einmal `cargo build` laufen lassen, sodass alles heruntergeladen ist.
 
-Für den Release Build habe ich zwei Mal `cargo clean && cargo build --release` laufen lassen und das Ergebnis gemittelt.
+Für den Release Build habe ich zweimal `cargo clean && cargo build --release` laufen lassen und das Ergebnis gemittelt.
 Dabei unterschied sich das Ergebnis der Durchläufe erstaunlich wenig.
 Selbst beim Raspberry Pi 1B war die Zeit nur 10 Sekunden auseinander.
 Als Zeit habe ich die Zeit, die cargo selbst ausgibt verwendet.
@@ -40,10 +40,14 @@ Man muss jedoch bedenken das dieses Projekt relativ klein ist, sowohl was das Pr
 Je mehr Dependencies ein Projekt hat, desto mehr Vorteile haben Multi Core CPUs.
 Wird das Projekt selbst größer und hat mehr Source Code, hat eine gute Single Core Leistung Vorteile.
 
-# Randbedinungen
+# Randbedingungen
 
-Repo: `git clone https://github.com/EdJoPaTo/meeting-countdown`
-(Commit: `32e6619e8080e21447b3bf4952a5862149b510ec`)
+```bash
+git clone https://github.com/EdJoPaTo/meeting-countdown
+cd meeting-countdown
+git checkout 32e6619e8080e21447b3bf4952a5862149b510ec
+rustup override set 1.46.0
+```
 
 Release Build:
 ```sh
@@ -60,7 +64,7 @@ touch src/main.rs && cargo build
 ```
 
 Angaben zu der CPU ist immer mittels `lscpu` ermittelt.
-Außname ist das MacBook.
+Ausnahme ist das MacBook.
 
 Verwendet wurden folgende Versionen:
 ```
@@ -79,7 +83,7 @@ Entweder sind die Geräte in meinem Besitz oder zum Zeitpunkt des Testens für H
 | --- | --- | --- | --- | --- | --- | --- |
 | Raspberry Pi 1B | ARM1176 | 1 | 1 | 700 MHz | 41m 13s | 21.35s |
 | Raspberry Pi 2 | Cortex-A7 | 4 | 4 | 900 MHz | 3m 52s | 9.51s |
-| Pine Phone 1.2b | Cortex-A53 | 4 | 4 | 1152 MHz | 2m 23s | 5.29s |
+| PinePhone 1.2b | Cortex-A53 | 4 | 4 | 1152 MHz | 2m 23s | 5.29s |
 | Netcup RS G? (2014) | KVM | 1 | 1 | 2493 MHz | 2m 15s | 3.17s |
 | Raspberry Pi 3 | Cortex-A53 | 4 | 4 | 1200 MHz | 2m 07s | 5.80s |
 | Raspberry Pi 4 | Cortex-A72 | 4 | 4 | 1500 MHz | 1m 09s | 3.20s |
@@ -89,17 +93,17 @@ Entweder sind die Geräte in meinem Besitz oder zum Zeitpunkt des Testens für H
 | Zenbook UX-31A | i7-3517U | 2 | 4 | 3000 MHz | 28s | 0.61s |
 | Netcup RS G8 | KVM | 4 | 4 | 2095 MHz | 16s | 0.65s |
 | NUC7 | i7-7567 | 2 | 4 | 4000 MHz | 14s | 0.40s |
-| Macbook Pro 2018 | i7 | 4 | 8 | 2.7 GHz | 12s | 0.58s |
+| MacBook Pro 2018 | i7 | 4 | 8 | 2.7 GHz | 12s | 0.58s |
 | Random Uni Server | i9-9980XE | 2*18 | 36 | 4500 MHz | 7s | 0.75s |
 
 # Fazit
 
 Der älteste Raspi 1B ist erwarteterweise der Langsamste, da dieser auch nur 1 Kern hat.
-Spannend fand ich persönlich dass der Unterschied zwischen Raspberry Pi 2, 3 und 4 doch so groß ist.
-Pi 2 benötigt, verglichen mit dem Pi 4, fast 4 mal so lange und der Pi 4 hat nur eine etwa 60% höhere Frequenz, weit ab von dem vierfachen.
+Spannend fand ich persönlich, dass der Unterschied zwischen Raspberry Pi 2, 3 und 4 doch so groß ist.
+Pi 2 benötigt, verglichen mit dem Pi 4, fast 4-mal so lange und der Pi 4 hat nur eine etwa 60 % höhere Frequenz, weit ab von dem vierfachen.
 Auch der Unterschied zwischen 2 und 3 bzw. 3 und 4 ist jeweils recht groß.
 Für mich war der 3er beispielsweise bisher nur ein "etwas schneller und WLAN" Upgrade, keine fast Verdoppelung.
-Leserkommentar: Auch der Sprung von Pi 1 zu 2 ist gewaltig: 4 fach Kerne aber 10 fache Release Build Dauer.
+Leserkommentar: Auch der Sprung von Pi 1 zu 2 ist gewaltig: 4-fach Kerne aber 10-fache Release Build Dauer.
 
 Interessanterweise waren Rock Pi und Raspberry Pi 4 beim Release nahezu gleich schnell, obwohl der Rock Pi sowohl eine höhere Frequenz als auch mehr Threads hat.
 Beim Dev Build macht sich aber die höhere Frequenz bemerkbar.
@@ -113,7 +117,7 @@ Vielleicht bringt G(eneration) 9 der Server hier noch mal einen Benefit, ich hab
 Der 36 Threads Server an der Hochschule war interessanterweise sogar langsamer im Dev Build als andere Geräte, hat beim Release Build einfach durch die Menge an Threads schnell bauen können.
 Hier hat auch das MacBook mit 8 Threads einiges Wett machen können.
 
-Wenn ich auf einem ARM Gerät entwickeln wollen würde, würde ich zum Raspberry Pi 4 tendieren, da dieser auch generell viel Support bietet und nicht all zu teuer ist.
+Wenn ich auf einem ARM Gerät entwickeln wollen würde, würde ich zum Raspberry Pi 4 tendieren, da dieser auch generell viel Support bietet und nicht allzu teuer ist.
 2 GB würden mir tendenziell reichen.
 Hier bin ich noch gespannt, wie sich das PinePhone schlägt und wie gut man sogar auf den PinePhone Rust entwickeln kann.
 Edit: Selbe CPU wie der Raspberry Pi 3 und etwas langsamerer CPU Takt: Vergleichbar mit dem Raspberry Pi 3.

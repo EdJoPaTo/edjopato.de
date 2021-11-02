@@ -8,6 +8,7 @@ resources:
 categories:
   - open-source
 tags:
+  - gaming
   - usb
   - windows
 ---
@@ -34,6 +35,8 @@ Das war's soweit schon, man kann den Schreibprozess starten.
 Die SSD wird dann an den Firmenlaptop angeschlossen und mit der jeweiligen Taste beim Starten die Boot-Optionen aufgerufen.
 In meinem Fall bei Dell mit F12.
 Dort wählt man dann das USB Gerät aus (wenn dies mehrfach existiert, muss als UEFI gestartet werden).
+Leserkommentar: Möglicherweise muss man Secure Boot deaktivieren oder BIOS Einstellungen anpassen, damit von USB gebootet werden kann.
+
 Die Windows Installation begrüßt einen mit Dark Pattern gespickten Fragen.
 Hier wählt man so lange die Buttons mit dem schlechtesten Kontrast auf dem Bildschirm ("nein", "nur offline", "kein Tracking", …), bis man auf dem Windows Desktop angekommen ist.
 Windows Updates laufen lassen, natürlich regelmäßig neu starten und danach waren alle Grafiktreiber usw. installiert, die ich brauche.

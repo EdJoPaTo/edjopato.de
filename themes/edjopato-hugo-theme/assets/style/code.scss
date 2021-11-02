@@ -69,4 +69,19 @@ pre {
       color: #aaa;
     }
   }
+
+  .gd {
+    /* diff delete */
+    color: darkred;
+    @media (prefers-color-scheme: dark) {
+      color: #ff4545;
+    }
+  }
+  .gi {
+    /* diff insert */
+    color: green;
+    @media (prefers-color-scheme: dark) {
+      color: lightgreen;
+    }
+  }
 }

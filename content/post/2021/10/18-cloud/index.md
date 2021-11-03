@@ -23,7 +23,7 @@ Sind Menschen mit einer selbst gehosteten Nextcloud böse?
 
 # Was will ich überhaupt?
 
-Bevor man die Frage stellt, es muss eine Cloud her, muss man sich wohl fragen, was will man überhaupt?
+Bevor man die Frage stellt, es muss eine Cloud her, muss man sich fragen, was will man überhaupt?
 Was ist mein Anwendungsfall?
 Was ist mein Ziel?
 Welches Problem will man lösen?
@@ -39,7 +39,7 @@ Will ich meinen Quelltext automatisch testen?
 Ich habe mal mit jemandem über eine geteilte [tmux](https://github.com/tmux/tmux/wiki) Session zusammen programmiert.
 Funktionierte erstaunlich gut.
 Und erfüllt auch die Bedingung "fremder Computer".
-Mit dieser Lösung kann man natürlich nicht alles machen, aber ihr Ziel erfüllte sie ziemlich effizient.
+Mit dieser Lösung kann man natürlich nicht alles machen, aber ihr Ziel erfüllte sie effizient.
 
 Man kann die Frage, was man überhaupt braucht, erst beantworten, sobald man sich über die eigenen Anwendungszwecke bewusst ist.
 Ansonsten schlägt man mit einer Axt Schrauben in die Wand…
@@ -50,14 +50,14 @@ Wie groß ist das Risiko, wenn meine Daten abhandenkommen?
 Damit meine ich zwei Dinge: Wenn jemand anderes die Daten bekommt oder wenn man selbst die Daten nicht mehr bekommt.
 Sprich, wenn jemand die Daten entwendet oder wenn es keine Backups gibt.
 
-Teilweise bieten Cloud Dienstleister redundante Speicherung von Daten, was durchaus ein Vorteil sein kann.
+Teilweise bieten Cloud Dienstleister redundante Speicherung von Daten, was ein Vorteil sein kann.
 Allerdings sind Dienstleistungen frei im Internet nicht unbedingt so sicher, wie im eigenen VPN ohne direkten Zugriff vom Internet.
 Hier muss man abwägen, ob die Vorteile das Risiko überwiegen.
 
 Man sollte allerdings aufpassen, dass man nicht mehrere Systeme für dieselbe Aufgabe benutzt.
-Ein gutes Beispiel im Firmenumfeld sind wohl die Messenger und die sichere Dateiablage.
+Ein gutes Beispiel im Firmenumfeld sind die Messenger und die sichere Dateiablage.
 Wie viele Menschen schicken auch die geheimen Daten über den unsicheren Messenger?
-Wir sind nun mal Menschen und machen regelmäßig Fehler.
+Wir sind Menschen und machen regelmäßig Fehler.
 Die könnte man vermeiden, in dem man weniger Systeme bereitstellt und immer versucht, nur die Systeme zu halten, die den benötigten Schutzbedarf für alles bieten.
 
 # Muss es wirklich eine Cloud sein?
@@ -74,14 +74,14 @@ Bei diesen Ansätzen gibt es keine Server, die die Daten kennen würden.
 Und wenn einem der hauseigene Upload zu langsam ist, kann man immer noch einen verschlüsselten Share auf einem gut angebundenen Server einrichten.
 Da der Server den Key nicht bekommt, kann dieser die Daten zwar nicht entschlüsseln, aber trotzdem verteilen.
 
-So ziemlich alle Entwickler kennen wohl das Tool Git, was im Grunde genommen auch genau das für Klartext-Dateien tut.
+So ziemlich alle Entwickler kennen das Tool Git, was im Grunde genommen auch genau das für Klartext-Dateien tut.
 Dezentrales Tool, nur leider verstehen viele Leute nicht, was Git alles lösen kann.
 Zum Beispiel bekommt man Versionierung geschenkt (und mit Remote, welcher einen Force Push verhindert, auch Revisionssicherheit).
 Auch automatische Backups von Klartext-Dateien sind damit entspannt gelöst.
 Irgendwas zerschossen?
 Einfach auf einen älteren Commit zurückgehen.
 
-Wenn man beispielsweise Kalender nutzen oder Kanban Boards gemeinsam bearbeiten will, kann man diese auch mit durchaus schlechten Internetanbindungen ins Internet hängen.
+Wenn man beispielsweise Kalender nutzen oder Kanban Boards gemeinsam bearbeiten will, kann man diese auch mit schlechten Internetanbindungen ins Internet hängen.
 So viel Datendurchsatz braucht man für beispielsweise ein Textdokument auch nicht.
 Dabei kann beispielsweise ein Raspberry Pi diese Dienste anbieten und man kann diese auch von unterwegs nutzen.
 Man muss natürlich weiterhin auf Sicherheit achten, aber die Daten bleiben schonmal im Hause.
@@ -101,7 +101,7 @@ Aus meiner Sicht werden hier zwei wesentliche Aspekte für mich sichtbar, worauf
 - Der jeweilige Anbieter sollte egal sein, man sollte diesen austauschen können.
 
 Wenn ich allen guten Gewissens die Dokumentation geben kann, wie meine Cloud Lösung funktioniert, dann erfüllt diese gewisse Sicherheits- und Datenschutzstandards.
-Oder andersherum: Wenn ich mir nicht sicher bin, dann sollte man vielleicht noch mal schauen, ob da nicht noch irgendwo ein Sicherheitsproblem besteht.
+Oder andersherum: Wenn ich mir nicht sicher bin, dann sollte man vielleicht noch mal schauen, ob da ein Sicherheitsproblem besteht.
 Hier kommt dann auch wieder mein Hang zu simplen Lösungen, beispielsweise ein Git per SSH ist einfach zu verstehen und Risiken sind leicht abzuschätzen.
 
 Und der andere Punkt ist vermutlich mit Quellcode einfach zu beschreiben.

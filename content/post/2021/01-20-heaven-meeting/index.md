@@ -10,7 +10,7 @@ tags:
   - communication
   - heaven
 ---
-Ich bin nun schon einige Jahre im Himmel/Heaven Team des Chaos Communication Congress und dort gibt es zur Vor- und Nachbereitung der Kongresse online Meetings.
+Ich bin schon einige Jahre im Himmel/Heaven Team des Chaos Communication Congress und dort gibt es zur Vor- und Nachbereitung der Kongresse online Meetings.
 Diese online Meetings verlaufen schon seit Jahren anders als die, an denen ich jetzt mit Corona häufiger teilnehme.
 Grade jetzt in der globalen Pandemie sind die online Meetings quasi aus dem Boden gekommen und das nicht immer in einer für mich zufrieden stellenden Variante.
 Vielleicht kann man da ja an der einen oder anderen Stelle optimieren und sich da vom Chaos inspirieren lassen.
@@ -54,13 +54,13 @@ Ohne das es da eine klare Abgrenzung gibt, besteht das Kernteam aus etwa 10-15 L
 
 All dieses Chaos will geplant und vorbereitet werden.
 Und so trifft sich unter anderem der Himmel vor und nach so einer Veranstaltung regelmäßig.
-Beispielsweise die teamübergreifenden Orga-Meetings verlaufen ziemlich ähnlich zu denen des Himmels, ich gehe hier aber erstmal nur auf den Himmel ein.
+Beispielsweise die teamübergreifenden Orga-Meetings verlaufen ähnlich zu denen des Himmels, ich gehe hier aber erstmal nur auf den Himmel ein.
 
 ## Vorbereitung
 
 Beim letzten Meeting wurde der Termin des Nächsten entschieden und so wissen alle, wann es dieses gibt.
 Außerdem wurde auch schon das Pad des nächsten Termins angelegt.
-Auf dieses Pad kann nun jeder Topics schreiben, die relevant werden.
+Auf dieses Pad kann jeder Topics schreiben, die relevant werden.
 Wenn also jemand sieht, dass man über etwas sprechen sollte, dann kommt dies auf das Pad (= die Tagesordnung).
 (Später dazu mehr.)
 
@@ -85,7 +85,7 @@ Die Tagesordnung ist auf einem Pad ([HedgeDoc, ehemals CodiMD](https://github.co
 Zu Beginn des Meetings findet sich ein Moderator (es gibt ein paar häufige Kandidaten, aber wieder niemand festes) und es wird kurz über die Reihenfolge der Punkte gesprochen.
 Meistens werden Gäste, die etwas mit dem Himmel besprechen wollen, an den Anfang geschoben, damit diese schneller wieder gehen können.
 Auch wenn jemand zu einem bestimmten Zeitpunkt gehen muss, werden die für die Person relevanten Topics früher behandelt.
-Und dann werden die Themen einfach von oben nach unten durchgegangen.
+Und dann werden die Themen von oben nach unten durchgegangen.
 
 Ein weiterer wesentlicher Unterschied zu Nicht-Chaos Meetings fällt einem dann auf:
 Es gibt keinen Protokollanten.
@@ -130,16 +130,16 @@ Und zum nächsten Mumble beginnt der Spaß wieder von vorn.
 Wie ich anfangs schon erwähnte, wird man nicht alles einfach so auf Meetings in beispielsweise Firmen übertragen können.
 Ein paar Dinge würden mich allerdings schon freuen zu sehen.
 
-Beispielsweise das Protokollieren: Wenn einfach jeder Protokoll mit schreibt, dann gibt es hinter ein brauchbares Protokoll, mit dem man auch etwas anfangen kann.
+Beispielsweise das Protokollieren: Wenn jeder Protokoll mit schreibt, dann gibt es hinter ein brauchbares Protokoll, mit dem man auch etwas anfangen kann.
 Wenn das nur wieder an einigen Wenigen hängen bleibt, dann haben die natürlich auch keine Lust mehr.
-Wenn man das gemeinsam macht, hat man aus meiner Sicht langfristig einfach am meisten davon.
+Wenn man das gemeinsam macht, hat man aus meiner Sicht langfristig am meisten davon.
 
 Das Mantra "wenn du willst, das es besser wird, mach es doch einfach" funktioniert für so eine Chaos Veranstaltung aus meiner Sicht ziemlich gut.
 Am Anfang waren solche "losen Strukturen" etwas ungewohnt für mich ("Können wir nicht X" "Mach doch einfach"), aber mittlerweile komme ich damit gut klar.
 Grade dadurch, dass alle ein Interesse haben, dass es gut wird und dem niemand wirklich im Wege steht, kommt so viel "geiler Scheiß" bei rum.
 Klar kommt es dann auch vor, dass man dann ein "ups" von irgendjemandem aufräumt, aber hey, jeder macht mal "ups".
-Das beste Beispiel aus dem Himmel ist wohl das Schichten anlegen:
-Mehrere Schichten über 4 Tage im 2h Takt sind ziemlich schnell erstellt.
+Das beste Beispiel aus dem Himmel ist das Schichten anlegen:
+Mehrere Schichten über 4 Tage im 2h Takt sind schnell erstellt.
 Gelöscht wird dann mit ein paar Leuten manuell.
 Kommt jedes Jahr mindestens einmal vor. ;)
 
@@ -163,4 +163,4 @@ Keine "akademische Viertelstunde" oder "lass uns noch kurz warten, jemand fehlt 
 Und selbst wenn jemand später dazu kommt oder früher geht: Das Protokoll ist nutzbringend.
 
 Vielleicht konnte ich hiermit ein paar Ideen für Out-of-Chaos-Meetings geben.
-Und da sind wir dann wieder bei "mach doch einfach besser" ;)
+Und da sind wir dann wieder bei "mach doch besser" ;)

@@ -21,11 +21,11 @@ Manche sind dabei besser oder schlechter lesbar und manche sind auch nur so mehr
 Aus der C Welt kennt man zum Beispiel den Rückgabewert `-1`, wenn etwas schiefging, ansonsten der gewünschte Wert.
 Hier muss man dann aktiv prüfen, ist das kleiner 0?
 Wenn man das nicht tut, funktioniert das auch meistens, solange bis man das Ganze eben ausrollt.
-"Works on my machine" ist da wohl recht bekannt.
+"Works on my machine" ist da recht bekannt.
 
 Wenn man jetzt zum Beispiel die Dateigröße wissen will, dann ist es nie korrekt, wenn ein vorzeichenbehafteter Integer zurückkommt.
 Die Dateigröße kann niemals negativ sein.
-Aus einigen Sprachen kennt man nun den Rückgabewert `null`, welcher auch als "Billion Dollar Mistake" bezeichnet wird.
+Aus einigen Sprachen kennt man den Rückgabewert `null`, welcher auch als "Billion Dollar Mistake" bezeichnet wird.
 
 Rusts Lösung für solche Probleme finde ich hier doch recht elegant.
 `Option<Value>` und `Result<Value, Error>` werden hier benutzt.
@@ -56,7 +56,7 @@ if let Some(state) = get_lamp_state() {
 }
 ```
 
-Selbst wenn jemand früher mal eine `get_lamp_state() -> bool` geschrieben hat und diese nun überarbeitet hat, dem Compiler fällt auf, dass das nun nicht mehr geht.
+Selbst wenn jemand früher mal eine `get_lamp_state() -> bool` geschrieben hat und diese überarbeitet, fällt dem Compiler auf, dass das nicht mehr geht.
 Jemand anderes kann seinen Code korrigieren und mir hilft der Compiler dann, ebenfalls korrekten Code zu verwenden.
 Ganz ohne `-1` oder `null`.
 
@@ -83,10 +83,10 @@ interface Lift {
 }
 ```
 
-Kann man mit arbeiten, muss man halt nur immer prüfen, ob der Fahrstuhl gerade im `maintenance` oder `emergency` Fall ist, bevor eine Anweisung ausgeführt wird.
+Kann man mit arbeiten, man muss nur immer prüfen, ob der Fahrstuhl gerade im `maintenance` oder `emergency` Fall ist, bevor eine Anweisung ausgeführt wird.
 Nehmen wir mal an, jemand schreibt jetzt einen Brandmodus vor, bei dem Fahrstühle ins Erdgeschoss fahren sollen.
 Dieser Fall ist neu und jemand muss überall sicherstellen, dass dieser Fall auch berücksichtigt wird.
-Menschen machen nun mal Fehler, irgendwo wirds vergessen und plötzlich passieren Dinge, die nicht hätten sein sollen.
+Menschen machen Fehler, irgendwo wirds vergessen und plötzlich passieren Dinge, die nicht hätten sein sollen.
 
 Wenn man das Ganze jetzt mit einem Enum implementiert, dann ist man schon mal gegen neue Fälle geschützt.
 Nur den Sonderfall, dass der Fahrstuhl gerade einen "fahre zu Stockwerk 42" Befehl ausführt, muss man dann getrennt behandeln.
@@ -115,7 +115,7 @@ if (lift.mode === 'delivery') {
 }
 ```
 
-Man kann natürlich auch in allen fällen prüfen, ob die Variable wirklich definiert ist.
+Man kann auch in allen Fällen prüfen, ob die Variable wirklich definiert ist.
 Das sorgt dann für einen weiteren Check, der zusätzlich Performance frisst.
 
 Die aus meiner Sicht elegante Variante, die man in Rust bauen kann, sieht so aus:
@@ -150,7 +150,7 @@ Diese doch recht simple Syntax sorgt also dafür, dass unser Programm sowohl sic
 Wenn man das ganze jetzt noch weiter denkt, kann man auch beispielsweise einen Ort des Notfallbuttons dazu definieren.
 Dieser könnte dann nur ausgelesen werden, solange man eben in dem Zustand ist, dass ein Notfallbutton gedrückt wurde.
 
-All das kann man natürlich auch in TypeScript nach implementieren, beispielsweise in dem man dies über private Variablen und eine Klasse kapselt.
+All das kann man auch in TypeScript nach implementieren, beispielsweise in dem man dies über private Variablen und eine Klasse kapselt.
 In Rust ist es aber eben Teil des Sprachkonzepts, nur valide Zustände abbildbar zu machen.
 Das verhindert Fehler schon per Design und zur Kompilierzeit, nicht erst zur Laufzeit, wenn der Fahrstuhl in Flammen steht.
 
@@ -201,6 +201,6 @@ enum Option<Value>        { Some(Value), None       }
 enum Result<Value, Error> {   Ok(Value), Err(Error) }
 ```
 
-Irgendwie eine relativ einfache Syntax, die aber mächtige Konsequenzen für die Fehlerfreiheit eines Programmes hat.
+Eine relativ einfache Syntax, die aber mächtige Konsequenzen für die Fehlerfreiheit eines Programmes hat.
 
 Und auch mit solchen Frameworks wie Serde bietet Rust verlässliche Tools, die das Vertrauen in die eigene Software weiter stärken, dass diese auch wirklich funktionieren.

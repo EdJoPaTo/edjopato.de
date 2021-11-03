@@ -37,7 +37,7 @@ Alles funktioniert simpel, dass Einrichten ging schnell über die opml Datei.
 Die opml Datei brauche ich sowieso und habe ich in einem Git Repo gespeichert, da ich mein PinePhone, jedes Mal, wenn ich ein anderes Image ausprobiere, ja quasi zurücksetze.
 (Ich habe "keine"  Backups, ich habe Git Repos.)
 NewsFlash muss man zum Nutzen eines anderen Services (statt dem bisherigen "Local RSS") einmal resetten.
-Danach wird einfach Server, Benutzername und Passwort angegeben.
+Danach wird Server, Benutzername und Passwort angegeben.
 Das funktionierte auch direkt.
 NewsFlash funktioniert dann genauso, nur das alles im Netzwerk passiert.
 Wenn ich einen Post als gelesen markiere, dann wird dies automatisch mit MiniFlux online synchronisiert.
@@ -67,5 +67,5 @@ Im Grunde brauche ich die Webseite nicht zu benutzen.
 NewsFlash arbeitet weiterhin wie ich es gewohnt bin, nur eben jetzt mit Synchronisation.
 Aber dafür funktioniert die Webseite einfach zu gut.
 Wenn ich also auf einem nicht Linux Gerät ohne NewsFlash bin und mal Feeds lesen will, warum also nicht Miniflux.
-Damit habe ich, im Gegensatz zu meiner ersten Annahme, keinen spooky RSS Feed Dienst gefunden, sondern einen ziemlich coolen, minimalistischen, welcher auch noch ziemlich entspannt zu benutzen und warten ist.
+Damit habe ich, im Gegensatz zu meiner ersten Annahme, keinen spooky RSS Feed Dienst gefunden, sondern einen coolen, minimalistischen, welcher auch noch entspannt zu benutzen und warten ist.
 Und das macht Lust auf eigens entwickelte kleine Webanwendungen, die ja, mal wieder bewiesen, besser sein können, als die meisten Software Schmieden einem das vormachen.

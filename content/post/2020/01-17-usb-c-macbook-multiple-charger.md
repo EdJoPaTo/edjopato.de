@@ -35,7 +35,7 @@ Und aus jux noch ein no name USB-A 5V 2.1A Netzteil (11W) mit irgendeinem no nam
 # Sidequest Innenwiderstände der Kabel
 
 Da die beiden Kabel jeweils 90 cm lang sind, sollte der Innenwiderstand relativ ähnlich sein.
-Das rote Kabel ist für Datenübertragung das schwarze zum Laden gemacht, von daher war meine Annahme, die Spannung am Ende des roten Kabels müsste höher sein -> geringerer Innenwiderstand.
+Das rote Kabel ist für Datenübertragung das schwarze zum Laden gemacht, von daher war meine Annahme, die Spannung am Ende des roten Kabels müsste höher sein → geringerer Innenwiderstand.
 Um gleiche Messergebnisse zu haben, habe ich das Kabel angesteckt und kurz gewartet.
 Damit ist die aufgenommene Leistung des MacBooks ähnlich und pendete sich auf etwa 15W ein (bei 20V).
 
@@ -62,7 +62,7 @@ Es ist immer wieder witzig zu sehen, dass das MacBook auch mit den 5V "geladen" 
 
 # Fazit
 
-Das MacBook verwendet die angeschlossenen, potenziell ladenden USB Verbindungen ziemlich schlau und ein Besuch im Apple Store ist mir auch erspart geblieben, Laptop wurde nicht gegrillt.
+Das MacBook verwendet die angeschlossenen, potenziell ladenden USB Verbindungen schlau und ein Besuch im Apple Store ist mir auch erspart geblieben, Laptop wurde nicht gegrillt.
 Ich werd ab jetzt entspannter sein, was Ladegeräte am MacBook angeht.
 
-Unabhängig davon ist Thunderbolt 3 weiterhin in der Lage alles bis hin zu PCIe zu tunneln, was zwar kein elektrisches aber andere Sicherheitsbedenken durchaus rechtfertigt, was man da grade wirklich anschließen will.
+Unabhängig davon ist Thunderbolt 3 weiterhin in der Lage alles bis hin zu PCIe zu tunneln, was zwar kein elektrisches, aber andere Sicherheitsbedenken rechtfertigt, was man da grade wirklich anschließen will.

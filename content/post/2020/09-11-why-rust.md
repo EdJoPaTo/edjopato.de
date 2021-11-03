@@ -98,14 +98,14 @@ match some_function() {
 ```
 
 Hinzu kommt, dass immer eine einzelne Binary gebaut wird, die direkt ausgeführt werden kann.
-Man hat keine herum liegenden DLLs (C#) oder einen riesigen node_modules Ordner (NodeJS).
+Man hat keine herum liegenden DLLs (C#) oder einen riesigen node_modules Ordner (Node.js).
 Container sind super um große Haufen von seltsamen Dependencies jeweils weg zu sperren, mit Rust (oder Go) aber nicht mehr so wichtig.
-Mit NodeJS hatte ich es immer mal, dass beispielsweise die installierte NodeJS Version zu neu für etwas wurde oder Dependencies kaputt waren.
+Mit Node.js hatte ich es immer mal, dass beispielsweise die installierte Node.js Version zu neu für etwas wurde oder Dependencies kaputt waren.
 Ist die Rust Binary einmal gebaut, passiert so etwas nicht mehr.
 
 Außerdem ist Rust auch ressourceneffizienter als andere Sprachen.
 Programme gebaut in Rust verbrauchen wenig CPU / RAM.
-TypeScript / JavaScript laufen in NodeJS, quasi einem Chromium Browser.
+TypeScript / JavaScript laufen in Node.js, quasi einem Chromium Browser.
 Dass das nicht immer ganz effizient sein kann, war mir bewusst.
 Aber auch [der Umbau des Kalenderbot Backends von C# zu Rust]({{< relref "/content/post/2020/09-11-calendarbot-rust.md#ressourcenauslastung" >}}) hat mir gezeigt, dass auch C# nicht annähernd so effizient arbeitet.
 

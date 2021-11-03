@@ -116,7 +116,7 @@ So muss ich mich nicht mehr per SSH verbinden, um jeweils Resilio mit den Änder
 
 # Ziele bei der Umsetzung
 
-Da mir "einfach nur erstellen" eines Tools zu Langweilig war, habe ich das Ganze als NodeJS CLI haben wollen, dessen Parser mit einem NodeJS Test Framework getestet wird.
+Da mir "einfach nur erstellen" eines Tools zu Langweilig war, habe ich das Ganze als Node.js CLI haben wollen, dessen Parser mit einem Node.js Test Framework getestet wird.
 Diese Tests sollen dann automatisch von [Travis-CI](//travis-ci.org/) ausgeführt werden.
 
 ## CLI
@@ -133,11 +133,11 @@ Dazu habe ich die Befehlszeilenargumente mit `process.argv` ausgelesen und analy
   watchmode = args.some(s => s === '-w');
 ```
 
-Später habe ich das auf die NodeJS Libary [cli](//www.npmjs.com/package/cli) umgestellt (siehe [Commit b30b142](//github.com/EdJoPaTo/resilio-sync-watch-config/commit/b30b142786b3127436d4a93cff159d1a751c304e)).
+Später habe ich das auf die Node.js Libary [cli](//www.npmjs.com/package/cli) umgestellt (siehe [Commit b30b142](//github.com/EdJoPaTo/resilio-sync-watch-config/commit/b30b142786b3127436d4a93cff159d1a751c304e)).
 
 ## Testen
 
-Zum Testen des Parsers wollte ich ein NodeJS Test Framework verwenden.
+Zum Testen des Parsers wollte ich ein Node.js Test Framework verwenden.
 Die zwei Größten sind hier [Mocha](//mochajs.org/) und [Jasmine](//jasmine.github.io/), es gibt aber noch deutlich mehr.
 Ich habe mich für Jasmine entschieden, da auch Angular 2 dieses Framework verwendet und hier dieses Wissen so auch für Angular Projekte nutzen könnte.
 
@@ -180,12 +180,12 @@ node_js:
 ```
 
 In diesem Fall wird in der Konfiguration die Programmiersprache festgelegt.
-Dies ist hier NodeJS.
+Dies ist hier Node.js.
 Daraufhin weiß Travis-CI, dass das Standard Test Skript `npm test` ist.
 Da dies in meiner `package.json` gesetzt ist, muss ich das Skript nicht einstellen.
 
-Außerdem werden die Versionen von NodeJS definiert, auf denen getestet werden soll.
-Dabei steht `node` für die aktuellste Version von NodeJS, was zum Zeitpunkt des Schreibens `8.2.1` ist.
+Außerdem werden die Versionen von Node.js definiert, auf denen getestet werden soll.
+Dabei steht `node` für die aktuellste Version von Node.js, was zum Zeitpunkt des Schreibens `8.2.1` ist.
 Damit führt Travis aktuell für `8`, `8.2` und `node` exakt das gleiche aus.
 Mich wundert, warum hier keine automatische Optimierung passiert und Gleichheit erkannt wird.
 

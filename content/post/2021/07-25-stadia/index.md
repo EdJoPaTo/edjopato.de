@@ -6,7 +6,7 @@ tags:
 ---
 Meine Grafikkarte in meinem „Zocken“ PC hat sich vor einem Monat oder so verabschiedet.
 Grundlegend funktioniert sie noch, nur sobald man etwas Größeres startet, gibt es immer mehr visuelle Artefakte bis alles crasht.
-Da Hardware echt teuer ist und ich nicht allzu viel spiele, dachte ich mir, probiere ich mal das Spielstreaming aus.
+Da Hardware teuer ist und ich nicht allzu viel spiele, dachte ich mir, probiere ich mal das Spielstreaming aus.
 <!--more-->
 
 Die Grafikkarte ist eine GTX 680, hat also schon ein paar Tage gesehen.
@@ -30,7 +30,7 @@ Destiny 2 hat das "Cross Save" um dieselben Charaktere auf unterschiedlichen Pla
 Das wollte ich einrichten, schließlich wollte ich nicht noch mal von vorn anfangen und mit besagten Arbeitskollegen zusammen spielen.
 Allerdings landete ich bei 500 interner Server Fehler.
 Nach kurzem schauen: Down für Destiny 2 Patch.
-Ok, da kann Google nichts für, ich hatte einfach Pech im falschen Moment damit anzufangen.
+Ok, da kann Google nichts für, ich hatte Pech, im falschen Moment damit anzufangen.
 Nachdem die Server wieder online waren, hab ich dann Cross Save eingerichtet.
 Dabei wurde mir dann das erste Problem bewusst.
 Cross Save erlaubt zwar das Nutzen der Charaktere aber nicht des gekauften Inhaltes.
@@ -42,7 +42,7 @@ Ich kann aber im Grunde verstehen, dass die Plattform auch weiterhin Einnahmen h
 
 Destiny gestartet, lädt, läuft.
 Input Lag war merklich und die Videoqualität war ein wenig matschig, definitiv schlechter, als ich das von meinem Lokal spielen gewöhnt war.
-Ich habe eine Runde Gambit gespielt und war mit Abstand der Schlechteste (nicht das ich ansonsten gut wäre), aber der Input Lag war zwar machbar, aber einfach zu viel.
+Ich habe eine Runde Gambit gespielt und war mit Abstand der Schlechteste (nicht das ich ansonsten gut wäre), aber der Input Lag war zwar machbar, aber zu viel.
 Bis dahin hatte ich Stadia auf meinem NUC5i3, welcher auch schon seine 5 Jahre gesehen hat, benutzt.
 Dieser hat auch nicht wirklich aktuelle Video Codecs und war mit dem Stream schwer beschäftigt.
 Stadia selbst sagte auch, dass die Verbindung mäßig gut war.
@@ -63,7 +63,7 @@ Mein Monitor ist 1440p, es wurde als hoch skaliert und da es kein Vielfaches ist
 
 Was das Ganze noch schlimmer macht: statt mit meinem kleinen NUC spielen zu können, brauche ich wieder meinen großen PC, der recht viel Strom frisst.
 Ich nutze doch gerade das Streaming, um weniger Ressourcen vor Ort zu brauchen.
-Vielleicht ist das nicht ganz fair, weil die CPU die Codecs einfach noch nicht kann.
+Vielleicht ist das nicht ganz fair, weil die CPU die Codecs noch nicht kann.
 Andererseits ist der NUC auch erst 5? Jahre alt und ich nutze den für alles im Alltag ziemlich problemfrei.
 
 Für mich ist Stadia also zumindest für Destiny nichts.
@@ -75,10 +75,10 @@ Aber wenn ich nicht in der Lage bin, mit Spielern auf Steam spielen zu können, 
 Ich spiele Destiny schließlich hauptsächlich wegen der Anderen.
 
 Wie mache ich nun also weiter?
-Ich bin irgendwie nicht so richtig gewillt für einen Abend in der Woche 200+ € als Grafikkarte auszugeben.
+Ich bin nicht so richtig gewillt für einen Abend in der Woche 200+ € als Grafikkarte auszugeben.
 Vor allem, weil eine neue Grafikkarte auch wieder Probleme mit dem Anschluss an bestehende Monitore bereiten wird.
 Die GTX 680 hat 2x DVI, welche auch genutzt werden.
-Klar kann man mit Adaptern anfangen, aber vielleicht sollte man auch mal die 10 Jahre alten Monitore austauschen, auch wegen dessen Stromverbrauch.
+Klar kann man mit Adaptern anfangen, aber vielleicht sollte ich die 10 Jahre alten Monitore mal austauschen, auch wegen dessen Stromverbrauch.
 Es würde also nicht bei 200+ € für die Grafikkarte blieben.
 
 Aktueller Plan: Vom Firmenlaptop mit externer Festplatte Windows booten und dort Spiele installieren.

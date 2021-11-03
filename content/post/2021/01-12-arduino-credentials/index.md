@@ -20,7 +20,7 @@ Auch nicht aus Versehen.
 
 <!--more-->
 
-Ein [Video von Andreas Spiess](https://www.youtube.com/watch?v=1pwqS_NUG7Q) brachte mich letztens auf die Idee, diese Daten einfach in einer Library zu hinterlegen.
+Ein [Video von Andreas Spiess](https://www.youtube.com/watch?v=1pwqS_NUG7Q) brachte mich letztens auf die Idee, diese Daten in einer Library zu hinterlegen.
 Diese Library bleibt nur auf meinem Rechner und wird in die Projekte eingebunden, die solche Zugangsdaten benötigen. Damit bleibt der Quellcode komplett frei von Zugangsdaten und man committed diese nicht aus Versehen.
 
 In meinem Fall hinterlege ich hier WiFi SSID und Passwort, sowie den Hostnamen von meinem MQTT Server.

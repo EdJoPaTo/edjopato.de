@@ -15,10 +15,10 @@ tags:
   - web
   - windows
 ---
-Vor über einem Jahr habe ich meinen [Blogpost, wie ich Browser verwende]({{< relref "/content/post/2020/06-18-browser.md" >}}), nun schon geschrieben.
+Vor über einem Jahr habe ich meinen [Blogpost, wie ich Browser verwende]({{< relref "/content/post/2020/06-18-browser.md" >}}), schon geschrieben.
 Da sich seit dem schon einiges getan hat, könnte ich Mal wieder vom aktuellen Stand berichten.
-Ich habe damals versucht, alles in einem Blogpost zu behandeln, aber es bietet sich wohl an, dies ein wenig aufzuteilen.
-Hier nun also ein Überblick über meine aktuellen Browser Erweiterungen im Firefox.
+Ich habe damals versucht, alles in einem Blogpost zu behandeln, aber es bietet sich an, dies ein wenig aufzuteilen.
+Hier also ein Überblick über meine aktuellen Browser Erweiterungen im Firefox.
 <!--more-->
 
 **Edit 22:34**:
@@ -34,8 +34,8 @@ Ein anderes Indiz ist die Markierung als "Recommended", welche nur an von Mozill
 
 # Hintergrund Erweiterungen
 
-Zuerst die Erweiterungen, die man einfach installieren kann und dann laufen diese, ohne irgendwas weiter zu tun, einfach im Hintergrund mit und verrichten ihren Dienst.
-Diese würde ich eigentlich jedem einfach so empfehlen.
+Zuerst die Erweiterungen, die man einfach installieren kann und dann laufen diese, ohne irgendwas weiter zu tun, im Hintergrund mit und verrichten ihren Dienst.
+Diese würde ich eigentlich jedem empfehlen.
 
 ## uBlock Origin
 
@@ -129,7 +129,7 @@ Neben den Erweiterungen, die ich einmal installiere und dann vergesse, gibt es n
 
 Abends sind einige Webseiten schon etwas hell.
 Mit ein wenig angepassten Styles ändert diese Erweiterung Webseiten zu einem dunklen Theme.
-Definitiv nicht perfekt und eigentlich wäre ein nativer dunkler Modus der jeweiligen Webseite besser, aber häufig gibt es das einfach gar nicht.
+Definitiv nicht perfekt und eigentlich wäre ein nativer dunkler Modus der jeweiligen Webseite besser, aber häufig gibt es den nicht.
 Und dafür ist diese Erweiterung großartig.
 
 Ich persönlich habe eingestellt, dass diese dem System Theme folgt, sprich tagsüber hell und nachts dunkel.
@@ -146,7 +146,7 @@ Einige der großen Dienste sind anstrengend, langsam und nicht gerade freundlich
 Dafür gibt es leichtgewichtige, privatsphärefreundlichere Alternativen.
 um ein paar Beispiele zu nennen:
 Für Twitter gibt es [Nitter](https://github.com/zedeus/nitter), für YouTube gibt es [Invidious](https://github.com/iv-org/invidious), für Maps gibt es [OpenStreetMap](https://www.openstreetmap.org/) usw.
-Für Videos verwende ich beispielsweise ausschließlich Invidious, welches einfach so viel weniger Ressourcen im Browser benötigt und weniger anstrengend ist.
+Für Videos verwende ich beispielsweise ausschließlich Invidious, welches so viel weniger Ressourcen im Browser benötigt und weniger anstrengend ist.
 
 Mit dieser Erweiterung kann man diese Seiten automatisch erkennen und auf die jeweilige Alternative umleiten.
 Dabei wird entweder zufällig aus einer der vielen hinterlegten Instanzen ausgewählt oder die Instanz des Vertrauens gewählt.
@@ -193,16 +193,16 @@ Mit im Grunde allen Vorteilen von SVGs.
 # Experten
 
 Einige Erweiterungen, die ich benutze, würde ich definitiv nicht jedem empfehlen.
-Entweder wird mehr Wissen vorrausgesetzt, was da genau gerade passiert und wie man diese benutzt oder sind möglicherweise einfach anstrengend, wenn man noch nicht an diese gewöhnt ist.
-Beide sind aber einfach großartig und ich würde diese nicht missen wollen.
+Entweder wird mehr Wissen vorrausgesetzt, was da genau gerade passiert und wie man diese benutzt oder sind möglicherweise anstrengend, wenn man noch nicht an diese gewöhnt ist.
+Beide sind aber großartig und ich würde diese nicht missen wollen.
 Meiner Mutter würde ich diese aber beispielsweise nicht empfehlen ;)
 
 ## uMatrix
 
 Sehr mächtig, aber auch in der Lage für viel "warum geht das nicht?" zu sorgen.
 Im Grunde kann man auswählen, welche Inhalte (Spalten) von welchen Quellen (Zeilen) geladen werden dürfen und welche nicht.
-Zeigt auch ein wenig auf, wie viel Murks einige Webseiten versuchen zu laden und wie viel davon einfach gar nicht benötigt wird.
-Und einige Webseiten werden sehr anstrengend zu benutzen, weil sie einfach so viel unnötige Komplexität haben.
+Zeigt auch ein wenig auf, wie viel Murks einige Webseiten versuchen zu laden und wie viel davon gar nicht benötigt wird.
+Und einige Webseiten werden sehr anstrengend zu benutzen, weil sie so viel unnötige Komplexität haben.
 
 Leider hat der Entwickler die Entwicklung eingestellt und arbeitet nur noch an uBlock Origin.
 Dafür hat uBlock Origin aber auch einige Features bekommen, die vorher nur uMatrix hatte.
@@ -222,10 +222,10 @@ Wenn man sich bei einer Webseite in Container A anmeldet, dann weiß Container B
 Mit der [Firefox Multi-Account Containers Erweiterung](https://github.com/stoically/temporary-containers) bietet Firefox selbst die Möglichkeit, mehrere Container für beispielsweise Arbeit, Freizeit und Banking bereitzustellen.
 
 Mir geht das aber nicht weit genug.
-Warum denn nicht einfach für alles einfach einen Container benutzen und den hinterher wieder löschen?
+Warum denn nicht für alles einen Container benutzen und den hinterher wieder löschen?
 Damit ist alles von allem getrennt.
 
-Vermutlich sollte ich auf meine Benutzung der Erweiterung noch mal in einem weiteren Blogpost eingehen, das würde den Rahmen des kurzen Überblicks wohl sprengen.
+Vermutlich sollte ich auf meine Benutzung der Erweiterung noch mal in einem weiteren Blogpost eingehen, das würde den Rahmen des kurzen Überblicks sprengen.
 
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/)
 - ~~addons.opera.com~~

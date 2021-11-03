@@ -18,7 +18,7 @@ Diese Daten habe ich gesammelt und mal einen Blick darauf geworfen.
 
 # Hintergrundgeschichte
 
-Durch den Mangel an brauchbar abonnierbaren Veranstaltungsplänen habe ich vor Jahren ein kleines Tool geschrieben, welches die Veranstaltungspläne parst und als ICS Datei auf einem Webhost bereit stellt.
+Durch den Mangel an brauchbar abonnierbaren Veranstaltungsplänen habe ich vor Jahren ein kleines Tool geschrieben, welches die Veranstaltungspläne parst und als ICS Datei auf einem Webhost bereitstellt.
 Im Laufe der Zeit wurde daraus ein [Telegram Bot](https://telegram.me/HAWHHCalendarBot), den mittlerweile hunderte von Studierenden benutzen und benutzt haben.
 
 Ein Feature dieses Telegram Bots wurde das Anzeigen der Gerichte in der Mensa.
@@ -31,7 +31,7 @@ Den Quellcode findet ihr auf [GitHub (mensa-crawler)](https://github.com/HAWHHCa
 
 # Datenanalyse
 
-Mit den Daten kann man nun einige Dinge betrachten.
+Mit den Daten kann man einige Dinge betrachten.
 Beispielsweise enthalten die Daten Informationen über Dinge wie vegan, vegetarisch, mit Rindfleisch, Fisch, … oder auch Preise, Zusatzstoffe/Allergene.
 
 Ich will hier allerdings nicht alles zeigen, was ich mir so angesehen habe.

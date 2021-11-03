@@ -15,7 +15,7 @@ tags:
 ---
 Ich hab mich gefragt, wie die unterschiedlichen Raspberries etwa vergleichbar sind in Performance.
 Der Pi 2 und Pi 4 sind beides 4 Kerner, das sollte nicht soo viel Unterschied machen, oder?
-Da ich aktuell mehr mit Rust mache, habe ich einfach mal eines meiner Rust Tools auf unterschiedlichen Geräten gebaut.
+Da ich aktuell mehr mit Rust mache, habe ich mal eines meiner Rust Tools auf unterschiedlichen Geräten gebaut.
 <!--more-->
 
 Als Repository habe ich mein [Meeting Countdown](https://github.com/EdJoPaTo/meeting-countdown) Tool genutzt.
@@ -27,7 +27,7 @@ Um die Dauer des Bauens ohne Downloads zu ermitteln habe ich immer erst einmal `
 Für den Release Build habe ich zweimal `cargo clean && cargo build --release` laufen lassen und das Ergebnis gemittelt.
 Dabei unterschied sich das Ergebnis der Durchläufe erstaunlich wenig.
 Selbst beim Raspberry Pi 1B war die Zeit nur 10 Sekunden auseinander.
-Als Zeit habe ich die Zeit, die cargo selbst ausgibt verwendet.
+Als Zeit habe ich die Zeit, die Cargo selbst ausgibt verwendet.
 
 Für den Dev Build habe ich erst `cargo build` ausgeführt, um das Projekt gebaut zu haben.
 Danach habe ich mehrfach `touch src/main.rs && cargo build` ausgeführt und die Ergebnisse gemittelt.
@@ -114,7 +114,7 @@ Vielleicht würde es sich für das Entwickeln jedoch anbieten, auf mein MacBook 
 Zwischenzeitlich war eine Idee, das [Bauen auf einem der Server zu machen]({{< relref "/content/post/2020/09-17-remote-debug.md" >}}), allerdings sieht man hier schon relativ gut, dass der Dev Build nicht wirklich schneller (oder sogar langsamer) ist.
 Vielleicht bringt G(eneration) 9 der Server hier noch mal einen Benefit, ich habe aber aktuell keinen davon im Einsatz um diesen zum Testen zu nutzen.
 
-Der 36 Threads Server an der Hochschule war interessanterweise sogar langsamer im Dev Build als andere Geräte, hat beim Release Build einfach durch die Menge an Threads schnell bauen können.
+Der 36 Threads Server an der Hochschule war interessanterweise sogar langsamer im Dev Build als andere Geräte, hat aber beim Release Build durch die Menge an Threads schnell bauen können.
 Hier hat auch das MacBook mit 8 Threads einiges Wett machen können.
 
 Wenn ich auf einem ARM Gerät entwickeln wollen würde, würde ich zum Raspberry Pi 4 tendieren, da dieser auch generell viel Support bietet und nicht allzu teuer ist.

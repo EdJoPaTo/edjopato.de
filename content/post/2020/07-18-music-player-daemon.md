@@ -12,7 +12,7 @@ tags:
   - music
 ---
 
-Wenn ich zum Beispiel am coden bin, will ich nebenbei einfach nur Musik hören.
+Wenn ich zum Beispiel am coden bin, will ich nebenbei Musik hören.
 Internet Radio oder Musik die hier auf der Platte liegt.
 Aber muss dafür wirklich ein "riesiges" VLC mit GUI und allem laufen, nur um Musik abzuspielen?
 <!--more-->
@@ -33,12 +33,12 @@ Wenn die Konfiguration zu kompliziert wird, ist es vielleicht nicht das passende
 Und so habe ich die Standard Konfiguration von mpd auch nur minimal angepasst.
 
 Im Wesentlichen habe ich den Standard Ordner für Musik definiert, wie er auch [unter Linux schon definiert ist](https://wiki.archlinux.org/index.php/XDG_user_directories).
-Damit mpd Einstellungen nach dem neu starten noch hat, müssen diese irgendwo abgelegt werden.
+Damit mpd Einstellungen nach dem neu starten noch hat, müssen diese abgelegt werden.
 Dafür habe ich `database_file` und `state_file` definiert.
 Normalerweise muss man mpd aktiv sagen, wenn der Musik Ordner neu eingelesen werden soll um Änderungen zu bemerken.
 Darüber will ich aber nicht nachdenken müssen, also habe ich auch noch `auto_update` aktiviert.
 Somit wird der Musik Ordner automatisch auf Änderungen überprüft.
-Der ganze Rest, wie Ausgabegerät usw., funktionierte zumindest bei mir einfach out of the box, was ja genau das ist, was ich will.
+Der ganze Rest, wie Ausgabegerät usw., funktionierte zumindest bei mir out of the box, was ja genau das ist, was ich will.
 Meine ganze Konfiguration habe ich hier abgelegt: [Repo](https://github.com/EdJoPaTo/LinuxScripts/blob/master/Applications/mpd/mpd.conf).
 
 Da ich mpd als Nutzer haben will und nicht als System Dienst, wird die Konfig im Home abgelegt: `~/.config/mpd/mpd.conf`.
@@ -61,13 +61,13 @@ Der Client selbst ist also quasi nur die Fernbedienung.
 Das ganze funktioniert auch über Netzwerk, mpd und mpc müssen nicht auf dem selben Rechner laufen.
 
 Ich kann jetzt also sagen, ich will meine Musik aus dem Ordner 'Baum' hören (`mpc add Baum`), möchte bitte das diese in zufälliger Reihenfolge abgespielt wird (`mpc random on`) und das abgespielt werden soll (`mpc play`).
-Wenn ich dann das Lied grade nicht mag, wechsle ich einfach zum Nächsten (`mpc next`).
-Und sobald ich wieder Ruhe will, kann ich einfach pausieren (`mpc pause`).
+Wenn ich dann das Lied grade nicht mag, wechsle ich zum Nächsten (`mpc next`).
+Und sobald ich wieder Ruhe will, kann ich pausieren (`mpc pause`).
 
-Man kann auch Internet Radio damit hören, in dem man die URL des Livestreams einfach per add der Playlist hinzufügt: `mpc add http://radio-url/stream.mp3`.
+Man kann auch Internet Radio damit hören, in dem man die URL des Livestreams per add der Playlist hinzufügt: `mpc add http://radio-url/stream.mp3`.
 
 Witzigerweise kann mpd auch das Audio von Videos wiedergeben.
-In der Anfangszeit hatte ich den Download Ordner von Telegram als Musik Ordner hinzugefügt und einfach alles darin abgespielt.
-Telegram selbst hat selber guten Support für Audio Files (sowohl Musik als auch Hörbücher / Podcasts), einfach die mp3 in einen Chat packen und einfach hören, sehr entspannt.
-So hatte ich nun aber auch irgendwelche Videos im selben Download Ordner und wunderte mich, was für komische Musik da kommt.
+In der Anfangszeit hatte ich den Download Ordner von Telegram als Musik Ordner hinzugefügt und alles darin abgespielt.
+Telegram selbst hat selber guten Support für Audio Files (sowohl Musik als auch Hörbücher / Podcasts), einfach die mp3 in einen Chat packen und hören, sehr entspannt.
+So hatte ich aber auch irgendwelche Videos im selben Download Ordner und wunderte mich, was für komische Musik da kommt.
 Mittlerweile habe ich aber alles in einem eigenen Ordner abgelegt, von daher kein Problem mehr.

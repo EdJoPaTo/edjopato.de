@@ -54,7 +54,7 @@ Screenshot von Etcher vom offiziellen [GitHub Repo](https://github.com/resin-io/
 Dabei übernimmt Etcher vom Entpacken der Image Datei über die Auswahl des Zieldatenträgers und sicherstellen des unmountens der Partitionen bis zum Verifizieren des geschriebenen Image alles.
 
 Etcher ist mit dem Electron Framework umgesetzt und damit Cross Plattform einsetzbar.
-Ich finde es ein gutes Beispiel dafür, das ein High Level Framework wie NodeJS mit Electron doch sehr Hardware nahe Dinge wie Partition Checks, Images schreiben usw. machen kann.
+Ich finde es ein gutes Beispiel dafür, das ein High Level Framework wie Node.js mit Electron doch sehr Hardware nahe Dinge wie Partition Checks, Images schreiben usw. machen kann.
 
 Etcher wird Open Source und auf [GitHub](https://github.com/resin-io/etcher) entwickelt.
 Für mich hat Etcher `dd` und Konsorten ersetzt.

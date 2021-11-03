@@ -24,7 +24,7 @@ Go Single-Binary mit MIT-Lizenz, welche sogar in den Arch und Debian Repos ist, 
 
 Für quasi jeden Storage Provider gibt es eine Anleitung, welche auf der Webseite dokumentiert ist.
 In meinem OneDrive Fall, ist diese unter [rclone.org/onedrive](https://rclone.org/onedrive/) zu finden.
-Diese beschreibt quasi alles, was man braucht, in einer aus meiner Sicht echt gut übersichtlichen Dokumentation.
+Diese beschreibt quasi alles, was man braucht, in einer aus meiner Sicht übersichtlichen Dokumentation.
 Man page und brauchbare `--help` sind auch vorhanden, für die vielen Flags, die die Executable so bietet.
 
 Für mich sind quasi nur zwei Commands relevant, erstmal das Einrichten mittels `rclone config` und dann das regelmäßige abgleichen mittels `rclone sync --progress remote-name: ~/my/local/path`.
@@ -33,7 +33,7 @@ Aus meiner Sicht könnte man dies damit auch ohne Anleitung schon einrichten.
 Die Config wird dann in `~/.config/rclone/rclone.conf` abgelegt und kann auch auf andere Rechner kopiert werden usw.
 
 Danach musste nur noch ein cronjob, systemd.timer oder in diesem Fall die Windows Aufgabenverwaltung eingerichtet werden, damit der `rclone sync` Command regelmäßig ausgeführt wird.
-Die simplen Tools so zusammen stecken, wie man es selbst halt braucht und ich es von Linux Command-Line-Tools gewöhnt bin.
+Die simplen Tools so zusammen stecken, wie man es braucht und ich von Linux Command-Line-Tools gewöhnt bin.
 
 Alles in allem ein Command-Line Tool, wie man es vielleicht gewohnt ist.
 Aus irgendeinem Grund habe ich hier für die proprietären Cloud Dienste einen Murks erwartet und nicht damit gerechnet, dass diese so sinnvoll gekapselt wurden.

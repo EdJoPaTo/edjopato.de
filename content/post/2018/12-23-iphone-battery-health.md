@@ -10,7 +10,7 @@ tags:
   - battery
   - environment
 ---
-Apple hat mit seiner Akku Drossel eine Menge negative Presse bekommen und das Battery Health Feature eingeführt.
+Apple hat mit seiner Akku-Drossel eine Menge negative Presse bekommen und das Battery Health Feature eingeführt.
 Daraufhin habe ich einfach mal ein paar Freunde gefragt, "wie sieht es denn bei dir aus", und dies geplottet.
 Das mache ich jetzt seit 8 Monaten und habe so schon ein paar interessante Verläufe zu sehen.
 <!--more-->
@@ -19,9 +19,9 @@ Das mache ich jetzt seit 8 Monaten und habe so schon ein paar interessante Verl�
 
 Auf der X Achse wird dabei das Alter des Akkus (nicht des Gerätes) in Monaten geplottet.
 Auf der Y Achse wird die von iOS ausgegebene Battery Health in Prozent geplottet.
-Die jeweilige Linie ist mit dem Alters des Akkus, der Art des Gerätes und dem Namen des Besitzers, irgendwie muss man ja auch den Überblick behalten, gekennzeichnet.
+Die jeweilige Linie ist mit dem Alter des Akkus, der Art des Gerätes und dem Namen des Besitzers, irgendwie muss man ja auch den Überblick behalten, gekennzeichnet.
 
-Da bis Ende 2018 der Akku Tausch noch deutlich günstiger ist, haben einige ihren Akku getauscht und sind so nun wieder "vorne" dabei.
+Da bis Ende 2018 der Akku Tausch noch deutlich günstiger ist, haben einige ihren Akku getauscht und sind so wieder "vorne" dabei.
 Dabei ist ihr Name auch mehrfach vorhanden.
 
 ![Battery Age](/assets/2018/12/battery-age.svg)
@@ -45,8 +45,8 @@ Bug oder Feature? Unklar.
 Die Datensammlung und die Logik zum Generieren von Plots liegt in einem [GitHub Repo](https://github.com/EdJoPaTo/iPhoneBatteryHealth).
 
 Die Daten werden in einer CSV Datei gesammelt.
-Soll ein neuer Plot erstellt werden, wird mit Hilfe von NodeJS die CSV Datei eingelesen und passend für Gnuplot in temporäre CSV Dateien geschrieben.
-Letztere liest dann das durch NodeJS gestartete Gnuplot und erstellt die Plots als PNG, SVG und PDF.
+Soll ein neuer Plot erstellt werden, wird mithilfe von Node.js die CSV Datei eingelesen und passend für Gnuplot in temporäre CSV Dateien geschrieben.
+Letztere liest dann das durch Node.js gestartete Gnuplot und erstellt die Plots als PNG, SVG und PDF.
 
 Wenn ich noch mal Langeweile habe, könnte man die Datenhaltung von CSV auf ein JSON Format ändern.
 Damit ließen sich zum Beispiel genauere Zeitstempel als monatlich realisieren.
@@ -57,6 +57,6 @@ Dann wäre es auch einfacher, weitere Personen hinzuzufügen.
 Auch ist das Erstellen von Plots über Gnuplot, angesteuert durch JavaScript, nicht so richtig optimal.
 
 Schön wäre vielleicht auch noch das Setzen von Farben, basierend auf dem jeweiligen Gerät.
-Zum Beispiel alle iPhone 7 in grün.
+Zum Beispiel alle iPhone 7 in Grün.
 
 Aber da denke ich dann noch mal drüber nach, wenn ich mal wieder Zeit hab…

@@ -32,7 +32,7 @@ Wenn ich Beispielsweise in einem Node.js Projekt etwas suche, dann suche ich fü
 Will man dies nicht, so kann man zusätzlich z. B. `--hidden` angeben, um diese doch zu durchsuchen.
 
 Beide Tools arbeiten außerdem (wenn nicht anders per Argument übergeben) aus dem aktuellen Verzeichnis und dessen Unterordnern.
-Will man den Ordner eingrenzen, so wechselt man einfach in diesen Ordner und führt den Befehl von dort aus.
+Will man den Ordner eingrenzen, so wechselt man in diesen Ordner und führt den Befehl von dort aus.
 
 # fd
 
@@ -40,7 +40,7 @@ Will man den Ordner eingrenzen, so wechselt man einfach in diesen Ordner und fü
 (Unter Debian basierten Distros habe ich mir einen alias angelegt: `alias fd=fdfind`.)
 
 Suche ich beispielsweise Markdown Dateien und benutze `fd md`, so werde ich alle möglichen Markdown Dateien in Unterordnern aufgelistet bekommen.
-Allerdings auch solche, die einfach nur md beinhalten, wie zum Beispiel `formdata.ts`.
+Allerdings auch solche, die nur md beinhalten, wie zum Beispiel `formdata.ts`.
 Hier ist wieder der reguläre Ausdruck relevant.
 `fd \.md$` führt hier an das gewünschte Ziel.
 

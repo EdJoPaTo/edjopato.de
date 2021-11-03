@@ -21,7 +21,7 @@ So entstehen häufig Diskussionen zu den Themen.
 Jetzt dachte ich mir, vielleicht schaue ich mal mit diesem Blick auf die Cloud, auf die ich bereits in [meinem letzten Blogartikel]({{< relref "/content/post/2021/10/18-cloud/index.md" >}}) eingegangen bin.
 Natürlich wird mein Blickpunkt nie vollständig und perfekt abbilden, wie man etwas machen kann und sollte.
 Deswegen lohnt sich immer ein Blick auf andere Standpunkte und fremde Philosophien.
-Die Grundsätze in der Hacker*Innen-Ethik werden von vielen im Chaos-Umfeld akzeptiert und bieten damit wohl einen interessanten Blickpunkt.
+Die Grundsätze in der Hacker*Innen-Ethik werden von vielen im Chaos-Umfeld akzeptiert und bieten damit einen interessanten Blickpunkt.
 
 # Hacker*Innen 0, 1 | 2
 
@@ -48,7 +48,7 @@ In meinem letzten Post ging ich darauf ein, dass man immer erklären können sol
 Mein Interesse daran war jedoch nicht unbedingt die Aufklärung, sondern das Aufzeigen von Lücken.
 Wenn ich den Grundsatz so lese, wäre es jedoch eine gute Idee, gut zu dokumentieren, wie die eigene Cloud Lösung so funktioniert.
 So kann man selbst (und andere) verstehen, was genau dort alles passiert.
-Hier hilft es dann natürlich wieder Komplexität zu vermeiden und simplere Systeme zu nutzen, diese sind einfacher zu erklären.
+Hier hilft es dann wieder Komplexität zu vermeiden und simplere Systeme zu nutzen, diese sind einfacher zu erklären.
 
 Ein anderer Aspekt, der in diesem Grundsatz noch mit schwingt, ist der Zugang zu Computern.
 Man sollte dabei unterstützen, dass alle einen Zugang dazu finden.
@@ -74,7 +74,7 @@ Ein bisschen ging ich auch darauf in meinem letzten Post ein.
 Wenn ich die Cloud von so einem Anbieter gar nicht erst nutze oder Ende-zu-Ende-Verschlüsselung einsetze, dann haben diese gar nicht erst die Möglichkeiten an meine Daten zu kommen.
 Meine Daten so abzulegen, dass ich unabhängig von einem Anbieter bin und einfach von einem zum Anderen wechseln kann ist ein weiterer guter Schritt.
 Das Ideal sollte sein, nicht auf große Anbieter zu vertrauen, sondern dezentralisiert auf viele kleinere Anbieter zu setzen (oder selbst Anbieter meiner eigenen Plattform zu werden).
-Das ist natürlich kein Entweder-oder, ich kann mich frei auf dieser Achse bewegen, eine lokale Firma ist etwas anderes als ein weltweit agierender Konzern (und alles hat seine eigenen Vor- und Nachteile, denen man sich bewusst werden sollte).
+Das ist kein Entweder-oder, ich kann mich frei auf dieser Achse bewegen, eine lokale Firma ist etwas anderes als ein weltweit agierender Konzern (und alles hat seine eigenen Vor- und Nachteile, denen man sich bewusst werden sollte).
 
 Misstraue Autoritäten heißt auch, dass nicht, weil ein Anbieter etwas sagt, dies auch stimmt.
 Natürlich sagt eine Firma von sich selbst, sie sei großartig.
@@ -114,7 +114,7 @@ Für mich persönlich machen simple Lösungen mit wenig Komplexität Spaß, aber
 
 Hier geht es wieder um die Prozesse, die wir erfüllen wollen.
 Computer können uns dabei helfen, diese Prozesse leichter oder hilfreicher zu machen.
-In welcher Form wir Computer dabei nutzen, bleibt natürlich uns überlassen.
+In welcher Form wir Computer dabei nutzen, bleibt uns überlassen.
 
 Aber dafür müssen wir weiterhin wissen, was wir eigentlich wollen.
 Denn diese Frage kann uns der Computer nicht beantworten.

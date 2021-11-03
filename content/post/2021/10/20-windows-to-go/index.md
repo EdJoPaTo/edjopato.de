@@ -14,7 +14,7 @@ tags:
 ---
 Seit meine Grafikkarte bei Spielen nur noch lauter rote Punkte produziert und dann abschmiert, habe ich keinen Computer mehr zum Zocken.
 Der Arbeitslaptop hat eine Grafikkarte, allerdings ist das mit privater Software auf Firmengeräten so eine Sache.
-Aber da wird man doch wohl etwas hinbekommen um nur die Hardware, aber nicht die Software zu nutzen.
+Aber da wird man doch etwas hinbekommen um nur die Hardware, aber nicht die Software zu nutzen.
 
 <!--more-->
 
@@ -40,7 +40,7 @@ Leserkommentar: Möglicherweise muss man Secure Boot deaktivieren oder BIOS Eins
 Die Windows Installation begrüßt einen mit Dark Pattern gespickten Fragen.
 Hier wählt man so lange die Buttons mit dem schlechtesten Kontrast auf dem Bildschirm ("nein", "nur offline", "kein Tracking", …), bis man auf dem Windows Desktop angekommen ist.
 Windows Updates laufen lassen, natürlich regelmäßig neu starten und danach waren alle Grafiktreiber usw. installiert, die ich brauche.
-Da die Windows Lizenz vom Gerät kommt, muss auch kein Lizenzschlüssel irgendwo eingetragen werden, dies ist also auch kein Problem.
+Da die Windows Lizenz vom Gerät kommt, muss auch kein Lizenzschlüssel eingetragen werden, dies ist also auch kein Problem.
 Noch Steam und Co installieren, Spiele herunterladen und los gehts.
 
 # Was für eine externe SSD brauche ich?
@@ -59,7 +59,7 @@ Destiny 2 hat eh utopisch lange Ladezeiten, bei denen man auf Server wartet und 
 Definitiv nicht so schnell wie eine integrierte SSD, das habe ich aber in meinem Kopf auf die externe SSD und nicht auf USB 2.0 geschoben.
 
 Ich würde also sagen, da diese Lösung eh für das Casual Gaming gemacht ist, wird man nicht merken, wenn man statt einer "normalen" SSD eine NVMe Platte verwendet.
-Wenn man mehr als Casual Gaming will, wird man sich wohl auch einen richtigen Rechner mit verbauter NVMe SSD zulegen.
+Wenn man mehr als Casual Gaming will, wird man sich einen richtigen Rechner mit verbauter NVMe SSD zulegen.
 
 Als Größe der SSD habe ich eine 256 GB SSD, die reicht mir vollkommen aus.
 Aktuell habe ich 2 riesige Spiele (zum Beispiel eben erwähntes Destiny 2) und ein paar ältere Spiele installiert.

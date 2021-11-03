@@ -16,13 +16,13 @@ tags:
 Beim Entwickeln baut man manchmal schrecklichen Quellcode.
 Teilweise ist das ein schlechtes Architekturdesign, teilweise aber auch Sprachsyntax, die optimierungswürdig ist.
 Bei Letzterem versuchen Linter (oder auch statische Analyse Tools genannt) einem zu helfen.
-"Es funktioniert zwar, ginge aber besser" ist wohl eine simple Formulierung dafür.
+"Es funktioniert zwar, ginge aber besser" ist eine simple Formulierung dafür.
 
 <!--more-->
 
 # Beispiel
 
-Vielleicht einfach mal ein Beispiel, wo einem so ein Hinweis helfen kann.
+Vielleicht mal ein Beispiel, wo einem so ein Hinweis helfen kann.
 Nehmen wir mal an, ich hätte folgenden JavaScript / TypeScript Quellcode:
 
 ```typescript
@@ -36,8 +36,8 @@ if (stuff.indexOf("Spider") >= 0) {
 Dieser Quellcode würde so laufen, es ginge aber besser.
 
 Zum einen hat JavaScript seit ES2016 die [`Array.prototype.includes`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) Funktion.
-Wenn man diese benutzt, wird der Quellcode einfach verständlicher und besser zu lesen.
-Vielleicht benutzt man JavaScript schon länger als es ES2016 gibt oder musste vorher einfach eine ältere Version verwenden.
+Wenn man diese benutzt, wird der Quellcode verständlicher und besser zu lesen.
+Vielleicht benutzt man JavaScript schon länger als es ES2016 gibt oder musste vorher eine ältere Version verwenden.
 Hier hilft so ein Linter einen auf neuere Syntax zu stoßen oder bessere Lesbarkeit zu erzielen.
 
 ```diff
@@ -75,7 +75,7 @@ Wir Menschen lernen besser, wenn wir schnell Feedback bekommen, was wir besser m
 
 Aus dem Grund mag ich Linter und stelle sie mir gerne "härter" ein, sodass diese noch mehr Hinweise geben.
 Einige dieser Hinweise sind dann nicht unbedingt richtig oder ich akzeptiere diese, dann kann man diese im Quellcode vermerken.
-Bei ESLint (JavaScript bzw. TypeScript) schreibt man dazu einfach einen Kommentar vor die betreffende Zeile.
+Bei ESLint (JavaScript bzw. TypeScript) schreibt man dazu einen Kommentar vor die betreffende Zeile.
 Im folgenden Beispiel gibt es eine Bedingung, die immer gleich ist, also konstant (`no-constant-condition`).
 Wenn dies genau das Ziel ist, ignoriere ich den angemerkten Hinweis.
 

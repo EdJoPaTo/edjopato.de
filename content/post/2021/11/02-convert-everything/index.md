@@ -84,7 +84,7 @@ Zuschneiden oder Ausschneiden von Abschnitten aus einer Datei sind ebenfalls mit
 Das Erste, was mir bei [Pandoc](https://pandoc.org/) einfällt, ist das Diagramm auf deren Webseite, welches man sieht, sobald man ein wenig herunter scrollt.
 Viele Formate in viele Formate.
 
-LaTeX zu PDF oder Markdown zu HTML sind wohl die langweiligsten Umwandlungen, die Pandoc kann.
+LaTeX zu PDF oder Markdown zu HTML sind die langweiligsten Umwandlungen, die Pandoc kann.
 `docx` zu Markdown, Markdown zu EPUB, EPUB zu HTML, HTML zu Open Document Text Format (`odt`), `odt` zu DokuWiki, DokuWiki zu MediaWiki, MediaWiki zu LaTeX, …
 Was man halt gerade so braucht.
 
@@ -117,10 +117,10 @@ Die Outputs werden dann automatisch im neuen Unterorder `converted` erzeugt, wel
 
 Natürlich fehlen dort immer Dinge.
 Gerade wenn ich so diesen Blogpost schreibe, fällt dies besonders auf.
-Aber das war ja irgendwo auch der Zweck:
+Aber das war ja auch der Zweck:
 Immer mal ein Grund etwas mit Rust zu machen.
 
 # Fazit
 
-Vermutlich fehlen in dieser Liste noch ein paar echt coole Tools, um Dinge zu konvertieren.
+Vermutlich fehlen in dieser Liste noch ein paar coole Tools, um Dinge zu konvertieren.
 Vielleicht fällt dir ja eines ein, dann bin ich neugierig, was bisher an mir vorbeigegangen ist und nehme diese gern hier mit auf!

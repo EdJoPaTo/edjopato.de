@@ -12,13 +12,13 @@ tags:
   - server
 ---
 Heute gab es ein Netcup Sonderangebot mit einem neuen Server, dem "Game Invader".
-Geklickt und die Frage gestellt, wie schnell ist das Ding nun eigentlich im Verhältnis?
+Geklickt und die Frage gestellt, wie schnell ist das Ding eigentlich im Verhältnis?
 <!--more-->
 
-Also hab ich mal ein paar Netcup / Hetzner Server herbeigezaubert, auf die ich Zugriff habe und einfach mal [hyperfine](https://github.com/sharkdp/hyperfine) mit FFmpeg angeworfen.
+Also hab ich mal ein paar Netcup / Hetzner Server herbeigezaubert, auf die ich Zugriff habe und mal [hyperfine](https://github.com/sharkdp/hyperfine) mit FFmpeg angeworfen.
 In einem bestehenden Projekt von mir nutze ich regelmäßig FFmpeg, welches eine Weile alle Kerne auslastet, bis es fertig ist.
 Klingt nach einem guten Vergleich, also los.
-Den Command aus dem Tool genommen ~~und als Input nun den Das Erste Livestream verwendet.~~
+Den Command aus dem Tool genommen ~~und als Input den Das Erste Livestream verwendet.~~
 (Das besagte Tool integriert auch noch Untertitel in die mp4, daher die dafür relevanten FFmpeg Argumente.)
 
 Alle Tests gemacht und dann festgestellt, warte mal, ein Livestream muss auf die Daten warten, sprich IO Bottleneck.
@@ -30,7 +30,7 @@ Die verwendeten Server sind in grob 3 Gruppen aufgeteilt:
 - Die ersten 3 Server sind mit dedizierten Kernen (Netcup "Root Server", Hetzner "dedicated vCPU")
 - Danach folgen 3 Server sind mit virtualisierten, also geteilten Kernen (Netcup "vServer", Hetzner "default")
 - Gefolgt von Raspberry Pis
-- Und den Abschluss bildet "große" Hardware, welche auch nicht unbedingt Server sind, einfach um einen Vergleich zu haben.
+- Und den Abschluss bildet "große" Hardware, welche auch nicht unbedingt Server sind, um einen Vergleich zu haben.
 
 ```bash
 wget -O in.webm https://cdn.media.ccc.de/congress/2017/webm-sd/34c3-8710-deu-eng-Relativitaetstheorie_fuer_blutige_Anfaenger_webm-sd.webm
@@ -86,7 +86,7 @@ Eine spannende Feststellung ist der Vergleich von Netcups G8 4C vs. G9 2C: eine 
 Hetzners 4C Server ist einen ticken schneller, kostet aber ein vielfaches.
 
 Bei den virtuellen Kernen war ich etwas überrascht, wie viel weniger Leistung sie im Vergleich zu den dedizierten Kernen haben.
-Meine Annahme war, dass der jetzt neue 4 Kern vServer irgendwo zwischen dem G8 und G9 Root Server liegen müsste, er ist aber langsamer als Beide.
+Meine Annahme war, dass der jetzt neue 4 Kern vServer zwischen dem G8 und G9 Root Server liegen müsste, er ist aber langsamer als Beide.
 Man sieht auch deutlich die größere Streuung in den Ergebnissen.
 
 Und um meine Eingangsfrage zu beantworten:

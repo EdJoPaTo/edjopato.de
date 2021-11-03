@@ -32,7 +32,7 @@ Als der Monitor ankam erstmal aufgebaut und versucht, die Kabel zu sortieren.
 Spannend war dann das Menü des Monitors.
 Beispielsweise musste das USB-C PD zum Laden eines angeschlossenen Geräts explizit eingeschaltet werden.
 Dabei gab es den Hinweis, dass der Monitor dann mehr Strom verbrauchen würde, als auf dem Energielabel angegeben ist.
-Sollte das nicht so ziemlich jedem denkenden Mensch klar sein, dass das Laden mit 90W über USB-C nicht Teil des ~20W durchschnittlichen Verbrauch sein kann?
+Sollte das nicht jedem denkenden Mensch klar sein, dass das Laden mit 90W über USB-C nicht Teil des ~20W durchschnittlichen Verbrauch sein kann?
 Auch das DisplayPort MST, welches das DisplayPort Out und die Chain erlaubt, musste explizit eingeschaltet werden.
 Dass man den DisplayPort Out und den zweiten USB-C Port am Monitor mit einem Gummi-Blocker versieht, damit niemand aus Versehen etwas reinsteckt und sich dann wundert, warum dieser nicht funktioniert, kann ich nachvollziehen.
 Aber warum man sowas extra anschalten muss, nicht unbedingt.
@@ -44,7 +44,7 @@ Ich hatte die Befürchtung, dass der DisplayPort MST Hub die Chain unterbrechen 
 Ziemlich cool, dass das geht.
 Damit kann man also ein DisplayPort Kabel bzw. ein USB-C Kabel zum neuen Monitor haben und der DisplayPort Out mit MST Hub kann zwei weitere Monitore ansteuern.
 Für 2x 2560x1440 + Full-HD reicht DisplayPort 1.2, für 3x 2560x1440 leider nicht mehr.
-(Ich habe extra darauf geachtet, dass auch der USB-C Port des Monitors DisplayPort 1.4 kann, das können nämlich nicht alle, was zu lustigen Überraschungen führen kann.)
+(Ich habe extra darauf geachtet, dass auch der USB-C Port des Monitors DisplayPort 1.4 kann, das können nicht alle, was zu lustigen Überraschungen führen kann.)
 
 Allerdings habe ich bisher kein Gerät mit DisplayPort 1.4.
 Der NUC5i3 hat nur DisplayPort 1.2.
@@ -52,7 +52,7 @@ Der i7-7567 kann laut Datenblatt nur 2 Monitore und macht auch nicht mehr als da
 Das PinePhone scheint kein DisplayPort MST zu unterstützen.
 Das MacBook kann mit macOS softwareseitig kein DisplayPort MST, also auch nur einen Monitor pro Kabel.
 
-Eine Sache, über die ich vorher nicht nachgedacht habe, aber rückblickend doch durchaus Sinn ergibt:
+Eine Sache, über die ich vorher nicht nachgedacht habe, aber rückblickend Sinn ergibt:
 Man kann mit dem U2722DE über USB-C nur entweder USB 3.2 oder USB 2.0 mit DisplayPort MST.
 Mehrere Monitore haben eine Menge Datendurchsatz, von daher nachvollziehbar, dass das nicht beides gehen wird.
 Aber für meinen Anwendungsfall, Headset, Maus und Tastatur definitiv ausreichend.
@@ -62,7 +62,7 @@ Leider können die U2711 über HDMI nicht die volle Auflösung, ohne dass man do
 Mein Workaround läuft leider nur unter X11, nicht unter Wayland.
 Von daher bin ich erstmal damit verblieben, den neuen Monitor über HDMI anzuschließen, da der NUC nur 1x DisplayPort und 1x HDMI hat.
 Ich nutze aktuell also kein DisplayPort Out des Monitors.
-Ein wenig Schade aber das wird irgendwann mit neuer Hardware auch mal kommen.
+Ein wenig Schade aber das wird irgendwann mit neuer Hardware kommen.
 
 Ein Problem habe ich mit dem Monitor noch:
 Solange der Input Auto Detect (automatisch erkennen, auf welchem Input Daten kommen) an ist, schaltet Gnome die Monitore nicht in den Stand-by-Modus, wenn man den PC sperrt.
@@ -78,8 +78,8 @@ Da ich keine farbentreuen Dinge damit mache, für mich aktuell nicht weiter rele
 Einziger Nachteil des Bildes gegenüber den U2711 ist das schwarz, welches heller ist.
 Aber es ist ja auch kein OLED Monitor und so häufig hat man kein komplett schwarzes Bild, dass das auffallen würde.
 Es fiel mir auch nur im direkten Vergleich auf.
-Der neue Monitor hat einen deutlich kleineren Rahmen als die U2711, aber so im Alltag ist das irgendwie kein Vor- oder Nachteil.
-(In einem Laptop hingegeben wäre dies anders, für den Desktop ist es für mich aber einfach nicht relevant.)
+Der neue Monitor hat einen deutlich kleineren Rahmen als die U2711, aber so im Alltag ist das kein Vor- oder Nachteil.
+(In einem Laptop hingegeben wäre dies anders, für den Desktop ist es für mich aber nicht relevant.)
 
 Alles in allem ist der Monitor mit seinen Features schon cool.
 [Das Einstellen der Helligkeit über DDC/CI]({{< relref "/content/post/2020/08-17-ddc.md" >}}) funktioniert weiterhin problemlos.

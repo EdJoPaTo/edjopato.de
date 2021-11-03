@@ -13,7 +13,7 @@ tags:
 ---
 Unter meinem Bett liegt [immer noch]({{< relref "/content/post/2018/08-08-mpd-pi.md" >}}) ein Raspberry Pi, der Internet Radio spielt.
 Und MPD bleibt immer noch stecken, wenn das Internet weg war.
-Mit einem kleinen Rust Programm habe ich mir nun Abhilfe geschaffen.
+Mit einem kleinen Rust Programm habe ich mir Abhilfe geschaffen.
 <!--more-->
 
 # Das Problem
@@ -59,7 +59,7 @@ Ohne die Dependencies, die ja schon gebaut waren, brauchte der Raspberry Pi 1B d
 # Ressourcenauslastung
 
 Nun verbraucht das Tool etwa 1.5MB RAM (0.4% des Raspberry Pi 1B) und hat in ~15h Laufzeit 5 Sekunden die CPU beansprucht.
-Im Vergleich dazu ein NodeJS Tool, welches auf dem selben Pi läuft und LEDs von MQTT Nachrichten steuert: 18MB RAM (4.1%) und 13 CPU Minuten nach ~50 Stunden Laufzeit.
+Im Vergleich dazu ein Node.js Tool, welches auf dem selben Pi läuft und LEDs von MQTT Nachrichten steuert: 18MB RAM (4.1%) und 13 CPU Minuten nach ~50 Stunden Laufzeit.
 MPD selbst nutzt 10.6MB RAM (2.4%) und 3 CPU Stunden nach ~50 Stunden Laufzeit.
 
 Ziemlich effizient zu Laufzeit, ein Grund warum ich Rust spannend finde.
@@ -67,7 +67,7 @@ Allerdings weiß ich nicht, wie viel dies den Ressourcenverbrauch von MPD selbst
 
 Insgesamt sind auf dem Raspberry Pi so etwa 45MB / 432MB RAM belegt.
 Selbst wenn die Tools nicht so effizient wären, reicht der Raspberry Pi 1B für seinen Zweck locker aus.
-Schade nur, das ARMv6 nicht mehr all zu gut supported wird (kein offizieller NodeJS Support mehr, Rust Cross Compilen für ARMv6 lief nicht so 'mal eben', daher weiter manuell vor Ort gebaut, …).
+Schade nur, das ARMv6 nicht mehr allzu gut supported wird (kein offizieller Node.js Support mehr, Rust Cross Compilen für ARMv6 lief nicht so 'mal eben', daher weiter manuell vor Ort gebaut, …).
 Grade im Anbetracht des noch gar nicht so alten Raspberry Pi Zero (W), der ja doch ganz gerne von Einigen für Projekte genutzt wird.
 
 # Fazit
@@ -76,4 +76,4 @@ Internetradio läuft.
 Der [Quellcode ist auf Github](https://github.com/EdJoPaTo/mpd-internetradio-destuck) zu finden.
 
 Ein wenig witzig dabei ist immer noch, dass das Bauen der Executable auf dem Raspberry Pi 1B mit 20 Minuten gefühlt fast länger gedauert hat, als das Schreiben des Programmes.
-Da ich da aber nicht daneben sitzen muss und in Anbetracht der echt guten Laufzeit Werte, definitiv verkraftbar.
+Da ich da aber nicht daneben sitzen muss und in Anbetracht der guten Laufzeit-Werte, definitiv verkraftbar.

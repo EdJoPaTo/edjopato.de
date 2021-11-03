@@ -57,7 +57,7 @@ Und so landete das Projekt erstmal wieder in der Schublade.
 
 Einen Tag später probierte ich mich mal am [BL602 QuickStart Guide von Pine64](https://pine64.github.io/bl602-docs/Quickstart_Guide/Linux/Quickstart_Linux_ubuntu.html).
 Statt gtkterm habe ich screen verwendet (`screen /dev/ttyUSB0 2000000`).
-Ansonsten lief das auf Anhieb und ist ziemlich cool anzusehen.
+Ansonsten lief das auf Anhieb und ist cool anzusehen.
 Nachdem man dies aufgespielt hat, bekommt man quasi eine Shell in der man Kommandos eingibt, die dann ausgeführt werden.
 So kann man die GPIO über die serielle Shell steuern.
 Ich habe auch das Beispiel für PWM ausprobiert, auch dort kann man über eine serielle Shell die onboard RGB LED auf unterschiedliche Farben und Helligkeiten einstellen.
@@ -87,6 +87,6 @@ Irgendwie kommt da Murks an.
 Vielleicht finde ich ja auch dort noch mehr heraus.
 
 Und was vielleicht auch noch spannend wäre: Es gibt einen [bl602 Rust Chat auf Matrix](https://matrix.to/#/#bl602-rust:matrix.org).
-Da irgendwo auf meiner viel zu langen ToDo Liste auch das "mal Matrix anschauen" steht, ist das vielleicht eine gute Gelegenheit.
+Da auf meiner viel zu langen ToDo Liste auch das "Matrix anschauen" steht, ist das vielleicht eine gute Gelegenheit.
 
 To be continued…

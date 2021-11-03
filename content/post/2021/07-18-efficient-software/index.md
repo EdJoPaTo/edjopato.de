@@ -13,7 +13,7 @@ tags:
 ---
 Ich entwickle und nutze Software.
 Diese ist teilweise schnell und effizient, teilweise aber auch langsam, verbraucht viele Ressourcen und macht Dinge, die ich gar nicht brauche.
-Wenn nur ich etwas nutze und es "etwas mehr" verbraucht, dann ist es den Aufwand, dies zu optimieren, wohl nicht Wert.
+Wenn nur ich etwas nutze und es "etwas mehr" verbraucht, dann ist es den Aufwand, dies zu optimieren, nicht Wert.
 Da aber Software teilweise von sehr Vielen genutzt wird, macht sich dies als Summe schon bemerkbar.
 Ich will hier auch gar nicht auf Bitcoin oder so eingehen, sondern genereller auf jegliche Software.
 Beispielsweise die Textverarbeitung, die häufig genutzt wird, auch wenn vieles davon gar nicht gebraucht werden würde.
@@ -32,7 +32,7 @@ Werbung beispielsweise wird gar nicht erst geladen und verbraucht weniger Ressou
 Aber ich kann auch weitere Elemente blockieren.
 Nervige Ladekringel zum Beispiel.
 
-Ein Weg ganz ohne Erweiterung: Einfach völlig überladene Software nicht benutzen und schauen, ob man bessere Alternativen findet.
+Ein Weg ganz ohne Erweiterung: Völlig überladene Software nicht benutzen und schauen, ob man bessere Alternativen findet.
 Die Webseite [Alternativeto](https://alternativeto.net/software/openoffice/) hilft relativ gut dabei, erstmal von Alternativen zu erfahren, ist aus meiner Sicht aber relativ schlecht dazu geeignet, diese wirklich zu vergleichen.
 Eine gute Idee kann man so aber bereits bekommen.
 
@@ -49,14 +49,14 @@ Jede weitere Abhängigkeit bringt weitere Logik mit sich, die ich vielleicht gar
 Frameworks können helfen, bringen vielleicht aber möglicherweise auch viel zu viel Komplexität mit.
 Beispielsweise verwendete ich für meine Telegram Bots ein Framework (Telegraf bzw. den quasi Nachfolger grammY), welches dabei unterstützt einfacher zu arbeiten und Dinge abnimmt.
 
-Meine [hawhh.de](https://hawhh.de) Webseite war damals mit AngularJS (Angular 1) entstanden, einfach, weil ich damit auch mal herumspielen wollte.
+Meine [hawhh.de](https://hawhh.de) Webseite war damals mit AngularJS (Angular 1) entstanden, weil ich damit herumspielen wollte.
 Durch die Frontend-Logik von Angular 1 wurden hier Elemente nacheinander geladen, welche aufeinander aufbauen.
-Dies hat beispielsweise auch für lange Ladezeiten gesorgt, da die Wartezeiten bis zur Antwort vom Webserver sich natürlich immer aufsummierten.
+Dies hat beispielsweise auch für lange Ladezeiten gesorgt, da sich die Wartezeiten bis zur Antwort vom Webserver aufsummierten.
 Auch die [Optimierung der Webseite]({{< relref "/content/post/2021/07-06-website-quality-checks/index.md" >}}) war so schwer möglich.
 An der Stelle habe ich mich dann dazu entschieden, diese Webseite als statischen Content neu zu bauen.
 Dieser wird nicht jedes Mal bei dem Nutzer zusammengebaut, sondern einmalig und dann dem Webserver bereitgestellt.
 Das häufige, das Aufrufen der Webseite, hat nun also minimale Komplexität: Simple HTML Dateien anzeigen.
-Das Zusammenbauen passiert nun nur noch einmalig bei mir, wenn ich die Webseite aktualisiere.
+Das Zusammenbauen passiert nur noch einmalig bei mir, wenn ich die Webseite aktualisiere.
 
 Genereller formuliert: Die Dinge, die häufig passieren, sollten minimale Komplexität haben.
 Komplexität sollte einmalig in der Vorbereitung stecken.
@@ -66,13 +66,13 @@ Komplexität sollte einmalig in der Vorbereitung stecken.
 Seit Jahren verwende ich relativ viel Node.js mit JavaScript und später TypeScript.
 TypeScript wird ebenfalls einmalig in JavaScript gewandelt und letzteres wird dann vom Interpreter ausgeführt.
 Weiterhin ist JavaScript jedoch eine interpretierte Sprache, auch wenn TypeScript nicht direkt ausgeführt wird.
-Dies war [einer der Gründe]({{< relref "/content/post/2020/09-11-why-rust.md" >}}), warum ich mir eine komplierte Programmiersprache ansehen wollte und so irgendwann mal bei Rust gelandet bin.
+Dies war [einer der Gründe]({{< relref "/content/post/2020/09-11-why-rust.md" >}}), warum ich mir eine kompilierte Programmiersprache ansehen wollte und so bei Rust gelandet bin.
 Dort habe ich dann beispielsweise ein Teil des Kalenderbots, welcher bis dahin in C#, einer VM basierten Programmiersprache entstanden war, in Rust [neu entwickelt]({{< relref "/content/post/2020/09-11-calendarbot-rust.md" >}}).
 Das führte zu so einigen Laufzeitverbesserungen.
 Ja, Rust zu kompilieren dauert relativ lange und ist ressourcenintensiv, aber einige meiner, letztes Jahr entstandenen Tools habe ich seither nicht anfassen müssen.
 Und zu Laufzeit sind diese sehr effizient.
 
-Jetzt bin ich letztens über eine wissenschaftlich fundiertere Analyse von Energieverbrauch und Programmiersprachen gestoßen: [Energy Efficiency across Programming Languages](https://sites.google.com/view/energy-efficiency-languages/results#h.p_nggWE5Z-iDZ0) ([Quellcode](https://github.com/greensoftwarelab/Energy-Languages)).
+Jetzt bin ich letztens über eine wissenschaftlich fundierte Analyse von Energieverbrauch und Programmiersprachen gestoßen: [Energy Efficiency across Programming Languages](https://sites.google.com/view/energy-efficiency-languages/results#h.p_nggWE5Z-iDZ0) ([Quellcode](https://github.com/greensoftwarelab/Energy-Languages)).
 Hierfür wurden einige Beispielprogramme, inspiriert durch das ["Benchmarks Game"](https://benchmarksgame-team.pages.debian.net/benchmarksgame/), in etlichen Programmiersprachen entwickelt.
 Diese wurden dann auf Energieverbrauch, Zeitbedarf und RAM-Verbrauch betrachtet.
 Die detaillierten Beispiele sind definitiv interessant, auch in welchen Bereichen einige Programmiersprachen besonders gut sind und andere nicht, aber für den kurzen Überblick werfe ich hier nur einen kurzer Blick auf die normalisierten Gesamtergebnisse.
@@ -121,11 +121,11 @@ Hinterher kann man sich immer noch überlegen, welche Schriftart man dafür verw
 Im Web haben wir hier beispielsweise schon seit Jahren eine gute Trennung:
 HTML beschreibt die Daten, den Text, CSS formatiert diese und JavaScript beinhaltet Logik.
 Wenn ich beispielsweise älter werde und kleineren Text nicht mehr so gut lesen kann, dann reicht es, eine andere Formatierung zu verwenden, alles andere funktioniert weiterhin.
-Möchte ich mehr Daten hinzufügen, die genauso aussehen wie der Rest, dann wird die bestehende Formatierung dies einfach so weiter machen, ohne das ich mir irgendeinen Kopf darum machen muss.
+Möchte ich mehr Daten hinzufügen, die genauso aussehen, wie der Rest, dann wird die bestehende Formatierung dies so weiter machen, ohne das ich mir irgendeinen Kopf darum machen muss.
 
 Wenn ich Text und Formatierung habe, dann klingt für mich LaTeX eigentlich immer nach der einfacheren Lösung, als Writer das wäre.
 Trotzdem verwenden sehr viele Menschen noch dieses Mischmasch an Aufgaben.
-Im Zeitalter von Schreibmaschinen kann ich das ja verstehen, da ging das halt nicht wirklich anders, aber jetzt haben wir so viele bessere und effizientere Möglichkeiten.
+Im Zeitalter von Schreibmaschinen kann ich das ja verstehen, da ging das nicht wirklich anders, aber jetzt haben wir so viele bessere und effizientere Möglichkeiten.
 Wir sollten sie nutzen.
 
 
@@ -141,7 +141,7 @@ Was einfach geht, können wir auch mehr machen.
 Ich persönlich habe beispielsweise angefangen, einige Continuous Integration Dinge mit GitHub Actions zu machen.
 Rust Anwendungen für unterschiedliche Plattformen und Betriebssysteme testen und bauen.
 Weil es geht.
-Und weil es wohl auch Spaß machte, dies herauszufinden und umzusetzen.
+Und weil es Spaß machte, dies herauszufinden und umzusetzen.
 Beispielsweise meine Experimente mit Rust Containern über Docker buildx brauchen teilweise eine knappe Stunde, bis diese gebaut sind.
 Hier kann man zwar wieder sagen, sobald diese gebaut sind, funktionieren diese doch ohne großen Aufwand, aber auf der anderen Seite frisst da irgendein Rechenzentrum eine Stunde lang Ressourcen, nur um irgendeinen Container für irgendeinen Push zu erzeugen.
 Da sollte sich schon die Frage stellen: Ist es das wert?
@@ -164,13 +164,13 @@ Wir können uns diese Eigenschaft also auch zunutze machen.
 
 # Weiteres, was nirgendwo richtig passte
 
-Dieser Blogpost fasst schon Einiges zusammen, aber es gibt noch mehr Dinge, die nur so halb hier reinpassten, trotzdem aber spannend sind.
+Dieser Blogpost fasst schon einiges zusammen, aber es gibt noch mehr Dinge, die nur so halb hier reinpassten, trotzdem aber spannend sind.
 
 Eine Sache ist die Feststellung, dass die Programmiersprachen Effizienz Webseite, auf die ich zuvor eingegangen bin, sämtliche Ergebnistabellen als Bilder auf die Webseite gestellt hat.
 HTML Tabellen oder SVGs wären so viel energieeffizienter und schneller gewesen.
 
 Ein weiterer Fund sind die [Ethical Web Principles](https://www.w3.org/2001/tag/doc/ethical-web-principles/) vom W3C, welche unter anderem von "The web must be an environmentally sustainable platform" sprechen.
-Aber auch sonst sind dort so einige Punkte aufgeführt, die echt gut sind, aber nicht in diesen Blogpost passen.
+Aber auch sonst sind dort so einige, gute Punkte aufgeführt, die aber nicht in diesen Blogpost passen.
 
 # Pareto
 
@@ -180,7 +180,7 @@ Dies besagt, dass 80 % der Ergebnisse mit 20 % des Gesamtaufwandes erreicht werd
 Ja, das ist alles nicht einfach.
 Wir werden nicht von jetzt auf gleich perfekt.
 Aber wir können mit relativ wenig Aufwand schon eine ganze Menge schaffen.
-Und, wenn es nur das Betrachten der Möglichkeiten ist.
+Selbst, wenn es nur das Betrachten unserer Möglichkeiten ist.
 
 Und das gilt für mich nicht nur in der Software Entwicklung, sondern quasi in allen Bereichen.
 Ich könnte mich entscheiden, zu 100 % auf Tierprodukte zu verzichten.
@@ -192,6 +192,6 @@ Natürlich kann ich mich dazu entscheiden, 100 % Plastikmüll zu vermeiden, aber
 Wir sollten seltener gleich in Extreme verfallen.
 Wandel ist nicht einfach und Schritte in eine gute Richtung sind alleine auch schon viel Wert.
 
-Und das ist wohl auch mein Hauptaugenmerk:
+Und das ist mein Hauptaugenmerk:
 Mal darüber nachdenken.
 Perfekt wirds nicht, aber mit vergleichsweise wenig Aufwand kann man an einigen Stellen schon so einiges Bewirken.

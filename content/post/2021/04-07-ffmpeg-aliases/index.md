@@ -24,9 +24,9 @@ Aliases sind Abkürzungen, welche man zum Beispiel in der `~/.bashrc` oder `~/zs
 Danach kann man diese Benutzen und die Shell wird den Alias austauschen gegen den vollen Command.
 Man spart sich also Tipparbeit, oder wie in meinem Fall, ich muss mir nicht den gesamten Befehl merken.
 
-[`ffmpeg`](https://ffmpeg.org/) ist ein Tool, welches so ziemlich jeden Video (und Audio) Codec in einen Anderen umwandeln kann, Videos verkleinern, kürzen, zuschneiden usw.
-All dies passiert von der Command Line aus, was zum automatisieren von immer Gleichen abläufen super ist.
-Für "immer mal wieder" Aufgaben ist ffmpeg jedoch sehr unübersichtlich.
+[`ffmpeg`](https://ffmpeg.org/) ist ein Tool, welches so ziemlich jeden Video- (und Audio-) Codec in einen Anderen umwandeln kann, Videos verkleinern, kürzen, zuschneiden usw.
+All dies passiert von der Command Line aus, was zum automatisieren von immer gleichen Abläufen super ist.
+Für "immer mal wieder" Aufgaben ist FFmpeg jedoch sehr unübersichtlich.
 
 Also habe ich mir hier aliases definiert, die ich einfach benutzen kann.
 
@@ -49,10 +49,10 @@ Dabei ist das `-i` Argument der Input und am Ende steht der Output Pfad.
 
 # Argumente erklärt
 
-Soweit so gut, aber was genau tun diese Aliases nun?
+Soweit so gut, aber was genau tun diese Aliases?
 Dazu kann man die man pages befragen.
 
-`nice`: Das nice vor dem ffmpeg sorgt dafür, dass ffmpeg mit einer niceness von 10 gestartet wird.
+`nice`: Das nice vor dem `ffmpeg` sorgt dafür, dass FFmpeg mit einer niceness von 10 gestartet wird.
 Dies sorgt, in Kurzfassung, dafür das andere Prozesse eine höhere Priorität bekommen, als dieser "nette" Prozess.
 Der Prozess teilt also gerne seine benötigte Rechenzeit, was grade auf schwächerer Hardware dafür sorgt, dass andere Prozesse weiterhin flüssig laufen, während `ffmpeg` arbeitet.
 

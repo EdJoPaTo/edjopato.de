@@ -17,7 +17,7 @@ tags:
 ---
 Videokonferenzlösungen haben häufig Features, um die Webcam mit einem Blur oder einem anderen Hintergrund auszustatten.
 Das demnächst erscheinende [BigBlueButton 2.4 bringt dieses Feature](https://docs.bigbluebutton.org/2.4/new.html#webcam-background-blur) auch mit, was ich mal als Anlass für einen kleinen Rant nehme.
-Aus meiner Sicht ist das nämlich nicht mehr als eine riesige, dezentrale Energieverschwendung.
+Aus meiner Sicht ist das nicht mehr als eine riesige, dezentrale Energieverschwendung.
 Und aus meiner Sicht finde ich diese auch noch nerviger als welchen Hintergrund auch immer eine Person natürlicherweise hat.
 
 <!--more-->
@@ -35,7 +35,7 @@ Und die Webcam macht nicht nur ein Bild, es sind so einige pro Sekunde.
 Wie lange dauert so ein Meeting?
 Unvorstellbare Mengen an Berechnungen werden dafür in einem Meeting genutzt.
 
-Und die kosten natürlich Energie.
+Und die kosten Energie.
 Für eine Person mag das relativ wenig sein, wird die CPU halt ein wenig wärmer und das Gerät pustet ein wenig mehr.
 Überlegt man sich aber, wie viel solche Features genutzt werden, kommen da gewaltige Mengen an Energie zusammen.
 
@@ -66,7 +66,7 @@ Hätte man definitiv vermeiden können und es wäre so einfach gewesen.
 
 Um wieder zurück zum Thema zu kommen.
 Egal was da im Hintergrund ist, im Laufe eines Meetings kann ich es eh sehen.
-Mit Blur statt irgendeinem Bild ist es zwar besser, aber es nervt einfach ungemein, weil es die ganze Zeit am Flackern ist.
+Mit Blur statt irgendeinem Bild ist es zwar besser, aber es nervt ungemein, weil es die ganze Zeit am Flackern ist.
 Und dafür werfen wir kollektiv Energie zum Fenster raus.
 
 "Aber ich hab doch Solar-Panel!"
@@ -85,6 +85,6 @@ Das Ganze braucht keine übertriebenen Mengen Energie und sieht auch noch gut au
 
 Auch eine spiegellose Kamera mit einem passenden Objektiv, welches man genau auf den Abstand seines Kopfes einstellt, ist möglich als Webcam.
 So wird nur der eigene Kopf scharf gestellt und alles andere wird rein durch Optik und Lichtumlenkung unscharf.
-Das kostet keinen Strom und erzeugt wohl das beste Unschärfe-Ergebnis.
+Das kostet keinen Strom und erzeugt das beste Unschärfe-Ergebnis.
 
 Oder die energieeffizienteste und billigste Variante, aufräumen, abhängen oder eine andere Kameraperspektive.

@@ -1,5 +1,5 @@
 ---
-title: Strömekraft - PowerDelivery in Netzteilen und portablen USB Akkus
+title: Strömekraft - Power Delivery in Netzteilen und portablen USB Akkus
 date: 2021-06-20T19:14:00+02:00
 resources:
   - name: cover
@@ -11,14 +11,14 @@ tags:
   - usb
 ---
 Wenn man Geräte laden will, dann braucht man Netzteile und mobile USB Akkus.
-Diese verwenden häufig USB PowerDelivery und mit der Zeit habe ich einiges darüber gelernt.
-Wenn ich mir Geräte mit USB-C und PowerDelivery anschaue, achte ich auf einige Details und möchte hier etwas auf die Hintergründe eingehen.
+Diese verwenden häufig USB Power Delivery und mit der Zeit habe ich einiges darüber gelernt.
+Wenn ich mir Geräte mit USB-C und Power Delivery anschaue, achte ich auf einige Details und möchte hier etwas auf die Hintergründe eingehen.
 <!--more-->
 
-# Was ist PowerDelivery?
+# Was ist Power Delivery?
 
-USB PowerDelivery oder USB PD ist ein USB Standard, welcher Teil der für den USB-C Stecker vorgesehen Features ist.
-PowerDelivery funktioniert nicht für die "alten" USB-A oder USB-B Stecker.
+USB Power Delivery oder USB PD ist ein USB Standard, welcher Teil der für den USB-C Stecker vorgesehen Features ist.
+Power Delivery funktioniert nicht für die "alten" USB-A oder USB-B Stecker.
 Dabei wird, im Gegensatz zum altbekanntem 5V USB, eine Spannung ausgehandelt.
 Das angesteckte Gerät kann nach einer bestimmten Spannung / Strom Konstellation fragen und wenn das liefernde Gerät diese bietet, bekommt es diese.
 Die Idee hierbei ist, eine höhere Leistung (Watt) zu übertragen, ohne große Ströme (Ampere) zu haben.
@@ -26,7 +26,7 @@ USB PD 2.0 sieht als Spannungsprofile 5V, 9V und 15V bei maximal 3A und 20V bei 
 USB PD 3.0 bringt als Neuerung das Feature PPS (Programmable Power Supply) mit.
 Anfordernde Geräte können die Spannung auf 0.02V genau anfordern.
 
-PowerDelivery sieht hier auch das Drosseln der Datenübertragungsgeschwindigkeit vor.
+Power Delivery sieht hier auch das Drosseln der Datenübertragungsgeschwindigkeit vor.
 Ist ein Kabel zu schlecht abgeschirmt und der Strom zu groß, wird automatisch von USB 3.0 Übertragungsgeschwindigkeiten auf USB 2.0 reduziert, um die Datenverluste zu minimieren.
 Da Hersteller gerne billige Kabel mitliefern und die meisten Leute ihre Handys eh nur laden und keine Daten übertragen, werden in Handys meist nur USB 2.0 Controller verbaut.
 Die schlechten Kabel würden eh auf USB 2.0 drosseln, USB 3.0 macht hier also wenig Sinn.
@@ -39,7 +39,7 @@ Diese Spezifikation ist aber noch sehr neu und noch nicht verbreitet.
 Ein weiterer Aspekt ist die Aushandlung.
 Gehen wir mal von Netzteil und Laptop aus.
 Steckt man den Laptop an das Netzteil, beginnt die Verbindung bei 5V 500mA.
-Der Laptop fragt nun das Netzteil "kannst du PowerDelivery 3.0?" welches das Netzteil beispielsweise verneint.
+Der Laptop fragt nun das Netzteil "kannst du Power Delivery 3.0?" welches das Netzteil beispielsweise verneint.
 Daraufhin fragt der Laptop nach dem, aus der Sicht des Laptops, interessantesten Spannungsprofil.
 Beispielsweise "kannst du 20V 5A" (100W)?
 Wenn das Netzteil nein sagt, wird das nächste Spannungsprofil erfragt, bis das Netzteil das Angeforderte bieten kann.
@@ -54,17 +54,17 @@ Bei den Spannungen 9V (12V) 15V und 20V sind 20W allerdings ziemlich krumm.
 Apple verwendet hier das Spannungsprofil 9V 2.22A.
 Selbst Apples eigenes 60W MacBook Netzteil antwortet auf die Frage "kannst du 9V 2.22A" sinngemäß mit "was hast du dir denn da für ne krumme Zahl ausgedacht?".
 Scheinbar unterstützt der MagSafe Charger auch kein USB PD 3.0 und handelt damit auch nicht dynamisch aus, sondern muss die vorgegebenen Profile von PD 2.0 verwenden.
-Damit funktioniert der MagSafe Charger bei quasi keinem Charger mit voller Leistung, der vorher hergestellt wurde, weil einfach niemand mit solch einer krummen Zahl rechnen konnte und diese erst explizit einbauen muss.
+Damit funktioniert der MagSafe Charger bei quasi keinem Charger mit voller Leistung, der vorher hergestellt wurde, weil niemand mit solch einer krummen Zahl rechnen konnte und diese erst explizit einbauen muss.
 
 Anmerkung nebenbei: Der MagSafe Charger kann durch seine gute Ausrichtung der Spulen sogar mit 20W Versorgung 15W Ladeleistung an das Handy bringen.
 Das sind für Qi Charger vergleichsweise sehr gute 25 % Verlust.
 Andere Qi Charger haben tendenziell 50 % Verlust.
 Rechnet man das mal auf die Smartphones hoch, die allein die Deutschen besitzen, kommt man auf eine gewaltige Energieverschwendung nur durch Qi Charging Verluste.
 Qi Charging ist für mich deswegen immer noch nichts.
-Es ist einfach nur eine Ressourcenverwendung.
+Es ist eine Ressourcenverwendung.
 Ich persönlich würde ja auch keinen Kuchen backen, bei dem die Hälfte des Kuchens der Abwärme des Backofens zum Opfer fällt…
 Da backe ich den Kuchen dann lieber so, dass ich hinterher mehr davon habe. ;)
-Und ein Kabel einstecken finde ich nun wirklich nicht so kompliziert.
+Und ein Kabel einstecken finde ich wirklich nicht so kompliziert.
 
 # Galium Nitride (GaN)
 
@@ -86,7 +86,7 @@ Die bekannten USB-A Ports mit 5V sind dabei relativ einfach herzustellen.
 Man verwendet ein größeres Netzteil mit 5V 9A und baut 3 Ports parallel an.
 Diese ziehen dann jeweils 5V und den benötigten Strom.
 
-Mit PowerDelivery und USB-C ist das nicht mehr ganz so einfach, da man unterschiedliche Spannungen nicht mehr durch das Parallelschalten der Ports erreichen kann.
+Mit Power Delivery und USB-C ist das nicht mehr ganz so einfach, da man unterschiedliche Spannungen nicht mehr durch das Parallelschalten der Ports erreichen kann.
 Hier müssen also mehrere Netzteile in einem Gehäuse verbaut werden.
 Häufig zu finden ist ein USB-C Port mit PD und mehrere USB-A Ports mit bekanntem parallel schalten der Ports.
 
@@ -162,7 +162,7 @@ Dadurch wird die Zeit, die die Akkus auf 100 % verbringen, minimiert.
 
 Powerbanks haben meistens Angaben wie 10000 mAh oder 26800 mAh.
 Diese Werte beziehen sich immer auf die Akkuspannung von 3,7V statt den 5V, die wir erwarten würden.
-Bei 3.7V sind die Zahlen einfach größer und wirken mehr.
+Bei 3.7V sind die Zahlen größer und wirken mehr.
 Genauso könnte man 10 Ah statt 10000 mAh sagen, machen die Hersteller aber auch nicht.
 
 Die 26.8 Ah Akkus sind noch spannend.
@@ -173,7 +173,7 @@ Ein wenig Fehlertoleranz in der Fertigung dazu und 26.8 Ah Akkus werden in Flugz
 
 # Was würde ich kaufen
 
-Alles schön und gut, aber worauf würde ich nun achten, wenn ich ein Netzteil oder Akku kaufen will?
+Alles schön und gut, aber worauf würde ich achten, wenn ich ein Netzteil oder Akku kaufen will?
 
 ## Netzteil
 
@@ -183,13 +183,13 @@ Vermutlich ist das wichtiger als die Anzahl der Ports.
 GaN sollte also definitiv sein.
 Will ich meinen Laptop beispielsweise mitnehmen und über Nacht laden, brauche ich vermutlich kein 60W Netzteil.
 30W lädt beispielsweise mein MacBook über Nacht locker auf.
-Auf einer Reise kann das durchaus reichen.
+Auf einer Reise kann das reichen.
 Auch sind die Ports möglicherweise nicht so wichtig.
 Mein Handy kann ich auch über ein Kabel vom Laptop aus laden.
 Sprich, der Laptop wird vom Netzteil und das Handy vom Laptop aus geladen.
 Das spart ein größeres Netzteil mit mehr Ports.
 
-Bin ich jedoch zu Hause kann es durchaus komfortabel sein, mehrere Geräte gleichzeitig laden zu können.
+Bin ich jedoch zu Hause kann es komfortabel sein, mehrere Geräte gleichzeitig laden zu können.
 Meine Bluetooth-Kopfhörer, ein USB Akku, Handy, Smartwatch, Tablet, Laptop, …
 Leider gibt es nicht wirklich Multi USB PD Netzteile, die dem gerecht werden würden.
 Aktuell verwende ich ein 4 Port USB-A und 1 30W USB-C Netzteil.
@@ -201,7 +201,7 @@ Aber über Nacht ist so ziemlich alles auch mit 5V 3A voll.
 Mobil habe ich aktuell ein 2 Port 60W oder 45W + 18W Netzteil, als auch ein kleines 30W Netzteil, beides mit GaN.
 Netzteile unter 30W würde ich gar nicht erst kaufen.
 Gerade mit GaN sind 30W+ Netzteile auch klein und dann kann man solch ein Netzteil auch mal gut für ein etwas größeres Gerät nutzen.
-18W ist dann doch schon ziemlich wenig, auch wenn es für das jeweilige Gerät, für das man aktuell kauft, reichen würde.
+18W ist dann doch wenig, auch wenn es für das jeweilige Gerät, für das man aktuell kauft, reichen würde.
 
 Wenn man für seinen Laptop ein Netzteil kauft:
 Einige Laptops (ähm Dell) laden gar nicht erst, wenn das Netzteil weniger als 60W bereitstellt.
@@ -234,7 +234,7 @@ Genauer ist der Ladecontroller in dem Akku eh nicht, als das ich dem dann auch v
 
 # Fazit
 
-Es gibt eine ganze Menge an Hintergrundwissen, welches man bei PowerDelivery haben kann und ich hoffe, hier ein wenig mehr Einblick geben zu können.
+Es gibt eine ganze Menge an Hintergrundwissen, welches man bei Power Delivery haben kann und ich hoffe, hier ein wenig mehr Einblick geben zu können.
 Aber auch ich weiß hier nicht alles.
 Aus diesem Grund ist auch dieser Blogpost entstanden: ein Gespräch über USB Akkus und Netzteile.
 Vielleicht hast auch du noch Tipps für mich, also gerne her damit!

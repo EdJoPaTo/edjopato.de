@@ -47,7 +47,7 @@ Allerdings gibt es im Laufe der Zeit neue Erkenntnisse zur Verschlüsselung, neu
 
 Über all diese Themen kann und muss man nicht unbedingt bis ins letzte Detail informiert sein.
 Dafür gibt es Tools, die nach aktuellem Stand des Wissens Probleme analysieren und aufzeigen.
-Und um eben diese soll es nun gehen.
+Und um eben diese soll es gehen.
 
 # Tools
 

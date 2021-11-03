@@ -13,13 +13,13 @@ tags:
   - rust
   - telegram
 ---
-Ich habe mit der Zeit nun schon so einige Software Projekte, von denen nahezu alle Open Source auf GitHub sind.
+Ich habe mit der Zeit schon so einige Software Projekte, von denen nahezu alle Open Source auf GitHub sind.
 Und eigentlich will ich auch, dass das so bleibt.
 Bisher habe ich einfach überall die MIT Lizenz reingeworfen, aber geht das noch besser?
 <!--more-->
 
-Vorweg natürlich gesagt, ich bin definitiv kein Anwalt und verkünde hier nur mein Halbwissen.
-Und ich lasse mich natürlich auch gern korrigieren, wenn ich hier Blödsinn von mir gebe. ;)
+Vorweg gesagt, ich bin definitiv kein Anwalt und verkünde hier nur mein Halbwissen.
+Und ich lasse mich gern korrigieren, wenn ich hier Blödsinn von mir gebe. ;)
 
 # Was gibt es überhaupt für Lizenzen?
 
@@ -75,7 +75,7 @@ Der Linux Kernel beispielsweise ist `GPL-2.0-only` und [Linus Torvalds ist auch 
 
 Version 2 ist stark daran interessiert, dass Quellcode ein geben und nehmen ist und nicht nur genommen wird und Änderungen verschwinden.
 Version 3 versucht, die Version 2 zu verbessern und einige Punkte strikter auszuformulieren.
-Hier wird der Lizenztext deutlich länger und damit wohl auch deutlich komplexer.
+Hier wird der Lizenztext deutlich länger und damit auch deutlich komplexer.
 Ein Hauptargument von Linus gegen die Version 3 ist der Zwang, das Hardware, welche die Software ausführt, auch in der Lage sein muss, Forks auszuführen.
 Bei Version 3 muss also ein Gerät das Aufspielen von anderen Versionen erlauben, bei Version 2 ist dies nicht explizit gefordert.
 
@@ -109,14 +109,14 @@ Diese ist verbreitet und erprobt.
 Ich gehe auch nicht davon aus, dass interaktive Tools die zur Anzeige von Inhalten dienen (wie mqttui) in anderen Tools eingebunden werden.
 Damit ist auch der Nachteil, den andere durch die GPL dadurch erhalten könnten, relativ gering.
 Veränderungen und Verbesserungen werden aber durch die GPL veröffentlicht.
-Im Idealfall hoffe ich natürlich auf Pull Requests, aber auch eigenständige Forks mit modifiziertem Ziel sind natürlich cool.
+Im Idealfall hoffe ich auf Pull Requests, aber auch eigenständige Forks mit modifiziertem Ziel sind natürlich cool.
 
 Meine Telegram Bots werden zwar benutzt, landen aber nie auf einem lokalen Rechner.
 Damit wäre die GPL eher nutzlos.
 Hierfür bedarf es einer Network Copyleft Lizenz wie der AGPL.
 Allerdings ist nicht ganz klar, ob eine Benutzung über ein Telegram Client, welcher dann indirekt mit der Bot Implementierung kommuniziert, unter "Netzwerk" fällt und ob die AGPL bei Telegram Bots wirklich so greift.
 Bei kleineren Telegram Bots ist mir das auch relativ egal, aber beispielsweise der [HAW HH Calendar Bot](https://github.com/HAWHHCalendarBot/TelegramBot) wird von einigen Hundert genutzt.
-Wenn ich in Zukunft einfach keine Lust mehr habe und irgendwer den Bot übernimmt, wäre es trotzdem cool zu sehen, dass dieser weiterhin Open Source und für möglichst viele nützlich bleibt.
+Wenn ich in Zukunft keine Lust mehr habe und irgendwer den Bot übernimmt, wäre es trotzdem cool zu sehen, dass dieser weiterhin Open Source und für möglichst viele nützlich bleibt.
 
 Libraries und Templates sind schon komplizierter.
 Einerseits will ich, dass diese Open Source sind und bleiben, andererseits will ich auch, dass diese genutzt werden können.

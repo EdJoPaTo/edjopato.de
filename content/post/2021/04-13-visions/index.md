@@ -31,7 +31,7 @@ Warum tut die Firma das?
 Was möchte die Firma damit erreichen?
 Wenn man diese Aussage jetzt um eine von unterschiedlichen Visionen erweitert, kommen damit ganz andere Zusammenhänge zustande.
 
-Ich zähle einfach mal ein paar hypothetische Visionen für besagte Auto produzierende Firma auf.
+Ich zähle mal ein paar hypothetische Visionen für besagte Auto produzierende Firma auf.
 Und dann betrachte ich, was diese Firma vermutlich tun wird, wenn Städte Autos aus Innenstädten verbieten, also wie diese Firma auf Änderungen reagiert.
 
 - Den Kunden das großartigste Fahrerlebnis bieten.
@@ -130,7 +130,7 @@ Wenn ich mich nicht fragen kann, hilft X für "kurze, prägnante Formulierung ei
 Hier muss man vielleicht auch zwischen den Bestandteilen, die ich hier relativ einfach als Vision zusammen gefasst habe, unterschieden.
 Grundwerte beispielsweise können eine Vision unterstützen, aber generell sollte ein kurzer Satz als Vision alleine funktionieren.
 
-Das Extrem der vagen Visionen ist wohl das Vermeiden von Visionen oder das Formulieren von "Null Aussagen".
+Das Extrem der vagen Visionen ist das Vermeiden von Visionen oder das Formulieren von "Null Aussagen".
 Visionen bedeuten Änderungen und Änderungen bedeuten Umstellungen und Risiken.
 Aber man darf auch nicht vergessen, das ein Risiko auch immer eine Chance darstellt.
 
@@ -150,7 +150,7 @@ Zum einen sehr individuell (inclusion, diversity, accessibility, privacy) als au
 [Blizzard](https://www.blizzard.com/en-us/company/about):
 "[…] dedicated to creating the most epic entertainment experiences […]"
 Zudem sind noch die Grundwerte interessant: "gameplay first, commitment to quality, play nice; play fair, embracing inner geek, respecting everyone, thinking globally, leading responsibly and learn and grow".
-Es geht Blizzard bei den Spielen also besonders um epische Unterhaltung (was wohl auch die Handlungen und die epischen Filmsequenzen erklären sollte).
+Es geht Blizzard bei den Spielen also besonders um epische Unterhaltung (was auch die Handlungen und die epischen Filmsequenzen erklären sollte).
 Aber auch beispielsweise "embracing the inner geek" als Grundsatz, welcher gut zu Cosplay auf ihren Veranstaltungen passt.
 
 [Free Software Foundation](https://www.fsf.org/about/):

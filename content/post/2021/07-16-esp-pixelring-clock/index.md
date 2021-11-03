@@ -23,9 +23,9 @@ Nach ein bisschen basteln bin ich auf eine Idee gekommen, die mittlerweile in ei
 Der Pixelring selbst besteht aus 60 RGB-LEDs, genau genommen WS2812 oder auch Neopixel LEDs genannt.
 Das heißt, jede LED kann einzeln angesteuert werden.
 
-In meinem allerersten Ansatz habe ich einfach nur die 3 Grundfarben aus RGB verwendet.
+In meinem allerersten Ansatz habe ich nur die 3 Grundfarben aus RGB verwendet.
 Eine ist die Stunde, eine die Minute, eine die Sekunde.
-Funktioniert, man kann die Zeit ablesen, aber irgendwie leuchten 3 LEDs von 60, nicht sonderlich spektakulär.
+Funktioniert, man kann die Zeit ablesen, aber irgendwie leuchten nur 3 LEDs von 60, nicht sonderlich spektakulär.
 Und noch ein witziger Nachteil: im dunklen Raum fehlt einem der Zusammenhang.
 Ist es beispielsweise 1:02:03, dann sind alle 3 Punkte oben rechts.
 Im Dunklen sieht man aber nur die Punkte auf einem Haufen und weiß nicht, in welchem Zusammenhang die Punkte stehen.
@@ -51,7 +51,7 @@ Das entscheidende Detail, welches mir auffiel: 6 Stunden sind 360 Minuten und di
 Ein Tag kann in vier 6 Stunden Blöcke aufgeteilt werden.
 Eine normale Uhr macht das ähnlich, nur wird hier in zwei 12 Stunden Blöcke geteilt.
 
-Dies zu berechnen ist dank Modulo ziemlich einfach:
+Dies zu berechnen ist dank Modulo einfach:
 ```js
 minuteOfDay = (hour * 60) + minute;
 hue = minuteOfDay % 360;
@@ -59,11 +59,11 @@ hue = minuteOfDay % 360;
 
 Mit dieser Idee haben 0 Uhr, 6 Uhr, 12 Uhr und 18 Uhr jeweils die gleiche Farbe: 0° ist rot.
 Sehe ich also rot, muss es eine dieser 4 Uhrzeiten sein.
-Schaue ich zusätzlich aus dem Fenster, ist es dunkel oder hell bzw. bin ich gerade aufgestanden oder sollte ich irgendwann mal zu Bett, weiß ich damit die grobe Zeit.
+Schaue ich zusätzlich aus dem Fenster, ist es dunkel oder hell bzw. bin ich gerade aufgestanden oder sollte ich zu Bett, weiß ich damit die grobe Zeit.
 
 Wichtig für eine gut lesbare LED Installation immer der Kontrast.
 Diesen kann man gut erkennen.
-Stelle ich nun also den gesamten Kreis im Farbton der Zeit dar, kann ich die LED der Minute aus lassen.
+Stelle ich also den gesamten Kreis im Farbton der Zeit dar, kann ich die LED der Minute aus lassen.
 Die Lücke ist dann relativ klein und wurde relativ schnell auf 3 LEDs ausgeweitet.
 Mittlerweile ist sie bei 5 LEDs, was die Uhr noch schneller lesbar macht.
 Fast wie beim Augenarzt, auf welcher Seite ist der Kreis geöffnet?
@@ -75,13 +75,13 @@ Das Schöne an HSV, man kann jeden Wert einzeln manipulieren.
 Ich habe also für die Stundenmarkierungen nur die Sättigung reduziert, alles andere bleibt gleich.
 
 Für die Sekunden habe ich die Komplementärfarbe gewählt.
-Auch relativ einfach zu berechnen, diese ist nämlich 180° weiter.
+Auch relativ einfach zu berechnen, diese ist 180° weiter.
 
 ![Die Uhr an der Wand](pixelclock.jpg)
 Das Foto ist mit falschem Fokus gemacht worden, um die LEDs besser sehen zu können.
 LEDs haben die Angewohnheit, sehr punktuell deutlich heller als ihre Umgebung zu sein und das können Kameras nicht sonderlich gut fotografieren.
 
-Um die Uhr nun zu lesen, schaut man sich die Details an.
+Um die Uhr zu lesen, schaut man sich die Details an.
 Die Farbe ist ein dunkles Lila. Es ist also irgendwo um 5 Uhr, da dunkel, sprich Richtung Blau, muss es vor 5 Uhr sein.
 Die Lücke ist genau mittig zwischen der 35 und 45 Minuten Markierungen, es ist also genau :40.
 Der Sekundenzeiger ist bei 53 Sekunden.

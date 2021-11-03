@@ -27,8 +27,8 @@ Jedoch hat sich in der Zwischenzeit einiges gewandelt: Es gibt andere Wege um an
 Außerdem störte mich das Erstellen der Kalender maximal 1 mal in der Stunde.
 Ein etwas zeitgemäßeres, eventbasiertes Erstellen auf dem Server, auf dem auch die Kalender Dateien liegen, wäre angebracht.
 
-Anfangs dachte ich über eine neue Implementierung des Backends mittels [NodeJS](//nodejs.org/) nach, womit auch der Telegram Bot selbst entwickelt wurde.
-Jedoch finde ich für mich die Sprache C# komfortabler als NodeJS und da seit noch nicht allzu langer Zeit mittels [.NET Core](//dotnet.github.io/) auch C# auf Linux und macOS läuft, bot sich dies an.
+Anfangs dachte ich über eine neue Implementierung des Backends mittels [Node.js](//nodejs.org/) nach, womit auch der Telegram Bot selbst entwickelt wurde.
+Jedoch finde ich für mich die Sprache C# komfortabler als Node.js und da seit noch nicht allzu langer Zeit mittels [.NET Core](//dotnet.github.io/) auch C# auf Linux und macOS läuft, bot sich dies an.
 Da die Container in der für [TTI](/blog/tti) genutzten Docker Swarm Umgebung gut liefen, wurde die Entscheidung gefällt, auch hierfür werden Docker Container genutzt.
 Damit ist der Host vServer auch unabhängig von der genutzten Programmiersprache und kann leichter geupdatet werden, wenn nur die Container migriert werden müssen.
 (Meine alte [EVE Seite](//eve.3t0.de) lebt schon seit Jahren auf PHP, nicht gerade migrierfreundlich, aber nicht Tod zu kriegen… Definitely learned from that. Edit: It's dead, Jim)

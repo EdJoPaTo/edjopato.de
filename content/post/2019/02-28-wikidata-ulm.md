@@ -52,7 +52,7 @@ So hatte jeder eine individuelle Badge, aus welchem Kontext man kommt (Jugend ha
 
 Generell war die Atmosphäre super.
 Vor allem am zweiten Tag war ein geselliges vor sich hin basteln angesagt.
-Es gab auch eine [Stadtführung von Nicht-Ulmern für Nicht-Ulmer](https://chaos.social/@fluxx/101641534158378281) oder ein nicht aufgezeichneter [Vortrag über Lizenzen](https://chaos.social/@fluxx/101647583230179999), der wohl unter anderem auch deswegen so super wurde, weil er nicht aufgezeichnet wurde.
+Es gab auch eine [Stadtführung von Nicht-Ulmern für Nicht-Ulmer](https://chaos.social/@fluxx/101641534158378281) oder ein nicht aufgezeichneter [Vortrag über Lizenzen](https://chaos.social/@fluxx/101647583230179999), der unter anderem auch deswegen so super wurde, weil er nicht aufgezeichnet wurde.
 
 # Wikidata Misfit (Telegram) Bot
 

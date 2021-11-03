@@ -29,7 +29,7 @@ An sich ein cooles Gerät, man kann eines von vielen Linux Betriebssystemen nehm
 Funktioniert mehr oder weniger gut, man merkt, dass die Zielgruppe Entwickler sind, die dort verbessern und entwickeln wollen.
 Nun habe ich das PinePhone schon seit einer Weile und experimentiere immer mal ein wenig damit, mal Manjaro mit KDE Mobile, mal mit Phosh, mal Lomiri (ehemals Ubuntu Touch, welches ich damals witzigerweise auch schon unterstützt habe, aber aus dem [Ubuntu Edge](https://www.indiegogo.com/projects/ubuntu-edge/) wurde ja nie etwas…)
 
-Wie sorgt man nun dafür, weniger Belanglosigkeiten zu machen?
+Wie sorgt man dafür, weniger Belanglosigkeiten zu machen?
 Entweder man erschwert diese, findet bessere Alternativen oder macht sie weniger belanglos.
 Erschweren? Wie wäre es mit einem langsameren Gerät als dem für das meiste überdimensionierten Handy?
 Weniger belanglos? Vielleicht lerne ich währenddessen etwas mehr über das PinePhone.
@@ -39,10 +39,11 @@ Was mache ich aktuell viel mit dem Handy?
 Messenger, News, Social Media.
 
 # Messenger
-Dort wäre ich wohl hauptsächlich bei Telegram, ein Nebenschauplatz wären wohl XMPP und Matrix.
+
+Dort wäre ich hauptsächlich bei Telegram, ein Nebenschauplatz wären XMPP und Matrix.
 
 [Telegram Desktop](https://github.com/telegramdesktop/tdesktop) ist… sagen wir nicht gewillt, mobile Gerätedisplays unterstützen zu wollen.
-Das Interface steht rechts über, damit ist so etwas wie der Senden Button einfach nicht benutzbar.
+Das Interface steht rechts über, damit ist so etwas wie der Senden Button nicht benutzbar.
 Es gibt [mehrere Issues in unterschiedlichen Formen dazu im Telegram Desktop Repo](https://github.com/telegramdesktop/tdesktop/issues?q=pinephone), alle werden abgeschmettert.
 Einen anderen Telegram Client habe ich bisher noch nicht probiert.
 Der [Chat Client von Purism](https://source.puri.sm/Librem5/chatty) kann, zumindest laut Settings, Telegram, das wäre mal ein Experiment wert.
@@ -62,6 +63,7 @@ Schade eigentlich.
 Vielleicht in ein paar Monaten.
 
 # News
+
 Für News nutze ich aktuell RSS Feeds.
 Zumeist unter iOS am Handy oder Tablet.
 Mein Blog hat übrigens auch einen [RSS Feed](/index.xml).
@@ -76,7 +78,7 @@ Also Manjaro mit Phosh (Gnome-ish) auf eine SD-Karte und damit ausprobiert.
 Import Fenster geht auf, läuft.
 
 Nun lese ich seit Wochen meine RSS Feeds auf dem PinePhone.
-Man merkt, dass das etwas langsamer lädt und das Interface nicht so flüssig ist, wie auf meinem normalen Handy, aber das hat mich nun auch nicht wirklich verwundert.
+Man merkt, dass das etwas langsamer lädt und das Interface nicht so flüssig ist, wie auf meinem normalen Handy, aber das hat mich auch nicht wirklich verwundert.
 Außerdem war das Ziel doch entschleunigen :P
 
 Tatsächlich funktioniert NewsFlash sogar zuverlässiger, was das Erkennen von Feeds gelesen / ungelesen angeht, als mein RSS Reader vorher.
@@ -102,7 +104,7 @@ Da wär vielleicht ein wenig mehr cool, vor allem weil ich regelmäßig mal nach
 Es scheint also auch noch Leute zu interessieren.
 Hier überlege ich, [Pixelfed](https://pixelfed.org) zu nutzen, habe ich aber bisher noch nicht weiter verfolgt.
 Aber das ist auch definitiv kein PinePhone Topic, die Kamera macht eher "interessante" als gute Bilder.
-Ist aber halt auch eine Kamera, die in ein $150 Gerät verbaut wird, wundert mich also nicht, dass diese nicht mit meinem Flaggschiff Handy mithalten kann.
+Ist aber auch eine Kamera, die in ein $150 Gerät verbaut wird, wundert mich also nicht, dass diese nicht mit meinem Flaggschiff Handy mithalten kann.
 
 Also gut, Mastodon Client.
 Das Mastodon Maskottchen ist ein Mammut, eine Kurznachricht wird Toot genannt.
@@ -121,10 +123,10 @@ Von PinePhone bin ich immer noch fasziniert.
 Einfach solche Dinge, per ssh auf das Handy zu gehen, `reboot` benutzen und das Handy startet neu, sind irgendwie witzig.
 
 Mit den Messengern bin ich leider nicht weit gekommen.
-Aber da ist auch einfach das Gerät, was immer dabei ist, das wohl am meisten benutzte.
+Aber da ist auch das Gerät, was immer dabei ist, das am meisten benutzte.
 Das bleibt wohl noch eine Weile mein iPhone.
 
-Wenn ich aber zu Hause bin (Oh wunder aktuell :P ) und irgendwie "mal kurz RSS lesen" will, dann greife ich mittlerweile zum PinePhone.
+Wenn ich aber zu Hause bin (Oh wunder aktuell :P ) und "mal kurz RSS lesen" will, dann greife ich mittlerweile zum PinePhone.
 Das dauert einen Moment länger, ich erfreue mich über einen Crash der Oberfläche oder sonstige, wundersame Seiteneffekte und lese meine RSS Feeds.
 Es funktioniert definitiv nicht perfekt, aber es funktioniert alltagstauglich genug.
 Und es erfüllt meine Ziele:

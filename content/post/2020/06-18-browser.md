@@ -20,7 +20,7 @@ Wie benutze ich eigentlich meine(n) Browser?
 
 Letztens wurde ich immer mal gefragt, wie machst du eigentlich X.
 Darum dachte ich mir, schreibe ich mal darüber Blog Artikel, die kann dann jeder lesen.
-Da ich sowohl Arch Linux, macOS, Windows und iOS/iPadOS im Einsatz habe und auch regelmäßig alle Systeme verwende, habe ich wohl einen relativ guten Überblick über die jeweiligen Situationen auf den unterschiedlichen Plattformen.
+Da ich sowohl Arch Linux, macOS, Windows und iOS/iPadOS im Einsatz habe und auch regelmäßig alle Systeme verwende, habe ich einen relativ guten Überblick über die jeweiligen Situationen auf den unterschiedlichen Plattformen.
 Wissen tue ich aber definitiv nicht alles und freue mich immer über Tipps und Tricks.
 
 Anfangen will ich mit dem Browser, was ja ein zentraler Bestandteil für die meisten Leute ist.
@@ -29,7 +29,7 @@ Ich persönlich nutze Firefox als meinen Haupt Browser auf Arch Linux, macOS und
 
 # iOS / iPadOS
 
-Unter iOS/iPadOS verwende ich aktuell einfach Safari, ist dabei, funktioniert.
+Unter iOS/iPadOS verwende ich aktuell Safari, ist dabei, funktioniert.
 
 Zusätzlich habe ich noch [Ka-Block!](https://apps.apple.com/de/app/ka-block/id1037173557) als Content Blocker installiert und lösche unregelmäßig mal die "Website Data" (Settings → Safari → Advanced → Website Data → Remove All Website Data).
 Damit bleibt meine History erhalten aber ich hoffe Tracker etwas mehr los zu werden.
@@ -38,11 +38,11 @@ Das wars schon für Safari unter iOS / iPadOS.
 
 # Suchmaschine
 Als Suchmaschine verwende ich überall seit Jahren DuckDuckGo.
-Vielleicht ist Google besser und ich weiß es nur einfach nicht, vielleicht habe ich mich auch einfach an DuckDuckGo gewöhnt, auf jeden Fall finde ich meistens was ich suche.
+Vielleicht ist Google besser und ich weiß es nur nicht, vielleicht habe ich mich auch an DuckDuckGo gewöhnt, auf jeden Fall finde ich meistens was ich suche.
 
 Zudem nutze ich die ["Bangs"](https://duckduckgo.com/bang) von DuckDuckGo ganz gerne.
-Wenn ich zum Beispiel auf YouTube suchen will, gebe ich einfach "!yt cat" ein und lande in der YouTube suche nach Katzenvideos.
-Wenn ich auf Wikipedia suchen will, nutze ich einfach "!w" oder "!wde" für die englische oder deutsche Wikipedia oder "!wd" um auf Wikidata zu suchen.
+Wenn ich zum Beispiel auf YouTube suchen will, gebe ich "!yt cat" ein und lande in der YouTube suche nach Katzenvideos.
+Wenn ich auf Wikipedia suchen will, nutze ich "!w" oder "!wde" für die englische oder deutsche Wikipedia oder "!wd" um auf Wikidata zu suchen.
 Wenn ich häufiger auf einer Webseite suchen will, schaue ich irgendwann nach dem passenden Bang und merke ihn mir dann.
 Wenn ich ihn mir nicht merken kann, benutze ich diesen wohl auch nicht häufig genug.
 
@@ -100,7 +100,7 @@ Da beim Schließen meiner Browser auch alle Tabs verschwinden, lasse ich auch ke
 
 Bei Erweiterungen versuche ich sparsam zu sein, vor allem mit Erweiterungen die Zugriff auf alle Webseiten bekommen.
 Hier muss man beachten das derartige Erweiterungen auch Passwort Felder sehen und lesen können.
-Es ist in der Vergangenheit durchaus vorgekommen, dass Erweiterungen Passwörter mitgelesen und weg gegeben haben.
+Es ist in der Vergangenheit vorgekommen, dass Erweiterungen Passwörter mitgelesen und weg gegeben haben.
 Relativ bekannt sind dafür die Netflix Erweiterungen, die Netflix Passwörter gesammelt haben.
 
 Also einmal mehr drüber nachdenken, was man sich da gerade installiert und wie viele Rechte dies wirklich braucht.
@@ -109,7 +109,7 @@ In meinem Fall sind alle Erweiterungen Open Source und auf GitHub zu finden.
 
 ## uBlock Origin
 
-[uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) ist ein Ad-Blocker den ich einfach installiere und dann läufts.
+[uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) ist ein Ad-Blocker den ich installiere und dann läufts.
 Das sorgt für weniger nervige Werbung und weniger nervige Ressourcenfresser.
 
 Auf Arch Linux installiere ich diesen auch gleich mit über pacman aus dem Repo, sodass ich mich beim Einrichten des Browsers auch nicht mehr um diese Basis Erweiterung kümmern muss.
@@ -138,12 +138,12 @@ Diese aktualisiere ich regelmäßig und sind erstmal nur für das Betrachten und
 [Temporary Containers](https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/) denken den Gedanken, wenn ich es zumache hat es auch wirklich alles vergessen, einen Schritt weiter.
 
 Ich verwende dabei den "Automatic Mode" und habe die Random Container Color aktiviert.
-Zudem habe ich noch "Container Number → Reuse available numbers" und "Delete no longer needed Temporary Containers -> After the last tab in it closes" aktiviert, damit die Nummern nicht all zu groß werden.
+Zudem habe ich noch "Container Number → Reuse available numbers" und "Delete no longer needed Temporary Containers → After the last tab in it closes" aktiviert, damit die Nummern nicht allzu groß werden.
 
 Wenn ich einen neuen Tab öffne, dann ist dieser in einem neuen, unabhängigen Container.
 Alle Cookies und Webseiten Daten sind in diesem Container und wirken sich nicht auf andere Container aus.
 (Erweiterungen wie uMatrix sind aber unabhängig und haben überall die selben Einstellungen)
-Ich kann also einfach einen weiteren Tab aufmachen ohne das der Erste davon etwas mitbekommt.
+Ich kann also einen weiteren Tab aufmachen ohne das der Erste davon etwas mitbekommt.
 So kann ich beispielsweise einmal angemeldet und einmal nicht angemeldet sein oder um das Beispiel von vorhin nochmal zu verwenden, etwas auf Amazon suchen ohne das danach überall etwas davon zu sehen ist.
 
 Wenn ich zum Beispiel einen Link aus Telegram heraus öffne, wird dieser automatisch in einem neuen, temporären Container geöffnet.

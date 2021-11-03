@@ -70,14 +70,14 @@ Und damit kommen wir schon zu meinem hauptsächlichen Thema.
 # Linter als Lernquelle
 
 Linter bieten, gerade dadurch das viele Menschen mit Optimierungsgedanken dort etwas beisteuern, viele hilfreiche Tipps.
-Diese Tipps kann ich bekommen, ohne das eine Person mir diese geben muss, sondern kann mir diese Tipps direkt durch ein Tool abholen genau dann, wenn sie relevant werden.
+Diese Tipps kann ich bekommen, ohne das eine Person mir diese geben muss, sondern kann mir diese Tipps direkt und genau dann durch ein Tool abholen, wenn sie relevant werden.
 Wir Menschen lernen besser, wenn wir schnell Feedback bekommen, was wir besser machen könnten.
 
 Aus dem Grund mag ich Linter und stelle sie mir gerne "härter" ein, sodass diese noch mehr Hinweise geben.
 Einige dieser Hinweise sind dann nicht unbedingt richtig oder ich akzeptiere diese, dann kann man diese im Quellcode vermerken.
 Bei ESLint (JavaScript bzw. TypeScript) schreibt man dazu einfach einen Kommentar vor die betreffende Zeile.
-Im folgenden Beispiel gibt es eine Bedingung, die immer gleich ist, also konstant.
-Wenn dies genau das Ziel ist, ignoriere ich den angemerkten Hinweis `no-constant-condition`.
+Im folgenden Beispiel gibt es eine Bedingung, die immer gleich ist, also konstant (`no-constant-condition`).
+Wenn dies genau das Ziel ist, ignoriere ich den angemerkten Hinweis.
 
 ```typescript
 function annoyance() {
@@ -108,7 +108,7 @@ Diese Probleme kann man auch schon mit `cargo check` aufzeigen, was deutlich sch
 Wenn man jetzt noch mehr haben will, nutzt man `cargo clippy`, inspiriert durch die fröhlich nervige Büroklammer in alten Office Versionen.
 Da mir aber noch nicht langweilig genug war, gehe ich noch weiter und aktiviere noch mehr Lints: `cargo clippy -- -W clippy::pedantic`.
 `-W` steht für Warnungen bei diesen Lints, sprich noch kein Error und `clippy::pedantic` sind die pedantischen Lints, die über die normalen Clippy Lints hinaus gehen.
-Wenn einem dann immer noch langweilig ist, kann man auch noch `-W clippy::nursery` aktiviert und bekommt experimentelle Lints.
+Wenn einem dann immer noch langweilig ist, kann man auch noch `-W clippy::nursery` aktivieren und bekommt experimentelle Lints.
 Für Hinweise in der `Cargo.toml` gibt es `-W clippy::cargo`.
 
 # Bash
@@ -118,7 +118,7 @@ Spannend finde ich, dass es sogar für so etwas wie Bash Linter gibt, die immer 
 # Fazit
 
 Das Nervige bei JavaScript / TypeScript ist die verstreute Welt von unterschiedlichen Code-Styles und unterschiedlichen Lintern.
-Wenn man mal ein fremdes Projekt hat und etwas beisteuern will, muss man erst schauen, was für ein Linter verwendet wird und sich nach diesem richten
+Wenn man mal ein fremdes Projekt hat und etwas beisteuern will, muss man erst schauen, was für ein Linter verwendet wird und sich nach diesem richten.
 Deno versucht dies etwas gerade zuziehen in dieser Welt.
 
 Bei Rust ist dies einfacher, da gibts diese Lints eben schon integriert und für alle dieselben.

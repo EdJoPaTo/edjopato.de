@@ -14,7 +14,7 @@ tags:
 ---
 Manchmal braucht man Dateien in anderen Formaten.
 Und dafür gibts ein paar mächtige Tools, die einem dabei helfen, von allen möglichen Formaten in alle möglichen Formate umzuwandeln.
-Auf ein paar solcher Tools, die man immer mal wieder benutzt, will hier mal eingehen.
+Auf ein paar solcher Tools, die man immer mal wieder benutzt, will ich hier eingehen.
 
 Es gibt dafür auch ganz viele Webseiten, wo man irgendwas hochladen könnte, aber so etwas will ich explizit vermeiden.
 Meine Daten sollen schon noch bei mir bleiben.
@@ -98,7 +98,7 @@ Vielleicht nicht mehr ganz so relevant, aber dennoch immer mal benötigt.
 Ich arbeite ganz gern mit SVG, wenn es möglich ist.
 Einfach, weil es kleinere Dateien und bessere Ergebnisse auf allen Auflösungen erzielt.
 Manchmal braucht man jedoch altmodische Pixelgrafiken und LaTeX kann von Haus aus leider auch kein SVG.
-Hier kommt [Inkscape] zu Hilfe, welches alle möglichen SVG Eigenheiten kennt und damit klarkommt.
+Hier kommt [Inkscape](https://inkscape.org/) zu Hilfe, welches alle möglichen SVG Eigenheiten kennt und damit klarkommt.
 
 ```bash
 inkscape input.svg -o output.png
@@ -115,7 +115,9 @@ Resize oder Strip beispielsweise.
 Und dann eben die Inputs.
 Die Outputs werden dann automatisch im neuen Unterorder `converted` erzeugt, welches Überschreibungen verhindert.
 
-Natürlich fehlen dort immer Dinge, gerade wenn ich gerade so diesen Blogpost schreibe fällt dies besonders auf, aber das war ja irgendwo auch der Zweck:
+Natürlich fehlen dort immer Dinge.
+Gerade wenn ich so diesen Blogpost schreibe, fällt dies besonders auf.
+Aber das war ja irgendwo auch der Zweck:
 Immer mal ein Grund etwas mit Rust zu machen.
 
 # Fazit

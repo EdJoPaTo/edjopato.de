@@ -2,12 +2,35 @@
 <html lang="{{ .Site.Language.Lang }}">
 
 <head>
-{{ partial "head.html" . }}
+<meta charset="utf-8">
+<title>{{ .Title }}</title>
+{{ $built := resources.Get "js/updatebg.js" | js.Build "updatebg.js" -}}
+<script src="{{ $built.RelPermalink }}"></script>
 {{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true ) -}}
 {{ $style := resources.Get "style/main.scss" | resources.ToCSS $options -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 {{ block "headpart" . }}{{ end }}
-{{- if .Params.background }}
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="EdJoPaTo">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="{{ .Summary }}">
+<meta property="og:site_name" content="EdJoPaTo">
+{{ template "_internal/opengraph.html" . -}}
+{{ template "_internal/twitter_cards.html" . -}}
+{{ template "_internal/schema.html" . }}
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="mask-icon" href="/assets/cheese-monochrome.svg" color="#363636">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#363636">
+{{ range .AlternativeOutputFormats -}}
+{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+{{ end -}}
+{{- if .Params.background -}}
 <style>
 @media screen and (min-width: 1000px) {
   header.has-background {
@@ -15,10 +38,10 @@
   }
 }
 </style>
-{{- end }}
+{{ end -}}
 {{- $images := .Resources.ByType "image" -}}
 {{- $cover := $images.GetMatch "cover" -}}
-{{- with $cover }}
+{{- with $cover -}}
 <style>
   @media screen and (min-width: 1000px) {
     header.has-background {
@@ -26,9 +49,7 @@
     }
   }
 </style>
-{{- end }}
-{{ $built := resources.Get "js/updatebg.js" | js.Build "updatebg.js" -}}
-<script src="{{ $built.RelPermalink }}"></script>
+{{ end -}}
 </head>
 
 <body>

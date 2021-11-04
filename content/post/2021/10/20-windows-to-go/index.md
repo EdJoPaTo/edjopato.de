@@ -21,7 +21,7 @@ Aber da wird man doch etwas hinbekommen um nur die Hardware, aber nicht die Soft
 # Wie wird's installiert?
 
 [Rufus](https://rufus.ie) ist ein Tool zum Beschreiben von USB Geräten mit ISO Dateien (Windows only).
-Normalerweise [benutze ich Ventoy]({{< relref "/content/post/2021/09-20-ventoy/index.md" >}}) für diesen Zweck, viel bequemer.
+Normalerweise [benutze ich Ventoy]({{< relref "/post/2021/09/20-ventoy" >}}) für diesen Zweck, viel bequemer.
 Allerdings hat Rufus ein Feature, welches ich hier benötige: "Windows To Go".
 
 ![Ventoy GUI mit ausgewähltem Windows To Go](rufus.png)

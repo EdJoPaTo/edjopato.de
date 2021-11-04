@@ -18,7 +18,7 @@ Dort werden Fragen und 3 Antwortmöglichkeiten gegeben, die sich meistens nicht 
 Man ordnet sich dann den Antworten zu und es wird nach Meinungen gefragt, warum man jeweils die Antwort für sinnvoll hält.
 So entstehen häufig Diskussionen zu den Themen.
 
-Jetzt dachte ich mir, vielleicht schaue ich mal mit diesem Blick auf die Cloud, auf die ich bereits in [meinem letzten Blogartikel]({{< relref "/content/post/2021/10/18-cloud/index.md" >}}) eingegangen bin.
+Jetzt dachte ich mir, vielleicht schaue ich mal mit diesem Blick auf die Cloud, auf die ich bereits in [meinem letzten Blogartikel]({{< relref "/post/2021/10/18-cloud" >}}) eingegangen bin.
 Natürlich wird mein Blickpunkt nie vollständig und perfekt abbilden, wie man etwas machen kann und sollte.
 Deswegen lohnt sich immer ein Blick auf andere Standpunkte und fremde Philosophien.
 Die Grundsätze in der Hacker*Innen-Ethik werden von vielen im Chaos-Umfeld akzeptiert und bieten damit einen interessanten Blickpunkt.

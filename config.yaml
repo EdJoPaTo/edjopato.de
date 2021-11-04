@@ -1,6 +1,5 @@
 baseURL: https://edjopato.de/
-DefaultContentLanguage: de
-disablePathToLower: true
+defaultContentLanguage: de
 enableGitInfo: true
 languageCode: de
 metaDataFormat: "yaml"

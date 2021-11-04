@@ -56,7 +56,7 @@ convert input.jpg \
 
 [FFmpeg](https://ffmpeg.org/) wandelt viele Medien um.
 So kann man beispielsweise den Ton aus einem Video ziehen oder von einem Format in das andere umwandeln.
-Ich habe darüber auch schon mal in einem [eigenen Post]({{< relref "/post/2021/04-07-ffmpeg-aliases/index.md" >}}) berichtet.
+Ich habe darüber auch schon mal in einem [eigenen Post]({{< relref "/post/2021/04/07-ffmpeg-aliases.md" >}}) berichtet.
 
 ```bash
 # Video

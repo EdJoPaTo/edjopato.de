@@ -22,18 +22,18 @@ Die **Website** wird von den Nutzern unseren BPaaS Angebots genutzt.
 Sie bietet eine grafische Schnittstelle zu unserem System.
 Mit ihrer Hilfe können die Business Prozesse ausgeführt werden.
 Außerdem können neue Business Prozesse und die darin verwendeten Services angelegt werden.
-Zum Erstellen der Website wurde das [React Framework](//facebook.github.io/react/) verwendet.
-Mehr dazu im [Blog Eintrag zum Praktikum](//tti-ss17-wiechmann.jimdo.com/praktikum/) vom Verantwortlichen der Website…
+Zum Erstellen der Website wurde das [React Framework](https://facebook.github.io/react/) verwendet.
+Mehr dazu im [Blog Eintrag zum Praktikum](https://tti-ss17-wiechmann.jimdo.com/praktikum/) vom Verantwortlichen der Website…
 
 Die Website benutzt für alle Interaktionen mit unserem System die **API**.
-Diese bietet eine REST Schnittstelle an, die mit Hilfe von [Swagger](//swagger.io/) definiert wurde.
+Diese bietet eine REST Schnittstelle an, die mit Hilfe von [Swagger](https://swagger.io/) definiert wurde.
 Dies bietet den Vorteil, das Swagger sowohl eine gute Doku, als auch vereinfachte Erstellung der API Komponente bietet.
 Die API ist stateless und reicht sämtliche Anfragen an die jeweiligen, zuständigen Komponenten innerhalb des Systems weiter.
-Dafür wird [RabbitMQ](//rabbitmq.com) verwendet.
-Mehr zur API im [Blog Post](//tti-ss2017-portfolio.jimdo.com/2017/07/13/beschreibung-unserer-api/) vom Verantwortlichen…
+Dafür wird [RabbitMQ](https://rabbitmq.com) verwendet.
+Mehr zur API im [Blog Post](https://tti-ss2017-portfolio.jimdo.com/2017/07/13/beschreibung-unserer-api/) vom Verantwortlichen…
 
 Der **Data Center** enthält die persistent gespeicherten Informationen unseres Systems, wie die Business Prozesse oder die hinterlegten Services, die verwendet werden können.
-Mehr zum [Data Center](//haw-hamburg-tti.blogspot.de/2017/07/datenbank-fur-eine-bpaas-plattform.html) und zur [Definition der gespeicherten Daten](//haw-hamburg-tti.blogspot.de/2017/07/business-processes-in-einer-bpaas.html) im jeweiligen Blog Post der Verantwortlichen…
+Mehr zum [Data Center](https://haw-hamburg-tti.blogspot.de/2017/07/datenbank-fur-eine-bpaas-plattform.html) und zur [Definition der gespeicherten Daten](https://haw-hamburg-tti.blogspot.de/2017/07/business-processes-in-einer-bpaas.html) im jeweiligen Blog Post der Verantwortlichen…
 
 Der **BPExecutor** nimmt die von außen kommenden Anfragen an, einen Business Prozess auszuführen.
 Die zusätzlich benötigten Informationen holt er über die API aus dem Data Center.
@@ -46,7 +46,7 @@ Mehr zum BPExecutor und der BPInstance im [Blog Post zum Thema]({{< relref "/pos
 Der **Monitor** dient zur Auswertung der Kundenaktivität, um Aussagen treffen zu können, wie viel ein Business Prozess oder Service genutzt wurde.
 Dafür beobachtet dieser im System verlaufende RabbitMQ Nachrichten.
 Aus Zeitgründen wurde der Monitor im Laufe des Projekts zurückgestellt und nicht weiter bearbeitet.
-Etwas ausführlicher beschrieben wird der Monitor im [Blog Post](//tti-ss2017-portfolio.jimdo.com/2017/07/08/monitor-oder-ein-anfang/) des Verantwortlichen…
+Etwas ausführlicher beschrieben wird der Monitor im [Blog Post](https://tti-ss2017-portfolio.jimdo.com/2017/07/08/monitor-oder-ein-anfang/) des Verantwortlichen…
 
 Die **Services** stellen die einzelnen Schritte eines Business Prozesses dar.
 Diese können von Kunden erstellt und in unserem System zur Verwendung registriert werden.

@@ -11,7 +11,7 @@ tags:
   - web
   - website
 ---
-Der Blog wurde bisher mit [Jekyll](//jekyllrb.com) erstellt, wie bereits in einem [früheren Blogpost]({{< relref "/post/2017/03/30-neue-website" >}}) beschrieben wurde.
+Der Blog wurde bisher mit [Jekyll](https://jekyllrb.com) erstellt, wie bereits in einem [früheren Blogpost]({{< relref "/post/2017/03/30-neue-website" >}}) beschrieben wurde.
 Dies bot die Vorteile von statischer Seitengenerierung, jedoch war die Nutzung mit Ruby in meinen Augen unschön.
 
 Erst muss Ruby installiert werden, dann müssen bestimmte Gems installiert werden usw.
@@ -19,7 +19,7 @@ Jetzt kann man argumentieren, das eine CI Lösung diese Aufgaben übernehmen kan
 
 Außerdem können mit Jekyll einige Dinge nur mit größerem Aufwand realisiert werden, wie Seiten für einzelne Tags / Kategorien.
 
-Auf der Suche nach Alternativen bin ich auf [Hugo](//gohugo.io) gestoßen.
+Auf der Suche nach Alternativen bin ich auf [Hugo](https://gohugo.io) gestoßen.
 Hugo nimmt einem einiges ab, was ich vorher mit Jekyll nachgebaut hatte.
 So wird zum Beispiel ein Atom RRS Feed oder eine Sitemap ohne jegliches Zutun von Hugo erstellt.
 Auch Seiten für Tags / Kategorien entstehen ohne weitere Einstellungen.
@@ -51,7 +51,7 @@ Einige Grenzen bietet Hugo für mich jedoch dennoch:
   Diese kann ich mit Hugo für die TTI Kategorie nicht wieder erstellen (oder ich weiß einfach nur nicht wie).
 
 Unabhängig von der Einführung von Hugo habe ich noch ein paar weitere Dinge optimiert, die mich vorher störten:
-Das CSS Framework [Bulma](//bulma.io) wurde durch selbst geschriebene CSS Regeln abgelöst.
+Das CSS Framework [Bulma](https://bulma.io) wurde durch selbst geschriebene CSS Regeln abgelöst.
 Diese umfassen wesentlich weniger Regeln und sich mit der Anwendung in Hugo auf das benötigte beschränkt.
 Außerdem wird der CSS Content jetzt im HTML Head ausgeliefert, statt als eigene Datei.
 Dies beschleunigt die Darstellung.

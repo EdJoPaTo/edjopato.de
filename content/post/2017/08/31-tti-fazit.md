@@ -78,7 +78,7 @@ Die Idee war cool und vielleicht lohnt es sich nicht, der Idee länger als 3 Mon
 
 # Verbesserungstipps für die Einzelnen
 
-Kurz vor dem dritten Praktikum habe ich mich mit dem Professor, bei dem ich im fünften Semester besagtes Projekt hatte ([Thomas Lehmann](//www.haw-hamburg.de/beschaeftigte/detailansicht/name/thomas-lehmann.html)), zusammengesetzt.
+Kurz vor dem dritten Praktikum habe ich mich mit dem Professor, bei dem ich im fünften Semester besagtes Projekt hatte ([Thomas Lehmann](https://www.haw-hamburg.de/beschaeftigte/detailansicht/name/thomas-lehmann.html)), zusammengesetzt.
 Mit ihm habe ich in dem Projekt bereits über das Verbessern von Teamarbeit gesprochen und habe derartige Gedanken zur Verbesserung des aktuellen TTI Teams mit ihm fortgesetzt und mir Tipps geben lassen.
 Dort habe ich eine Reihe an Tipps mitgenommen und auch konkreteres Verhalten zu Dingen durchgesprochen.
 Die meiner Meinung nach wichtigsten, generellen Tipps dabei waren zum einen ein Tipp zu unseren wöchentlichen Meetings und das Vermeiden von Fingerpointing.

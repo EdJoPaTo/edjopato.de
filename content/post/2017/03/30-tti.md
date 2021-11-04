@@ -23,7 +23,7 @@ Dieses Cloud System übernimmt dann Teile, wie zum Beispiel bei IaaS die Infrast
 Ein Nutzer von einem IaaS Anbieter muss sich dann nicht mehr um die Wartung und Instandhaltung der Infrastruktur kümmern.
 Außerdem bezahlt er nur noch die Leistung, die er wirklich verwendet.
 
-So läuft mein [Telegram Bot](/calendarbot) zum Beispiel auf einem vServer.
+So läuft mein [Telegram Bot](https://calendarbot.hawhh.de/) zum Beispiel auf einem vServer.
 Die Infrastruktur wird dabei von meinem vServer Anbieter gestellt.
 Die Laufzeitumgebung Node, sowie meine Anwendungslogik habe ich aber selbst aufgespielt, konfiguriert usw.
 Es basiert also auf einer IaaS Architektur.

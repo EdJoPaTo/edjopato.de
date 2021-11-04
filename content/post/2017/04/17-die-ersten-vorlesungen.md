@@ -15,8 +15,8 @@ Insgesamt sind 12 Vorlesungen angesetzt.
 # Die erste Vorlesung am 21. März
 
 Wie für die erste Vorlesung gewohnt, beginnt diese mit dem Organisatorischen: Wer steht da eigentlich vorne, was macht das Praktikum, wie sieht die Prüfungsleistung aus und so weiter.
-So hat sich unsere Professorin [Ulrike Steffens](//users.informatik.haw-hamburg.de/~steffens/) vorgestellt, uns die Praktikumsaufgabe des BPaaS Angebots vorgestellt und uns die Prüfungsform des ePortfolios erläutert.
-Mehr dazu im [ersten Post]({{< relref "/post/2017/03/30-tti" >}}) zum Thema [TTI](/blog/tti).
+So hat sich unsere Professorin [Ulrike Steffens](https://users.informatik.haw-hamburg.de/~steffens/) vorgestellt, uns die Praktikumsaufgabe des BPaaS Angebots vorgestellt und uns die Prüfungsform des ePortfolios erläutert.
+Mehr dazu im [ersten Post]({{< relref "/post/2017/03/30-tti" >}}) zum Thema [TTI]({{< relref "/categories/tti/" >}}).
 
 Danach wurde recht zeitig mit dem Vorlesungsstoff begonnen.
 Dabei begann es mit der Definition des Cloud Computings und dessen gewünschte Eigenschaften:
@@ -50,7 +50,7 @@ Bild Quelle: Ulrike Steffens mit Vorlage von Sieh, V., Universität Erlangen-Nü
 Dafür wurde auf Schnittstellen zum Betriebssystem eingegangen und auf Eigenschaften der Virtualisierung, wie Partitionierung (verschiedene Anwendungen laufen auf einer physischen Maschine), Isolation (VMs bekommen voneinander gegenseitig nichts mit) sowie der Kapselung (Zustände lassen sich Hardware unabhängig ablegen).
 Es ging danach um Hypervisor und Container wie Docker.
 
-In einer Gruppenarbeit wurde sich dann mit [Pattern für Cloud Systeme](//cloudpatterns.org) befasst und anschließend exemplarisch vorgestellt.
+In einer Gruppenarbeit wurde sich dann mit [Pattern für Cloud Systeme](https://cloudpatterns.org) befasst und anschließend exemplarisch vorgestellt.
 
 Zum Ende des Praktikums wurden die 3 Stakeholder des BPaaS Angebots nochmal genauer betrachtet und in jeweils einer Gruppe für einen Stakeholder die Requirements genauer ausgearbeitet.
 In meiner Gruppe wurde der Prozessanbieter genauer betrachtet.
@@ -76,7 +76,7 @@ Vervollständigt wurde die Vorlesung dann mit einem kurzen Überblick über Plat
 
 # 4. Vorlesung am 11. April
 
-Begonnen wurde die Vorlesung mit einem Vortrag von Tobias Schwab von [PhraseApp](//phraseapp.com).
+Begonnen wurde die Vorlesung mit einem Vortrag von Tobias Schwab von [PhraseApp](https://phraseapp.com).
 Dieser erzählte uns vom Konzept von Kubernetes und dem Einsatz dessen in seiner Firma.
 
 ![Lastverteilung über die Woche bei PhraseApp](/assets/2017/04/last-phraseapp.png)

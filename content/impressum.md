@@ -38,4 +38,4 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Komm
 
 Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
 
-Quellenangabe: [Disclaimer](//www.e-recht24.de/muster-disclaimer.html) & [Datenschutzerklärung](//www.e-recht24.de/muster-datenschutzerklaerung.html) von [e-recht24.de](//www.e-recht24.de)
+Quellenangabe: [Disclaimer](https://www.e-recht24.de/muster-disclaimer.html) & [Datenschutzerklärung](https://www.e-recht24.de/muster-datenschutzerklaerung.html) von [e-recht24.de](https://www.e-recht24.de)

@@ -15,7 +15,7 @@ Die Punkte aus dem Vortrag, die mir am wichtigsten sind, will ich hier einmal au
 Dabei ging es um das Vertragsrecht, Datensicherheit, Datenschutz und zum Schluss einer Checkliste zum Cloud-Computing.
 <!--more-->
 
-Zusätzlich sei gesagt, man sollte sich nicht auf die Informationen in diesem Blog Post verlassen, ich bin kein IT Rechtsspezialist, ich bin Informatikstudent der einen Vortrag zu dem Thema in einer Vorlesung (\*hust\* [TTI](/categories/tti)) gehört hat.
+Zusätzlich sei gesagt, man sollte sich nicht auf die Informationen in diesem Blog Post verlassen, ich bin kein IT Rechtsspezialist, ich bin Informatikstudent der einen Vortrag zu dem Thema in einer Vorlesung (\*hust\* [TTI]({{< relref "/categories/tti" >}})) gehört hat.
 
 # Vertragsrecht
 Begonnen wurde der Vortrag mit dem Vertragsrecht.
@@ -64,7 +64,7 @@ Die **Zutrittskontrolle** sagt aus, Orte an denen personenbezogene Daten verarbe
 (Die Serverraum Tür soll eigentlich abgeschlossen sein, ist aber immer offen. Und falls sie zu ist, der Schlüssel hängt am Türschild.)
 
 Mit der **Zugangskontrolle** ist der digitale Schutz vor dem Zugriff Unbefugter gemeint, wie zum Beispiel mit Passwörtern.
-([xkcd.com/936](//www.xkcd.com/936/))
+([xkcd.com/936](https://www.xkcd.com/936/))
 
 Die **Zugriffskontrolle** dient zur Beschreibung eines Rechtesystems.
 Die Befugten sollten nur auf die Daten zugreifen können, die sie zu ihrer Arbeit benötigen.

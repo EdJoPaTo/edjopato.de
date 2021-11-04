@@ -18,13 +18,13 @@ Meine Website als Übersicht über meine Projekte war bisher immer sehr spartani
 Jetzt habe ich mich mal dieser gewidmet.
 Als Ziel war unter anderem, einen Blog hinzufügen und möglichst bei statischem Content zu bleiben.
 
-Dazu habe ich mich bei einem Kommilitionen [inspirieren lassen](//vfuc.co/b/posts/v2).
-Schaut gerne mal bei ihm vorbei: [vfuc.co](//vfuc.co)
+Dazu habe ich mich bei einem Kommilitionen [inspirieren lassen](https://vfuc.co/b/posts/v2).
+Schaut gerne mal bei ihm vorbei: [vfuc.co](https://vfuc.co)
 
-Mein erster Gedanke war es, mit Hilfe von Markdown Posts und Seiten erstellen zu wollen und diese dann mit [Pandoc](//pandoc.org) zu konvertieren, mit Header und Footer zusammen zu bauen und zu hosten.
+Mein erster Gedanke war es, mit Hilfe von Markdown Posts und Seiten erstellen zu wollen und diese dann mit [Pandoc](https://pandoc.org) zu konvertieren, mit Header und Footer zusammen zu bauen und zu hosten.
 
-Aber etwas ähnliches macht bereits die Lösung von [GitHub Pages](//pages.github.com):
-Diese nutzen [Jekyll](//jekyllrb.com) zur Erstellung von statischen Websites.
+Aber etwas ähnliches macht bereits die Lösung von [GitHub Pages](https://pages.github.com):
+Diese nutzen [Jekyll](https://jekyllrb.com) zur Erstellung von statischen Websites.
 Gepart mit dem bisher gerne genutzen CSS Framework [Bulma](http://bulma.io) habe ich dann meine Wünsche umgesetzt und einen eigenen Theme erstellt.
 
 Und das Ergebnis sieht man ja jetzt.

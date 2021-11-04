@@ -41,7 +41,7 @@ Diese GUI Route bietet das User Interface für den Endnutzer an.
 
 Da das Frontend diese GUI Route benötigt, um das GUI darzustellen, stellt das Frontend anfragen für die aktuelle GUI Route eines Business Prozesses an die API.
 Die API sendet dann mit einem RabbitMQ Fanout an alle laufenden BPInstances die Frage, welche Instanz gerade diesen Business Prozess ausführt und welche GUI Route diese gerade hat.
-Genauer beschrieben wird das im [Blog Post](//tti-ss2017-portfolio.jimdo.com/2017/07/08/kommunikation-api-und-bpinstance/) vom Zuständigen unseres Teams für die API.
+Genauer beschrieben wird das im [Blog Post](https://tti-ss2017-portfolio.jimdo.com/2017/07/08/kommunikation-api-und-bpinstance/) vom Zuständigen unseres Teams für die API.
 
 Der Vorteil an dieser Herangehensweise ist die einfache Skalierbarkeit.
 Die Anzahl der Laufenden BPInstance Docker Container bestimmt die Anzahl der maximal gleichzeitig laufenden Business Prozesse in unserem System.

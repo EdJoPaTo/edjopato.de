@@ -117,7 +117,7 @@ So muss ich mich nicht mehr per SSH verbinden, um jeweils Resilio mit den Änder
 # Ziele bei der Umsetzung
 
 Da mir "einfach nur erstellen" eines Tools zu Langweilig war, habe ich das Ganze als Node.js CLI haben wollen, dessen Parser mit einem Node.js Test Framework getestet wird.
-Diese Tests sollen dann automatisch von [Travis-CI](//travis-ci.org/) ausgeführt werden.
+Diese Tests sollen dann automatisch von [Travis-CI](https://travis-ci.org/) ausgeführt werden.
 
 ## CLI
 
@@ -133,12 +133,12 @@ Dazu habe ich die Befehlszeilenargumente mit `process.argv` ausgelesen und analy
   watchmode = args.some(s => s === '-w');
 ```
 
-Später habe ich das auf die Node.js Libary [cli](//www.npmjs.com/package/cli) umgestellt (siehe [Commit b30b142](//github.com/EdJoPaTo/resilio-sync-watch-config/commit/b30b142786b3127436d4a93cff159d1a751c304e)).
+Später habe ich das auf die Node.js Libary [cli](https://www.npmjs.com/package/cli) umgestellt (siehe [Commit b30b142](https://github.com/EdJoPaTo/resilio-sync-watch-config/commit/b30b142786b3127436d4a93cff159d1a751c304e)).
 
 ## Testen
 
 Zum Testen des Parsers wollte ich ein Node.js Test Framework verwenden.
-Die zwei Größten sind hier [Mocha](//mochajs.org/) und [Jasmine](//jasmine.github.io/), es gibt aber noch deutlich mehr.
+Die zwei Größten sind hier [Mocha](https://mochajs.org/) und [Jasmine](https://jasmine.github.io/), es gibt aber noch deutlich mehr.
 Ich habe mich für Jasmine entschieden, da auch Angular 2 dieses Framework verwendet und hier dieses Wissen so auch für Angular Projekte nutzen könnte.
 
 Grundlegend werden die Tests in <name>spec.js Dateien abgelegt.
@@ -158,13 +158,13 @@ describe('Komponente X', () => {
 
 Eine Komponente hat dabei viele Dinge, die sie tun kann, so gibt es für einen `describe` Block viele `it` Blöcke.
 Innerhalb eines `it` Block werden dann die genauen Tests definiert.
-Diese arbeiten mit Hilfe von [Matchers](//jasmine.github.io/api/edge/matchers.html), wie in diesem Fall das `toBe()`.
+Diese arbeiten mit Hilfe von [Matchers](https://jasmine.github.io/api/edge/matchers.html), wie in diesem Fall das `toBe()`.
 
 ## Travis-CI
 
 Travis-CI ist für das Testen von Projekten gedacht und für OpenSource Projekte komplett kostenlos nutzbar.
 
-Um Travis-CI zu konfigurieren, wird eine `.travis.yml` Datei in das Root Verzeichnis des GitHub Repos gelegt und das Projekt bei [Travis-CI aktiviert](//travis-ci.org).
+Um Travis-CI zu konfigurieren, wird eine `.travis.yml` Datei in das Root Verzeichnis des GitHub Repos gelegt und das Projekt bei [Travis-CI aktiviert](https://travis-ci.org).
 
 
 ```yaml
@@ -198,8 +198,8 @@ notifications:
 
 ## Quellcode
 
-Der gesamte Quellcode ist auf [GitHub](//github.com/EdJoPaTo/resilio-sync-watch-config).
-Die [Commits](//github.com/EdJoPaTo/resilio-sync-watch-config/commits/master) Messages sind so geschrieben, um nachvollziehen zu können, was passiert ist.
+Der gesamte Quellcode ist auf [GitHub](https://github.com/EdJoPaTo/resilio-sync-watch-config).
+Die [Commits](https://github.com/EdJoPaTo/resilio-sync-watch-config/commits/master) Messages sind so geschrieben, um nachvollziehen zu können, was passiert ist.
 
 # Fazit
 

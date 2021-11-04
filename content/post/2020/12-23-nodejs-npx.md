@@ -142,3 +142,12 @@ Am Schluss wird die binary mit dem Namen von `seek` in besagtem `node_modules` O
 Als Argumente dienen dazu die Argumente von unserer `npx` Funktion, abgesehen vom ersten (`xo`) welches ja bereits mit `shift` heraus geschoben wurde.
 
 Diese Funktion ist nun ein guter Ersatz, welche seinen Job in 4 Zeilen Bash erfüllt, ganz ohne viele Dependencies.
+
+# Edit 4.11.2021: Self Made 3.0
+
+Mittlerweile bin ich wieder bei einer neuen Variante, da so etwas wie `npx nyc ava` nicht funktionierte.
+Sowohl `ava` als auch `nyc` sind Executables aus dem `node_modules` Ordner und damit kommt man wohl nicht um eine Art der `$PATH` Benutzung herum.
+
+```bash
+alias npx='echo edjopato fixed npx again && PATH=$(pwd)/node_modules/.bin:$PATH'
+```

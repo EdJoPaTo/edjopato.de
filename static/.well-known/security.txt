@@ -1,0 +1,3 @@
+Contact: mailto:security-txt@edjopato.de
+Preferred-Languages: de, en
+Canonical: https://edjopato.de/.well-known/security.txt

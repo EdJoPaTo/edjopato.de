@@ -1,17 +1,17 @@
 header {
-  flex: 1;
+	flex: 1;
 }
 
 .avatar {
-  box-shadow: 1px 1px 10px rgb(255, 255, 0);
-  width: 40vmin;
-  height: auto;
-  margin: 5vmin;
-  border-radius: 25%;
-  transition: transform 0.5s, border-radius 0.5s;
+	box-shadow: 1px 1px 10px rgb(255, 255, 0);
+	width: 40vmin;
+	height: auto;
+	margin: 5vmin;
+	border-radius: 25%;
+	transition: transform 0.5s, border-radius 0.5s;
 }
 
 .avatar:hover {
-  transform: rotate(720deg);
-  border-radius: 50%;
+	transform: rotate(720deg);
+	border-radius: 50%;
 }

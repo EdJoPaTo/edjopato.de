@@ -1,8 +1,8 @@
 {{- $images := .Resources.ByType "image" -}}
 {{- $cover := $images.GetMatch "cover" -}}
 <header{{ if or $cover .Params.background }} class="has-background"{{end}}>
-  <h1>{{ .Title }}</h1>
+	<h1>{{ .Title }}</h1>
 {{- with .Params.subtitle }}
-  <div>{{ . }}</div>
+	<div>{{ . }}</div>
 {{- end }}
 </header>

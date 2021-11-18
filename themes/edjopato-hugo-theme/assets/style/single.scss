@@ -1,52 +1,52 @@
 .single {
-  padding: 3rem 0;
-  line-height: 1.5;
+	padding: 3rem 0;
+	line-height: 1.5;
 
-  background-color: rgba(255, 255, 255, 0.92);
-  @media (prefers-color-scheme: dark) {
-    background-color: rgba(25, 25, 25, 0.92);
-  }
+	background-color: rgba(255, 255, 255, 0.92);
+	@media (prefers-color-scheme: dark) {
+		background-color: rgba(25, 25, 25, 0.92);
+	}
 
-  > * {
-    margin: 0 auto;
-    padding: 0 1rem;
-    max-width: 600px;
-  }
+	> * {
+		margin: 0 auto;
+		padding: 0 1rem;
+		max-width: 600px;
+	}
 
-  img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-  }
+	img {
+		max-width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
 
-  h1, h2, h3, h4, h5, h6 {
-    color: hsl(var(--time-hue), 100%, 20%);
-    @media (prefers-color-scheme: dark) {
-      color: hsl(var(--time-hue), 100%, 80%);
-    }
-  }
+	h1, h2, h3, h4, h5, h6 {
+		color: hsl(var(--time-hue), 100%, 20%);
+		@media (prefers-color-scheme: dark) {
+			color: hsl(var(--time-hue), 100%, 80%);
+		}
+	}
 
-  h1 {
-    font-size: 1.75rem;
-    margin-bottom: 0;
-  }
+	h1 {
+		font-size: 1.75rem;
+		margin-bottom: 0;
+	}
 
-  h2 {
-    font-size: 1.2rem;
-    margin: 0;
-  }
+	h2 {
+		font-size: 1.2rem;
+		margin: 0;
+	}
 
-  .content a {
-    color: hsl(var(--time-hue), 100%, 20%);
-    @media (prefers-color-scheme: dark) {
-      color: hsl(var(--time-hue), 100%, 80%);
-    }
+	.content a {
+		color: hsl(var(--time-hue), 100%, 20%);
+		@media (prefers-color-scheme: dark) {
+			color: hsl(var(--time-hue), 100%, 80%);
+		}
 
-    &:hover {
-      color: black;
-      @media (prefers-color-scheme: dark) {
-        color: white;
-      }
-    }
-  }
+		&:hover {
+			color: black;
+			@media (prefers-color-scheme: dark) {
+				color: white;
+			}
+		}
+	}
 }

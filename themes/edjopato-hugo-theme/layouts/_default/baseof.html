@@ -8,7 +8,7 @@
 <script src="{{ $updatebg.RelPermalink }}"></script>
 {{ $style := resources.Get "style/main.scss" | resources.ToCSS (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-{{ block "headpart" . }}{{ end }}
+{{ block "headpart" . }}{{ end -}}
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="mobile-web-app-capable" content="yes">
@@ -34,9 +34,9 @@
 {{- if .Params.background -}}
 <style>
 @media screen and (min-width: 1000px) {
-  header.has-background {
-    background-image: {{ .Params.background.style | safeCSS }};
-  }
+	header.has-background {
+		background-image: {{ .Params.background.style | safeCSS }};
+	}
 }
 </style>
 {{ end -}}
@@ -44,11 +44,11 @@
 {{- $cover := $images.GetMatch "cover" -}}
 {{- with $cover -}}
 <style>
-  @media screen and (min-width: 1000px) {
-    header.has-background {
-      background-image: url({{ .RelPermalink }});
-    }
-  }
+	@media screen and (min-width: 1000px) {
+		header.has-background {
+			background-image: url({{ .RelPermalink }});
+		}
+	}
 </style>
 {{ end -}}
 </head>

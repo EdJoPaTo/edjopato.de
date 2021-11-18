@@ -11,11 +11,5 @@ features = []
 min_version = "0.25.1"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+name = "EdJoPaTo"
+homepage = "https://edjopato.de"

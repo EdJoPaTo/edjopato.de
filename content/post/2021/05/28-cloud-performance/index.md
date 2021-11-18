@@ -95,4 +95,4 @@ Aber deswegen ist er noch lange nicht schlecht.
 Vor allem nicht für den Preis.
 
 Und vielleicht muss ich mir mal ein kleines Skript bauen, um solche hyperfine Vergleiche mal eben auf einigen Raspberries und vServern ausführen zu können.
-Der [Vergleich der Raspberry Pis]({{< relref "/post/2020/10/03-raspberry-rust-performance" >}})  war zumindest für mich ja auch recht eindrucksvoll, wie viel besser diese doch auch zwischen Pi 2 und Pi 4 geworden sind, obwohl alle 4 Kerne hatten.
+Der [Vergleich der Raspberry Pis]({{< relref "/post/2020/10/03-raspberry-rust-performance" >}}) war zumindest für mich ja auch recht eindrucksvoll, wie viel besser diese doch auch zwischen Pi 2 und Pi 4 geworden sind, obwohl alle 4 Kerne hatten.

@@ -2,10 +2,10 @@
 <main class="list">
 <ul>
 {{- range .Paginator.Pages }}
-  <li>
-    <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" title="{{ .Date.Format "Mon, 2. January 2006 15:04 MST" }}">{{ .Date.Format "2006-01-02" }}</time>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </li>
+	<li>
+		<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" title="{{ .Date.Format "Mon, 2. January 2006 15:04 MST" }}">{{ .Date.Format "2006-01-02" }}</time>
+		<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+	</li>
 {{ end -}}
 </ul>
 </main>

@@ -1,24 +1,24 @@
 html, body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    "Helvetica", "Arial", sans-serif;
-  margin: 0;
-  padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		"Helvetica", "Arial", sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 
-  color: black;
-  @media (prefers-color-scheme: dark) {
-    color: whitesmoke;
-  }
+	color: black;
+	@media (prefers-color-scheme: dark) {
+		color: whitesmoke;
+	}
 }
 
 main {
-  flex: 1;
+	flex: 1;
 }
 
 @import "a";

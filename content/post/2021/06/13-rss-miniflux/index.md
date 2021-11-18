@@ -35,7 +35,7 @@ Das offizielle Container-Image mit dem Beispiel Compose File genommen und mal ge
 
 Alles funktioniert simpel, dass Einrichten ging schnell über die opml Datei.
 Die opml Datei brauche ich sowieso und habe ich in einem Git Repo gespeichert, da ich mein PinePhone, jedes Mal, wenn ich ein anderes Image ausprobiere, ja quasi zurücksetze.
-(Ich habe "keine"  Backups, ich habe Git Repos.)
+(Ich habe "keine" Backups, ich habe Git Repos.)
 NewsFlash muss man zum Nutzen eines anderen Services (statt dem bisherigen "Local RSS") einmal resetten.
 Danach wird Server, Benutzername und Passwort angegeben.
 Das funktionierte auch direkt.

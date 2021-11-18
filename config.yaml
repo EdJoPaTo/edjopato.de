@@ -13,6 +13,9 @@ title: EdJoPaTo
 # canonifyURLs: true
 # relativeUrls: true
 
+minify:
+  minifyOutput: true
+
 params:
   images:
   - /apple-touch-icon.png

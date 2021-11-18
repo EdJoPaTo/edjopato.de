@@ -1,6 +1,6 @@
 <nav>
-  <a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+	<a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
 {{- range .Site.Menus.main }}
-  <a href="{{ .URL }}">{{ .Name }}</a>
+	<a href="{{ .URL }}">{{ .Name }}</a>
 {{- end }}
 </nav>

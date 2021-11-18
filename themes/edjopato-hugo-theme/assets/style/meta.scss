@@ -1,28 +1,28 @@
 .meta {
-  font-size: 0.9rem;
-  margin-top: 0.6rem;
-  display: flex;
-  flex-wrap: wrap;
+	font-size: 0.9rem;
+	margin-top: 0.6rem;
+	display: flex;
+	flex-wrap: wrap;
 
-  color: #555;
-  @media (prefers-color-scheme: dark) {
-    color: #bbb;
-  }
+	color: #555;
+	@media (prefers-color-scheme: dark) {
+		color: #bbb;
+	}
 
-  > * {
-    margin-right: 0.6rem;
-    margin-bottom: 0.6rem;
-  }
+	> * {
+		margin-right: 0.6rem;
+		margin-bottom: 0.6rem;
+	}
 
-  a {
-    text-decoration: none;
-    color: inherit;
+	a {
+		text-decoration: none;
+		color: inherit;
 
-    &:hover {
-      color: black;
-      @media (prefers-color-scheme: dark) {
-        color: white;
-      }
-    }
-  }
+		&:hover {
+			color: black;
+			@media (prefers-color-scheme: dark) {
+				color: white;
+			}
+		}
+	}
 }

@@ -1,43 +1,43 @@
 .pagination {
-  color: black;
-  display: flex;
-  justify-content: center;
-  margin: 1rem 0;
-  overflow-x: auto;
-  padding: 0;
+	color: black;
+	display: flex;
+	justify-content: center;
+	margin: 1rem 0;
+	overflow-x: auto;
+	padding: 0;
 
-  li {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 3px;
-    border: 0;
-    box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.9);
-    display: block;
-    margin: 0 0.125rem;
-    opacity: 0.7;
-    transition: all 0.2s ease;
-  }
+	li {
+		background-color: rgba(255, 255, 255, 0.9);
+		border-radius: 3px;
+		border: 0;
+		box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.9);
+		display: block;
+		margin: 0 0.125rem;
+		opacity: 0.7;
+		transition: all 0.2s ease;
+	}
 
-  li:hover {
-    opacity: 1;
-  }
+	li:hover {
+		opacity: 1;
+	}
 
-  li.active {
-    opacity: 1;
-    pointer-events: none;
-  }
+	li.active {
+		opacity: 1;
+		pointer-events: none;
+	}
 
-  li.disabled {
-    opacity: 0.3;
-    pointer-events: none;
-  }
+	li.disabled {
+		opacity: 0.3;
+		pointer-events: none;
+	}
 
-  a, span {
-    align-items: center;
-    display: inline-flex;
-    height: 2.25rem;
-    justify-content: center;
-    min-width: 2.25rem;
-    text-align: center;
-    text-decoration: none;
-  }
+	a, span {
+		align-items: center;
+		display: inline-flex;
+		height: 2.25rem;
+		justify-content: center;
+		min-width: 2.25rem;
+		text-align: center;
+		text-decoration: none;
+	}
 }

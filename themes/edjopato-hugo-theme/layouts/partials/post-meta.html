@@ -1,17 +1,17 @@
 <div class="meta">
-  <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" title="{{ .Date.Format "Mon, 2. January 2006 15:04 MST" }}">{{ .Date.Format "2006-01-02" }}</time>
-  <span title="{{ .WordCount }} Wörter">{{ .ReadingTime }} Min Lesezeit</span>
-{{- $license := .Params.license  -}}
+	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" title="{{ .Date.Format "Mon, 2. January 2006 15:04 MST" }}">{{ .Date.Format "2006-01-02" }}</time>
+	<span title="{{ .WordCount }} Wörter">{{ .ReadingTime }} Min Lesezeit</span>
+{{- $license := .Params.license -}}
 {{- if not $license }}{{ $license = $.Site.Params.license }}{{ end -}}
 {{- if ne $license "nope" }}
 {{- with $license }}
-  <a href="{{ .url }}">{{ .name }}</a>
+	<a href="{{ .url }}">{{ .name }}</a>
 {{- end }}
 {{- end }}
 {{- range .Params.categories }}
-  <a href="{{ "/categories/" | relURL }}{{ . }}/" class="category">{{ . }}</a>
+	<a href="{{ "/categories/" | relURL }}{{ . }}/" class="category">{{ . }}</a>
 {{- end }}
 {{- range .Params.tags }}
-  <a href="{{ "/tags/" | relURL }}{{ . }}/" class="tag">{{ . }}</a>
+	<a href="{{ "/tags/" | relURL }}{{ . }}/" class="tag">{{ . }}</a>
 {{- end }}
 </div>

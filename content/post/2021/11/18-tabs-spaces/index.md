@@ -27,7 +27,7 @@ Bei TypeScript/JavaScript sieht das schon wieder anders aus, allerdings nicht be
 
 # Quellcode Libraries
 
-Ich habe ein paar Node.JS packages auf NPM.
+Ich habe ein paar Node.js packages auf NPM.
 Diese sind alle in TypeScript geschrieben und werden als JavaScript + Typen ausgeliefert.
 Die Transpilierung wird dabei von `tsc` (TypeScript Compiler) übernommen.
 Und hier kommt dann das Problem für mich: Das Ergebnis verwendet Leerzeichen.
@@ -107,10 +107,14 @@ So kann man beispielsweise SASS in CSS umwandeln und sich dann über die Source 
 Ebenso bei JavaScript zu TypeScript.
 
 Für beispielsweise HTML ist eine Source Map vermutlich irrelevant, da XML gut autoformatiert werden kann.
-Schaut man sich beispielweise HTML mit den Browser Developer Tools an, ist dies gut formatiert.
+Schaut man sich beispielsweise HTML mit den Browser Developer Tools an, ist dies gut formatiert.
 
 # Fazit
 
 Wen interessiert es, dass das cheese.svg auf der [Einstiegsseite ](/) nun Tabs oder Leerzeichen verwendet?
 Es sieht genauso aus und weiterhin lesbar für Menschen, die in den SVG Quellcode schauen.
 Und spart mit einfachen Mitteln Datenmengen, die zwar im Einzelnen vernachlässigbar sind, sich aber aufsummieren.
+
+Edit 2021-11-19:
+Nachdem ich mich auf die Tabs vs. Spaces im Hintergrund fokussiert habe, geht https://gnulinux.ch/tabs-versus-spaces in einer quasi Antwort auf die Vor- und Nachteile in der direkten Benutzung ein.
+Persönliche Meinung: In der direkten Benutzung gibt es für Beides gute Argumente, im Hintergrund kann es den meisten Menschen egal sein.

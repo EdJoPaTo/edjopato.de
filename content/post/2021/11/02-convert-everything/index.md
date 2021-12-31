@@ -11,6 +11,7 @@ tags:
   - command-line
   - linux
   - macos
+  - photos
 ---
 Manchmal braucht man Dateien in anderen Formaten.
 Und dafür gibts ein paar mächtige Tools, die einem dabei helfen, von allen möglichen Formaten in alle möglichen Formate umzuwandeln.

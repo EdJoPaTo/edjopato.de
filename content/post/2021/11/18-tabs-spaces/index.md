@@ -36,6 +36,7 @@ Das Ergebnis wird auf NPM hochgeladen, bei allen Nutzern heruntergeladen und lie
 Im Fall von meiner [grammy-inline-menu](https://github.com/EdJoPaTo/grammy-inline-menu) Library sind das so einigen Leerzeichen.
 
 Mit Leerzeichen (`npm pack`):
+
 ```plaintext
 === Tarball Details ===
 name:          grammy-inline-menu
@@ -47,6 +48,7 @@ total files:   123
 ```
 
 Mit Tabs:
+
 ```plaintext
 === Tarball Details ===
 name:          grammy-inline-menu
@@ -56,6 +58,7 @@ package size:  52.8 kB
 unpacked size: 272.9 kB
 total files:   123
 ```
+
 Die packaged size ist nur minimal kleiner, ausgepackt sind dies aber schon ein paar hundert Bytes.
 Das mag für dieses eine Paket nun relativ verschwindend sein, summiert sich aber auf.
 
@@ -74,7 +77,6 @@ Das beinhaltet nur die JavaScript Dateien, nicht die TypeScript Typen (`.d.ts`) 
 Alles Daten die übertragen, analysiert und herumliegen werden.
 Tabs vs. Spaces die niemanden interessieren, weil dort eh niemand editieren wird.
 Lesbar sind auch Tabs genauso und sparen eine Menge ein.
-
 
 Das Ganze gilt nicht nur für Quellcode Libraries, sondern generell für jegliche automatisch generierten Dateien.
 Wenn im Browser HTML angezeigt wird, interessiert mich nicht, ob da Tabs oder Spaces benutzt wurden.
@@ -116,5 +118,5 @@ Es sieht genauso aus und weiterhin lesbar für Menschen, die in den SVG Quellcod
 Und spart mit einfachen Mitteln Datenmengen, die zwar im Einzelnen vernachlässigbar sind, sich aber aufsummieren.
 
 Edit 2021-11-19:
-Nachdem ich mich auf die Tabs vs. Spaces im Hintergrund fokussiert habe, geht https://gnulinux.ch/tabs-versus-spaces in einer quasi Antwort auf die Vor- und Nachteile in der direkten Benutzung ein.
+Nachdem ich mich auf die Tabs vs. Spaces im Hintergrund fokussiert habe, geht <https://gnulinux.ch/tabs-versus-spaces> in einer quasi Antwort auf die Vor- und Nachteile in der direkten Benutzung ein.
 Persönliche Meinung: In der direkten Benutzung gibt es für Beides gute Argumente, im Hintergrund kann es den meisten Menschen egal sein.

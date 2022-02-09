@@ -64,7 +64,7 @@ Ich kann jetzt also sagen, ich will meine Musik aus dem Ordner 'Baum' hören (`m
 Wenn ich dann das Lied grade nicht mag, wechsle ich zum Nächsten (`mpc next`).
 Und sobald ich wieder Ruhe will, kann ich pausieren (`mpc pause`).
 
-Man kann auch Internet Radio damit hören, in dem man die URL des Livestreams per add der Playlist hinzufügt: `mpc add http://radio-url/stream.mp3`.
+Man kann auch Internet Radio damit hören, in dem man die URL des Livestreams per add der Playlist hinzufügt: `mpc add https://radio-url/stream.mp3`.
 
 Witzigerweise kann mpd auch das Audio von Videos wiedergeben.
 In der Anfangszeit hatte ich den Download Ordner von Telegram als Musik Ordner hinzugefügt und alles darin abgespielt.

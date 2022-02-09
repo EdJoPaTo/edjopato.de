@@ -86,7 +86,7 @@ Firmen tun sich damit schwerer.
 
 Normalerweise wird der Lizenztext mit einer veröffentlichten Software mit ausgeliefert.
 Auf GitHub liegt im Hauptordner eine `LICENSE` Datei, welche auch automatisch von GitHub gelesen und wenn bekannt, am Repository bereits die Lizenz markiert wird.
-Veröffentlicht man Libraries auf beispielsweise [NPM](https://www.npmjs.com/) oder [Crates.io](crates.io), so muss die jeweilige Projektkonfigurationsdatei eine Lizenz beinhalten.
+Veröffentlicht man Libraries auf beispielsweise [NPM](https://www.npmjs.com/) oder [Crates.io](https://crates.io), so muss die jeweilige Projektkonfigurationsdatei eine Lizenz beinhalten.
 Bei NPM ist dies beispielsweise Freitext.
 Bei crates.io muss die Lizenzdatei angegeben werden oder eine Bezeichnung aus der [SPDX Lizenzliste](https://github.com/spdx/license-list-data/tree/master/text) haben.
 

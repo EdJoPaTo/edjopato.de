@@ -63,7 +63,7 @@ Der verbesserte Ansatz ist über das Kodi Add-on [IPTV Simple Client](https://ko
 Mit diesem Add-on können Internet Streams von einer entfernt liegenden Quelle importiert werden und über das TV Menü abgespielt werden.
 
 Das Add-on wird im Add-on Menü unter PVR installiert und danach konfiguriert.
-Dabei wird die URL einer `*.m3u` Datei, die in meinem Fall auf meinem Web Hoster liegt, angegeben (für alle, die Interesse haben, diese URL verwende ich: [https://edjopato.de/tv.m3u](https://edjopato.de/tv.m3u)).
+Dabei wird die URL einer `*.m3u` Datei, die in meinem Fall auf meinem Web Hoster liegt, angegeben (für alle, die Interesse haben, diese URL verwende ich: <https://edjopato.de/tv.m3u> oder <https://tv.edjopato.de>).
 (Tipp: Es hat ein bisschen gedauert, bis ich gemerkt habe, dass man das http bzw. https wirklich angeben muss, sonst geht da nichts.)
 Außerdem kann man das Caching dieser Datei deaktivieren, um sofort nach dem Neustart Änderungen dieser geladen zu haben.
 

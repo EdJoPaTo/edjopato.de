@@ -45,7 +45,7 @@ Damit lassen sich alle Farben beschreiben.
 Zum Beispiel grün ist bei 120°, hellgrün hat eine geringere Sättigung und dunkelgrün eine geringere Helligkeit.
 Ich arbeite relativ gerne mit HSV statt mit RGB, da man mit der Anpassung von nur einem der drei Werte schon schöne Verläufe erzeugen kann.
 ![Farbtonskala in Grad](HueScale.svg)
-Quelle: https://commons.wikimedia.org/wiki/File:HueScale.svg
+Quelle: <https://commons.wikimedia.org/wiki/File:HueScale.svg>
 
 Das entscheidende Detail, welches mir auffiel: 6 Stunden sind 360 Minuten und die Farbtonskala hat 360°.
 Ein Tag kann in vier 6 Stunden Blöcke aufgeteilt werden.

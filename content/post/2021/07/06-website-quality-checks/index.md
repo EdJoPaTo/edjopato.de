@@ -72,29 +72,29 @@ Der Nu Html Checker prüft den Inhalt und die Struktur der HTML.
 Invalide HTML Elemente, fehlende Attribute, …
 Hier lohnt es sich auch Unterseiten zu betrachten und nicht nur die Hauptseite, da jede Seite ihr eigenes HTML mit ihren eigenen potenziellen Fehlern hat.
 
-https://validator.w3.org/nu/?showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fedjopato.de
+<https://validator.w3.org/nu/?showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fedjopato.de>
 
 ## SSL Labs
 
 SSL Labs betrachtet die Übertragungsverschlüsselung, die im Webserver eingestellt wird.
-https://www.ssllabs.com/ssltest/analyze.html?d=edjopato.de
+<https://www.ssllabs.com/ssltest/analyze.html?d=edjopato.de>
 
 Ein Tool zum Erstellen von guten SSL Konfigurationen für viele Webserver bietet Mozilla:
-https://ssl-config.mozilla.org
+<https://ssl-config.mozilla.org>
 
 ## Mozilla Observatory
 
 Details der Webserver Konfiguration überprüft das Observatory von Mozilla.
 
-https://observatory.mozilla.org/analyze/edjopato.de
+<https://observatory.mozilla.org/analyze/edjopato.de>
 
 ## CSP Evaluator
 
 Ein Detail dabei sind die "Content Security Policies".
 Diese werden auch schon vom Observatory überprüft, beim Erstellen dieser hilft jedoch das dafür geschaffene Tool ein wenig mehr:
-https://csp-evaluator.withgoogle.com/
+<https://csp-evaluator.withgoogle.com/>
 
-Ein wenig veraltet ist der https://cspscanner.com, aber trotzdem hilfreich zum Verstehen von selbstgeschriebenen CSP Regeln.
+Ein wenig veraltet ist der <https://cspscanner.com>, aber trotzdem hilfreich zum Verstehen von selbstgeschriebenen CSP Regeln.
 
 Hier will ich auch noch mal auf die Console der Browser Dev Tools hinweisen.
 Hier sieht man direkt, wenn Dinge dank einer CSP nicht mehr geladen werden.

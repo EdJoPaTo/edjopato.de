@@ -22,7 +22,7 @@ Früher habe ich auch noch UNetBootin verwendet.
 GParted ist ein Partition Tool unter Linux und funktioniert, wie Partition Tools nun mal funktionieren.
 
 ![GParted Screenshot](/assets/2017/08/gparted.png)
-GParted Screenshot von der offiziellen [Homepage](http://gparted.org)
+GParted Screenshot von der offiziellen [Homepage](https://gparted.org)
 
 Jedoch hat GParted (wie alle Programme die als Super User laufen müssen) ein Problem damit, unter Wayland richtig zu laufen.
 Das kann man zwar für die aktuelle Session umgehen (`xhost +local:`), ist aber nicht wirklich schön.

@@ -25,6 +25,6 @@ Mein erster Gedanke war es, mit Hilfe von Markdown Posts und Seiten erstellen zu
 
 Aber etwas ähnliches macht bereits die Lösung von [GitHub Pages](https://pages.github.com):
 Diese nutzen [Jekyll](https://jekyllrb.com) zur Erstellung von statischen Websites.
-Gepart mit dem bisher gerne genutzen CSS Framework [Bulma](http://bulma.io) habe ich dann meine Wünsche umgesetzt und einen eigenen Theme erstellt.
+Gepart mit dem bisher gerne genutzen CSS Framework [Bulma](https://bulma.io) habe ich dann meine Wünsche umgesetzt und einen eigenen Theme erstellt.
 
 Und das Ergebnis sieht man ja jetzt.

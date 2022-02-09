@@ -23,7 +23,8 @@ In dieses Tool wurde dann das Parsen von den Vorlesungsplan PDFs integriert.
 So entstand ein Monolith an Funktionalitäten auf C# Basis.
 ![Vorlesungsplan PDF](/assets/2017/07/veranstaltungsplan.png)
 
-Jedoch hat sich in der Zwischenzeit einiges gewandelt: Es gibt andere Wege um an die Veranstaltungskalender der HAW zu kommen, mein Hauptsystem und damit regelmäßiger Ausführort des Tools wurde von einem Windows System zu einem Linux System ([mono](http://www.mono-project.com/) hat gute Dienste geleistet) und die [HAW ownCloud](https://owncloud.informatik.haw-hamburg.de) hat das Downloaden der Vorlesungsinhalte überflüssig gemacht.
+Jedoch hat sich in der Zwischenzeit einiges gewandelt:
+Es gibt andere Wege um an die Veranstaltungskalender der HAW zu kommen, mein Hauptsystem und damit regelmäßiger Ausführort des Tools wurde von einem Windows System zu einem Linux System ([mono](https://www.mono-project.com/) hat gute Dienste geleistet) und die [HAW ownCloud](https://owncloud.informatik.haw-hamburg.de) hat das Downloaden der Vorlesungsinhalte überflüssig gemacht.
 Außerdem störte mich das Erstellen der Kalender maximal 1 mal in der Stunde.
 Ein etwas zeitgemäßeres, eventbasiertes Erstellen auf dem Server, auf dem auch die Kalender Dateien liegen, wäre angebracht.
 

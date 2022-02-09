@@ -31,7 +31,7 @@ So ist es egal, ob ein Oval auf einem kleinen Handydisplay oder auf einem 4K Mon
 
 ![Waves and Circles](/assets/2017/03/waves-and-circles.svg)
 
-"Waves and Circles" Quelle: [FreeVector](http://www.freevector.com/waves-and-circles)
+"Waves and Circles" Quelle: [FreeVector](https://www.freevector.com/waves-and-circles)
 
 Ein gutes Beispiel ist das Hintergrundbild "Waves and Circles", welches eine Zeit lang das Hintergrundbild der [Blog Übersichtsseite]({{< relref "/post" >}}) war: Es besteht nur aus abstrakten Formen, wie Kurven, Kreisen oder Farbverläufen.
 Das SVG ist 44 kB groß.

@@ -73,6 +73,7 @@ Etwas das mit meinen vorherigen Funktionen mittels `find` / `fd` nicht funktioni
 ## Was habe ich vorher benutzt?
 
 Bevor ich mein eigenes Tool dafür gebaut habe, habe ich mir mit kleinen Bash (bzw. in meinem Fall Zsh) Funktionen beholfen.
+Wie man generell schnell nach Dateien oder Dateiinhalten sucht, habe ich bereits [in diesem Post]({{< relref "/post/2021/04/07-fd-ripgrep/index.md" >}}) mal beschrieben.
 `gitBelow` war beispielsweise über `find` realisiert:
 
 ```bash
@@ -97,7 +98,7 @@ So kam es zu meinem eigenen, kleinen Tool, welches diese Anforderungen erfüllt.
 ## Fazit
 
 Das Tool funktioniert für mich nun schon seit ein paar Tagen und verrichtet erfolgreich seinen Dienst.
-Auch zeigt es mir noch mal mehr auf, wie langsam `find` im Vergleich zu `fd` ist (`project-below` verwendet intern denselben [Filewalker](https://crates.io/crates/ignore) wie [`fd`](https://github.com/sharkdp/fd) und [`ripgrep`](https://github.com/BurntSushi/ripgrep)).
+Auch zeigt es mir noch mal mehr auf, wie langsam `find` im Vergleich zu `fd` ist (`project-below` verwendet intern denselben [Filewalker](https://crates.io/crates/ignore) wie [`fd` und `ripgrep`]({{< relref "/post/2021/04/07-fd-ripgrep/index.md" >}})).
 Meine Bash Funktion mittels `find` hat für meine 100+ Git Repos (`gitBelow status` zum Beispiel) mehrere Sekunden gebraucht.
 `project-below` mit demselben Befehl braucht keine 100 ms.
 

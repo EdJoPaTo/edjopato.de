@@ -19,6 +19,7 @@ Durch ein paar Pullrequests zum [Circuit Generator zum 35c3](https://github.com/
 Da Wikimedia Anreise, Hotel und Verpflegung bezahlt, dachte ich mir, mal gucken was ich Neues lerne und fahre einfach mal nach Ulm.
 
 # Was ist Wikidata?
+
 [Wikidata](https://www.wikidata.org) ist der Versuch, all die Informationen, die auf Wikipedia zur Verfügung stehen, sprachunabhängig anbieten zu können.
 Dabei stehen die Elemente alle in Kontext zueinander.
 So ist ein [Tesla S](https://www.wikidata.org/wiki/Q1463050) ein [Elektroauto](https://www.wikidata.org/wiki/Q193692), welches ein [Fortbewegungsmittel](https://www.wikidata.org/wiki/Q42889) ist, welches wiederum ein [Werkzeug](https://www.wikidata.org/wiki/Q39546) ist, …

@@ -26,11 +26,13 @@ Wenn man beispielsweise 20 Dateien konvertieren will, baut man sich ein kleines 
 
 [ImageMagick](https://www.imagemagick.org/) wird an den meisten vielleicht schon mal als `convert` vorbeigekommen sein.
 `jpg` nach `png` konvertieren ist dabei quasi noch der fast langweiligste Anwendungsfall den ImageMagick kann:
+
 ```bash
 convert input.jpg output.png
 ```
 
 Man kann (mit aktuellen Versionen) auch ausgefallenere Formate, wie das relativ neue Foto Format `heic` in das ebenfalls recht neue Format `webp` umwandeln:
+
 ```bash
 convert input.heic output.png
 ```
@@ -43,6 +45,7 @@ Das Zuschneiden oder Strecken, Wasserzeichen und noch viele weitere Dinge sind e
 Im Grunde kann `convert` vieles was ein Tool wie Gimp auch kann, nur eben automatisierbar auf der Command-Line.
 
 Das Skript, welches ich aktuell für meine Fotos auf der Webseite verwende, sieht so aus:
+
 ```bash
 convert input.jpg \
   -background black -alpha remove \
@@ -74,6 +77,7 @@ ffmpeg -v error -stats -i input.ogg output.mp3
 
 Man kann auch zum Beispiel den Ton aus einem Video entfernen, um ein quasi `gif` zu erzeugen.
 Das Argument `-an` steht dafür für "Audio none".
+
 ```bash
 ffmpeg -v error -stats -an -i input.mp4 output.mp4
 ```
@@ -111,7 +115,7 @@ inkscape input.svg -o output.pdf
 Nachdem ich immer mal so etwas brauche wie "diese Bilder als jpg" und nicht immer eine kleine Bash Schleife bauen wollte, habe ich mir kleine Commands gebaut.
 Diese waren jedoch nicht allzu gut konfigurierbar.
 Daher habe ich mal irgendwann, ich wollte ja ein wenig mehr Rust lernen, eine [kleine Rust binary geschrieben](https://github.com/EdJoPaTo/EdC), die dies für mich abstrahiert.
-Ich kann einfach `edc jpg --<tab> ` eingeben und dann aus den Möglichkeiten auswählen, die ich gerade jetzt brauche.
+Ich kann einfach `edc jpg --<tab>` eingeben und dann aus den Möglichkeiten auswählen, die ich gerade jetzt brauche.
 Resize oder Strip beispielsweise.
 Und dann eben die Inputs.
 Die Outputs werden dann automatisch im neuen Unterorder `converted` erzeugt, welches Überschreibungen verhindert.

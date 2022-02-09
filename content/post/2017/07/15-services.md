@@ -29,6 +29,7 @@ Damit der Service Daten von unserem System anfragen kann, werden teilweise Anfra
   "result": "http://instance.nochkeineurl.de/result"
 }
 ```
+
 Für einen Service selbst wurden 3 Routen definiert.
 Auf der ersten Route wird ein **GUI** angeboten, das dem Nutzer über unsere Website zur Verfügung gestellt wird.
 Mit dem GUI kann der Nutzer den Service bedienen.

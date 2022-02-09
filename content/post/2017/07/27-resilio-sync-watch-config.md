@@ -52,6 +52,7 @@ Eine Abstraktion der Config schaffen und bei Änderungen Resilio neu starten.
 
 Ich habe für mich eine Abstraktion der Config geschaffen.
 Die Syntax ist grob am Beispiel der folgenden Config beschrieben.
+
 ```json
 {
   "basedir": "/path/to/resilio/base/folder/",
@@ -67,7 +68,9 @@ Die Syntax ist grob am Beispiel der folgenden Config beschrieben.
   }
 }
 ```
+
 Diese Beispielconfig oben wird zu der folgenden Config für Resilio Sync.
+
 ```json
 {
   "device_name": "hostname",
@@ -105,7 +108,6 @@ Werden weitere Einstellungen in der Config benötigt, können die in `passthroug
 Diese werden 1:1 in die Resilio Sync Config kopiert.
 In diesem Fall sorgen die Einstellungen dafür, das der Papierkorb 1 Tag hält, LAN Sync deaktiviert ist und der Router nicht per UPNP konfiguriert werden soll (auf dem vServer sinnvoll, zu Hause ist LAN Sync aktiv).
 
-
 ## Neustart von Resilio Sync
 
 Außerdem erkennt das eigene Tool Änderungen in der Config.
@@ -141,7 +143,7 @@ Zum Testen des Parsers wollte ich ein Node.js Test Framework verwenden.
 Die zwei Größten sind hier [Mocha](https://mochajs.org/) und [Jasmine](https://jasmine.github.io/), es gibt aber noch deutlich mehr.
 Ich habe mich für Jasmine entschieden, da auch Angular 2 dieses Framework verwendet und hier dieses Wissen so auch für Angular Projekte nutzen könnte.
 
-Grundlegend werden die Tests in <name>spec.js Dateien abgelegt.
+Grundlegend werden die Tests in `<name>spec.js` Dateien abgelegt.
 Dort wird wird dann grob in dieser Struktur gearbeitet:
 
 Komponente X macht Y
@@ -166,7 +168,6 @@ Travis-CI ist für das Testen von Projekten gedacht und für OpenSource Projekte
 
 Um Travis-CI zu konfigurieren, wird eine `.travis.yml` Datei in das Root Verzeichnis des GitHub Repos gelegt und das Projekt bei [Travis-CI aktiviert](https://travis-ci.org).
 
-
 ```yaml
 language: node_js
 node_js:
@@ -189,12 +190,12 @@ Dabei steht `node` für die aktuellste Version von Node.js, was zum Zeitpunkt de
 Damit führt Travis aktuell für `8`, `8.2` und `node` exakt das gleiche aus.
 Mich wundert, warum hier keine automatische Optimierung passiert und Gleichheit erkannt wird.
 
-Zusätzlich habe ich mit
+Zusätzlich habe ich den E-Mail 'Spam' deaktiviert:
+
 ```yaml
 notifications:
   email: false
 ```
-  den E-Mail 'Spam' deaktiviert.
 
 ## Quellcode
 

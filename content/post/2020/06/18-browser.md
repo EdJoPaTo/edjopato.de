@@ -37,6 +37,7 @@ Damit bleibt meine History erhalten aber ich hoffe Tracker etwas mehr los zu wer
 Das wars schon für Safari unter iOS / iPadOS.
 
 # Suchmaschine
+
 Als Suchmaschine verwende ich überall seit Jahren DuckDuckGo.
 Vielleicht ist Google besser und ich weiß es nur nicht, vielleicht habe ich mich auch an DuckDuckGo gewöhnt, auf jeden Fall finde ich meistens was ich suche.
 
@@ -59,6 +60,7 @@ Ich kann also zum Beispiel ganz entspannt auf Amazon nach etwas suchen, den Brow
 Ich lasse die meisten Firefox Einstellungen bei den default Einstellungen, welche ich aber ändere sind diese:
 
 ## Home
+
 - New Windows and Tabs → both → "Blank Page"
 
   Die Firefox eigene Home Seite hat für mich keinen Benefit und ist zudem noch grell weiß.
@@ -69,6 +71,7 @@ Ich lasse die meisten Firefox Einstellungen bei den default Einstellungen, welch
 - Default Search Engine → DuckDuckGo
 
 ## Privacy & Security
+
 - Enhanced Tracking Protection → Strict
 
   Damit hatte ich bisher keine Probleme, warum also nicht aktivieren.
@@ -78,13 +81,13 @@ Ich lasse die meisten Firefox Einstellungen bei den default Einstellungen, welch
 - Logins and Passwords → Ask to save logins and passwords for websites → deaktivieren
 
 - History → kommt drauf an:
-	-	Wenn die Erweiterung Temporary Containers nicht verwendet wird:
-		-	Firefox will "Never remember history"
-	-	Wenn die Erweiterung Temporary Containers verwendet wird:
-		-	Firefox will "Use custom settings for history"
-		-	Always use private browsing mode → deaktiviert lassen
-		-	Clear history when Firefox closes
-		-	Settings… → alles aktivieren
+  - Wenn die Erweiterung Temporary Containers nicht verwendet wird:
+    - Firefox will "Never remember history"
+  - Wenn die Erweiterung Temporary Containers verwendet wird:
+    - Firefox will "Use custom settings for history"
+    - Always use private browsing mode → deaktiviert lassen
+    - Clear history when Firefox closes
+    - Settings… → alles aktivieren
 
 # Lesezeichen / Bookmarks
 

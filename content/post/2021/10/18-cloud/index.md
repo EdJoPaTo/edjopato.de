@@ -97,6 +97,7 @@ Ich habe meinen Schlüssel und kann die Daten allen geben, die sie nicht haben w
 Mir ist da als Tool [Cryptomator](https://cryptomator.org/) bekannt, nutze es selbst aber nicht (mir reichen Git und Syncthing).
 
 Aus meiner Sicht werden hier zwei wesentliche Aspekte für mich sichtbar, worauf ich achten möchte:
+
 - Die eigene Lösung sollte komplett öffentlich dokumentierbar sein.
 - Der jeweilige Anbieter sollte egal sein, man sollte diesen austauschen können.
 
@@ -117,6 +118,7 @@ Und genauso sehe ich das auch für andere Cloud Dinge:
 Solange ich das jeweilige, gewünschte Ziel auch lokal ausführen kann, kann ich mir die Cloud aussuchen und kette mich nicht an einer bestimmten Cloud fest.
 So kann man alles lokal testen und ausprobieren und wenn die jeweilige Cloud doof wird, wechselt man.
 Ein paar Beispiele, warum eine Cloud doof werden könnte:
+
 - Preissteigerungen (Walled Garden können teuer werden)
 - Rechtsgrundlagen ändern sich (EU kippt Privacy Shield)
 - Die Betreiberfirma wird gekauft (GitHub gehört jetzt Microsoft)
@@ -126,6 +128,7 @@ Ein paar Beispiele, warum eine Cloud doof werden könnte:
 
 Wenn ich jetzt an den Anfang denke, ist Google Drive böse?
 Dann kann ich die Fragen stellen.
+
 - Was will ich überhaupt?
 - Muss es wirklich eine Cloud sein?
 - Kann ich guten Gewissens allen erzählen, wie genau ich das mache (oder kommen dabei meine Daten abhanden)?

@@ -27,10 +27,12 @@ Die Installation verläuft recht simpel, Namen festlegen, WLAN Daten eingeben un
 
 Als zusätzliche Schritte, liegt aber am Fernseher, habe ich noch den Force HDMI Output aktiviert, damit Kodi immer HDMI nutzt, auch wenn kein Fernseher am gegenüberliegenden Ende erkannt wird.
 Dazu muss in `/boot/` oder wenn man die SD-Karte in den Computer steckt, einem der beiden "Laufwerke" die `config.txt` der Eintrag `hdmi_force_hotplug` auskommentiert werden und dann so aussehen:
-```
+
+```plaintext
 # uncomment if hdmi display is not detected and composite is being output
 hdmi_force_hotplug=1
 ```
+
 Als Folge dessen muss noch in den Systemeinstellungen → Ausgabe die Auflösung manuell auf die des Fernsehers (vermutlich 1920x1080) eingestellt werden, damit nicht automatisch etwas sehr Kleines gewählt wird.
 
 # Livestreams erhalten
@@ -54,9 +56,11 @@ Tipp: über diesen Weg kann man auch Livestreams in VLC schauen, in dem man dies
 # Livestreams mit dem Raspberry Pi abspielen
 
 Der erste Gedanke war eine `*.strm` Datei auf den Raspberry zu legen, die nur den Link zum Stream enthält, wie im folgenden Beispiel der (aktuelle) "Das Erste" Stream:
-```
+
+```plaintext
 https://daserstehdde-lh.akamaihd.net/i/daserstehd_de@629196/master.m3u8
 ```
+
 Funktioniert, aber man muss immer die jeweilige Datei aus dem Ordner öffnen, in die man die Dateien gelegt hat.
 
 Der verbesserte Ansatz ist über das Kodi Add-on [IPTV Simple Client](https://kodi.wiki/view/Add-on:IPTV_Simple_Client).

@@ -22,6 +22,7 @@ Hier also ein Überblick über meine aktuellen Browser Erweiterungen im Firefox.
 <!--more-->
 
 **Edit 22:34**:
+
 - Privacy Badger entfernt
 - LocalCDN zu Decentraleyes hinzugefügt
 - Links zu Chrome, Edge und Opera hinzugefügt
@@ -97,6 +98,7 @@ Persönlich nutze ich Decentraleyes, weil diese Erweiterung in den Arch Linux Re
 Für eine brauchbare Aussage müsste ich jedoch beide Varianten vergleichen, was ich bisher nicht getan habe.
 
 Decentraleyes
+
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
 - [addons.opera.com](https://addons.opera.com/extensions/details/decentraleyes/)
 - [chrome.google.com](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
@@ -104,6 +106,7 @@ Decentraleyes
 - [Sourcecode](https://git.synz.io/Synzvato/decentraleyes)
 
 LocalCDN
+
 - [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/)
 - ~~addons.opera.com~~
 - ~~chrome.google.com~~

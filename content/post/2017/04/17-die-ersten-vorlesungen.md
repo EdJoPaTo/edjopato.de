@@ -81,7 +81,6 @@ Dieser erzählte uns vom Konzept von Kubernetes und dem Einsatz dessen in seiner
 
 ![Lastverteilung über die Woche bei PhraseApp](/assets/2017/04/last-phraseapp.png)
 
-
 Bild Quelle: Tobias Schwab, PhraseApp; Farben angepasst, sprechender gemacht
 
 Spannend war dabei, das er einen groben Einblick zu Kubernetes geben konnte und uns vor allem beispielhaft die laufende Services für PhraseApp, gesteuert mit Kubernetes, gezeigt hat und man so sehen konnte, was Kubernetes produktiv leistet.

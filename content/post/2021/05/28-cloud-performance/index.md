@@ -27,6 +27,7 @@ Also [ein Video](https://media.ccc.de/v/34c3-8710-relativitatstheorie_fur_blutig
 Gewählt wurde hier die 576p WebM Variante, damit FFmpeg auch wirklich zu h264 transcodieren muss.
 
 Die verwendeten Server sind in grob 3 Gruppen aufgeteilt:
+
 - Die ersten 3 Server sind mit dedizierten Kernen (Netcup "Root Server", Hetzner "dedicated vCPU")
 - Danach folgen 3 Server sind mit virtualisierten, also geteilten Kernen (Netcup "vServer", Hetzner "default")
 - Gefolgt von Raspberry Pis

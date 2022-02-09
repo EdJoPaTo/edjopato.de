@@ -39,6 +39,7 @@ alias ffmpegVideo='nice ffmpeg -v error -stats'
 Dabei ist Gif im Sinne von "Video ohne Ton" gemeint, wird hier aber für zum Beispiel mp4 genutzt.
 
 Diese kann man in seine `.bashrc` hinzufügen und dann wie folgt benutzen:
+
 ```bash
 ffmpegGif -i "video.mp4" "out.mp4"
 ffmpegSound -i "video.mp4" "out.mp3"

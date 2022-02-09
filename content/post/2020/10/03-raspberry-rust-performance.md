@@ -50,6 +50,7 @@ rustup override set 1.46.0
 ```
 
 Release Build:
+
 ```sh
 cargo build
 cargo clean && cargo build --release
@@ -57,6 +58,7 @@ cargo clean && cargo build --release
 ```
 
 Dev Build:
+
 ```sh
 cargo build
 touch src/main.rs && cargo build
@@ -67,7 +69,8 @@ Angaben zu der CPU ist immer mittels `lscpu` ermittelt.
 Ausnahme ist das MacBook.
 
 Verwendet wurden folgende Versionen:
-```
+
+```plaintext
 $ rustc --version
 rustc 1.46.0 (04488afe3 2020-08-24)
 $ cargo --version

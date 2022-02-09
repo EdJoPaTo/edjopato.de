@@ -35,15 +35,18 @@ Mit der höheren Entwicklungsgeschwindigkeit entstehen allerdings auch Nachteile
 So ist die Doku teilweise veraltet und man muss sich etwas mehr herein fuchsen, um an sein Ziel zu kommen.
 
 Ein weiterer Vorteil ist die deutlich höhere Geschwindigkeit der Erstellung:
-```
+
+```plaintext
 Jekyll: 2,63s user 0,18s system 99% cpu 2,813 total
 hugo: 0,21s user 0,03s system 235% cpu 0,102 total
 ```
+
 Dies kommt beim einmaligen Erstellen zwar nicht großartig zum Tragen, ist jedoch beim Erstellen und editieren von Posts deutlich bemerkbar.
 Ein LiveReload System ist integriert, der Browser lädt automatisch neu, was zusätzlich entspannteres voran kommen ermöglicht.
 Auch bietet die Option `--navigateToChanged` den Vorteil, mit den Browser automatisch zum aktuell editierten Post zu springen.
 
 Einige Grenzen bietet Hugo für mich jedoch dennoch:
+
 - Die CLI bietet kein Autocomplete für ZSH und für Bash scheint diese auf Arch nicht zu funktionieren.
   Da ich jedoch auch mal eben per `hugo <command> --help` nachschauen kann, stört mich dies nicht so stark.
 - Man kann keine Templates für beispielsweise bestimmte Tags erstellen (oder ich hab es in der Doku nicht gefunden).

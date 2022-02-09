@@ -39,6 +39,7 @@ In anderen Sprachen fühlt sich das Semikolon ein wenig wie ein Füllwort "ähm"
 Menschen benutzen es, aber es macht den Satz nicht aussagekräftiger.
 In Rust wird der Wert "nach außen" gegeben, wenn eine Zeile nicht mit einem `;` endet.
 Gut erklären kann man das vermutlich mit dem `if` oder `match` (eher bekannt als `switch` `case` in anderen Sprachen), welche dadurch interessant einsetzbar sind.
+
 ```rust
 let result = if string.is_empty() {
   "default value"
@@ -61,7 +62,6 @@ fn main() {
   };
   …
 }
-
 ```
 
 Und hier die vergleichbare Nutzung in TypeScript.
@@ -84,12 +84,14 @@ function numberString(number: number): string {
   }
 }
 ```
+
 Man könnte auch eine Variable anlegen und diese aus dem Switch Case heraus setzen, immutable Variablen haben aber auch ihren Charme.
 In Rust muss man mutable (= veränderliche) Variablen zusätzlich kennzeichnen und der Compiler warnt bei nicht genutzter mutable Markierung, also einen Schritt besser als `const`/`let` in JavaScript und TypeScript.
 Generell helfen der Compiler und Clippy (quasi ein Linter) bei vielen Problemen und "dummen" Herangehensweisen.
 Häufig gibt es auch gleich einen Vorschlag, wie man das Problem lösen kann.
 
 Das `match` ist auch nett für die Fehlerbehandlung:
+
 ```rust
 match some_function() {
   Ok(result) => println!("result contains the successful return value: {}", result),

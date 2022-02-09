@@ -36,6 +36,7 @@ Im Grunde genommen handelt es sich dabei eher um eine Service Komposition aus me
 Bild Quelle: Fraunhofer IAO, 2012
 
 Für unser BPaaS Angebot hat unsere Professorin uns 3 Stakeholder vorgeschlagen:
+
 - Der **Prozessnutzer** ist der Endkunde des Systems.
   Er möchte vorhandene Business Prozesse nutzen und wie üblich bei Cloud Diensten nur noch das zahlen, was er wirklich verwendet.
   Zum Beispiel muss er dann nicht mehr das ganze Jahr teure Rechner im Haus haben, nur um am Jahresende eine Abrechnung durchführen zu können.

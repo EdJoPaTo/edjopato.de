@@ -18,6 +18,7 @@ Dabei ging es um das Vertragsrecht, Datensicherheit, Datenschutz und zum Schluss
 Zusätzlich sei gesagt, man sollte sich nicht auf die Informationen in diesem Blog Post verlassen, ich bin kein IT Rechtsspezialist, ich bin Informatikstudent der einen Vortrag zu dem Thema in einer Vorlesung (\*hust\* [TTI]({{< relref "/categories/tti" >}})) gehört hat.
 
 # Vertragsrecht
+
 Begonnen wurde der Vortrag mit dem Vertragsrecht.
 Die 3 Vertragsformen Mietvertrag, Dienstvertrag und Werkvertrag wurden kurz erläutert:
 Ein **Mietvertrag** stellt die simpelste Form eines Vertrages dar.
@@ -40,6 +41,7 @@ In diesem wird dem Kunden ein Ziel versprochen, das erfüllt werden muss, wie be
 Vertragsformen aus dem Vortrag von Dr. Hans M. Wulf in der Vorlesung
 
 ## Wichtige Vertragsinhalte
+
 - Vertragsgegenstand (SaaS, PaaS, IaaS)
 - Leistungsbeschreibung (Verfügbarkeit, Services vgl. Vertragsformen)
 - Change Management
@@ -88,7 +90,6 @@ In der **Verfügbarkeitskontrolle** soll gegen zufälliger Verlust oder Zerstör
 Mit dem letzten Gebot, dem **Trennungsgebot** soll abgesichert werden, das getrennte Datensätze auch getrennt verarbeitet werden können.
 (Komischerweise gehen Aufträge mit höherer Bezahlung trotzdem häufig schneller…)
 
-
 # Checkliste zum Cloud-Computing
 
 Und zum Schluss haben wir eine Checkliste bekommen und darüber diskutiert, wie die aktuelle Lage von den Cloud Providern aussieht.
@@ -96,14 +97,17 @@ Und zum Schluss haben wir eine Checkliste bekommen und darüber diskutiert, wie 
 Folgende Checkliste aus dem Vortrag von Dr. Hans M. Wulf in der Vorlesung:
 
 ## Vertragsrecht
+
 - Festlegung der richtigen Vertragsform für die Leistungspflichten des Providers
 - Vereinbarung hoher Verfügbarkeit und Service Levels
 - Deutsches Recht anwendbar, auf rechtskonforme Haftungsreduzierung achten
 
 ## Datensicherheit
+
 - Einhaltung von 8 Geboten der Datensicherheit durch Provider
 
 ## Datenschutz
+
 - Schriftlichen Vertrag zur Auftragsdatenverarbeitung mit Provider nach § 11 BDSG bzw. Art. 28 DSGVO schließen
 - Zwingend Standort der Server innerhalb von EU zusichern lassen
 - Bestenfalls Provider auswählen mit Hauptsitz innerhalb Deutschlands, da Sicherheitsniveau hier am höchsten

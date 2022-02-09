@@ -123,7 +123,7 @@ Und nein "Ich hab da was gesehen, vielleicht wär das cool" ist keine Aussage da
 Das ist nur Werbung, die zu funktioniert haben scheint.
 
 > Mülle nicht in den Daten anderer Leute.
-
+>
 > Öffentliche Daten nützen, private Daten schützen.
 
 Die beiden Grundsätze haben aus meiner Sicht nicht so viel Einfluss auf die Wahl einer Cloud, die ich für meinen Anwendungsfall brauche.

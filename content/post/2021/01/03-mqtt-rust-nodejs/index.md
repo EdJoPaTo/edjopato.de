@@ -48,7 +48,6 @@ Allerdings war die Node.js Variante, grade im Vergleich mit dem ersten Versuch d
 Der Raspberry hat 512MB RAM, da sind 35MB RAM eines Prozesses nicht allzu schlimm.
 Und die CPU war auch nie ansatzweise belastet.
 
-
 # Home Schedule
 
 Das zweite Tool, welches quasi die Steuerzentrale der meisten MQTT angebundenen Geräte hier darstellt und Interaktionen ausführt, kam als nächstes an die Reihe.

@@ -18,6 +18,7 @@ Unter anderem wurden uns dafür Fragen gestellt, die von jedem Teammitglied bean
 Damit jedes Teammitglied die Antworten sehen und lesen kann, wurden diese an ein Whiteboard gehängt.
 
 Solche Fragen waren beispielsweise:
+
 - Wann warst du das letzte Mal produktiv? Was hast Du getan? Was war passiert?
 - Was von dem was Du entwickelt hast, hatte den meisten Wert? Warum?
 - Wann war Deine Zusammenarbeit mit dem Team am besten?

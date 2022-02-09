@@ -38,7 +38,6 @@ Das SVG ist 44 kB groß.
 Als 800x600 PNG gespeichert benötigt es 176 kB (1300x1000 PNG benötigt 313 kB).
 Und man wird im SVG nie Pixel erkennen können.
 
-
 ## Von Rasterbild zu SVG
 
 Wenn mir ein Logo als Rasterbild wie PNG/ JPG oder ähnliches vorliegt, dann nutze ich das [Inkscape](https://inkscape.org) `Path -> Trace Bitmap…` Feature.

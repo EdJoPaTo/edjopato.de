@@ -19,6 +19,7 @@ Bisher habe ich das immer mit GParted (Partition Tool, zum Löschen und sicherst
 Früher habe ich auch noch UNetBootin verwendet.
 
 # GParted
+
 GParted ist ein Partition Tool unter Linux und funktioniert, wie Partition Tools nun mal funktionieren.
 
 ![GParted Screenshot](/assets/2017/08/gparted.png)
@@ -28,6 +29,7 @@ Jedoch hat GParted (wie alle Programme die als Super User laufen müssen) ein Pr
 Das kann man zwar für die aktuelle Session umgehen (`xhost +local:`), ist aber nicht wirklich schön.
 
 # `dd`
+
 `dd` ist, wie bereits erwähnt, ein Command Line Tool.
 Ich habe mir einen `dd` Command zusammen gestellt und benutze immer genau diesen (`sudo dd bs=512k status=progress if=path-of-image-file.img of=/dev/sdb`).
 Das funktioniert dann, ohne das ich mir großartig weitere Gedanken machen muss.
@@ -35,6 +37,7 @@ Ein Problem ist jedoch, das ältere Versionen von `dd` den Parameter `status=pro
 Außerdem muss bei älteren Versionen von `dd` mit einem folgenden `sudo sync` sichergestellt werden, das alle Daten wirklich auf den Datenträger geschrieben wurden und nicht noch im Write Cache stecken, bevor man den Datenträger entfernt.
 
 # UNetBootin
+
 Als Alternative dazu gibt es noch UNetBootin.
 
 ![UNetBootin Screenshot](/assets/2017/08/unetbootin.jpg)

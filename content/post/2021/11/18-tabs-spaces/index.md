@@ -113,7 +113,7 @@ Schaut man sich beispielsweise HTML mit den Browser Developer Tools an, ist dies
 
 # Fazit
 
-Wen interessiert es, dass das cheese.svg auf der [Einstiegsseite ](/) nun Tabs oder Leerzeichen verwendet?
+Wen interessiert es, dass das cheese.svg auf der [Einstiegsseite](/) nun Tabs oder Leerzeichen verwendet?
 Es sieht genauso aus und weiterhin lesbar für Menschen, die in den SVG Quellcode schauen.
 Und spart mit einfachen Mitteln Datenmengen, die zwar im Einzelnen vernachlässigbar sind, sich aber aufsummieren.
 

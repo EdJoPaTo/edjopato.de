@@ -24,7 +24,6 @@ Kurz gesucht, ob es ein kleines Script für Linux (auf dem ich hauptsächlich ar
 Mit dem Befehl `jhead -ft *.jpg` lässt sich das Exif Datum auf die FileTime schreiben.
 Diese Bilder dann importiert, landen an der richtigen Stelle im Photo Stream.
 
-
 # Mein Import-Vorgang
 
 - Bilder auf meinem Linux System in einem Ordner sammeln

@@ -128,7 +128,6 @@ Trotzdem verwenden sehr viele Menschen noch dieses Mischmasch an Aufgaben.
 Im Zeitalter von Schreibmaschinen kann ich das ja verstehen, da ging das nicht wirklich anders, aber jetzt haben wir so viele bessere und effizientere Möglichkeiten.
 Wir sollten sie nutzen.
 
-
 # Rebound Effekt
 
 > Was einfacher wird, wird mehr benutzt.

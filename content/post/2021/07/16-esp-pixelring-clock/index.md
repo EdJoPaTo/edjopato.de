@@ -52,6 +52,7 @@ Ein Tag kann in vier 6 Stunden Blöcke aufgeteilt werden.
 Eine normale Uhr macht das ähnlich, nur wird hier in zwei 12 Stunden Blöcke geteilt.
 
 Dies zu berechnen ist dank Modulo einfach:
+
 ```js
 minuteOfDay = (hour * 60) + minute;
 hue = minuteOfDay % 360;

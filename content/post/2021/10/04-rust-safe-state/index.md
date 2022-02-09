@@ -107,6 +107,7 @@ enum Mode {
 ```
 
 Schon mal besser, allerdings resultiert das dann in solchem Code, in dem wir TypeScript erklären, was bestimmt stimmen wird:
+
 ```typescript
 if (lift.mode === 'delivery') {
   // Tell TypeScript targetFloor is not undefined (with the !)
@@ -119,6 +120,7 @@ Man kann auch in allen Fällen prüfen, ob die Variable wirklich definiert ist.
 Das sorgt dann für einen weiteren Check, der zusätzlich Performance frisst.
 
 Die aus meiner Sicht elegante Variante, die man in Rust bauen kann, sieht so aus:
+
 ```rust
 enum Lift {
   Delivery(u8),

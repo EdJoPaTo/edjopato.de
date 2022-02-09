@@ -20,6 +20,7 @@ Um solch ein Tool auszuführen, gibt es mehrere Wege.
 # NPM Script
 
 Der vermutlich bekannteste Weg sind die Skripte in der `package.json`.
+
 ```json
 {
   "scripts": {
@@ -63,7 +64,8 @@ Das andere Problem ist der Zustand des Projektes.
 Wenn man auf [GitHub](https://github.com/npm/npx) schaut, dann scheint es nicht allzu häufig Updates zu geben.
 Wenn ein Tool stabil ist, ist das doch auch gar nicht nötig?
 Stimmt, aber `git clone` mal das Projekt und führe `$ npm audit` aus:
-```
+
+```plaintext
 found 89 vulnerabilities (41 low, 25 moderate, 23 high)
 ```
 
@@ -78,6 +80,7 @@ Wenn man ein NPM package wie ava installiert, dann wird dies in `node_modules/av
 In der `package.json` von ava ist eine Binary `ava` definiert: `"bin": {"ava": "cli.js"}`.
 Jetzt könnte man natürlich alle packages durchsuchen, ob jeweils Binaries definiert sind.
 Muss man aber gar nicht, `npm` tut dies schon beim Installieren und linkt alle in `node_modules/.bin`.
+
 ```bash
 $ ls -l
 ava -> ../ava/cli.js
@@ -127,10 +130,10 @@ Als Ersatz habe ich mir in der `.bashrc` (`.zshrc`, …) eine Funktion dafür ge
 
 ```bash
 function npx() {
-	echo edjopato fixed npx
-	seek=$1
-	shift 1
-	eval "./node_modules/.bin/$seek $@"
+  echo edjopato fixed npx
+  seek=$1
+  shift 1
+  eval "./node_modules/.bin/$seek $@"
 }
 ```
 

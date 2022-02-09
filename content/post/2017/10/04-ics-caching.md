@@ -23,9 +23,10 @@ Wie lange es also dauert, bis die Endgeräte den aktualisierten Kalender anzeige
 
 Um die jeweiligen Dienste bewerten zu können, habe ich jeweils die abgerufenen Kalender Dateien und den jeweiligen User Agent betrachtet.
 
-```
+```plaintext
 141.22.70.173 - - [28/Sep/2017:13:37:38 +0000] "GET /tg/<id>.ics HTTP/2.0" 200 15400 "-" "iOS/11.0 (15A372) dataaccessd/1.0"
 ```
+
 In diesem Eintrag aus dem `access.log` ist erkennbar, das der Aufruf von einer HAW IP erfolgt ist.
 Außerdem ist die Zeit und die genaue Kalender Datei erkennbar.
 `200` ist der HTTP Code für Success und `15400` die Größe der Antwort.

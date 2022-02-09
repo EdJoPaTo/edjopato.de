@@ -93,6 +93,7 @@ Ein hoch auf freie Software mit freien Formaten, die man leicht in andere Tools 
 ![NewsFlash auf dem PinePhone](pinephone-newsflash.jpg)
 
 # Social Media
+
 Was Social Media angeht, werden mich sicherlich viele für komisch halten.
 Ich benutze tatsächlich nur Mastodon.
 Dinge wie Twitter, YouTube und Co verwende ich komplett ohne Accounts.

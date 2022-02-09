@@ -4,7 +4,7 @@ date: {{ .Date }}
 draft: true
 resources:
   - name: cover
-    src: blackopsbridge.jpg
+    src: cover.jpg
     title: Set me
     params:
       sourceName: Set me

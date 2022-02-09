@@ -8,4 +8,5 @@ rsync -acv --compress --omit-dir-times --delete-delay --delay-updates \
 	public/ www.edjopato.de:/var/www/edjopato.de/ \
 	| grep -v '/page/' \
 	| grep -v '^tags/' \
-	| grep -v '^categories/'
+	| grep -v '^categories/' \
+	| grep -v '/$'

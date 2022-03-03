@@ -1,5 +1,6 @@
 {{ define "main" }}
 <main class="list">
+<div class="content">
 <ul>
 {{- range .Paginator.Pages }}
 	<li>
@@ -8,6 +9,7 @@
 	</li>
 {{ end -}}
 </ul>
-</main>
+</div>
 {{ template "_internal/pagination.html" . }}
+</main>
 {{ end }}

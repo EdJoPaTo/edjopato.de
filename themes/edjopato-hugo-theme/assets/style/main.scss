@@ -9,16 +9,13 @@ html, body {
 body {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	min-height: 100vh;
 
 	color: black;
 	@media (prefers-color-scheme: dark) {
 		color: whitesmoke;
 	}
-}
-
-main {
-	flex: 1;
 }
 
 @import "a";

@@ -4,9 +4,9 @@ https://mcdn.daserste.de/daserste/de/master.m3u8
 #EXTINF:-1,ZDF
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
 #EXTINF:-1,NDR-HH
-https://ndrfs-lh.akamaihd.net/i/ndrfs_hh@430231/master.m3u8
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8
 #EXTINF:-1,NDR-NDS
-https://ndrfs-lh.akamaihd.net/i/ndrfs_nds@430233/master.m3u8
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8
 #EXTINF:-1,WDR
 https://mcdn.wdr.de/wdr/wdrfs/de/master.m3u8
 #EXTINF:-1,3sat

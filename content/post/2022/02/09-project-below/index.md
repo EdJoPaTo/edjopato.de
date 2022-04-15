@@ -53,7 +53,7 @@ npmBelow install
 So kann ich ganz unterschiedliche Arten von Projekten realisieren, indem ich die passenden Optionen für diese nutze:
 
 ```bash
-alias gitBelow='project-below --folder=.git git'
+alias gitBelow='project-below --directory=.git git'
 gitBelow fetch
 
 alias cargoBelow='project-below --file=Cargo.toml cargo'

@@ -1,10 +1,6 @@
 ---
 title: Das Kalenderbot Backend zu Rust migrieren
 date: 2020-09-11T22:53:00+02:00
-resources:
-  - name: cover
-    title: Rhododendron im Regen
-    src: wl-rain-rhododendron.jpg
 categories:
   - open-source
 tags:

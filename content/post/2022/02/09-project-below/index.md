@@ -1,10 +1,6 @@
 ---
 title: Eigenes CLI Tool - project-below
 date: 2022-02-09T02:00:00+01:00
-resources:
-  - name: cover
-    src: teddy.jpg
-    title: Ein weggeworfener Teddy im Baum
 categories:
   - open-source
 tags:

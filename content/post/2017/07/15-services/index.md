@@ -1,10 +1,6 @@
 ---
 title: Die Services
 date: 2017-07-15T02:10:00+02:00
-resources:
-  - name: cover
-    title: Luhepark Winsen
-    src: luhepark2.jpg
 categories:
   - tti
 tags:

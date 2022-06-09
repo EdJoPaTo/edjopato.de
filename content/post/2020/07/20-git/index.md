@@ -1,10 +1,6 @@
 ---
 title: Wie machst du eigentlich - Git
 date: 2020-07-20T19:30:00+02:00
-resources:
-  - name: cover
-    title: Ilmenau im Regen
-    src: lg-ilmenau-im-regen.jpg
 categories:
   - how-do-i
 tags:

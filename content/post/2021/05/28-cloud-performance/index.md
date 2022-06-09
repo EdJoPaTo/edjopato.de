@@ -1,10 +1,6 @@
 ---
 title: Vergleich einiger Netcup und Hetzner Cloud Server
 date: 2021-05-28T17:55:00+02:00
-resources:
-  - name: cover
-    src: water.jpg
-    title: Elbwasser
 tags:
   - linux
   - macos

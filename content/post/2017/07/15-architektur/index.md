@@ -1,10 +1,6 @@
 ---
 title: Die finale Architektur
 date: 2017-07-15T01:30:00+02:00
-resources:
-  - name: cover
-    title: Luhepark Winsen
-    src: luhepark1.jpg
 categories:
   - tti
 tags:

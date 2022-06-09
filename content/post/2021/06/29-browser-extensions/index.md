@@ -1,10 +1,6 @@
 ---
 title: Browser Erweiterungen
 date: 2021-06-29T18:42:00+02:00
-resources:
-  - name: cover
-    src: hh-skyline.jpg
-    title: Hamburger Skyline aus Sicht einer Elbfähre
 categories:
   - how-do-i
   - open-source

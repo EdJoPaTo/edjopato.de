@@ -1,10 +1,6 @@
 ---
 title: Rain Brainz - Eigene Bilder simpel präsentieren
 date: 2021-12-31T15:40:00+01:00
-resources:
-  - name: cover
-    src: gate.jpg
-    title: Winterliches Tor ins nirgendwo
 categories:
   - open-source
 tags:

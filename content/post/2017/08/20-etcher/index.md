@@ -1,10 +1,6 @@
 ---
 title: Etcher - Ein Image Flash Tool
 date: 2017-08-20T12:50:00+02:00
-resources:
-  - name: cover
-    title: Metronom Strecke zwischen Winsen und Harburg
-    src: metronom.jpg
 categories:
   - open-source
 tags:

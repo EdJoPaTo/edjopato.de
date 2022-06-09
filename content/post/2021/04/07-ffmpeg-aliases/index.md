@@ -1,10 +1,6 @@
 ---
 title: Mal eben Videos und Sound bearbeiten
 date: 2021-04-07T21:28:00+02:00
-resources:
-  - name: cover
-    title: Hamburger Hafenkräne
-    src: hh-cranes.jpg
 categories:
   - open-source
 tags:

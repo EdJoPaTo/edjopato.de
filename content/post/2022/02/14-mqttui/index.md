@@ -1,10 +1,6 @@
 ---
 title: Eigenes Terminal UI für MQTT - mqttui
 date: 2022-02-14T22:31:00+01:00
-resources:
-  - name: cover
-    src: racer.jpg
-    title: Keks-Karren
 categories:
   - open-source
 tags:

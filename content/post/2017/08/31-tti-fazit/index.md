@@ -1,10 +1,6 @@
 ---
 title: TTI Fazit
 date: 2017-07-31T23:58:00+02:00
-resources:
-  - name: cover
-    title: Winsen, Nachts im Regen
-    src: nightwetstreet.jpg
 categories:
   - tti
 tags:

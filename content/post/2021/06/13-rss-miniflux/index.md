@@ -1,10 +1,6 @@
 ---
 title: RSS lesen synchronisieren mit Miniflux
 date: 2021-06-13T18:16:00+02:00
-resources:
-  - name: cover
-    src: wl-rain-steps.jpg
-    title: Steinstufen nach dem Regen
 categories:
   - open-source
 tags:

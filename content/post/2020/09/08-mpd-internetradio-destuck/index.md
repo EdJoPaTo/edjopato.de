@@ -1,10 +1,6 @@
 ---
 title: Das stecken bleibende Internetradio entrosten
 date: 2020-09-08T23:50:00+02:00
-resources:
-  - name: cover
-    title: Volle Luhe im Regen
-    src: wl-luhe-rain.jpg
 categories:
   - open-source
 tags:

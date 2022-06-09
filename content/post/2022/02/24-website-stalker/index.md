@@ -1,10 +1,6 @@
 ---
 title: Eigenes Tool - Website Stalker
 date: 2022-02-24T16:16:00+01:00
-resources:
-  - name: cover
-    src: binnenalster.jpg
-    title: Binnenalster
 categories:
   - open-source
 tags:

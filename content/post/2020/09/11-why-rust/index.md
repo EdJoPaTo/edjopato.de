@@ -1,10 +1,6 @@
 ---
 title: Was macht Rust für mich spannend?
 date: 2020-09-11T22:50:00+02:00
-resources:
-  - name: cover
-    title: Rasensprenger im Garten
-    src: wl-lawn-sprinkler.jpg
 categories:
   - open-source
 tags:

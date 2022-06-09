@@ -1,10 +1,6 @@
 ---
 title: Strömekraft - Power Delivery in Netzteilen und portablen USB Akkus
 date: 2021-06-20T19:14:00+02:00
-resources:
-  - name: cover
-    src: sunrise.jpg
-    title: Sonnenaufgang
 tags:
   - battery
   - power-delivery

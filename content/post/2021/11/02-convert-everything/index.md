@@ -1,10 +1,6 @@
 ---
 title: Von alles nach alles konvertieren
 date: 2021-11-02T17:28:00+01:00
-resources:
-  - name: cover
-    src: skyline.jpg
-    title: Abendlicher Himmel
 categories:
   - open-source
 tags:

@@ -1,10 +1,6 @@
 ---
 title: Audio Input mittels Pipewire auf den Kopfhörern ausgeben
 date: 2022-03-15T14:47:00+01:00
-resources:
-  - name: cover
-    src: web.jpg
-    title: Stacheldraht eines Zauns zu einem Herz gebogen
 categories:
   - open-source
 tags:

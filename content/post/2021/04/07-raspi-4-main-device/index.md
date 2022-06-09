@@ -1,10 +1,6 @@
 ---
 title: Raspberry Pi 4 als Hauptgerät
 date: 2021-04-07T22:23:00+02:00
-resources:
-  - name: cover
-    title: Zweiter Schneeschauer bei einem Aprilspaziergang
-    src: april-weather.jpg
 categories:
   - open-source
 tags:

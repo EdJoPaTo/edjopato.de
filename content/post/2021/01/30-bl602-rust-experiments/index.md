@@ -3,8 +3,8 @@ title: Erste BL602 Experimente mit Rust
 date: 2021-01-30T18:56:00+01:00
 resources:
   - name: cover
-    title: Nächtlicher Schnee
-    src: snow-rail-tracks.jpg
+    title: PineNut am PinePhone
+    src: pinephone-pinenut.jpg
 categories:
   - open-source
 tags:

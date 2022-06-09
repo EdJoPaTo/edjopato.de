@@ -1,10 +1,6 @@
 ---
 title: Schnelle Suche in und nach Dateien in *nix Systemen
 date: 2021-04-07T20:30:00+02:00
-resources:
-  - name: cover
-    title: Kekse in Werkzeugformen
-    src: cookie-tools.jpg
 categories:
   - open-source
 tags:

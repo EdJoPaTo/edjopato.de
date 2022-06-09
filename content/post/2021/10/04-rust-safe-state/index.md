@@ -1,10 +1,6 @@
 ---
 title: Rust hilft dabei, nur valide Zustände abzubilden
 date: 2021-10-04T15:20:00+02:00
-resources:
-  - name: cover
-    src: sky-mud.jpg
-    title: Himmel, Schlamm und Stroh
 categories:
   - open-source
 tags:

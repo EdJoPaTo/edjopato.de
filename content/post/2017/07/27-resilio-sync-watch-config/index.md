@@ -1,10 +1,6 @@
 ---
 title: Das "Resilio Sync Watch Config" Tool
 date: 2017-07-30T17:27:00+02:00
-resources:
-  - name: cover
-    title: Brücke bei Fahrenholz über die Ilmenau
-    src: fahrenholz.jpg
 categories:
   - open-source
 tags:

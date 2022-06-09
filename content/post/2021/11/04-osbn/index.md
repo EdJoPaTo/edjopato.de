@@ -1,10 +1,6 @@
 ---
 title: Hallo an das Open-Source-Blog-Netzwerk
 date: 2021-11-04T19:37:00+01:00
-resources:
-  - name: cover
-    src: autumn-luhe-bridge.jpg
-    title: Herbstliche Luhebrücke mit Hochwasser
 categories:
   - open-source
 ---

@@ -1,10 +1,6 @@
 ---
 title: Monitorzustand am Energieverbrauch erkennen
 date: 2022-05-04T20:50:00+02:00
-resources:
-  - name: cover
-    src: chess.jpg
-    title: Schachblume
 tags:
   - environment
   - monitor

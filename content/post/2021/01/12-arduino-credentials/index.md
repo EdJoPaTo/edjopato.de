@@ -1,10 +1,6 @@
 ---
 title: Arduino/PlatformIO WLAN Zugangsdaten ablegen
 date: 2021-01-12T10:20:00+01:00
-resources:
-  - name: cover
-    title: Seltener Schnee
-    src: snowy-logs.jpg
 categories:
   - open-source
 tags:

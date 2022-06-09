@@ -1,10 +1,6 @@
 ---
 title: Webcam Blur und Backgrounds - Eine riesige, dezentrale Energieverschwendung
 date: 2021-10-07T19:25:00+02:00
-resources:
-  - name: cover
-    src: harvester.jpg
-    title: Ein ziemlich großes Schaf macht Mäh!
 categories:
   - open-source
 tags:

@@ -1,10 +1,6 @@
 ---
 title: Die Infrastruktur
 date: 2017-07-15T21:30:00+02:00
-resources:
-  - name: cover
-    title: Luhepark Winsen
-    src: luhepark3.jpg
 categories:
 - tti
 tags:

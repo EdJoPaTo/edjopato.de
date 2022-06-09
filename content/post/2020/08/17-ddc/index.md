@@ -1,10 +1,6 @@
 ---
 title: Monitor Einstellungen per Commandline
 date: 2020-08-17T18:20:00+02:00
-resources:
-  - name: cover
-    title: Kopfsteinpflaster nach dem nächtlichen Regen
-    src: wl-kopfsteinpflaster.jpg
 tags:
   - command-line
   - linux

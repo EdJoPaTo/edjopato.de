@@ -1,10 +1,6 @@
 ---
 title: Die eigene Zsh Konfiguration
 date: 2020-09-16T18:00:00+02:00
-resources:
-  - name: cover
-    title: Nasse Fußabdrücke
-    src: wl-rain-feet.jpg
 categories:
   - open-source
 tags:

@@ -1,10 +1,6 @@
 ---
 title: Caching von abonnierten ICS Kalendern
 date: 2017-10-04T19:54:00+02:00
-resources:
-  - name: cover
-    title: Maschsee Hannover
-    src: maschsee.jpg
 categories:
   - open-source
 tags:

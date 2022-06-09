@@ -2,10 +2,6 @@
 title: Von Jekyll zu Hugo
 subtitle: Statische Seitengenerierung für Blogs
 date: 2017-07-26T00:42:00+02:00
-resources:
-  - name: cover
-    title: Hamburger Stadtpark
-    src: stadtpark.jpg
 categories:
   - open-source
 tags:

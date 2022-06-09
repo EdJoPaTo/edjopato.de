@@ -1,10 +1,6 @@
 ---
 title: Raspberry Pi IPTV
 date: 2018-02-05T16:30:00+01:00
-resources:
-  - name: cover
-    title: HAW Hamburg Brücke zwischen BT5 und BT7
-    src: haw-bridge-snow.jpg
 categories:
   - open-source
 tags:

@@ -1,10 +1,6 @@
 ---
 title: Vortrag zum IT-Recht
 date: 2017-07-27T03:22:00+02:00
-resources:
-  - name: cover
-    title: Luhe am Morgen
-    src: luhe.jpg
 categories:
   - tti
 tags:

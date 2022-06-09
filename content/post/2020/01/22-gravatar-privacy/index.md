@@ -1,10 +1,6 @@
 ---
 title: Gravatar Privacy
 date: 2020-01-22T16:15:00+01:00
-resources:
-  - name: cover
-    title: Fahrzeuge für Spielkinder und Minderjährige auf dem 36c3
-    src: 36c3cars.jpg
 categories:
   - open-source
 tags:

@@ -1,10 +1,6 @@
 ---
 title: Die Gnome 42 Console spart Strom
 date: 2022-03-31T23:37:00+02:00
-resources:
-  - name: cover
-    src: logs.jpg
-    title: Eingeschneite Baumstämme
 categories:
   - open-source
 tags:

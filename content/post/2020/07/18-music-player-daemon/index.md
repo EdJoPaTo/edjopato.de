@@ -1,10 +1,6 @@
 ---
 title: Einfach nur Musik hören
 date: 2020-07-18T15:50:00+02:00
-resources:
-  - name: cover
-    title: Apfelbaum bei Nacht
-    src: wl-nightly-appletree.jpg
 categories:
   - open-source
 tags:

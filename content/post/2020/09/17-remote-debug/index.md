@@ -1,10 +1,6 @@
 ---
 title: Commands auf einem entfernten Gerät ausführen
 date: 2020-09-17T14:37:00+02:00
-resources:
-  - name: cover
-    title: Umleitung um einen Pfahl
-    src: wl-night-loop.jpg
 categories:
   - open-source
 tags:

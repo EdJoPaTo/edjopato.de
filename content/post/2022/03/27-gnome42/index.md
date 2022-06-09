@@ -1,10 +1,6 @@
 ---
 title: Meine Anpassungen und Erfahrungen mit Gnome 42
 date: 2022-03-27T13:49:00+02:00
-resources:
-  - name: cover
-    src: wire.jpg
-    title: Stacheldrahtzaun umgebogen zu einem Herz
 categories:
   - open-source
 tags:

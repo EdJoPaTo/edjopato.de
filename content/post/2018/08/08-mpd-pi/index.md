@@ -1,10 +1,6 @@
 ---
 title: Der Musik spielende Raspberry Pi
 date: 2018-08-08T23:40:00+02:00
-resources:
-  - name: cover
-    title: Hamburger Landungsbrücken
-    src: hh-landingbridges.jpg
 categories:
   - open-source
 tags:

@@ -1,10 +1,6 @@
 ---
 title: Performance unterschiedlicher Raspberry Pis
 date: 2020-10-03T04:05:00+02:00
-resources:
-  - name: cover
-    title: Oktober Blumen im Luhepark
-    src: flower-red.jpg
 categories:
   - open-source
 tags:

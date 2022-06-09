@@ -1,10 +1,6 @@
 ---
 title: Visionen von Projekten und Firmen
 date: 2021-04-13T13:22:00+02:00
-resources:
-  - name: cover
-    title: Strommast bei Nacht
-    src: powerpole.jpg
 categories:
   - open-source
 tags:

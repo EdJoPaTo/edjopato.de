@@ -1,10 +1,6 @@
 ---
 title: PinePhone als RSS und Mastodon Reader
 date: 2021-04-08T00:21:00+02:00
-resources:
-  - name: cover
-    title: Strommast und Wolken
-    src: landline.jpg
 categories:
   - open-source
 tags:

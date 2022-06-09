@@ -1,10 +1,6 @@
 ---
 title: Wie machst du eigentlich - Browser
 date: 2020-06-18T17:55:00+02:00
-resources:
-  - name: cover
-    title: Schlossteich in Winsen
-    src: wl-schlossteich.jpg
 categories:
   - how-do-i
   - open-source

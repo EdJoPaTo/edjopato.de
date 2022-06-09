@@ -1,10 +1,6 @@
 ---
 title: Node.js binaries ausführen ohne npx
 date: 2020-12-23T00:07:00+01:00
-resources:
-  - name: cover
-    title: Steinstufen im Regen
-    src: wl-rain-steps.jpg
 categories:
   - open-source
 tags:

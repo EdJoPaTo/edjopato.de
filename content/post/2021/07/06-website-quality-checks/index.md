@@ -1,10 +1,6 @@
 ---
 title: Qualitätschecks von Webseiten
 date: 2021-07-06T22:40:00+02:00
-resources:
-  - name: cover
-    src: bridge.jpg
-    title: Luhebrücke
 categories:
   - open-source
 tags:

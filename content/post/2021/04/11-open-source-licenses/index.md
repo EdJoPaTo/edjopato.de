@@ -1,10 +1,6 @@
 ---
 title: Open Source Lizenzen
 date: 2021-04-11T15:10:00+02:00
-resources:
-  - name: cover
-    title: Wolken
-    src: clouds.jpg
 categories:
   - open-source
 tags:

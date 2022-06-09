@@ -1,10 +1,6 @@
 ---
 title: Die Cloud - Computer fremder Menschen
 date: 2021-10-18T23:45:00+02:00
-resources:
-  - name: cover
-    src: alpacas.jpg
-    title: Alpakas vor einem Corona Testzentrum
 categories:
   - open-source
 tags:

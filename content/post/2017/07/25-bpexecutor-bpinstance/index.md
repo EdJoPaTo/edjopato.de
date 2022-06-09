@@ -1,10 +1,6 @@
 ---
 title: BPExecutor und BPInstance
 date: 2017-07-25T13:08:00+02:00
-resources:
-  - name: cover
-    title: Luhepark Winsen
-    src: luhepark4.jpg
 categories:
   - tti
 tags:

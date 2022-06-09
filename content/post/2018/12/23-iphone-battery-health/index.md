@@ -1,10 +1,6 @@
 ---
 title: iPhone Battery Health
 date: 2018-12-23T02:35:00+01:00
-resources:
-  - name: cover
-    title: Neue Hamburger U-Bahn Station Elbbrücken
-    src: hh-elbbruecken.jpg
 categories:
   - open-source
 tags:

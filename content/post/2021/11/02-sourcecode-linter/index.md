@@ -1,10 +1,6 @@
 ---
 title: Fusselfreier Quellcode - so nervig wie möglich bitte
 date: 2021-11-02T20:10:00+01:00
-resources:
-  - name: cover
-    src: luhe-bridge.jpg
-    title: Eine Luhebrücke
 categories:
   - open-source
 tags:

@@ -6,6 +6,7 @@ halt
 irgendwann
 irgendwie
 irgendwo
+man
 nämlich
 natürlich
 nun

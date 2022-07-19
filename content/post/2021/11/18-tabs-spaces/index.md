@@ -10,7 +10,6 @@ categories:
 tags:
   - deno
   - environment
-  - javascript
   - nodejs
   - typescript
   - website

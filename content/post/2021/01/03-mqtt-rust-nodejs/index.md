@@ -1,6 +1,10 @@
 ---
 title: MQTT Rust vs Node.js
 date: 2021-01-03T04:15:00+01:00
+resources:
+  - name: cover
+    src: adventwrath.jpg
+    title: Adventskranz auf einer LED Matrix
 categories:
   - open-source
 tags:

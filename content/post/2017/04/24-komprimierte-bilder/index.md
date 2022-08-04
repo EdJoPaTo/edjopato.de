@@ -30,7 +30,7 @@ Mit den meisten Logos oder schematischen Darstellungen funktioniert dies.
 Ein weiterer Vorteil ist, das die abstrakte Darstellung skalierbar ist.
 So ist es egal, ob ein Oval auf einem kleinen Handydisplay oder auf einem 4K Monitor dargestellt wird, da das SVG zur Laufzeit auf die entsprechenden Pixel gerendert wird.
 
-![Waves and Circles](/assets/2017/03/waves-and-circles.svg)
+![Waves and Circles](/post/2017/03/30-neue-website/waves-and-circles.svg)
 
 "Waves and Circles" Quelle: [FreeVector](https://www.freevector.com/waves-and-circles)
 

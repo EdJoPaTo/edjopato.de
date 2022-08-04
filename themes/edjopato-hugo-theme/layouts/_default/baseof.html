@@ -31,15 +31,6 @@
 {{ range .AlternativeOutputFormats -}}
 {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 {{ end -}}
-{{- if .Params.background -}}
-<style>
-@media screen and (min-width: 1000px) {
-	header.has-background {
-		background-image: {{ .Params.background.style | safeCSS }};
-	}
-}
-</style>
-{{ end -}}
 {{- $images := .Resources.ByType "image" -}}
 {{- $cover := $images.GetMatch "cover" -}}
 {{- with $cover -}}

@@ -1,12 +1,13 @@
 ---
 title: 'Website überarbeitet: Jetzt mit Jekyll und einem Blog'
 date: 2017-03-30T14:32:00+02:00
-background:
-  name: Waves and Circles
-  source:
-    name: FreeVector
-    url: //www.freevector.com/waves-and-circles
-  style: radial-gradient(rgba(0,0,0,0.6) 30%, rgba(0,0,0,0.1)), url(/assets/2017/03/waves-and-circles.svg)
+resources:
+  - name: cover
+    title: Waves and Circles
+    src: waves-and-circles.svg
+    params:
+      sourceName: FreeVector
+      sourceUrl: //www.freevector.com/waves-and-circles
 categories:
   - open-source
 tags:

@@ -15,7 +15,7 @@ Möglicherweise kann dann bereits bestehende Software integriert werden, wenn si
 
 Dazu hat unsere Professorin uns einen Vorschlag über die Requirements gemacht.
 
-![Stakeholder](/assets/2017/03/stakeholder.svg)
+![Stakeholder](/post/2017/03/30-tti/stakeholder.svg)
 
 Bild Quelle: Ulrike Steffens
 

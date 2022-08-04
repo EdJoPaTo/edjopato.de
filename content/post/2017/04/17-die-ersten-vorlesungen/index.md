@@ -30,7 +30,7 @@ Dabei begann es mit der Definition des Cloud Computings und dessen gewünschte E
 Außerdem ging es um die Geschichte des Cloud Computings, wie es sich aus Verlagerung rechen-aufwendiger Aufgaben auf Mainframe Computer über grundlegende Virtualisierung zu Cloud Diensten entwickelte.
 Mittlerweile ist es eines der Ziele, das Cloud Computing ähnlich wie Strom oder Wasser immer Verfügbar ist und nach Bedarf verwendet, sowie abgerechnet werden kann.
 
-![Cloud](/assets/2017/03/cloud.svg)
+![Cloud](/post/2017/03/30-tti/cloud.svg)
 
 Bild Quelle: Ulrike Steffens
 

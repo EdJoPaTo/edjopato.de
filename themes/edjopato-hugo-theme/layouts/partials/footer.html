@@ -1,13 +1,4 @@
 <footer>
-{{- with .Params.background }}
-	<p>
-		Titelbild
-		{{ with .name }}"{{ . }}"{{ end }}
-		{{- with .source }}
-		von <a href="{{ .url }}">{{ .name }}</a>
-		{{- end }}
-	</p>
-{{- end }}
 {{- $images := .Resources.ByType "image" -}}
 {{- $cover := $images.GetMatch "cover" -}}
 {{- with $cover }}

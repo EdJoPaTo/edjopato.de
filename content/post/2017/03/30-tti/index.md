@@ -14,7 +14,7 @@ Als Prüfungsleistung ist ein ePortfolio, so wie dieser Blog, vorgesehen.
 Hier wird es also noch häufiger um TTI gehen.
 Ziel des Praktikums ist es, einen Cloud Dienst zu erstellen.
 
-![Cloud](/assets/2017/03/cloud.svg)
+![Cloud](cloud.svg)
 
 Bild Quelle: Ulrike Steffens
 
@@ -47,7 +47,7 @@ Für unser BPaaS Angebot hat unsere Professorin uns 3 Stakeholder vorgeschlagen:
   Sie wollen ebenfalls die Nutzung analysieren können um ihre Dienste zu optimieren.
   Außerdem wollen sie für den genutzten Service bezahlt werden.
 
-![Stakeholder](/assets/2017/03/stakeholder.svg)
+![Stakeholder](stakeholder.svg)
 
 Bild Quelle: Ulrike Steffens
 

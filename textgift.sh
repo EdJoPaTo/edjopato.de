@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-rg --type md --word-regexp --file textgift.txt --sort path --stats
+rg --type md --word-regexp --ignore-case --file textgift.txt --sort path --stats

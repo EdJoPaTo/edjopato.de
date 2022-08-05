@@ -4,7 +4,7 @@ header {
 	overflow-x: auto;
 	padding: 8vh 1rem;
 	text-align: center;
-	text-shadow: 1px 1px 10px #000;
+	text-shadow: 0 0 10px #000;
 
 	&.has-background {
 		@media screen and (min-width: 1000px) {

@@ -11,17 +11,17 @@ download="output/${i}_download"
 
 mkdir -p output
 nice convert "$file" -strip -resize '450x300^' -gravity Center -extent '450x300' "$thumb.avif" &
-nice convert "$file" -strip -resize '450x300^' -gravity Center -extent '450x300' -sampling-factor 4:2:0 -quality 85 "$thumb.jpg" &
-nice convert "$file" -strip -resize '450x300^' -gravity Center -extent '450x300' -sampling-factor 4:2:0 -quality 85 "$thumb.jxl" &
-nice convert "$file" -strip -resize '450x300^' -gravity Center -extent '450x300' -sampling-factor 4:2:0 -quality 85 "$thumb.webp" &
+nice convert "$file" -strip -resize '450x300^' -gravity Center -extent '450x300' -quality 85 -sampling-factor 4:2:0 "$thumb.jpg" &
+nice convert "$file" -strip -resize '450x300^' -gravity Center -extent '450x300' -quality 85 "$thumb.jxl" &
+nice convert "$file" -strip -resize '450x300^' -gravity Center -extent '450x300' -quality 85 "$thumb.webp" &
 nice convert "$file" -strip -resize '2000x1500>' "$big.avif" &
-nice convert "$file" -strip -resize '2000x1500>' -sampling-factor 4:2:0 -quality 85 "$big.jpg" &
-nice convert "$file" -strip -resize '2000x1500>' -sampling-factor 4:2:0 -quality 85 "$big.jxl" &
-nice convert "$file" -strip -resize '2000x1500>' -sampling-factor 4:2:0 -quality 85 "$big.webp" &
+nice convert "$file" -strip -resize '2000x1500>' -quality 85 -sampling-factor 4:2:0 "$big.jpg" &
+nice convert "$file" -strip -resize '2000x1500>' -quality 85 "$big.jxl" &
+nice convert "$file" -strip -resize '2000x1500>' -quality 85 "$big.webp" &
 nice convert "$file" -strip "$download.avif" &
-nice convert "$file" -strip -sampling-factor 4:2:0 -quality 95 "$download.jpg" &
-nice convert "$file" -strip -sampling-factor 4:2:0 -quality 95 "$download.jxl" &
-nice convert "$file" -strip -sampling-factor 4:2:0 -quality 95 "$download.webp" &
+nice convert "$file" -strip -quality 95 -sampling-factor 4:2:0 "$download.jpg" &
+nice convert "$file" -strip -quality 95 "$download.jxl" &
+nice convert "$file" -strip -quality 95 "$download.webp" &
 wait
 
 exa --no-time --no-user --no-permissions --long output/

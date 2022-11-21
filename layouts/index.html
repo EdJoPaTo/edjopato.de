@@ -1,6 +1,6 @@
 {{ define "headpart" }}
-{{ $style := resources.Get "style/index.css" | resources.ToCSS (dict "targetPath" "index.css" "outputStyle" "compressed" "enableSourceMap" true) -}}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ $style := resources.Get "style/index.css" | resources.ToCSS (dict "targetPath" "index.css" "outputStyle" "compressed" "enableSourceMap" true) | resources.Fingerprint "sha512" -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 {{ end }}
 
 {{ define "header" }}

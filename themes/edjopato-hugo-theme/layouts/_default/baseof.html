@@ -4,10 +4,10 @@
 <head>
 <meta charset="utf-8">
 <title>{{ .Title }}</title>
-{{ $updatebg := resources.Get "js/updatebg.js" | js.Build (dict "targetPath" "updatebg.js" "minify" true "sourceMap" "inline") -}}
-<script src="{{ $updatebg.RelPermalink }}"></script>
-{{ $style := resources.Get "style/main.scss" | resources.ToCSS (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) -}}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ $updatebg := resources.Get "js/updatebg.js" | js.Build (dict "targetPath" "updatebg.js" "minify" true "sourceMap" "inline") | resources.Fingerprint "sha512" -}}
+<script src="{{ $updatebg.RelPermalink }}" integrity="{{ $updatebg.Data.Integrity }}"></script>
+{{ $style := resources.Get "style/main.scss" | resources.ToCSS (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) | resources.Fingerprint "sha512" -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 {{ block "headpart" . }}{{ end -}}
 <meta http-equiv="x-ua-compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1">

@@ -42,7 +42,7 @@ Aus diesen UserConfigs werden dann vom Parser neue Kalender generiert.
 Und das, sobald sich eine UserConfig oder ein Veranstaltungsplan ändert.
 Der neue Kalender steht also innerhalb von wenigen Sekunden statt bis zu einer Stunde später.
 
-Mehr Infos zum Bot findest du auf der [Website des Kalenderbots](https://calendarbot.hawhh.de).
+Mehr Infos zum Bot findest du auf der [Website des Kalenderbots](https://hawhh.de/calendarbot/).
 Interesse am Quellcode des neuen Backends? Im Gegensatz zum alten Backend ist dieses nun betrachtungswürdig und auf [GitHub](https://github.com/HAWHHCalendarBot/backend) bereitgestellt.
 Noch ist das neue Backend nicht im Einsatz, zum neuen Semester wird dies aber passieren.
 

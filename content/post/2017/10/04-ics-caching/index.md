@@ -10,7 +10,7 @@ tags:
   - macos
   - telegram
 ---
-Der [HAWHHCalendarBot](https://calendarbot.hawhh.de) wird mittlerweile doch recht viel genutzt.
+Der [HAWHHCalendarBot](https://hawhh.de/calendarbot/) wird mittlerweile doch recht viel genutzt.
 Eine der häufigsten Kritiken ist das langsame Aktualisieren des Kalenders mit dem Google Kalender.
 Jetzt war ich mal neugierig und habe in die Server Logs geschaut, um zu vergleichen, wie lange die einzelnen Clients (iOS, Google, HAW Mailer, …) die Kalender cachen.
 Wie lange es also dauert, bis die Endgeräte den aktualisierten Kalender anzeigen können.

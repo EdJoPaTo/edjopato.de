@@ -23,10 +23,10 @@ params:
     url: https://creativecommons.org/licenses/by-nd/4.0/
 
 menu:
-  main:
-    - Name: "Blog"
-      Identifier: "blog"
-      URL: "/post/"
+  main: []
+    # - Name: "Blog"
+    #   Identifier: "blog"
+    #   URL: "/post/"
 
 server:
   headers:

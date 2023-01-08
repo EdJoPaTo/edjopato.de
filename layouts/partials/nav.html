@@ -1,5 +1,8 @@
 <nav>
-	<a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+	<a href="{{ "/" | relURL }}" class="avatar">
+		<img src="/cheese.svg" alt="Avatar" width="30" height="30">
+		{{ .Site.Title }}
+	</a>
 {{- range .Site.Menus.main }}
 	<a href="{{ .URL }}">{{ .Name }}</a>
 {{- end }}

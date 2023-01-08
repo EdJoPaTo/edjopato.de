@@ -1,10 +1,5 @@
-{{ define "headpart" }}
-{{ $style := resources.Get "style/index.css" | resources.ToCSS (dict "targetPath" "index.css" "outputStyle" "compressed" "enableSourceMap" true) | resources.Fingerprint "sha512" -}}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
-{{ end }}
-
 {{ define "header" }}
-<header>
+<header class="landingpage">
 	<h1>Hi!</h1>
 	<div>Ich bin Edgar!</div>
 	<img class="avatar" src="/cheese.svg" alt="Avatar" width="300" height="300">

@@ -6,7 +6,6 @@ metaDataFormat: "yaml"
 paginate: 12
 pygmentsCodeFences: true
 pygmentsUseClasses: true
-theme: edjopato-hugo-theme
 title: EdJoPaTo
 
 # Helpful when sending single pages to people

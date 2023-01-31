@@ -37,7 +37,13 @@ Dafür habe ich die folgenden [ImageMagick](https://imagemagick.org/) Auflösung
 
 # Auswahl der Qualität des jeweiligen Bildformats
 
-Je nach Dateiformat und Zweck des Bildes haben sich einige Argumente für ImageMagick als gut für Qualität und Größe erwiesen.
+Je nach Zweck des Bildes haben sich einige Argumente für ImageMagick als gut für Qualität und Größe erwiesen.
+
+Für die 4 Formate ([AVIF](https://en.wikipedia.org/wiki/AVIF), [JPEG](https://en.wikipedia.org/wiki/JPEG), [JPEG XL](https://en.wikipedia.org/wiki/JPEG_XL), [WebP](https://en.wikipedia.org/wiki/WebP)) habe ich versucht, nahezu die gleichen Parameter zu verwenden.
+Allerdings werden einige Parameter je nach Format unterschiedlich interpretiert, was zu unterschiedlichen Ergebnissen führt.
+Für den stumpfen Vergleich der Speichergrößen nehme ich erstmal die gleichen Parameter an.
+
+## Quality
 
 - `thumb`: `-quality 85`
 - `big`: `-quality 85`
@@ -60,13 +66,15 @@ AVIF scheint standardmäßig eine `-quality` von 50 zu verwenden.
 Für die meisten Bilder reicht hier auch 70 aus, teilweise lohnt sich aber eine Qualität von 85 schon.
 Bei einigen Bildern ist weiterhin ein JPEG mit 85 qualitativ besser als ein AVIF mit 85.
 
-Für die 4 Formate ([AVIF](https://en.wikipedia.org/wiki/AVIF), [JPEG](https://en.wikipedia.org/wiki/JPEG), [JPEG XL](https://en.wikipedia.org/wiki/JPEG_XL), [WebP](https://en.wikipedia.org/wiki/WebP)) habe ich versucht, nahezu die gleichen Parameter zu verwenden.
+## Subsampling
 
 Bei JPEG habe ich zusätzlich das [Argument `-sampling-factor`](https://imagemagick.org/script/command-line-options.php#sampling-factor) verwendet ([Chroma Subsampling](https://en.wikipedia.org/wiki/Chroma_subsampling), deutsch: [Farbunterabtastung](https://de.wikipedia.org/wiki/Farbunterabtastung)).
 Dabei wird sich die Farbwahrnehmung des menschlichen Auges zunutze gemacht, welches weniger Unterschiede in Farben als in Helligkeiten unterscheiden kann.
 Hierfür nutze ich `-sampling-factor 4:2:0`.
 Dies hat jedoch nur bei JPEG einen Effekt.
 (Wenn es einen Effekt bei JPEG XL zu haben scheint, dann nutzt dein ImageMagick vermutlich JPEG statt JPEG XL)
+
+## Weitere kleine Details zwischen den Formaten
 
 Ein weiterer Unterschied ist die Unterstützung der Farbräume.
 JPEG und WebP unterstützen nur 8-Bit Bilder, AVIF und JPEG XL unterstützen auch HDR und mehr als 8-Bit.
@@ -119,13 +127,31 @@ Wenn ich meine Bilder teile, sollen diese ja auch betrachtet werden können.
 - [JPEG-XL](https://caniuse.com/jpegxl) ist sofort raus und wird von keinem Browser unterstützt. Es sieht auch nicht danach aus, als würde es demnächst unterstützt werden.
 - [WebP](https://caniuse.com/webp) existiert schon etwas länger und wird damit überall gut unterstützt.
 
+# Qualitätsparameter der Formate
+
+Bei allen Formaten geht der `-quality` Parameter von 0-100, aber 80 ist nicht gleich 80.
+So sieht beispielsweise ein WebP mit 90 weniger scharf aus als ein JPEG mit 80.
+Wenn also 80 mit 80 verglichen wird, fehlt der Aspekt der Bildqualität komplett.
+
+Ein weiteres Problem ist die jeweilige Kompression des Formats.
+Bei vielen Bildern reicht beispielsweise eine AVIF Qualität von 75 um ähnlich gut wie ein JPEG mit 85 auszusehen.
+Allerdings gibts auch die Ausreißer, die mit AVIF 85 immer noch nicht so gut aussehen, wie ein JPEG mit 85.
+Die Entscheidung, welches `-quality` Level genutzt wird, ist also abhängig von den Bildern.
+Will ich für den großteil oder für alle Bilder gute Qualität haben?
+Reicht also 75 meistens oder gehe ich doch auf 85 bei allen Bildern?
+
 # Fazit
 
 WebP sieht am stärksten weichgezeichnet aus.
 Es resultiert zwar hier in den kleinsten Dateien, erreicht dies aber auf Kosten der Qualität.
+Wenn `-quality 95` benutzt wird, sehen die Bilder immer noch nicht so gut aus, sind aber größer als die JPEG mit 85.
+WebP lohnt sich für mich also weder für Qualität, noch für Speichergröße.
 
 AVIF ist vergleichbar mit JPEG in Größe und Qualität, tendenziell ein bisschen schlechter als JPEG in der Qualität.
 AVIF kann für die meisten Bilder aber auch mit niedrigerer `-quality` benutzt werden, ist nur für meinen Anwendungsfall nicht so gut.
+Im Vergleich zu WebP ist die Qualität aber besser bei leicht schlechterem Speicherverbrauch.,
+Ich würde also AVIF über WebP bevorzugen, sobald AVIF weiter verbreitet und unterstützt wird.
+Für meinen Anwendungsfall ist JPEG jedoch qualitativ besser bei gleichem Speicherverbrauch.
 
 JPEG XL ist, da es eh nicht unterstützt wird, eher nur der Vollständigkeit halber dabei.
 Die Konvertierung dauert am längsten, die Bilder werden am Größten, generell nicht das Format, welches mich weiter bringt.
@@ -134,8 +160,11 @@ Die anderen Formate neben JPEG (AVIF, WebP, JPEG-XL) haben alle auch noch den Na
 Im Idealfall kann der Browser bereits ein modernes Format wie AVIF, dann brauche ich nur für den Fall der Inkompatibilität ein anderes Format.
 JPEG wird wirklich überall mit allem unterstützt, ist also das ideale Format für diesen Fall.
 
-Für mich ist es also wenig sinnvoll, ein ähnlich großes Format zu verwenden, wenn JPEG auch noch besser unterstützt wird.
-Damit verliere ich zwar potenziell die HDR Bildqualität der iPhone 14 Pro Bilder, dafür wird es aber wirklich überall funktionieren und ist nicht signifikant größer.
+Da AVIF bei gleichem Speicherbedarf weniger gut aussieht, bevorzuge ich aktuell JPEG.
+Würde ich weniger qualitativ hochwertige Bilder haben wollen, würde ich vermutlich zu AVIF tendieren, wenn alle Clients diese unterstützen.
+
+Einziger Nachteil bisher für mich von JPEG: Ich verliere die HDR Bildqualität der iPhone 14 Pro Bilder.
+Aber dafür funktionieren die Bilder überall mit einer guten Qualität.
 
 HDR Randnotiz: Jeglicher iCloud Export, abgesehen von TIFF, scheint HDR auf 8-Bit Farbtiefe zu reduzieren.
 Exportiere ich meine knapp 200 Bilder als TIFF habe ich hinterher 18 GB.

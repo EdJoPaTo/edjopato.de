@@ -87,14 +87,14 @@ Entweder sind die Geräte in meinem Besitz oder zum Zeitpunkt des Testens für H
 | Netcup RS G? (2014) | KVM | 1 | 1 | 2493 MHz | 2m 15s | 3.17s |
 | Raspberry Pi 3 | Cortex-A53 | 4 | 4 | 1200 MHz | 2m 07s | 5.80s |
 | Raspberry Pi 4 | Cortex-A72 | 4 | 4 | 1500 MHz | 1m 09s | 3.20s |
-| Rock Pi 4B | Cortex-A53 | 2*3 | 6 | 1800 MHz | 1m 03s | 2.11s |
+| Rock Pi 4B | 2xCortex-A72 4xCortex-A53 | 2+4 | 6 | 1800 MHz | 1m 03s | 2.11s |
 | Netcup VPS G8 | KVM | 2 | 2 | 2400 MHz | 52s | 0.84s |
-| NUC5 | i3-5010U | 2 | 4 | 2000 GHz | 35s | 0.80s |
+| NUC5 | i3-5010U | 2 | 4 | 2000 MHz | 35s | 0.80s |
 | Zenbook UX-31A | i7-3517U | 2 | 4 | 3000 MHz | 28s | 0.61s |
 | Netcup RS G8 | KVM | 4 | 4 | 2095 MHz | 16s | 0.65s |
 | NUC7 | i7-7567 | 2 | 4 | 4000 MHz | 14s | 0.40s |
 | MacBook Pro 2018 | i7 | 4 | 8 | 2.7 GHz | 12s | 0.58s |
-| Random Uni Server | i9-9980XE | 2*18 | 36 | 4500 MHz | 7s | 0.75s |
+| Random Uni Server | i9-9980XE | 18 | 36 | 4500 MHz | 7s | 0.75s |
 
 # Fazit
 

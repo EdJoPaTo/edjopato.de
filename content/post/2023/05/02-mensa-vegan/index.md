@@ -1,14 +1,15 @@
 ---
 title: Mensa Gerichte - vegan oder vielleicht auch nicht?
 date: 2023-05-02T19:52:00+02:00
-category:
+categories:
   - open-source
 tags:
   - calendarbot
   - haw-hamburg
 ---
 Ich sitze (dank meines Kalenderbots für die Veranstaltungspläne der Hochschule) auf den Daten der Hamburger Studierendenwerk-Mensen Gerichte.
-Ich hab [Anfang 2020 auch schon mal geschaut]({{< relref "/post/2020/01/14-hawhh-mensa-mining/index.md" >}}), was so an Gerichten existierte.
+Seit September 2017 wird gesammelt, da kommt schon gut was zusammen.
+Ich habe [Anfang 2020 auch schon mal geschaut]({{< relref "/post/2020/01/14-hawhh-mensa-mining/index.md" >}}), was so an Gerichten existierte.
 Nun gab es ein paar mal "vegan oder auch nicht" Unstimmigkeiten, was mich dazu brachte, ein paar "kommt das hin" Abfragen laufen lassen.
 Zum Beispiel sollten als laktosefrei gekennzeichnete Gerichte kein "La" als Inhaltsstoff haben: Milch und Milcherzeugnisse (einschl. Laktose).
 Genau, sollten …
@@ -91,7 +92,7 @@ Da die Mensa Daten regelmäßig aktualisiert werden, war ich neugierig, ob das G
 Spannend daran: Es ist nicht als Vegan gelistet, sondern als vegetarisch.
 Nur der Name ist hier verwirrend, nicht die sonstigen Metadaten.
 Nicht das ich in der Lage wäre, das Ei aus der Reispfanne zu kratzen, um meine vegane Reispfanne zu genießen.
-(Ähnlich sinnvoll wie das regelmäßige Fleisch in den ansonsten vegetarischen / veganen Gerichten an der Nudelbar zum Selbstbedienen. Warum kann das nicht separat sein, dann könnte eins sich das dazu nehmen, statt allen vegetarisch essenden Menschen vor den Kopf zu stoßen.)
+(Ähnlich sinnvoll wie das regelmäßige Fleisch in den ansonsten vegetarischen / veganen Gerichten an der Nudelbar zum Selbstbedienen. Warum kann das nicht separat sein, dann könnte sich eins das dazu nehmen, statt allen vegetarisch essenden Menschen vor den Kopf zu stoßen.)
 
 Wie viele Gerichte gibts denn noch, die vegan im Namen haben, aber nicht als vegan gelistet sind? 2097. Gar nicht wenig.
 Allerdings gibts da teilweise auch Gerichte, die "oder" beinhalten.
@@ -138,7 +139,7 @@ Wär schön, wenn das auch bei anderen Mensen ankommen würde.
 
 # Wie habe ich das gemacht?
 
-Die Gerichte sind alle in diesem Git Repository: [github.com/HAWHHCalendarBot/mensa-data](https://github.com/HAWHHCalendarBot/mensa-data/>.
+Die Gerichte sind alle in diesem Git Repository: [github.com/HAWHHCalendarBot/mensa-data](https://github.com/HAWHHCalendarBot/mensa-data/).
 Diese Daten werden regelmäßig durch einen Scraper ([mensa-crawler](https://github.com/HAWHHCalendarBot/mensa-crawler/)) aktualisiert.
 
 In dem mensa-data Repository, welches ich mir lokal geklont habe, habe ich ein kleines Skript erstellt, welches (stumpf) alle Dateien einliest und mir in ein Array packt.

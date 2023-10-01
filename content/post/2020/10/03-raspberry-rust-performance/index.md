@@ -48,7 +48,7 @@ rustup override set 1.46.0
 
 Release Build:
 
-```sh
+```bash
 cargo build
 cargo clean && cargo build --release
 cargo clean && cargo build --release
@@ -56,7 +56,7 @@ cargo clean && cargo build --release
 
 Dev Build:
 
-```sh
+```bash
 cargo build
 touch src/main.rs && cargo build
 touch src/main.rs && cargo build

@@ -36,7 +36,7 @@ Für PlatformIO war das nicht ganz so leicht zu finden, da die Libraries normale
 Hier kann der Pfad `~/.platformio/lib/Credentials/credentials.h` genutzt werden.
 Ich persönlich habe einen Symlink erstellt:
 
-```sh
+```bash
 ln -srf ~/Arduino/libraries/Credentials ~/.platformio/lib
 ```
 

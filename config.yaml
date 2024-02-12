@@ -30,6 +30,10 @@ params:
     name: CC BY-ND 4.0
     url: https://creativecommons.org/licenses/by-nd/4.0/
 
+permalinks:
+  page:
+    post: /post/:year/:month/:day-:slugorfilename/
+
 server:
   headers:
     - for: /**

@@ -10,6 +10,7 @@ tags:
   - communication
   - heaven
 ---
+
 Ich bin schon einige Jahre im Himmel/Heaven Team des Chaos Communication Congress und dort gibt es zur Vor- und Nachbereitung der Kongresse online Meetings.
 Diese online Meetings verlaufen schon seit Jahren anders als die, an denen ich jetzt mit Corona häufiger teilnehme.
 Grade jetzt in der globalen Pandemie sind die online Meetings quasi aus dem Boden gekommen und das nicht immer in einer für mich zufrieden stellenden Variante.

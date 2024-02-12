@@ -4,8 +4,10 @@ date: 2021-11-04T19:37:00+01:00
 categories:
   - open-source
 ---
+
 Mein Blog ist nun Teil vom [Open-Source-Blog-Netzwerk](https://osbn.de).
 Wer oder was bin ich und wie entstehen meine Blogposts?
+
 <!--more-->
 
 Scheinbar habe ich im Laufe der Zeit an allen Ecken und Enden Erfahrungen gesammelt, die mich weiter gebracht haben.

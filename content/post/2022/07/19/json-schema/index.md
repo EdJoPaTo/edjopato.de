@@ -11,10 +11,12 @@ tags:
   - typescript
   - web
 ---
+
 Bei meinem Kalenderbot können zusätzliche Veranstaltungen, wie Tutorien, hinzugefügt werden.
 Das passiert über JSON Dateien in einem [öffentlichen Git Repository](https://github.com/HAWHHCalendarBot/AdditionalEvents), auf das alle Pull Requests stellen können.
 Das Download Tool holt sich dann regelmäßig die aktuellen JSON Dateien und pflegt diese mit in die Kalenderdateien vom Kalenderbot ein.
 Um sicherzustellen, dass diese Daten auch im richtigen Format vorliegen, habe ich JSON Schema verwendet.
+
 <!--more-->
 
 JSON Schema beschreibt das Format von JSON Dateien.

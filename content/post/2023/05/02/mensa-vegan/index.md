@@ -7,6 +7,7 @@ tags:
   - calendarbot
   - haw-hamburg
 ---
+
 Ich sitze (dank meines Kalenderbots für die Veranstaltungspläne der Hochschule) auf den Daten der Hamburger Studierendenwerk-Mensen Gerichte.
 Seit September 2017 wird gesammelt, da kommt schon gut was zusammen.
 Ich habe [Anfang 2020 auch schon mal geschaut]({{< relref "/post/2020/01/14/hawhh-mensa-mining" >}}), was so an Gerichten existierte.
@@ -15,6 +16,7 @@ Zum Beispiel sollten als laktosefrei gekennzeichnete Gerichte kein `La` als Inha
 Genau, sollten …
 
 <!--more-->
+
 Von einem Gericht kenne ich jeweils den Namen, Preise (Student, Angestellt, Gast), Mensa und Datum, Inhaltsstoffe (wie `La`) und Inhaltshinweisicons (vegan, vegetarisch, laktosefrei, Fisch, Rind, Schwein, Hühnchen).
 
 Tendenziell gehe ich davon aus, das ein Gericht, welches mit einem Laktosefrei-Icon beworben wird, auch kein `La` in der Liste der Inhaltsstoffe hat.

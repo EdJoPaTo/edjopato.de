@@ -13,6 +13,7 @@ Viele Firmen und Projekte haben einen Slogan, Leitbilder (= Mission Statements),
 Ich denke, dass solche kurz und knappen Aussagen Firmen und Projekten helfen, von Menschen verstanden zu werden.
 Daraus können dann Ideologien und langfristiges Verhalten abgeleitet werden und Entscheidungen getroffen werden, ob einem dieses Projekt zusagt oder eben nicht.
 Ohne derartige Aussagen halte ich das für ziemlich unmöglich.
+
 <!--more-->
 
 Im Folgenden will ich generell auf kurz und knappe Aussagen eingehen und fasse diese für mich als Visionen zusammen.

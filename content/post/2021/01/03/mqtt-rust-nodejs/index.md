@@ -14,12 +14,14 @@ tags:
   - smarthome
   - typescript
 ---
+
 In meinem Netzwerk laufen eine Vielzahl von "smarten" Geräten, die über MQTT angesteuert werden.
 So existiert beispielsweise ein Tool, welches LEDs an MQTT anbindet, als auch eines welches MQTT Nachrichten schlau empfängt und sendet um "smart" zu werden.
 Beides war bisher in Node.js entwickelt.
 
 Erstes lief seit über 3 Jahren nahezu unverändert, letzteres wird regelmäßig mal angefasst um neue Spielsachen oder neue Ideen einzubauen.
 Zwei tolle Spielzeuge um ein wenig mit Rust zu experimentieren.
+
 <!--more-->
 
 # Light Simple Pi Client

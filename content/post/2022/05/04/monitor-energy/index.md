@@ -6,11 +6,13 @@ tags:
   - monitor
   - smarthome
 ---
+
 Ich bastele immer mal wieder an meinem halbwegs smarten Home herum und hatte nun den Plan, wie ich sinnvoll erkennen kann, wann meine Monitore nicht genutzt werden.
 Die "Steckdosenleiste", in der Monitore und Computer stecken, beinhaltet 4 Shelly 2.5, welche sich über MQTT steuern lassen und den Stromfluss messen.
 Ich weiß also immer, ob ein Gerät gerade eingeschaltet ist und ob und wie viel Strom es gerade verbraucht.
 Damit sollte man doch automatisieren können, die Monitore abzuschalten, wenn sie nicht mehr benutzt werden.
 Bisher habe ich nur die Computer automatisch abgeschaltet.
+
 <!--more-->
 
 Die Computer sind einfach: Selbst wenn der Bildschirm gelockt ist, verbrauchen sie noch deutlich mehr Strom verglichen mit ihrem Aus-Zustand.

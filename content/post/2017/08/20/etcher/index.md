@@ -8,8 +8,10 @@ tags:
   - smarthome
   - usb
 ---
+
 Wer mit Images arbeitet, kennt das Problem: Irgendwie müssen die Images auf die SD-Karte für den Raspberry Pi oder den USB Stick, um den PC aufzusetzen.
 Dafür bietet sich Etcher an.
+
 <!--more-->
 
 Bisher habe ich das immer mit GParted (Partition Tool, zum Löschen und sicherstellen von nicht gemounteten bisherigen Partitionen auf dem Datenträger) und dem Command Line Tool `dd` gemacht.

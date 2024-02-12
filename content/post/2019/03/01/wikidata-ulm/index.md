@@ -13,9 +13,11 @@ tags:
 aliases:
   - /post/2019/02/28-wikidata-ulm/
 ---
+
 Am Wochenende war ich auf dem Wikidata Workshop in Ulm.
 Da ich mich woher nicht wirklich mit Wikimedia Dingen befasst habe, gab es so einiges Spannendes, Neues für mich.
 Und ich habe mit Wikidata ein kleines Telegram Spiel gebaut.
+
 <!--more-->
 
 Durch ein paar Pullrequests zum [Circuit Generator zum 35c3](https://github.com/bleeptrack/35c3-circuit-generator) kam ich mit Bleeptrack ins Gespräch, die mir von diesem [Workshop](https://de.wikipedia.org/wiki/Wikipedia:Wikidata-Workshop-Ulm-2019) erzählte.

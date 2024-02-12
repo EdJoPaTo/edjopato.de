@@ -8,9 +8,11 @@ tags:
   - rust
   - raspberry-pi
 ---
+
 Unter meinem Bett liegt [immer noch]({{< relref "/post/2018/08/08/mpd-pi" >}}) ein Raspberry Pi, der Internet Radio spielt.
 Und MPD bleibt immer noch stecken, wenn das Internet weg war.
 Mit einem kleinen Rust Programm habe ich mir Abhilfe geschaffen.
+
 <!--more-->
 
 # Das Problem

@@ -9,8 +9,10 @@ tags:
   - macos
   - raspberry-pi
 ---
+
 Wenn man mal eben etwas sucht… "Ich hab doch mal, wo war das noch?".
 Für genau diesen Fall gibt es schnelle Command Line Tools die mir schon manchmal "mal eben" geholfen haben.
+
 <!--more-->
 
 Hierfür benutze ich `fd` und `ripgrep`, welche ihrerseits jeweils `find` und `grep` neu gedacht und verbessert haben.

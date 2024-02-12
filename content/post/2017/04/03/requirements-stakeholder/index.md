@@ -33,17 +33,17 @@ Außerdem sind einige Punkte meiner Meinung nach nicht sehr klar formuliert:
   - "Prozesse customizen":
 
     Vermutlich will er nur Eingabewerte setzen? Den eigentlichen Prozess anpassen machen ja die Prozessanbieter.
-Mögliche Eingabewerte könnten auch aus extra Services kommen (Cloud Storage Import).
+    Mögliche Eingabewerte könnten auch aus extra Services kommen (Cloud Storage Import).
 
   - "Prozesse skalieren":
 
     Das BPaaS Angebot sollte selbstständig laufende Prozesse skalieren.
-Das sollte kein Requirement einer Aktion sein, die der Stakeholder tätigen will? Nur Eingangsdaten usw. bestimmen?
+    Das sollte kein Requirement einer Aktion sein, die der Stakeholder tätigen will? Nur Eingangsdaten usw. bestimmen?
 
 - monitoren:
 
   Was wollen die einzelnen Stakeholder wirklich wissen? Ihre Kosten/ Einnahmen.
-Und sonst?
+  Und sonst?
 
 # Grobe Idee
 
@@ -72,7 +72,7 @@ Außerdem will er bei einem Monitoring abfragen können, was gerade für ihn lä
 
 - Wie beschreibt ein Serviceanbieter einen Service? Was muss beschrieben werden? Was wären Inputs? Outputs? Wie stellt man sicher, das ein Service, der JSON zu CSV konvertiert auch nur hinter Services geschaltet werden kann, der JSON ausgibt?
 - Ein Business Process kann, so wie es im Bild aussieht, das unsere Professorin uns als Vorschlag gegeben hat, Kontrollblöcke wie möglicherweise if/else-Blöcke enthalten.
-Wie werden diese spezifiziert?
+  Wie werden diese spezifiziert?
 - Wie weit kann ein Prozessnutzer Prozesse anpassen? Nur bestehende Prozesse um In- und Outputs erweitern? (Beispiel: Cloud Storage als Input, Ausgabe Format konvertieren, drucken und verschicken)
 - Was beinhaltet das Monitoring
 

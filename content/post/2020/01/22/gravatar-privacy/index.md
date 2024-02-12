@@ -7,10 +7,12 @@ tags:
   - web
   - privacy
 ---
+
 Wie sorgt man dafür, dass bei allen Diensten der eigene Avatar angezeigt wird?
 Ganz einfach, ein Webdienst (Gravatar), der für die eigene E-Mail-Adresse ein Bild bereitstellt.
 So kann ein Dienst Gravatar fragen, ob zu einer E-Mail-Adresse ein Avatar existiert und diesen anzeigen.
 Das Ganze hat aber auch eine Kehrseite.
+
 <!--more-->
 
 Im Grunde ist der Use Case ganz simpel.

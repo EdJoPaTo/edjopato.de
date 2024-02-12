@@ -10,10 +10,12 @@ tags:
   - rust
   - typescript
 ---
+
 In letzter Zeit wollte ich etwas Erfahrungen mit Rust sammeln.
 Da der Kalenderbot relativ einfache, gut getrennte Komponenten mit klaren Interfaces hat, bietet sich dieser an.
 Und so habe ich das Backend des Kalenderbots zu Rust migriert.
 Der neue Downloader und Parser sind jeweils deutlich effizienter als ihre C# Vorgänger.
+
 <!--more-->
 
 # Bestehende Architektur

@@ -13,10 +13,12 @@ tags:
   - server
   - typescript
 ---
+
 Manchmal hat man den Bedarf, einen Befehl auf einem entfernen Gerät auszuführen.
 SSH der Freund und Helfer.
 Wenn ich jetzt zum Beispiel in einem Rust oder Node.js Projekt etwas testen will, sofür ich mehr Leistung brauche oder die bessere Netzwerk Anbindung, dann will ich dies auf dem Server ausführen und ausprobieren.
 Allerdings liegt mein Quellcode noch lokal, muss also erstmal rüberkopiert werden.
+
 <!--more-->
 
 Mit einer Kombination aus rsync und SSH lässt sich das ganze relativ einfach realisieren.

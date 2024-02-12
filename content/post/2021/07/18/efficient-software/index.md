@@ -11,6 +11,7 @@ tags:
   - typescript
   - web
 ---
+
 Ich entwickle und nutze Software.
 Diese ist teilweise schnell und effizient, teilweise aber auch langsam, verbraucht viele Ressourcen und macht Dinge, die ich gar nicht brauche.
 Wenn nur ich etwas nutze und es "etwas mehr" verbraucht, dann ist es den Aufwand, dies zu optimieren, nicht Wert.

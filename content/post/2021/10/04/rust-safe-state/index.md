@@ -7,6 +7,7 @@ tags:
   - rust
   - typescript
 ---
+
 In allen Programmiersprachen werden Konstrukte gebaut, um ein Ziel zu erreichen.
 Manche sind dabei besser oder schlechter lesbar und manche sind auch nur so mehr oder weniger korrekt.
 
@@ -29,7 +30,7 @@ Für die Option gibt es dann beispielsweise diese zwei Möglichkeiten: `None` un
 
 ```rust
 fn get_lamp_state() -> Option<bool> {
-  …
+  // …
 }
 ```
 
@@ -105,7 +106,7 @@ enum Mode {
 Schon mal besser, allerdings resultiert das dann in solchem Code, in dem wir TypeScript erklären, was bestimmt stimmen wird:
 
 ```typescript
-if (lift.mode === 'delivery') {
+if (lift.mode === "delivery") {
   // Tell TypeScript targetFloor is not undefined (with the !)
   // We are in the correct mode, it has to be defined
   const targetFloor = lift.targetFloor!;

@@ -14,12 +14,14 @@ tags:
   - typescript
   - website
 ---
+
 Wie wäre es mit einem Thema, das schon genug dazu beigetragen hat, dass sich Menschen in die Haare kriegen?
 Einrückung mit Tabs oder Leerzeichen?
 Wenn ich jetzt noch sage, meistens ist mir das egal, stifte ich vermutlich noch mehr Verwirrung.
 
 Beispielsweise bei Rust benutze ich `cargo fmt` und was auch immer da dann zur Einrückung benutzt wird, ist mir recht.
 Bei TypeScript/JavaScript sieht das schon wieder anders aus, allerdings nicht bei dem Quellcode den ich selbst schreibe.
+
 <!--more-->
 
 ![Tabs vs. Spaces auf dem 35c3](congress-tabs-spaces.jpg)

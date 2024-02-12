@@ -5,7 +5,7 @@ function updateBg() {
 	const minuteOfDay = (hour * 60) + minute;
 	const hue = minuteOfDay % 360;
 
-	document.documentElement.style.setProperty('--time-hue', hue);
+	document.documentElement.style.setProperty("--time-hue", hue);
 	console.log("update bg hue", hue, date);
 }
 setInterval(updateBg, 30000);

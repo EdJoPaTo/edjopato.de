@@ -8,6 +8,7 @@ tags:
   - web
   - website
 ---
+
 Der Blog wurde bisher mit [Jekyll](https://jekyllrb.com) erstellt, wie bereits in einem [früheren Blogpost]({{< relref "/post/2017/03/30/neue-website" >}}) beschrieben wurde.
 Dies bot die Vorteile von statischer Seitengenerierung, jedoch war die Nutzung mit Ruby in meinen Augen unschön.
 

@@ -13,9 +13,11 @@ tags:
   - photos
   - windows
 ---
+
 Ich habe meine Fotos früher aus dem iCloud Photo Stream in die Dropbox und später auf meinen NAS gepackt, da ich nur 5 GB iCloud Speicherplatz hatte und diesen nicht erweitern wollte.
 Mittlerweile habe ich diesen Schritt gemacht und wollte die alten Bilder wieder importieren.
 Jedoch waren diese dann an völlig falschen Zeitpunkten im Photo Stream, obwohl das Exif Datum stimmte.
+
 <!--more-->
 
 # Datum im Photo Stream korrekt importieren

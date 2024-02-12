@@ -7,9 +7,12 @@ tags:
   - iptv
   - raspberry-pi
 ---
+
 Seit vom vorläufigen DVB-T2 auf das "richtige" DVB-T2 umgestellt wurde, empfangen wir nur noch NDR.
 Im Folgenden beschreibe ich meinen Weg, öffentliche Fernsehsender mit dem Pi auf den Fernseher zu bringen.
+
 <!--more-->
+
 Das ganze soll dabei auch für nicht Informatiker benutzbar sein.
 Das ganze Einrichten mache aber ich ;)
 

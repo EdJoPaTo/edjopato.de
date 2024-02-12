@@ -9,6 +9,7 @@ tags:
   - linux
   - music
 ---
+
 Neben meinem im Alltag genutzen Linux steht ein Windows-PC, der immer mal zum Zocken verwendet wird.
 Die Kopfhörer stecken im Linux PC und ich will diese dort auch benutzen, zum Beispiel für die Audio-Kommunikation.
 Trotzdem will ich das Audio von Windows hören.

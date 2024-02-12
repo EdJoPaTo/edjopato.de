@@ -13,11 +13,13 @@ tags:
   - server
   - web
 ---
+
 Wenn man wissen will, was so auf fremden Webseiten passiert, gibt es häufig RSS-Feeds.
 Etliche Webseiten haben so etwas jedoch nicht oder man möchte Details wissen, die so nicht in RSS-Feeds stehen.
 Die einfache Lösung ist ein Cronjob mit `curl`, `sed` und `git commit`, diffs liegen dann in einem Git Repository.
 Das ist so halbwegs komfortabel und habe ich für mich in eine Executable gegossen, die das für mich in besser macht.
 Und dieses Tool will ich hier beschreiben.
+
 <!--more-->
 
 Angefangen hat es fast wie oben beschrieben.
@@ -37,10 +39,10 @@ So sieht eine relativ einfache Konfiguration aus:
 
 ```yaml
 sites:
-  - url: "https://edjopato.de/"
+  - url: https://edjopato.de/
     editors:
       - html_prettify
-  - url: "https://rain-brainz.de/"
+  - url: https://rain-brainz.de/
     editors:
       - css_select: img
       - html_prettify
@@ -64,10 +66,10 @@ Wenn man neue Webseiten hinzufügt und diese testen will, will man normalerweise
 Fügt man beispielsweise einen weiteren Punkt hinzu:
 
 ```yaml
-  - url: "https://wiki.gnome.org/Schedule"
-    editors:
-      - css_select: "#content"
-      - html_markdownify
+- url: https://wiki.gnome.org/Schedule
+  editors:
+    - css_select: "#content"
+    - html_markdownify
 ```
 
 Kann man diesen mit diesem einfacheren Befehl direkt testen: `website-stalker run gnome`.
@@ -81,7 +83,7 @@ Hier werden auch wieder CSS Selektoren benutzt um Items, Titel, Links und so wei
 Für Hetzner erstellt mein [öffentliches Konfigurations-Beispiel](https://github.com/EdJoPaTo/website-stalker-example) auch einen [Hetzner News Feed](https://raw.githubusercontent.com/EdJoPaTo/website-stalker-example/main/sites/com-hetzner-news.xml) mit folgendem Snippet:
 
 ```yaml
-- url: "https://www.hetzner.com/news/"
+- url: https://www.hetzner.com/news/
     editors:
       - rss:
           item_selector: .list-card li

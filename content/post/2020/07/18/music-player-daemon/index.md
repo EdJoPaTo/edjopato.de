@@ -12,6 +12,7 @@ tags:
 Wenn ich zum Beispiel am coden bin, will ich nebenbei Musik hören.
 Internet Radio oder Musik die hier auf der Platte liegt.
 Aber muss dafür wirklich ein "riesiges" VLC mit GUI und allem laufen, nur um Musik abzuspielen?
+
 <!--more-->
 
 Auf einem [Raspberry Pi an meiner Musikanlage habe ich bereits ein mpd im Einsatz]({{< relref "/post/2018/08/08/mpd-pi" >}}).

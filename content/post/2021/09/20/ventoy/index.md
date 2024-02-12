@@ -6,6 +6,7 @@ categories:
 tags:
   - usb
 ---
+
 Ventoy ist quasi ein Ersatz für das Beschreiben von USB-Sticks mit ISO Dateien [mittels Etcher und Co]({{< relref "/post/2017/08/20/etcher" >}}).
 Das benutze ich schon seit einer ganzen Weile, immer dann, wenn man mal mit einem ISO an einen Rechner will.
 

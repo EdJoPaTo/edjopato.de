@@ -13,11 +13,13 @@ tags:
   - microcontroller
   - smarthome
 ---
+
 Ich habe bei mir mittlerweile seit über einem Jahr einen LED-Pixelring als Uhr hängen.
 Am Anfang habe ich mir überlegt, wie ich diesen so nutzen kann, dass man auf einen Blick die Uhrzeit ablesen kann?
 Normale Uhren verwenden dafür zwei (oder drei) Zeiger.
 Sowas hat ein RGB LED Pixelring aber nicht.
 Nach ein bisschen basteln bin ich auf eine Idee gekommen, die mittlerweile in einigen meiner Projekte wiederzufinden ist.
+
 <!--more-->
 
 Der Pixelring selbst besteht aus 60 RGB-LEDs, genau genommen WS2812 oder auch Neopixel LEDs genannt.

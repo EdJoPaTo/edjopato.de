@@ -10,6 +10,7 @@ tags:
   - secrets
   - wlan
 ---
+
 Wenn man mit den ESP8266 oder ESP32 arbeitet, dann meistens, weil man das WLAN dieser Chips nutzen will.
 Allerdings will man seine WLAN Zugangsdaten eigentlich nicht im Quellcode stehen sehen, der mal in öffentlichen Git Repos landet.
 Auch nicht aus Versehen.

@@ -14,12 +14,14 @@ tags:
   - nodejs
   - rust
 ---
+
 Ich habe einen Haufen Projekte in vielen Git Repositorys.
 Da kommt es regelmäßig vor, dass ich Befehle in mehreren davon ausführen will.
 Zum Beispiel ein `git fetch` in allen Git Repos oder ein `cargo doc` in allen Rust Projekten, wenn eine neue Rust Version herauskam.
 Das habe ich bisher mit [`fd`](https://github.com/sharkdp/fd) / `find` und lustigen Bash Funktionen / Aliase realisiert.
 Aus meiner Sicht funktionierte aber nur so mäßig gut.
 Dafür habe ich jetzt ein kleines CLI Tool gebaut, welches auch mehr meiner Bedürfnisse abdeckt und auch noch deutlich schneller ist.
+
 <!--more-->
 
 ## Wie benutze ich es?

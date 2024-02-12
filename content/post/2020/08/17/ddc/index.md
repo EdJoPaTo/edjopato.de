@@ -6,10 +6,12 @@ tags:
   - linux
   - monitor
 ---
+
 Ich habe bei mir zwei Computer an einem Monitor angeschlossen.
 Wenn ich zwischen den beiden wechseln will, muss ich immer die Tasten am Monitor verwenden… Oder?
 
 Ich als fauler Mensch habe mir das automatisiert, sodass mein Monitor immer das Gerät anzeigt, was ich gern sehen würde.
+
 <!--more-->
 
 Der Trick hierbei nennt sich [DDC/CI (Display Data Channel Command Interface)](https://en.wikipedia.org/wiki/Display_Data_Channel).

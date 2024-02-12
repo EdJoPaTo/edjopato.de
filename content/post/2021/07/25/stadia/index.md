@@ -4,9 +4,11 @@ date: 2021-07-25T22:57:00+02:00
 tags:
   - gaming
 ---
+
 Meine Grafikkarte in meinem „Zocken“ PC hat sich vor einem Monat oder so verabschiedet.
 Grundlegend funktioniert sie noch, nur sobald man etwas Größeres startet, gibt es immer mehr visuelle Artefakte bis alles crasht.
 Da Hardware teuer ist und ich nicht allzu viel spiele, dachte ich mir, probiere ich mal das Spielstreaming aus.
+
 <!--more-->
 
 Die Grafikkarte ist eine GTX 680, hat also schon ein paar Tage gesehen.

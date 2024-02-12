@@ -13,10 +13,12 @@ tags:
   - smarthome
   - windows
 ---
+
 Ich benutze für meinen Haufen verteilter Mikrocontroller und Kleinstcomputer, der sich vielleicht Smart Home schimpfen könnte, MQTT.
 Warum und wie das bei mir läuft, wäre vermutlich einen eigenen Blogpost wert.
 Hier soll es jedoch um den Blick auf das, was im MQTT passiert, gehen.
 Und dafür habe ich eine Terminal UI Anwendung gebaut.
+
 <!--more-->
 
 ## Wie kam es dazu?

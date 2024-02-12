@@ -12,9 +12,11 @@ tags:
 aliases:
   - /post/2021/07/17-rclone/
 ---
+
 Wenn ich an Cloud Speicher großer Anbieter denke, dann denke ich tendenziell immer an "nervig" und "ge-cloud".
 Für meinen privaten Kram bin ich den Komfort von SSH und Tools wie `rsync` gewöhnt, die mit einfachen Commands Daten durch die Gegend schieben können.
 Nun kam ich durch die Arbeit an [Rclone](https://github.com/rclone/rclone) vorbei, welches die von Linux Commands wie `rsync` gewohnt simple Benutzung für proprietäre Cloud Dienste ermöglicht.
+
 <!--more-->
 
 Gefragt war für die Arbeit das automatische, regelmäßige Synchronisieren eines Ordners lokal mit einem Ordner in der Firmen OneDrive.

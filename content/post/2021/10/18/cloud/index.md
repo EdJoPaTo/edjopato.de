@@ -9,6 +9,7 @@ tags:
   - server
   - windows
 ---
+
 Aktuelle Themen in der Firma brachten mich zum Nachdenken, was Cloud für mich bedeutet und wie ich persönlich damit umgehen will.
 Es ist nicht das erste Mal, dass ich in diesem Blog von "ge-cloud" schreibe und Aussagen wie "Die Cloud sind nur die Computer fremder Menschen" sind mir nicht fremd.
 Ab wann ist eine Cloud "spooky" und bis wohin bin ich bereit diese zu akzeptieren?

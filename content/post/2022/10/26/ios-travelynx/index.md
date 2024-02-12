@@ -7,6 +7,7 @@ tags:
   - ios
   - smartphone
 ---
+
 Ich benutze seit einiger Zeit Travelynx, um meine Zugnutzung zu tracken und um im Fernverkehr auch schneller meiner Fahrgastrechte gebrauch zu machen.
 Problem an meiner Alltagsstrecke: Ich vergesse häufig, den genutzten Zug auszuwählen.
 

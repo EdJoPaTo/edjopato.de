@@ -7,8 +7,10 @@ tags:
   - raspberry-pi
   - server
 ---
+
 Heute gab es ein Netcup Sonderangebot mit einem neuen Server, dem "Game Invader".
 Geklickt und die Frage gestellt, wie schnell ist das Ding eigentlich im Verhältnis?
+
 <!--more-->
 
 Also hab ich mal ein paar Netcup / Hetzner Server herbeigezaubert, auf die ich Zugriff habe und mal [hyperfine](https://github.com/sharkdp/hyperfine) mit FFmpeg angeworfen.

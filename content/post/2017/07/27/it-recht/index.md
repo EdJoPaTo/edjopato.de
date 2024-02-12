@@ -7,9 +7,11 @@ tags:
   - haw-hamburg
   - privacy
 ---
+
 In der letzten TTI Vorlesung hat ein Fachanwalt für IT Recht einen Vortrag über "Rechtliche Aspekte des Cloud-Computing" gehalten.
 Die Punkte aus dem Vortrag, die mir am wichtigsten sind, will ich hier einmal aufführen.
 Dabei ging es um das Vertragsrecht, Datensicherheit, Datenschutz und zum Schluss einer Checkliste zum Cloud-Computing.
+
 <!--more-->
 
 Zusätzlich sei gesagt, man sollte sich nicht auf die Informationen in diesem Blog Post verlassen, ich bin kein IT Rechtsspezialist, ich bin Informatikstudent der einen Vortrag zu dem Thema in einer Vorlesung (\*hust\* [TTI]({{< relref "/categories/tti" >}})) gehört hat.
@@ -35,6 +37,7 @@ In diesem wird dem Kunden ein Ziel versprochen, das erfüllt werden muss, wie be
 | Bereitstellung von Rechenleistung | Dienstvertrag |
 | Überwachungs- und Betriebsleistungen | Dienstvertrag |
 | Installation, Implementierung, Anpassung von Software | Werkvertrag |
+
 Vertragsformen aus dem Vortrag von Dr. Hans M. Wulf in der Vorlesung
 
 ## Wichtige Vertragsinhalte

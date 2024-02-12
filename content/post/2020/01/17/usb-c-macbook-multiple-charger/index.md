@@ -11,9 +11,11 @@ tags:
   - power-delivery
   - usb
 ---
+
 Was passiert eigentlich, wenn man mehrere USB-C Netzteile an ein MacBook anschließt?
 Wenn das in einem Gespräch aufkam, war die Antwort von allen bisher immer, mit meinem MacBook probier ich das nicht aus.
 Da aber die Thunderbolt Displays, die Apple selbst empfiehlt, auch laden können und mehrere gleichzeitig benutzt werden können, muss es eine Lösung geben.
+
 <!--more-->
 
 Ich wollte immer noch nicht selbst ausprobieren, was passiert, habe mich also mal auf die Suche gemacht, ob es offizielle Informationen von Apple gibt.

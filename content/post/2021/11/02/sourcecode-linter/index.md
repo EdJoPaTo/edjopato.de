@@ -9,6 +9,7 @@ tags:
   - rust
   - typescript
 ---
+
 Beim Entwickeln baut man manchmal schrecklichen Quellcode.
 Teilweise ist das ein schlechtes Architekturdesign, teilweise aber auch Sprachsyntax, die optimierungswürdig ist.
 Bei Letzterem versuchen Linter (oder auch statische Analyse Tools genannt) einem zu helfen.
@@ -22,10 +23,10 @@ Vielleicht mal ein Beispiel, wo einem so ein Hinweis helfen kann.
 Nehmen wir mal an, ich hätte folgenden JavaScript / TypeScript Quellcode:
 
 ```typescript
-const stuff = ['Cat', 'Dog', 'Horse', 'Spider'];
+const stuff = ["Cat", "Dog", "Horse", "Spider"];
 
 if (stuff.indexOf("Spider") >= 0) {
-  console.log("We got a cute spider!")
+  console.log("We got a cute spider!");
 }
 ```
 
@@ -79,7 +80,7 @@ Wenn dies genau das Ziel ist, ignoriere ich den angemerkten Hinweis.
 function annoyance() {
   // eslint-disable-next-line no-constant-condition
   while (true) {
-    alert('be annoyed!');
+    alert("be annoyed!");
   }
 }
 ```

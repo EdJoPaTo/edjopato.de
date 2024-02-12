@@ -12,6 +12,7 @@ tags:
 Rust ist eine relativ junge Programmiersprache von Mozilla, welche einige interessante Konzepte beinhaltet.
 Single Binaries und geringer Ressourcenverbrauch sind außerdem spannend.
 Einige Ansätze von Rust will ich hier etwas beleuchten.
+
 <!--more-->
 
 Angefangen hat das ganze sicherlich mit [Blog Artikeln wie diesem hier](https://www.heise.de/hintergrund/Entwicklung-Warum-Rust-die-Antwort-auf-miese-Software-und-Programmierfehler-ist-4879795.html) (Hallo Felix von Leitner aka Fefe), hier soll es allerdings mehr um meine persönlichen Feststellungen nach etwas Rust Kontakt gehen.
@@ -51,13 +52,13 @@ Das sorgt mit dem `match` dafür, dass ich Dinge kürzer schreiben kann, für di
 
 ```rust
 fn main() {
-  …
+  // …
   let result = match number {
     1 => "eins",
     2 => "zwei",
     _ => "viel"
   };
-  …
+  // …
 }
 ```
 
@@ -65,9 +66,9 @@ Und hier die vergleichbare Nutzung in TypeScript.
 
 ```ts
 function main() {
-  …
+  // …
   let result = numberString(number);
-  …
+  // …
 }
 
 function numberString(number: number): string {

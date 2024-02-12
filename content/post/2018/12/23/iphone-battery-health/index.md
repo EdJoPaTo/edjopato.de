@@ -7,9 +7,11 @@ tags:
   - battery
   - environment
 ---
+
 Apple hat mit seiner Akku-Drossel eine Menge negative Presse bekommen und das Battery Health Feature eingeführt.
 Daraufhin habe ich einfach mal ein paar Freunde gefragt, "wie sieht es denn bei dir aus", und dies geplottet.
 Das mache ich jetzt seit 8 Monaten und habe so schon ein paar interessante Verläufe zu sehen.
+
 <!--more-->
 
 # Der Plot

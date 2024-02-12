@@ -11,10 +11,12 @@ tags:
   - web
   - windows
 ---
+
 Vor über einem Jahr habe ich meinen [Blogpost, wie ich Browser verwende]({{< relref "/post/2020/06/18/browser" >}}), schon geschrieben.
 Da sich seit dem schon einiges getan hat, könnte ich Mal wieder vom aktuellen Stand berichten.
 Ich habe damals versucht, alles in einem Blogpost zu behandeln, aber es bietet sich an, dies ein wenig aufzuteilen.
 Hier also ein Überblick über meine aktuellen Browser Erweiterungen im Firefox.
+
 <!--more-->
 
 **Edit 22:34**:

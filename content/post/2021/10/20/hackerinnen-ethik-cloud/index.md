@@ -13,6 +13,7 @@ tags:
   - server
   - windows
 ---
+
 Bei [Jugend hackt](https://jugendhackt.org/) gibt es am ersten Tag auf den Events meistens ein [Hacker*Innen-Ethik](https://www.ccc.de/de/hackerethik) Minispiel mit allen Teilnehmenden.
 Dort werden Fragen und 3 Antwortmöglichkeiten gegeben, die sich meistens nicht eindeutig beantworten lassen.
 Man ordnet sich dann den Antworten zu und es wird nach Meinungen gefragt, warum man jeweils die Antwort für sinnvoll hält.

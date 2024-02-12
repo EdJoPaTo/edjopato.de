@@ -13,6 +13,7 @@ tags:
   - risc-v
   - rust
 ---
+
 Ich würde gerne Rust auf Mikrocontrollern wie den ESP8266/ESP32 nutzen.
 Espressif, die Firma hinter den ESPs arbeitet an einer LLVM Integration, wie sie auch für Rust benötigt wird.
 Allerdings gibt es auch Chips, die bereits nativ von Rust unterstützt werden.

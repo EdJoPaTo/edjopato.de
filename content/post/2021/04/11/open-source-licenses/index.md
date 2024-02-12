@@ -9,9 +9,11 @@ tags:
   - rust
   - telegram
 ---
+
 Ich habe mit der Zeit schon so einige Software Projekte, von denen nahezu alle Open Source auf GitHub sind.
 Und eigentlich will ich auch, dass das so bleibt.
 Bisher habe ich einfach überall die MIT Lizenz reingeworfen, aber geht das noch besser?
+
 <!--more-->
 
 Vorweg gesagt, ich bin definitiv kein Anwalt und verkünde hier nur mein Halbwissen.

@@ -10,6 +10,7 @@ tags:
 aliases:
   - /post/2024/02/10-traefik-minimal-config
 ---
+
 Ich habe seit Jahren einen Docker Swarm am Laufen, für den ein Traefik als Reverse Proxy, Edge Router, Ingress oder wie auch immer eins das nennen möchte, läuft.
 Ich bin gerade dabei Traefik und den Docker Swarm abzulösen (dazu kommt auch noch ein Blogpost).
 Die Traefik Doku und Nutzung war mir über die Jahre nicht gut genug, als das ich explizit bei Traefik bleiben wollen würde.

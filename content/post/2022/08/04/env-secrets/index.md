@@ -12,9 +12,11 @@ tags:
   - secrets
   - telegram
 ---
+
 Beim Entwickeln nutze ich fremde Dienste, für die ich API Token habe.
 Das sind Secrets die nur für mich gelten und die geschützt werden müssen.
 Da gestern mal wieder News zu einem Angriff aufgetaucht sind, welcher alle Environment Variablen ausliest und mitnimmt, zeige ich mal, wie ich dieses Problem für mich behandle.
+
 <!--more-->
 
 Vorneweg natürlich die einfachste Variante: Je weniger fremde Dienste eins beim Entwickeln benötigt, desto besser.

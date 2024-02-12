@@ -10,10 +10,12 @@ tags:
   - macos
   - monitor
 ---
+
 Ok, diese Kausalkette muss ich wohl erklären.
 [Seit ich Gnome 42 benutze]({{< relref "/post/2022/03/27/gnome42" >}}), benutze ich die neue Console.
 Diese kann automatisch dem Desktop Theme folgen, ist also ebenfalls hell oder dunkel.
 Und das spart indirekt Strom, da ich nicht mehr so helle Monitorhelligkeiten brauche.
+
 <!--more-->
 
 Auch vorher schon habe ich meinem Theme tagsüber hell und nachts dunkel eingestellt.

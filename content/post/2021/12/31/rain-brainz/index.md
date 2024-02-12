@@ -11,6 +11,7 @@ tags:
   - web
   - website
 ---
+
 Ich mache immer mal wieder Bilder und überlege schon seit Ewigkeiten, wie ich diese präsentieren könnte.
 Hier im Blog gibt es schon lange Bilder für einzelne Posts, aber die sind nicht unbedingt als Bildersammlung geeignet.
 Auf Dienste im Besitz großer Firmen hatte ich keine Lust.

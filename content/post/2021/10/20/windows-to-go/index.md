@@ -12,6 +12,7 @@ tags:
   - usb
   - windows
 ---
+
 Seit meine Grafikkarte bei Spielen nur noch lauter rote Punkte produziert und dann abschmiert, habe ich keinen Computer mehr zum Zocken.
 Der Arbeitslaptop hat eine Grafikkarte, allerdings ist das mit privater Software auf Firmengeräten so eine Sache.
 Aber da wird man doch etwas hinbekommen um nur die Hardware, aber nicht die Software zu nutzen.

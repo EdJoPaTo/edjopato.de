@@ -12,9 +12,11 @@ tags:
   - calendarbot
   - haw-hamburg
 ---
+
 Die HAW Hamburg hat als eine von vielen Hamburger Unis und Hochschulen eine Mensa des Studierendenwerks.
 Mein Kalenderbot enthält bereits seit Jahren den aktuellen Speiseplan und hat dafür die Webseite geparst.
 Diese Daten habe ich gesammelt und mal einen Blick darauf geworfen.
+
 <!--more-->
 
 # Hintergrundgeschichte

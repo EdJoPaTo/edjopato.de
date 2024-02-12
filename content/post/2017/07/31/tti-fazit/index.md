@@ -7,11 +7,13 @@ tags:
   - bpaas-angebot
   - haw-hamburg
 ---
+
 Um noch ein paar abschließende Worte zur TTI Veranstaltung zu finden, will ich hier noch einmal meine Meinung und mein Fazit zu eben dieser Veranstaltung nieder schreiben.
 Mir hat das Praktikum und die Herausforderung, ein BPaaS Angebot zu erstellen, im Großen und Ganzen definitiv Spaß gemacht.
 Aber ich wäre nicht ich, wenn hier kein "Aber" käme und keine Verbesserungsvorschläge.
 
 <!--more-->
+
 **tl;dr: Nice one. 1 of 1 authors on this page can recommend. Some things could be better. Would do that again.**
 
 # Der Beginn des Praktikums und des BPaaS Angebots

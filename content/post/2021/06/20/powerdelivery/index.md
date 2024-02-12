@@ -8,9 +8,11 @@ tags:
 aliases:
   - /post/2021/06/19-powerdelivery/
 ---
+
 Wenn man Geräte laden will, dann braucht man Netzteile und mobile USB Akkus.
 Diese verwenden häufig USB Power Delivery und mit der Zeit habe ich einiges darüber gelernt.
 Wenn ich mir Geräte mit USB-C und Power Delivery anschaue, achte ich auf einige Details und möchte hier etwas auf die Hintergründe eingehen.
+
 <!--more-->
 
 # Was ist Power Delivery?

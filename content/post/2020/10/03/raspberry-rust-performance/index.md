@@ -10,9 +10,11 @@ tags:
   - rust
   - server
 ---
+
 Ich hab mich gefragt, wie die unterschiedlichen Raspberries etwa vergleichbar sind in Performance.
 Der Pi 2 und Pi 4 sind beides 4 Kerner, das sollte nicht soo viel Unterschied machen, oder?
 Da ich aktuell mehr mit Rust mache, habe ich mal eines meiner Rust Tools auf unterschiedlichen Geräten gebaut.
+
 <!--more-->
 
 Als Repository habe ich mein [Meeting Countdown](https://github.com/EdJoPaTo/meeting-countdown) Tool genutzt.

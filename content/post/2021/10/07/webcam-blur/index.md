@@ -11,6 +11,7 @@ tags:
   - secrets
   - windows
 ---
+
 Videokonferenzlösungen haben häufig Features, um die Webcam mit einem Blur oder einem anderen Hintergrund auszustatten.
 Das demnächst erscheinende [BigBlueButton 2.4 bringt dieses Feature](https://docs.bigbluebutton.org/2.4/new.html#webcam-background-blur) auch mit, was ich mal als Anlass für einen kleinen Rant nehme.
 Aus meiner Sicht ist das nicht mehr als eine riesige, dezentrale Energieverschwendung.

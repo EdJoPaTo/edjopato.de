@@ -8,6 +8,7 @@ tags:
   - desktop
   - linux
 ---
+
 Als Gnome 42 herauskam dachte ich mir, dass ich ja wieder so lange auf Gnome 42 in Arch Linux warten muss und habe mir mal wieder das [gnome-unstable](https://gitlab.com/fabis_cafe/gnome-unstable) Repository eingebaut.
 Gleich das Beste zuerst, endlich geht etwas in meinem Arch nicht, endlich wieder was zum Nachvollziehen, das lief ja schon viel zu lange problemfrei.
 Mit ein paar Fehlersuchen, Anpassungen und mentalen Umgewöhnungen läuft Gnome 42 mittlerweile schon ein paar Tage bei mir und funktioniert schon echt gut für mich.

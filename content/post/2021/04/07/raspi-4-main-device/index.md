@@ -8,9 +8,11 @@ tags:
   - linux
   - raspberry-pi
 ---
+
 Ein Arbeitskollege hat alte Hardware entrümpelt und ich habe mir mal angeschaut, was man damit anfangen kann.
 Einer davon war zwar noch 64bit, aber das war auch alles.
 Da dachte ich, ein Raspberry ist doch besser als das.
+
 <!--more-->
 
 Ich habe den PC auch gleich mit meinem [Raspberry Pi Vergleich]({{< relref "/post/2020/10/03/raspberry-rust-performance" >}}) betrachtet und festgestellt, zwischen Raspberry Pi 3 und 4.

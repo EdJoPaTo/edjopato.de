@@ -8,9 +8,11 @@ tags:
   - linux
   - macos
 ---
+
 Ich benutze schon seit vielen Jahren Zsh statt Bash in meinen Desktop Setups.
 Dabei habe ich dann direkt Oh My Zsh verwendet.
 Irgendwann habe ich mal hinterfragt, ob ich Oh My Zsh wirklich brauche und nein, ohne ist das ganze nachvollziehbarer.
+
 <!--more-->
 
 # Warum Zsh und kein Bash?

@@ -9,10 +9,12 @@ tags:
   - linux
   - macos
 ---
+
 Als ich [`project-below`]({{< relref "/post/2022/02/09/project-below">}}) baute, hatte ich damit einen anderen Anwendungsfall vor:
 Skripte in allen Projekten unterhalb des aktuellen Ordners ausführen.
 Dafür benutze ich das Tool auch regelmäßig, aber mittlerweile benutze ich es deutlich häufiger, um in eines meiner lokalen Projekte zu springen.
 Ich bin mir bewusst, dass man mit [`fd`](https://github.com/sharkdp/fd) (+ [`fzf`](https://github.com/junegunn/fzf)), [`zoxide`](https://github.com/ajeetdsouza/zoxide) oder [`autojump`](https://github.com/wting/autojump) ähnliches erreichen kann, aber für mich funktioniert mein Weg hier besser.
+
 <!--more-->
 
 Mein Ziel ist es, mal eben in ein anderes Projekt von mir zu springen.

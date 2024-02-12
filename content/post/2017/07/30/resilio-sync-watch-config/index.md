@@ -10,8 +10,10 @@ tags:
 aliases:
   - /post/2017/07/27-resilio-sync-watch-config/
 ---
+
 Ich habe ein Abstraktionstool für Resilio Sync erstellt.
 Was ist überhaupt Resilio Sync, warum habe ich das getan und was hilft mir das?
+
 <!--more-->
 
 # Resilio Sync
@@ -126,12 +128,12 @@ Für das CLI habe ich mit einer Eigenimplementierung begonnen.
 Dazu habe ich die Befehlszeilenargumente mit `process.argv` ausgelesen und analysiert.
 
 ```js
-  const args = process.argv.slice(2);
-  const help = args.some(s => s === '-h' || s === '--help');
+const args = process.argv.slice(2);
+const help = args.some(s => s === "-h" || s === "--help");
 
-  configFilePath = args[args.length - 1];
-  start = args.some(s => s === '-s' || s === '-w');
-  watchmode = args.some(s => s === '-w');
+configFilePath = args[args.length - 1];
+start = args.some(s => s === "-s" || s === "-w");
+watchmode = args.some(s => s === "-w");
 ```
 
 Später habe ich das auf die Node.js Libary [cli](https://www.npmjs.com/package/cli) umgestellt (siehe [Commit b30b142](https://github.com/EdJoPaTo/resilio-sync-watch-config/commit/b30b142786b3127436d4a93cff159d1a751c304e)).
@@ -150,8 +152,8 @@ Komponente X macht Y
 oder im Quellcode:
 
 ```js
-describe('Komponente X', () => {
-  it('macht Y', () => {
+describe("Komponente X", () => {
+  it("macht Y", () => {
     expect(true).toBe(true);
   });
 });

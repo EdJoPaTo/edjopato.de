@@ -4,6 +4,7 @@ date: 2021-09-21T23:31:00+02:00
 tags:
   - monitor
 ---
+
 Ich habe mir einen neuen Monitor gekauft.
 Seit Jahren überlegte ich mir, "vielleicht mal ein neuer Monitor" und jedes Mal dachte ich mir "ach, ein bisschen was fehlt noch".
 Auch die Rechnung, wann sich die Stromkosten rentiert hätten für neuere, effizientere Monitore, kam so bei ~12 Jahren raus, also lohnte es sich nicht wirklich.

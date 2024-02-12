@@ -10,10 +10,12 @@ tags:
   - music
   - raspberry-pi
 ---
+
 Ein Video welches man ohne Ton braucht?
 Oder nur das Audio aus dem Video?
 `ffmpeg` ist ein mächtiges Tool, was genau das kann, aber manchmal doch ein wenig kompliziert ist.
 Um dies "mal eben" benutzen zu können, habe ich mir ein paar aliases definiert.
+
 <!--more-->
 
 Aliases sind Abkürzungen, welche man zum Beispiel in der `~/.bashrc` oder `~/zshrc` definieren kann.

@@ -7,6 +7,7 @@ tags:
   - linux
   - raspberry-pi
 ---
+
 Wenn ein Raspberry Pi unter meinem Bett liegt und als Musik Anlage dient, dann stört das Blinken der Status LEDs nachts.
 Die LEDs lassen sich abstellen, das habe ich mal vor Jahren gemacht, aber nicht weiter dokumentiert.
 Da ich nun gerade alle Raspberry Pis mit Debian 12 Bookworm neu aufgesetzt habe, ist auch mal an der Zeit, das zu dokumentieren.

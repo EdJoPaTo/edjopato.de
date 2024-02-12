@@ -11,12 +11,14 @@ tags:
   - rss
   - smartphone
 ---
+
 Ich benutze mein Handy zu viel für Belanglosigkeiten.
 Ich hänge zu viel auf Social Media herum.
 Immer up to date sein.
 
 Gleichzeitig habe ich seit einem Vierteljahr ein PinePhone, welches ich leider nicht allzu viel nutze.
 Da geht doch was.
+
 <!--more-->
 
 Wem das [PinePhone](https://www.pine64.org/pinephone/) nichts sagt, das ist quasi ein Raspberry Pi im Smartphone Format von Pine64.

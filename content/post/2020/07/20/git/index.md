@@ -11,6 +11,7 @@ tags:
 Etwas das beim Entwickeln ganz nebensächlich passiert: Die Versionsverwaltung nutzen.
 Macht man halt so.
 Aber wie mache ich das eigentlich?
+
 <!--more-->
 
 Dies ist nicht als Einführung gedacht, sondern mehr als Hintergrundwissen wie und warum ich etwas mache.

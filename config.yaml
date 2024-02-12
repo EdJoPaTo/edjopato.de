@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://json.schemastore.org/hugo.json
+
 baseURL: https://edjopato.de/
 defaultContentLanguage: de
 enableGitInfo: true
@@ -12,6 +14,12 @@ title: EdJoPaTo
 # canonifyURLs: true
 # relativeUrls: true
 
+menu:
+  main: []
+    # - Name: "Blog"
+    #   Identifier: "blog"
+    #   URL: "/post/"
+
 minify:
   minifyOutput: true
 
@@ -21,12 +29,6 @@ params:
   license:
     name: CC BY-ND 4.0
     url: https://creativecommons.org/licenses/by-nd/4.0/
-
-menu:
-  main: []
-    # - Name: "Blog"
-    #   Identifier: "blog"
-    #   URL: "/post/"
 
 server:
   headers:

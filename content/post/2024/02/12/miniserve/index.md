@@ -14,7 +14,7 @@ tags:
 
 Ich mag statischen Webseitencode.
 Wenn ich mit Tools wie `hugo` eine Webseite bearbeite, gibt es `hugo server` um das Ergebnis lokal zu testen, bevor ich es öffentlich stelle.
-Natürlich könnte ich auch lokal einen ganzen Webserver hosten, aber das ist etwas viel Aufwand.
+Ich könnte auch lokal einen ganzen Webserver hosten, aber das ist etwas viel Aufwand.
 Seit Ewigkeiten hab ich dafür `python -m http.server` benutzt und bin vor ein paar Wochen über [miniserve](https://github.com/svenstaro/miniserve) gestolpert.
 
 <!--more-->

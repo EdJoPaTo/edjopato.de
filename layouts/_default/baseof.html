@@ -10,7 +10,6 @@
 {{ with resources.Get "style/main.scss" | resources.ToCSS (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) | resources.Fingerprint "sha512" -}}
 <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
 {{ end -}}
-<meta http-equiv="x-ua-compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">

@@ -2,15 +2,15 @@ header {
 	color: white;
 	font-size: 1.2rem;
 	overflow-x: auto;
-	padding: 8vh 1rem;
+	padding: 8svh 1rem;
 	text-align: center;
 	text-shadow: 0 0 10px #000;
 
 	&.has-background {
 		@media screen and (min-width: 1000px) {
 			background-image: var(--header-image);
-			padding-bottom: 35vh;
-			padding-top: 35vh;
+			padding-bottom: 35svh;
+			padding-top: 35svh;
 		}
 	}
 

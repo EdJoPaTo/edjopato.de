@@ -4,10 +4,12 @@
 <head>
 <meta charset="utf-8">
 <title>{{ .Title }}</title>
-{{ $updatebg := resources.Get "js/updatebg.js" | js.Build (dict "targetPath" "updatebg.js" "minify" true "sourceMap" "inline") | resources.Fingerprint "sha512" -}}
-<script src="{{ $updatebg.RelPermalink }}" integrity="{{ $updatebg.Data.Integrity }}"></script>
-{{ $style := resources.Get "style/main.scss" | resources.ToCSS (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) | resources.Fingerprint "sha512" -}}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+{{ with resources.Get "js/updatebg.js" | js.Build (dict "targetPath" "updatebg.js" "minify" true "sourceMap" "inline") | resources.Fingerprint "sha512" -}}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+{{ end -}}
+{{ with resources.Get "style/main.scss" | resources.ToCSS (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) | resources.Fingerprint "sha512" -}}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+{{ end -}}
 <meta http-equiv="x-ua-compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="mobile-web-app-capable" content="yes">
@@ -43,10 +45,13 @@
 
 <body>
 {{ partial "nav.html" . }}
+
 {{ block "header" . }}
 {{ partial "header.html" . }}
 {{ end }}
+
 {{ block "main" . }}{{ end }}
+
 {{ partial "footer.html" . }}
 </body>
 </html>

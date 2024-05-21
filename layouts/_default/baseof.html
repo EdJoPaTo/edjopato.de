@@ -34,10 +34,8 @@
 {{- $cover := $images.GetMatch "cover" -}}
 {{- with $cover -}}
 <style>
-	@media screen and (min-width: 1000px) {
-		header.has-background {
-			background-image: url({{ .RelPermalink }});
-		}
+	:root {
+		--header-image: url({{ .RelPermalink }});
 	}
 </style>
 {{ end -}}

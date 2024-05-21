@@ -8,6 +8,7 @@ header {
 
 	&.has-background {
 		@media screen and (min-width: 1000px) {
+			background-image: var(--header-image);
 			padding-bottom: 35vh;
 			padding-top: 35vh;
 		}

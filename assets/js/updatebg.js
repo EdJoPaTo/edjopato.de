@@ -1,12 +1,16 @@
 function updateBg() {
-	const date = new Date();
-	const hour = date.getHours();
-	const minute = date.getMinutes();
-	const minuteOfDay = (hour * 60) + minute;
-	const hue = minuteOfDay % 360;
+	console.log("updateBg hue");
 
-	document.documentElement.style.setProperty("--time-hue", hue);
-	console.log("update bg hue", hue, date);
+	const timefactor = Date.now() / 1000;
+	const hue = timefactor % 360;
+
+	document.documentElement.style.setProperty("--hue", hue);
+
+	const themeColor = document.querySelector("meta[name=theme-color]");
+	if (themeColor) {
+		themeColor.content = `hsl(${hue}, 100%, 10%)`;
+	}
 }
-setInterval(updateBg, 30000);
+setInterval(updateBg, 1000);
+document.addEventListener("DOMContentLoaded", updateBg);
 updateBg();

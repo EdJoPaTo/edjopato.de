@@ -46,6 +46,6 @@ server:
           img-src 'self';
           manifest-src 'self';
           script-src 'self';
-          style-src 'self';
+          style-src 'self' 'unsafe-inline';
 
           connect-src 'self';

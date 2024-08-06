@@ -1,10 +1,7 @@
 ---
 title: TTI Fazit
 date: 2017-07-31T23:58:00+02:00
-categories:
-  - tti
 tags:
-  - bpaas-angebot
   - haw-hamburg
 ---
 

@@ -8,6 +8,7 @@ resources:
 categories:
   - open-source
 tags:
+  - hardware
   - power-delivery
   - usb
 ---

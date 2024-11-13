@@ -10,6 +10,7 @@ categories:
   - open-source
 tags:
   - c
+  - hardware
   - microcontroller
   - smarthome
 ---

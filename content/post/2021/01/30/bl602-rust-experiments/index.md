@@ -8,6 +8,7 @@ resources:
 categories:
   - open-source
 tags:
+  - hardware
   - microcontroller
   - pine64
   - risc-v

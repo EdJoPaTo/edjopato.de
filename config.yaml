@@ -4,8 +4,7 @@ baseURL: https://edjopato.de/
 defaultContentLanguage: de
 enableGitInfo: true
 languageCode: de
-metaDataFormat: "yaml"
-paginate: 12
+metaDataFormat: yaml
 pygmentsCodeFences: true
 pygmentsUseClasses: true
 title: EdJoPaTo
@@ -22,6 +21,9 @@ menu:
 
 minify:
   minifyOutput: true
+
+pagination:
+  pagerSize: 50
 
 params:
   images:

@@ -19,7 +19,7 @@ Bisher schrieb dieser Blogpost, wie gut AVIF ist, mittlerweile bin ich aber ande
 Dafür habe ich ein wenig die Dateigrößen und Unterstützung dieser verglichen und bin so bei meiner Entscheidung angekommen.
 Da das Thema immer mal wieder aufkommt, welches Bildformat wie gut ist, habe ich meine Bildsammlung ausführlicher getestet und die Ergebnisse mal als Blogpost niedergeschrieben, damit alle etwas davon haben.
 
-<!-- more -->
+<!--more-->
 
 Edit 2023-01-30: Dieser Blogpost war Pro-AVIF und ist nun Pro-JPEG umgeschrieben worden.
 

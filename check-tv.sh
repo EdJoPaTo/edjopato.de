@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -u
 
 urls=$(grep "https://" static/tv.m3u)
 

@@ -3,7 +3,7 @@
 baseURL: https://edjopato.de/
 defaultContentLanguage: de
 enableGitInfo: true
-languageCode: de
+locale: de
 metaDataFormat: yaml
 pygmentsCodeFences: true
 pygmentsUseClasses: true

@@ -5,6 +5,7 @@ categories:
   - open-source
 tags:
   - command-line
+  - ffmpeg
   - linux
   - macos
   - music

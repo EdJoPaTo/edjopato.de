@@ -4,6 +4,7 @@ date: 2023-04-12T18:39:00+02:00
 categories:
   - open-source
 tags:
+  - ffmpeg
   - linux
   - raspberry-pi
   - rust

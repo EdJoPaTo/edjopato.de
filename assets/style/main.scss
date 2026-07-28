@@ -1,3 +1,15 @@
+@use "a";
+@use "background";
+@use "code";
+@use "footer";
+@use "header";
+@use "list";
+@use "meta";
+@use "nav";
+@use "pagination";
+@use "single";
+@use "table";
+
 html, body {
 	font-family: system-ui, -apple-system, sans-serif;
 	margin: 0;
@@ -15,15 +27,3 @@ body {
 		color: whitesmoke;
 	}
 }
-
-@import "a";
-@import "background";
-@import "code";
-@import "footer";
-@import "header";
-@import "list";
-@import "meta";
-@import "nav";
-@import "pagination";
-@import "single";
-@import "table";

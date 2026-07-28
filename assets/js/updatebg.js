@@ -1,7 +1,7 @@
 function updateBg() {
 	console.log("updateBg hue");
 
-	const timefactor = Date.now() / 1000;
+	const timefactor = Math.round(Date.now() / 1000);
 	const hue = timefactor % 360;
 
 	document.documentElement.style.setProperty("--hue", hue);

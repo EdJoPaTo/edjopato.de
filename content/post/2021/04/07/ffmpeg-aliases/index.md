@@ -4,11 +4,11 @@ date: 2021-04-07T21:28:00+02:00
 categories:
   - open-source
 tags:
+  - audio
   - command-line
   - ffmpeg
   - linux
   - macos
-  - music
   - raspberry-pi
 ---
 

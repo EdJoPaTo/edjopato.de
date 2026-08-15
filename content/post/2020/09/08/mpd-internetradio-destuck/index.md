@@ -4,9 +4,9 @@ date: 2020-09-08T23:50:00+02:00
 categories:
   - open-source
 tags:
-  - music
-  - rust
+  - audio
   - raspberry-pi
+  - rust
 ---
 
 Unter meinem Bett liegt [immer noch]({{< relref "/post/2018/08/08/mpd-pi" >}}) ein Raspberry Pi, der Internet Radio spielt.

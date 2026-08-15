@@ -4,10 +4,10 @@ date: 2022-03-15T14:47:00+01:00
 categories:
   - open-source
 tags:
+  - audio
   - desktop
   - gaming
   - linux
-  - music
 ---
 
 Neben meinem im Alltag genutzen Linux steht ein Windows-PC, der immer mal zum Zocken verwendet wird.

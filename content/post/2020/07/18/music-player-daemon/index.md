@@ -4,9 +4,9 @@ date: 2020-07-18T15:50:00+02:00
 categories:
   - open-source
 tags:
-  - linux
+  - audio
   - command-line
-  - music
+  - linux
 ---
 
 Wenn ich zum Beispiel am coden bin, will ich nebenbei Musik hören.

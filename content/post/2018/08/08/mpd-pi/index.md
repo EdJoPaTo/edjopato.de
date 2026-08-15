@@ -5,7 +5,7 @@ categories:
   - open-source
 tags:
   - linux
-  - music
+  - audio
   - raspberry-pi
 ---
 

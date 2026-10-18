@@ -25,7 +25,9 @@
 	}
 
 	a {
-		font-size: 1.5rem;
+		@media (min-width: 1000px) {
+			font-size: 1.5rem;
+		}
 
 		color: hsl(var(--hue), 100%, 80%);
 

@@ -1,10 +1,4 @@
 nav {
-	position: sticky;
-	top: 0;
-
-	backdrop-filter: blur(10px);
-	-webkit-backdrop-filter: blur(10px);
-
 	background-color: hsla(var(--hue), 100%, 10%, 0.5);
 	color: #bbb;
 	display: flex;

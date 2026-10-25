@@ -3,11 +3,21 @@
 }
 
 html {
+	background-attachment: fixed;
 	background-color: hsl(var(--hue), 100%, 25%);
+
+	@media screen and (min-width: 1000px) {
+		background-image: var(--header-image);
+	}
 }
 
 html, .has-background {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+nav, main, footer {
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
 }

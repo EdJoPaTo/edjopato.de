@@ -4,19 +4,17 @@
 	display: flex;
 	flex-wrap: wrap;
 
-	color: #555;
-	@media (prefers-color-scheme: dark) {
-		color: #bbb;
-	}
-
 	> * {
 		margin-right: 0.6rem;
 		margin-bottom: 0.6rem;
 	}
 
-	a {
-		color: inherit;
+	color: #555;
+	@media (prefers-color-scheme: dark) {
+		color: #bbb;
+	}
 
+	a {
 		&:hover {
 			color: black;
 			@media (prefers-color-scheme: dark) {

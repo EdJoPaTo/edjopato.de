@@ -1,33 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ .Site.Language.Lang }}">
 
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <title>{{ .Title }}</title>
 {{ with resources.Get "js/updatebg.js" | js.Build (dict "targetPath" "updatebg.js" "minify" true "sourceMap" "inline") | resources.Fingerprint "sha512" -}}
 <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
 {{ end -}}
-{{ with resources.Get "style/main.scss" | css.Sass (dict "transpiler" "dartsass" "targetPath" "main.css" "enableSourceMap" true) | minify | fingerprint }}
-<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
-{{ end -}}
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="format-detection" content="telephone=no">
-<meta name="description" content="{{ .Summary }}">
+<meta name="color-scheme" content="light dark" />
+<meta name="description" content="{{ .Summary }}" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="theme-color" content="#363636" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 {{ with .Params.tags -}}
 <meta name="keywords" content="{{ delimit . "," }}" />
 {{ end -}}
-<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:site_name" content="{{ .Site.Title }}" />
 {{ template "_internal/opengraph.html" . -}}
 {{ template "_internal/twitter_cards.html" . -}}
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="mask-icon" href="/cheese-monochrome.svg" color="#363636">
-<link rel="manifest" href="/manifest.json">
-<meta name="theme-color" content="#363636">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="mask-icon" href="/cheese-monochrome.svg" color="#363636" />
+<link rel="manifest" href="/manifest.json" />
+{{ with resources.Get "style/main.scss" | css.Sass (dict "transpiler" "dartsass" "targetPath" "main.css" "enableSourceMap" true) | minify | fingerprint }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" />
+{{ end -}}
 {{ range .AlternativeOutputFormats -}}
 {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 {{ end -}}

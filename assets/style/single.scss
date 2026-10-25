@@ -19,7 +19,7 @@
 		margin: 0 auto;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5, h6, .content a {
 		color: hsl(var(--hue), 100%, 20%);
 		@media (prefers-color-scheme: dark) {
 			color: hsl(var(--hue), 100%, 80%);
@@ -36,17 +36,10 @@
 		margin: 0;
 	}
 
-	.content a {
-		color: hsl(var(--hue), 100%, 20%);
+	.content a:hover {
+		color: black;
 		@media (prefers-color-scheme: dark) {
-			color: hsl(var(--hue), 100%, 80%);
-		}
-
-		&:hover {
-			color: black;
-			@media (prefers-color-scheme: dark) {
-				color: white;
-			}
+			color: white;
 		}
 	}
 }

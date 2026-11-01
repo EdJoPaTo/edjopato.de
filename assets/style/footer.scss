@@ -21,18 +21,11 @@ footer {
 		margin: 4px;
 	}
 
-	svg * {
-		fill: #b5b5b5;
-	}
-
 	a {
 		opacity: 0.75;
 	}
 
 	a:hover {
-		opacity: 0.95;
-		svg * {
-			fill: whitesmoke;
-		}
+		opacity: 1;
 	}
 }
